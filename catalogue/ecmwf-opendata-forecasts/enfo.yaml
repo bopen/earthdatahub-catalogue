@@ -1,0 +1,97 @@
+---
+type: Collection
+id: enfo
+title: Open Data Ensemble Forecasts
+description:
+  The Ensamble Forecast (ENS) is run twice a day producing 15 days forecasts based on 00UTC
+  and 12UTC data times.
+
+  The ENS consists of an ensemble of 51 forecasts (current
+  spatial resolution 18km). It consists of a control member (CTRL) which is unperturbed
+  and 50 perturbed members that are similar to the CTRL but their initial states and
+  model physics have been perturbed to explore the currently understood range of uncertainty
+  in the observations and the model.
+
+  The ensemble members provide a range of possible
+  future weather states. When averaged over many forecasts each of the perturbed
+  members has lower skill than the CTRL (or, for that matter, HRES), though any individual
+  forecast might show a higher skill.
+
+
+  There is a range of products to present the
+  information from the ensemble in different ways, appropriate for different uses
+  including probabilities, clusters of alternative scenarios, and tropical cyclone
+  and extra-tropical cyclone products. Certain important products are based on, or
+  directly show, anomalies relative to the ENS model climate (M-climate), such as
+  meteograms and the Extreme Forecast Index and Shift of Tails (EFI/SOT ).
+
+  From these one can infer, for example, whether conditions (temperature, rainfall, etc.) are
+  likely to deviate from the average for the location and time of year, and whether
+  such an anomaly could be extreme.
+
+
+  The ENS runs are extended at lower resolution
+  on Mondays and Thursdays from Day15 to Day46 based on 00UTC data time (the extended
+  range forecasts).
+  Definitive information on the ECMWF dissemination schedule and products can be found in the the Catalogue of ECMWF real-time products.
+
+
+  Access  # missing link
+stac_version: 1.0.0
+links:
+- title: ENS - Ensemble Forecasts
+  rel: documentation
+  href: https://confluence.ecmwf.int/display/FUG/ENS+-+Ensemble+Forecasts  # broken link
+  type: text/html
+extent:
+  spatial:
+    bbox:
+    - - -180
+      - -90
+      - 180
+      - 90
+  temporal:
+    interval:
+    - - null
+      - null
+license: CC-BY-4.0  # checked
+keywords:
+- Open data
+- Ensamble forecasts
+- ECMWF
+- forecast
+- weather
+providers:
+- name: ECMWF
+  roles:
+  - producer
+  url: https://www.ecmwf.int/
+summaries:
+  ecmwf:reference_times:
+  - '00'
+  - '06'
+  - '12'
+  - '18'
+  ecmwf:streams:
+  - oper
+  - enfo
+  - waef
+  - scda
+  - scwv
+  - mmsf
+  - wave
+  ecmwf:types:
+  - fc
+  - ef
+  - ep
+  - tf
+  ecmwf:pressure_levels:
+  - 1000
+  - 925
+  - 850
+  - 700
+  - 500
+  - 300
+  - 250
+  - 200
+  - 50
