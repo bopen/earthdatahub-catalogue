@@ -1,9 +1,6 @@
----
-type: Collection
-id: enfo
 title: Open Data Ensemble Forecasts
 description:
-  The Ensamble Forecast (ENS) is run twice a day producing 15 days forecasts based on 00UTC
+  The Ensemble Forecast (ENS) is run twice a day producing 15 days forecasts based on 00UTC
   and 12UTC data times.
 
   The ENS consists of an ensemble of 51 forecasts (current
@@ -37,7 +34,6 @@ description:
 
 
   Access  # missing link
-stac_version: 1.0.0
 links:
 - title: ENS - Ensemble Forecasts
   rel: documentation
@@ -66,32 +62,3 @@ providers:
   roles:
   - producer
   url: https://www.ecmwf.int/
-summaries:
-  ecmwf:reference_times:
-  - '00'
-  - '06'
-  - '12'
-  - '18'
-  ecmwf:streams:
-  - oper
-  - enfo
-  - waef
-  - scda
-  - scwv
-  - mmsf
-  - wave
-  ecmwf:types:
-  - fc
-  - ef
-  - ep
-  - tf
-  ecmwf:pressure_levels:
-  - 1000
-  - 925
-  - 850
-  - 700
-  - 500
-  - 300
-  - 250
-  - 200
-  - 50

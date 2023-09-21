@@ -1,15 +1,14 @@
----
-type: Collection
-id: oper
 title: Open Data High-resolution Forecasts
 description:
   The High-Resolution forecasts (HRES) is a model single run created twice a day giving 10 days forecasts
   based on 00UTC and 12UTC data times.
 
+
   The HRES (current resolution 9km) provides
   a more detailed description of future weather than individual member
   of the ENS. When performance is assessed using many forecasts it provides, on average.
   the most accurate single-run realisation of the broadscale weather patterns.
+
 
   However, any individual HRES forecast may not be the most skilful compared to ENS member
   forecasts, and when viewed in isolation it cannot provide an estimate of forecast
@@ -19,6 +18,7 @@ description:
   It is most useful to think of HRES as a member of
   the ENS forecast ensemble, since it contains the same physical and dynamical representation
   of the atmosphere and uses the same parameterisation of sub-gridscale effects.
+
 
   HRES has the advantage of higher resolution, greater detail of orography, and better discrimination
   of land-sea differences than ENS. Typical HRES weighting for surface variables
@@ -59,32 +59,3 @@ providers:
   roles:
   - producer
   url: https://www.ecmwf.int/
-summaries:
-  ecmwf:reference_times:
-  - '00'
-  - '06'
-  - '12'
-  - '18'
-  ecmwf:streams:
-  - oper
-  - enfo
-  - waef
-  - scda
-  - scwv
-  - mmsf
-  - wave
-  ecmwf:types:
-  - fc
-  - ef
-  - ep
-  - tf
-  ecmwf:pressure_levels:
-  - 1000
-  - 925
-  - 850
-  - 700
-  - 500
-  - 300
-  - 250
-  - 200
-  - 50
