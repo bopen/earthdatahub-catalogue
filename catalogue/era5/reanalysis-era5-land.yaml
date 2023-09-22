@@ -25,23 +25,20 @@ description:
 
 
   Access data on <https://ecmwf-era5-land.s3.gra.perf.cloud.ovh.net/reanalysis-era5-land-europe-1950-2023.zarr>
-stac_version: 1.0.0
 links:
 - title: ERA5-Land online documentation
   rel: documentation
   href: https://confluence.ecmwf.int/display/CKB/ERA5-Land%3A+data+documentation
   type: text/html
-extent:
-  spatial:
-    bbox:
-    - - -27
-      - 26
-      - 45
-      - 74
-  temporal:
-    interval:
-    - - 1950-01-01
-      - 2023-06-30
+bbox:
+- - -27
+  - 26
+  - 45
+  - 74
+properties:
+  datetime: null
+  start_time: 1950-01-01
+  end_time: 2023-06-30
 license: CC-BY-4.0
 keywords:
 - ERA5
@@ -53,3 +50,8 @@ providers:
   roles:
   - producer
   url: https://www.ecmwf.int/
+assets:
+  data:
+    href: https://hedp-public/era5/reanalysis-era5-land-europe-1981-2022.zarr
+    roles:
+    - data

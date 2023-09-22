@@ -9,17 +9,15 @@ links:
   rel: documentation
   href: https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation
   type: text/html
-extent:
-  spatial:
-    bbox:
-    - - -27
-      - 26
-      - 45
-      - 74
-  temporal:
-    interval:
-    - - 1940-01-01
-      - 2023-06-30
+bbox:
+- - -27
+  - 26
+  - 45
+  - 74
+# temporal:
+#   interval:
+#   - - 1940-01-01
+#     - 2023-06-30
 license: CC-BY-4.0
 keywords:
 - ERA5
@@ -39,3 +37,8 @@ providers:
   roles:
   - host
   url: https://destination-earth.eu/
+assets:
+  thumbnail:
+    href: https://datastore.copernicus-climate.eu/c3s/published-forms-v2/c3sprod/reanalysis-era5-single-levels/overview.jpg
+    roles:
+    - thumbnail

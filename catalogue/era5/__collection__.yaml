@@ -56,3 +56,6 @@ providers:
   roles:
   - host
   url: https://cds.climate.copernicus.eu/
+assets:
+  thumbnail:
+    href: https://datastore.copernicus-climate.eu/c3s/published-forms-v2/c3sprod/reanalysis-era5-single-levels/overview.jpg
