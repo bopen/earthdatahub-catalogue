@@ -1,4 +1,7 @@
 title: ERA5-Land hourly data on Europe
+abstract:
+  ERA5-Land is a reanalysis dataset providing a consistent view of the evolution of land variables
+  over several decades at an enhanced resolution compared to ERA5.
 description:
   ERA5-Land is a reanalysis dataset providing a consistent view of the evolution of land variables
   over several decades at an enhanced resolution compared to ERA5.
@@ -21,10 +24,8 @@ description:
   businesses and individuals to access and use more accurate information on land states.
 
 
-  Here we propose a focus on Europe ERA5-Land hourly data from 1981 to 2022
+  Here we propose a focus on Europe ERA5-Land hourly data from 1981 to 2022 as a zarr store optimised for time-analysis.
 
-
-  Access data on <https://ecmwf-era5-land.s3.gra.perf.cloud.ovh.net/reanalysis-era5-land-europe-1950-2023.zarr>
 links:
 - title: ERA5-Land online documentation
   rel: documentation
@@ -37,11 +38,12 @@ bbox:
   - 74
 properties:
   datetime: null
-  start_time: 1950-01-01
-  end_time: 2023-06-30
+  start_time: 1981-01-01
+  end_time: 2022-12-31
 license: CC-BY-4.0
 keywords:
 - ERA5
+- Land
 - ECMWF
 - reanalysis
 - weather
@@ -52,6 +54,6 @@ providers:
   url: https://www.ecmwf.int/
 assets:
   data:
-    href: https://hedp-public/era5/reanalysis-era5-land-europe-1981-2022.zarr
+    href: https://hedp-public.s3.gra.perf.cloud.ovh.net/era5/reanalysis-era5-land-europe-1981-2022.zarr
     roles:
     - data
