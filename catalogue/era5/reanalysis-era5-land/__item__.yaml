@@ -1,7 +1,6 @@
 title: ERA5-Land hourly data over Europe
 abstract:
-  ERA5-Land is a reanalysis dataset providing a consistent view of the evolution of land variables
-  over several decades at an enhanced resolution compared to ERA5.
+  Europe ERA5-Land hourly data from 1950 to 2023
 description:
   ERA5-Land is a reanalysis dataset providing a consistent view of the evolution of land variables
   over several decades at an enhanced resolution compared to ERA5.
@@ -24,8 +23,9 @@ description:
   businesses and individuals to access and use more accurate information on land states.
 
 
-  Here we propose a focus on Europe ERA5-Land hourly data from 1981 to 2022 as a zarr store optimised for time-analysis.
+  Here we propose a focus on Europe ERA5-Land hourly data from 1950 to 2023 as a zarr store optimised for time-analysis.
 
+  Access is free to registered user thank to the support of the Destination Earth initiative.
 links:
 - title: ERA5-Land online documentation
   rel: documentation
@@ -69,6 +69,6 @@ assets:
     roles:
     - data
   thumbnail:
-    href: https://datastore.copernicus-climate.eu/c3s/published-forms-v2/c3sprod/reanalysis-era5-land/overview.png
+    href: https://www.stintup.com/wp-content/uploads/2019/07/cropped-map_era5_daily_t2m_anom_europe_25-29_Jun_2019_land_only-copia-1.png
     roles:
     - thumbnail
