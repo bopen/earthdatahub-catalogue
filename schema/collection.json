@@ -19,30 +19,6 @@
         "extent"
       ],
       "properties": {
-        "stac_version": {
-          "title": "STAC version",
-          "type": "string",
-          "const": "1.0.0"
-        },
-        "stac_extensions": {
-          "title": "STAC extensions",
-          "type": "array",
-          "uniqueItems": true,
-          "items": {
-            "title": "Reference to a JSON Schema",
-            "type": "string",
-            "format": "iri"
-          }
-        },
-        "type": {
-          "title": "Type of STAC entity",
-          "const": "Collection"
-        },
-        "id": {
-          "title": "Identifier",
-          "type": "string",
-          "minLength": 1
-        },
         "title": {
           "title": "Title",
           "type": "string"

@@ -87,27 +87,6 @@
             "properties"
           ],
           "properties": {
-            "stac_version": {
-              "title": "STAC version",
-              "type": "string",
-              "const": "1.0.0"
-            },
-            "stac_extensions": {
-              "title": "STAC extensions",
-              "type": "array",
-              "uniqueItems": true,
-              "items": {
-                "title": "Reference to a JSON Schema",
-                "type": "string",
-                "format": "iri"
-              }
-            },
-            "id": {
-              "title": "Provider ID",
-              "description": "Provider item ID",
-              "type": "string",
-              "minLength": 1
-            },
             "links": {
               "title": "Item links",
               "description": "Links to item relations",
