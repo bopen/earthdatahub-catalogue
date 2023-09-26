@@ -1,56 +1,47 @@
-title: ECMWF Open Data High-resolution Forecasts
+title: ECMWF medium-range forecasts
+abstract:
+  Medium-range forecasts consist of a single forecast (HRES) and our ensemble (ENS) which together give detailed 
+  information about the evolution of weather up to 15 days ahead
 description:
-  The High-Resolution forecasts (HRES) is a model single run created twice a day giving 10 days forecasts
-  based on 00UTC and 12UTC data times.
+  Medium-range forecasts consist of a single forecast (HRES) and an ensemble (ENS) which together give detailed 
+  information about the evolution of weather up to 15 days ahead. Forecasts are run from initial conditions valid at 00 and 12 UTC, 
+  as well as shorter supplementary forecasts from 06 and 18 UTC. Forecasts become available to users several hours after these times.
+
+  HRES
 
 
-  The HRES (current resolution 9km) provides
-  a more detailed description of future weather than individual member
-  of the ENS. When performance is assessed using many forecasts it provides, on average.
-  the most accurate single-run realisation of the broadscale weather patterns.
+  HRES is a single forecast 
+  (horizontal resolution around 9 km) which provides a description of one possible evolution of the weather out to 10 days ahead.
 
 
-  However, any individual HRES forecast may not be the most skilful compared to ENS member
-  forecasts, and when viewed in isolation it cannot provide an estimate of forecast
-  uncertainty or confidence.
+  ENS
+  ENS is an ensemble of 51 forecasts with a horizontal resolution of around 9 km. 
+  It comprises one control forecast (CNTL) plus 50 forecasts each with slightly altered initial conditions and slightly altered model physics.
 
+  ENS is a probabilistic forecast system designed to indicate the range of possible 
+  weather conditions out to 15 days ahead, including the probability of occurrence of particular events 
+  (such as high winds or heavy rain). The greater the spread of results across the ensemble, the greater the uncertainty in the forecast.
 
-  It is most useful to think of HRES as a member of
-  the ENS forecast ensemble, since it contains the same physical and dynamical representation
-  of the atmosphere and uses the same parameterisation of sub-gridscale effects.
-
-
-  HRES has the advantage of higher resolution, greater detail of orography, and better discrimination
-  of land-sea differences than ENS. Typical HRES weighting for surface variables
-  is such that HRES is worth 15-20 ENS members at Day1 and around 5 ENS members
-  at Day10.  However, well above the surface, the HRES advantage over ENS is less
-  significant and HRES weighting is likely to be significantly lower for forecast
-  upper-air than for forecast surface variables since resolution and surface detail
-  play a less significant role here.
-
-
-  Access  # missing link
-stac_version: 1.0.0
 links:
-- title: HRES - High-resolution Forecasts
+- title: Medium-range forecasts
   rel: documentation
-  href: https://confluence.ecmwf.int/display/FUG/HRES+-+High-Resolution+Forecast  # broken link
+  href: https://www.ecmwf.int/en/forecasts/documentation-and-support/medium-range-forecasts
   type: text/html
-extent:
-  spatial:
-    bbox:
-    - - -180
-      - -90
-      - 180
-      - 90
-  temporal:
-    interval:
-    - - null
-      - null
+bbox:
+- - -180
+  - -90
+  - 180
+  - 90
+properties:
+  datetime: null
+  start_time: #  1940-01-01
+  end_time: #  2023-08-31
+  edh_access: charges apply
 license: CC-BY-4.0  # checked
 keywords:
 - Open data
 - HRES
+- ENS
 - ECMWF
 - forecast
 - weather
@@ -58,4 +49,17 @@ providers:
 - name: ECMWF
   roles:
   - producer
+  - licensor
   url: https://www.ecmwf.int/
+- name: B-Open
+  roles:
+  - processor
+  - host
+  url: https://www.bopen.eu/  
+assets:
+  thumbnail:
+    href: https://charts.ecmwf.int/streaming/20230926-0540/4b/render-worker-commands-77969c47cb-dx5t5-6fe5cac1a363ec1525f54343b6cc9fd8-QTRinX.png
+  data:
+    href: #  https://hedp.s3.gra.perf.cloud.ovh.net/era5/reanalysis-era5-single-levels-1950-2023.zarr/
+    roles:
+    - data
