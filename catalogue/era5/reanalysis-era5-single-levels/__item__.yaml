@@ -1,6 +1,7 @@
-title: ERA5 hourly data on the surface over Europe
+title: ERA5 hourly data on the surface
 abstract:
-  Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric, ocean-wave and land surface quantities over Europe
+  Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric, ocean-wave and land surface quantities
+  
 description:
   ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 8 decades.
   Data is available from 1940 onwards.
@@ -29,8 +30,7 @@ description:
   Single levels variables are computed at one vertical level which can be surface (or a level close to the surface) 
   or a dedicated pressure level in the atmosphere.
   
-  Here we propose a focus on Europe ERA5 hourly data on single levels (atmospheric, ocean-wave and land surface quantities) from 1940 to 2023
-
+  Here we propose a focus on ERA5 hourly data on single levels (atmospheric, ocean-wave and land surface quantities) from 1940 to 2023
 
 links:
 - title: Era5 data documentation
