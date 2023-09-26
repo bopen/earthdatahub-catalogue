@@ -58,6 +58,7 @@ providers:
 - name: ECMWF
   roles:
   - producer
+  - licensor
   url: https://www.ecmwf.int/
 assets:
   thumbnail:
