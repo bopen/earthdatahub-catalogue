@@ -1,5 +1,4 @@
-title: ECMWF 
-Open Data Ensemble Forecasts
+title: ECMWF Open Data Ensemble Forecasts
 description:
   The Ensemble Forecast (ENS) is run twice a day producing 15 days forecasts based on 00UTC
   and 12UTC data times.
@@ -40,17 +39,15 @@ links:
   rel: documentation
   href: https://confluence.ecmwf.int/display/FUG/ENS+-+Ensemble+Forecasts  # broken link
   type: text/html
-extent:
-  spatial:
-    bbox:
-    - - -180
-      - -90
-      - 180
-      - 90
-  temporal:
-    interval:
-    - - null
-      - null
+bbox:
+- -180
+- -90
+- 180
+- 90
+properties:
+  datetime: null
+  start_datetime: null
+  end_datetime: null
 license: CC-BY-4.0  # checked
 keywords:
 - Open data
