@@ -38,8 +38,9 @@ bbox:
   - 74
 properties:
   datetime: null
-  start_time: 1981-01-01
-  end_time: 2022-12-31
+  start_time: 1950-01-01
+  end_time: 2023-06-30
+  edh_access: free of charge
 license: CC-BY-4.0
 keywords:
 - ERA5
@@ -51,9 +52,23 @@ providers:
 - name: ECMWF
   roles:
   - producer
+  - licensor
   url: https://www.ecmwf.int/
+- name: B-Open
+  roles:
+  - processor
+  - host
+  url: https://www.bopen.eu/
+- name: Destination Earth
+  roles:
+  - funder
+  url: https://destination-earth.eu/
 assets:
   data:
-    href: https://hedp-public.s3.gra.perf.cloud.ovh.net/era5/reanalysis-era5-land-europe-1981-2022.zarr
+    href: https://hedp.s3.gra.perf.cloud.ovh.net/era5/reanalysis-era5-land-europe-1950-2023.zarr/
     roles:
     - data
+  thumbnail:
+    href: https://datastore.copernicus-climate.eu/c3s/published-forms-v2/c3sprod/reanalysis-era5-land/overview.png
+    roles:
+    - thumbnail
