@@ -61,4 +61,4 @@ providers:
   url: https://www.ecmwf.int/
 assets:
   thumbnail:
-    href: https://datastore.copernicus-climate.eu/c3s/published-forms-v2/c3sprod/reanalysis-era5-single-levels/overview.jpg
+    href: https://climate.copernicus.eu/sites/default/files/inline-images/era5_t2m_201601.png
