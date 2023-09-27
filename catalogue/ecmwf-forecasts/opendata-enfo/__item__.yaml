@@ -44,9 +44,11 @@ providers:
   - host
   url: https://www.bopen.eu/  
 assets:
+  # data:
+  #   href:
+  #   roles:
+  #   - data
   thumbnail:
     href: https://confluence.ecmwf.int/display/FUG/Section+8.1.1+Basic+ensemble+products?preview=/288339447/288339451/Fig6.1.5%20ProbBalticTemp%3E20.png
-  data:
-    href: #  https://hedp.s3.gra.perf.cloud.ovh.net/era5/reanalysis-era5-single-levels-1950-2023.zarr/
     roles:
-    - data
+    - thumbnail
