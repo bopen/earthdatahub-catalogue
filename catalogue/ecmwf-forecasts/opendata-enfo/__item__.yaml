@@ -49,6 +49,6 @@ assets:
   #   roles:
   #   - data
   thumbnail:
-    href: https://confluence.ecmwf.int/display/FUG/Section+8.1.1+Basic+ensemble+products?preview=/288339447/288339451/Fig6.1.5%20ProbBalticTemp%3E20.png
+    href: https://confluence.ecmwf.int/download/attachments/288339447/Fig7.1.7%20Low%20NE%20Atl%20WindProb%2000Z150617.png?version=1&modificationDate=1661271957579&api=v2
     roles:
     - thumbnail
