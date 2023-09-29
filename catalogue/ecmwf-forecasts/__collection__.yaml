@@ -1,6 +1,6 @@
 title: ECMWF medium-range forecasts
 abstract:
-  Medium-range forecasts consist of a single forecast plus an ensemble of forecasts which together give detailed 
+  Medium-range forecasts consist of a single forecast plus an ensemble of forecasts for statistical comparison which together give detailed 
   information about the evolution of weather up to 15 days ahead
 description:
   Medium-range forecasts consist of a single forecast (HRES) and an ensemble (ENS) which together give detailed 
