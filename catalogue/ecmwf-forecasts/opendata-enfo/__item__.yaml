@@ -49,6 +49,6 @@ assets:
   #   roles:
   #   - data
   thumbnail:
-    href: https://confluence.ecmwf.int/download/attachments/288339447/Fig7.1.7%20Low%20NE%20Atl%20WindProb%2000Z150617.png?version=1&modificationDate=1661271957579&api=v2
+    href: https://charts.ecmwf.int/streaming/20231002-0540/33/render-worker-commands-77969c47cb-48pqz-6fe5cac1a363ec1525f54343b6cc9fd8-flSrLi.png
     roles:
     - thumbnail
