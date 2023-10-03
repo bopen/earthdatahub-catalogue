@@ -25,13 +25,13 @@ properties:
     It comprises one control forecast (CNTL) plus 50 forecasts each with slightly altered initial conditions and slightly altered model physics.
   dc:access_rights: charges apply
   dc:title: ECMWF ensemble forecasts
+  dc:subject:
+  - Open data
+  - ENS
+  - ECMWF
+  - forecast
+  - weather
 license: CC-BY-4.0  # checked
-keywords:
-- Open data
-- ENS
-- ECMWF
-- forecast
-- weather
 providers:
 - name: ECMWF
   roles:

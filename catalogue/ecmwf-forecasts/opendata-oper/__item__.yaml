@@ -21,13 +21,13 @@ properties:
     The forecast has a horizontal resolution of around 9 km and provides a description of a possible evolution of the weather out to 10 days ahead
   dc:access_rights: charges apply
   dc:title: ECMWF high-resolution forecast
+  dc:subject:
+  - Open data
+  - HRES
+  - ECMWF
+  - forecast
+  - weather
 license: CC-BY-4.0  # checked
-keywords:
-- Open data
-- HRES
-- ECMWF
-- forecast
-- weather
 providers:
 - name: ECMWF
   roles:
