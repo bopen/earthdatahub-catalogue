@@ -1,7 +1,3 @@
-title: ECMWF high-resolution forecast
-abstract:
-  The high-resolution forecast is a single forecast included in the ECMWF medium-range forecasts.
-  The forecast has a horizontal resolution of around 9 km and provides a description of a possible evolution of the weather out to 10 days ahead
 description:
   The high-resolution forecast is a single forecast included in the ECMWF medium-range forecasts.
   The forecast has a horizontal resolution of around 9 km and provides a description of a possible evolution of the weather out to 10 days ahead
@@ -20,7 +16,11 @@ properties:
   datetime: null
   start_datetime: #  1940-01-01
   end_datetime: #  2023-08-31
-  edh_access: charges apply
+  dc:abstract:
+    The high-resolution forecast is a single forecast included in the ECMWF medium-range forecasts.
+    The forecast has a horizontal resolution of around 9 km and provides a description of a possible evolution of the weather out to 10 days ahead
+  dc:access_rights: charges apply
+  dc:title: ECMWF high-resolution forecast
 license: CC-BY-4.0  # checked
 keywords:
 - Open data

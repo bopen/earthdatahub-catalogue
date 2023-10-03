@@ -1,7 +1,3 @@
-title: ECMWF ensemble forecasts
-abstract:
-  An ensemble (ENS) of 51 forecasts with a horizontal resolution of around 9 km. 
-  It comprises one control forecast (CNTL) plus 50 forecasts each with slightly altered initial conditions and slightly altered model physics.
 description:
   An ensemble (ENS) of 51 forecasts with a horizontal resolution of around 9 km. 
   It comprises one control forecast (CNTL) plus 50 forecasts each with slightly altered initial conditions and slightly altered model physics.
@@ -24,7 +20,11 @@ properties:
   datetime: null
   start_datetime: #  1940-01-01
   end_datetime: #  2023-08-31
-  edh_access: charges apply
+  dc:abstract:
+    An ensemble (ENS) of 51 forecasts with a horizontal resolution of around 9 km. 
+    It comprises one control forecast (CNTL) plus 50 forecasts each with slightly altered initial conditions and slightly altered model physics.
+  dc:access_rights: charges apply
+  dc:title: ECMWF ensemble forecasts
 license: CC-BY-4.0  # checked
 keywords:
 - Open data
@@ -42,7 +42,7 @@ providers:
   roles:
   - processor
   - host
-  url: https://www.bopen.eu/  
+  url: https://www.bopen.eu/
 assets:
   # data:
   #   href:
