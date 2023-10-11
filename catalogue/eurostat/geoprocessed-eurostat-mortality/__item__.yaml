@@ -1,30 +1,51 @@
 links:
-- title:
+- title:EUROSTAT data documentation
   rel: documentation
-  href:
+  href: https://ec.europa.eu/eurostat/cache/metadata/en/demomwk_esms.htm
   type: text/html
 bbox:
--
--
--
--
+- -27
+- 26
+- 45
+- 74
 properties:
-  start_datetime:
-  end_datetime:
+  start_datetime: 2015-01-05T00:00:00Z
+  end_datetime: 2019-12-30T00:00:00Z
   dc:abstract:
-
+    Europe EUROSTAT mortality data from 2015 to 2019
   dc:access_rights: charges apply
-  dc:title:
+  dc:title: EUROSTAT mortality data over Europe
   dc:subject:
-  -
-  -
-  -
-  -
-  -
-  -
+  - EUROSTAT
+  - mortality
+  - EUROPE
+  - geoprocessed
+  - geospatial
   dc:description:
-    foo, bar, baz
-license:
+    In April 2020 Eurostat set up an exceptional data collection on
+    total weekly deaths, in order to support the policy and research
+    efforts related to Covid-19. With this data collection, Eurostat's
+    target was to provide quickly statistics that show the changing
+    situation of the total number of weekly deaths from early 2020 onwards.
+
+    The available data on the total weekly deaths are transmitted by
+    the National Statistical Institutes to Eurostat on voluntary basis.
+    Data are collected cross classified by sex, 5-year age-groups and
+    NUTS3 region (NUTS2021). The age breakdown by 5-year age group is
+    the most significant and should be considered by the reporting countries
+    as the main option; when that is not possible, data may be provided
+    with less granularity. Similar with the regional structure, data
+    granularity varies with the country.
+
+    Eurostat requested from the National Statistical Institutes the
+    transmission of a back time series of weekly deaths for as many year
+    as possible, recommending as starting point the year 2000. Shorter
+    time series, imposed by data availability, are transmitted by some
+    countries. A long enough time series is necessary for temporal
+    comparisons and statistical modelling.
+
+
+license: https://ec.europa.eu/info/legal-notice_en
 providers:
 - name: EUROSTAT
   roles:
@@ -41,10 +62,10 @@ providers:
   url: https://www.mundialis.de/
 assets:
   thumbnail:
-    href:
+    href: XXX
     roles:
     - thumbnail
   data:
-    href:
+    href: XXX
     roles:
     - data
