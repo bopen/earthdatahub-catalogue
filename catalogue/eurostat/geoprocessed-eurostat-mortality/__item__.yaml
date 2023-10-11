@@ -1,0 +1,50 @@
+links:
+- title:
+  rel: documentation
+  href:
+  type: text/html
+bbox:
+-
+-
+-
+-
+properties:
+  start_datetime:
+  end_datetime:
+  dc:abstract:
+
+  dc:access_rights: charges apply
+  dc:title:
+  dc:subject:
+  -
+  -
+  -
+  -
+  -
+  -
+  dc:description:
+    foo, bar, baz
+license:
+providers:
+- name: EUROSTAT
+  roles:
+  - producer
+  - licensor
+  url: https://ec.europa.eu/eurostat/web/main/home
+- name: B-Open
+  roles:
+  - host
+  url: https://www.bopen.eu/
+- name: mundialis GmbH & Co. KG
+  roles:
+  - processor
+  url: https://www.mundialis.de/
+assets:
+  thumbnail:
+    href:
+    roles:
+    - thumbnail
+  data:
+    href:
+    roles:
+    - data
