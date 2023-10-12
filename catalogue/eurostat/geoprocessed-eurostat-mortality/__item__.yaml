@@ -1,5 +1,5 @@
 links:
-- title:EUROSTAT data documentation
+- title: EUROSTAT data documentation
   rel: documentation
   href: https://ec.europa.eu/eurostat/cache/metadata/en/demomwk_esms.htm
   type: text/html
