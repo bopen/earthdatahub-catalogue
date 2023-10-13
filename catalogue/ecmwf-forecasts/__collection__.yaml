@@ -57,6 +57,5 @@ assets:
   #   roles:
   #   - data
   thumbnail:
-    href: https://charts.ecmwf.int/streaming/20230926-0540/4b/render-worker-commands-77969c47cb-dx5t5-6fe5cac1a363ec1525f54343b6cc9fd8-QTRinX.png
-    roles:
+    href: 
     - thumbnail
