@@ -70,6 +70,6 @@ assets:
     roles:
     - thumbnail
   data:
-    href: XXX
+    href: s3://eurostat/eurostat-final-energy-consumption-2000-2021.zarr
     roles:
     - data

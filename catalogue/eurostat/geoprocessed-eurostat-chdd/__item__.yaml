@@ -55,6 +55,6 @@ assets:
     roles:
     - thumbnail
   data:
-    href: XXX
+    href: s3://eurostat/eurostat-cooling-and-heating-degree-days-1979-2022.zarr
     roles:
     - data

@@ -66,6 +66,6 @@ assets:
     roles:
     - thumbnail
   data:
-    href: XXX
+    href: s3://eurostat/eurostat-mortality-2015-2023.zarr
     roles:
     - data
