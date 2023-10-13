@@ -51,7 +51,7 @@ providers:
   url: https://www.mundialis.de/
 assets:
   thumbnail:
-    href: XXX
+    href: https://apps.mundialis.de/thumbnails/2/thumbnail.png
     roles:
     - thumbnail
   data:
