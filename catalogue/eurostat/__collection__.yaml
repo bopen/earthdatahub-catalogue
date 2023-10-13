@@ -1,0 +1,90 @@
+title: Eurostat geospatial data collection
+dc:abstract:
+  Eurostat, the statistical office of the European Union
+  (EU), collects, compiles and publishes statistics for the
+  EU and euro area, as well as national, regional and other
+  subnational data, primarily for the EU Member States,
+  but also for the EFTA and candidate countries.
+description:
+  Eurostat, the statistical office of the European Union
+  (EU), collects, compiles and publishes statistics for the
+  EU and euro area, as well as national, regional and other
+  subnational data, primarily for the EU Member States,
+  but also for the EFTA and candidate countries.
+
+  Eurostat shall be in charge of the development, production
+  and dissemination of European statistics, in particular
+  (a) collect and aggregate the statistical information necessary
+  to compile European statistics; (b) develop and promote
+  statistical standards, methods and procedures; (c) steer the
+  European Statistical System, strengthen cooperation among its
+  partners, and ensure its leading role in official statistics
+  worldwide; (d) cooperate with international organisations and
+  third countries in order to facilitate the comparability of European
+  statistics with statistics produced in other statistical systems
+  and, where appropriate, support third countries in the improvement
+  of their statistical systems.
+
+  Eurostat shall ensure that European statistics are made accessible
+  to all users in accordance with statistical principles, in particular
+  the principles of professional independence, impartiality and statistical
+  confidentiality. In this respect, Eurostat shall provide the technical
+  explanations and the support necessary for the use of European statistics
+  and may use appropriate communication channels for the purpose of
+  statistical news releases.
+
+  Eurostat shall ensure cooperation and regular constructive dialogue with
+  other services of the Commission and, where necessary, with data providers
+  with a view to taking into account user needs, relevant policy developments
+  and other initiatives. To this end, those Commission services that are
+  potential users of specific European statistics shall be informed and
+  involved from an early stage in the development of new or changed
+  statistics, among other things in order to understand the potential
+  policy implications of new or changed statistical methods, standards
+  and definitions.
+
+  Eurostat shall coordinate the development and production of other
+  statistics. For that purpose, it shall (a) optimise the use of
+  existing information that can be used for statistical purposes,
+  in order to ensure quality and minimise burden for respondents;
+  Eurostat shall invite any service of the Commission concerned to
+  contribute for that purpose; (b) be informed by all services of
+  the Commission about the scope and quality characteristics of
+  statistics produced by them, about significant changes in the
+  methodology for the production of statistics, and about new
+  data collections planned; (c) provide guidance, appropriate
+  training and expert services to other Commission services necessary
+  for the development and production of other statistics, subject
+  to available resources.
+
+links:
+- title: Eurostat data documentation
+  rel: documentation
+  href:
+  type: text/html
+extent:
+  spatial:
+    bbox:
+    - -
+      -
+      -
+      -
+  temporal:
+    interval:
+    - -
+      -
+license:
+keywords:
+- EUROSTAT
+-
+-
+-
+providers:
+- name: EUROSTAT
+  roles:
+  - producer
+  - licensor
+  url: https://ec.europa.eu/eurostat/web/main/home
+assets:
+  thumbnail:
+    href:
