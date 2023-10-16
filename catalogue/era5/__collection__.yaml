@@ -45,7 +45,7 @@ extent:
   temporal:
     interval:
     - - 1940-01-01T00:00:00Z
-      - null
+      - 
 license: CC-BY-4.0
 keywords:
 - ERA5

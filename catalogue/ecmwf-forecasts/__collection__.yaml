@@ -36,8 +36,8 @@ extent:
       - 90
   temporal:
     interval:
-    - - null
-      - null
+    - - 
+      - 
 license: CC-BY-4.0  # checked
 keywords:
 - Open data
