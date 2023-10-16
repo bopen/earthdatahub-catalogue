@@ -51,11 +51,9 @@ providers:
   - producer
   - licensor
   url: https://www.ecmwf.int/
-assets:
-  # data:
-  #   href:
-  #   roles:
-  #   - data
-  thumbnail:
-    href: 
-    - thumbnail
+# assets:
+#   data:
+#     href:
+#     roles:
+#     - data
+

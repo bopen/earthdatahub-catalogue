@@ -58,6 +58,4 @@ providers:
   - producer
   - licensor
   url: https://www.ecmwf.int/
-assets:
-  thumbnail:
-    href: 
+  

@@ -22,7 +22,7 @@ properties:
   - EUROPE
   - geoprocessed
   - geospatial
-  dc:description:
+description:
   Heating degree day (HDD) index is a weather-based
   technical index designed to describe the need for
   the heating energy requirements of buildings.
