@@ -53,7 +53,7 @@ providers:
   url: https://www.ecmwf.int/
 assets:
   thumbnail:
-    href: https://earthdatahub-static.auth-cd5fd5eb828b4e7c89f0880ea1d99126.storage.gra.cloud.ovh.net/catalogue/collections/ecmwf-forecasts/thumbnail_be47c240ccf75f5e6f167520fb6ea1884d46b2ee3c1ce01e360a48b4c6a1f26a.png
+    href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/ecmwf-forecasts/thumbnail_be47c240ccf75f5e6f167520fb6ea1884d46b2ee3c1ce01e360a48b4c6a1f26a.png
     roles:
     - thumbnail
 #   data:

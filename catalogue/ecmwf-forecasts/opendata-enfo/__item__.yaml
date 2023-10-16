@@ -44,7 +44,7 @@ providers:
   url: https://www.bopen.eu/
 assets:
   thumbnail:
-    href: https://earthdatahub-static.auth-cd5fd5eb828b4e7c89f0880ea1d99126.storage.gra.cloud.ovh.net/catalogue/collections/ecmwf-forecasts/items/opendata-enfo/thumbnail_b6fe16516e0a2f8bac363b2f367131a9d77a8f0a60f49bc3be19faa26a396798.png
+    href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/ecmwf-forecasts/items/opendata-enfo/thumbnail_b6fe16516e0a2f8bac363b2f367131a9d77a8f0a60f49bc3be19faa26a396798.png
     roles:
     - thumbnail
   # data:
