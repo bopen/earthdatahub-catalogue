@@ -64,10 +64,6 @@ providers:
   - host
   url: https://www.bopen.eu/
 assets:
-  thumbnail:
-    href: 
-    roles:
-    - thumbnail
   data:
     href: s3://hedp/era5/reanalysis-era5-single-levels-1940-2023.zarr
     roles:

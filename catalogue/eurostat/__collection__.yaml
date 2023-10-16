@@ -57,11 +57,11 @@ description:
   for the development and production of other statistics, subject
   to available resources.
 
-links:
-- title: Eurostat data documentation
-  rel: documentation
-  href:
-  type: text/html
+# links:
+# - title: Eurostat data documentation
+#   rel: documentation
+#   href:
+#   type: text/html
 extent:
   spatial:
     bbox:
@@ -73,7 +73,7 @@ extent:
     interval:
     - -
       -
-license:
+license: MISSING
 keywords:
 - EUROSTAT
 -

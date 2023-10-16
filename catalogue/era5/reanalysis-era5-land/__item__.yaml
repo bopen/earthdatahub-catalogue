@@ -67,7 +67,4 @@ assets:
     href: s3://hedp/era5/reanalysis-era5-land-europe-1950-2023.zarr
     roles:
     - data
-  thumbnail:
-    href: 
-    roles:
-    - thumbnail
+

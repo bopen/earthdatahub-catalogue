@@ -38,12 +38,8 @@ providers:
   - processor
   - host
   url: https://www.bopen.eu/  
-assets:
-  # data:
-  #   href:
-  #   roles:
-  #   - data
-  thumbnail:
-    href: 
-    roles:
-    - thumbnail
+# assets:
+#   data:
+#     href:
+#     roles:
+#     - data
