@@ -39,3 +39,8 @@ assets:
     href: s3://hedp/ecmwf-forecasts/opendata-oper-20231016T00.zarr
     roles:
     - data
+    url: https://www.bopen.eu/  
+  thumbnail:
+    href: https://earthdatahub-static.auth-cd5fd5eb828b4e7c89f0880ea1d99126.storage.gra.cloud.ovh.net/catalogue/collections/ecmwf-forecasts/items/opendata-oper/thumbnail_aadad51a1dd3add14b7fbbec7eea7aa56fda437a82b351a81947e7aa6d4f7a75.png
+    roles:
+    - thumbnail

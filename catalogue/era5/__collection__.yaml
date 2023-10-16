@@ -58,4 +58,8 @@ providers:
   - producer
   - licensor
   url: https://www.ecmwf.int/
-  
+assets:
+  thumbnail:
+    href: https://earthdatahub-static.auth-cd5fd5eb828b4e7c89f0880ea1d99126.storage.gra.cloud.ovh.net/catalogue/collections/era5/thumbnail_bd126ec0726b50cf50767a44a0b90fafe7757d0b7b97ddef6d723afc1203b472.png
+    roles:
+    - thumbnail

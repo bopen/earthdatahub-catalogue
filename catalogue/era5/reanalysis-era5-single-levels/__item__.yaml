@@ -68,3 +68,7 @@ assets:
     href: s3://hedp/era5/reanalysis-era5-single-levels-1940-2023.zarr
     roles:
     - data
+  thumbnail:
+    href: https://earthdatahub-static.auth-cd5fd5eb828b4e7c89f0880ea1d99126.storage.gra.cloud.ovh.net/catalogue/collections/era5/items/reanalysis-era5-single-levels/thumbnail_efd976186fcce26441020a0094a209d9828f1168ad5a04ed354b12feefad2b8c.png
+    roles:
+    - thumbnail
