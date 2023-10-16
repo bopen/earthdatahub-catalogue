@@ -65,10 +65,10 @@ description:
 extent:
   spatial:
     bbox:
-    - -
-      -
-      -
-      -
+    - - -27
+      - 26
+      - 45
+      - 74
   temporal:
     interval:
     - -
