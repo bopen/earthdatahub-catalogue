@@ -69,6 +69,6 @@ assets:
     roles:
     - thumbnail
   data:
-    href: https://hedp.s3.gra.perf.cloud.ovh.net/era5/reanalysis-era5-single-levels-1950-2023.zarr/
+    href: s3://hedp/era5/reanalysis-era5-single-levels-1940-2023.zarr
     roles:
     - data
