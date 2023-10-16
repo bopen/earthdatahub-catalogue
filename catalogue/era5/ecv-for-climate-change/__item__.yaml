@@ -57,11 +57,17 @@ properties:
 
     How to access:
 
-    ````python
+
+    ```python
     import xarray as xr
     
-    ds = xr.open_dataset("s3://hedp/era5/ecv-for-climate-change-1979-2023.zarr", engine="zarr", chunks={})
+    ds = xr.open_dataset(
+        "s3://hedp/era5/ecv-for-climate-change-1979-2023.zarr",
+        engine="zarr",
+        chunks={},
+    )
     ```
+
 license: CC-BY-4.0
 providers:
 - name: ECMWF
