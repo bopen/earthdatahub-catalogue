@@ -23,7 +23,7 @@ properties:
   - ECMWF
   - reanalysis
   - climate
-  dc:description:
+  dc:description: |
     The Essential Climate Variables for assessment of climate variability from 1979 to present dataset contains 
     a selection of climatologies, monthly anomalies and monthly mean fields of 
     Essential Climate Variables (ECVs) suitable for monitoring and assessment of climate variability and change. 
@@ -53,6 +53,15 @@ properties:
     The C3S monthly climate bulletin (https://climate.copernicus.eu/climate-bulletins) provides 
     an assessment of the monthly state of the climate with an emphasis on the European geographical domain. 
     This data record is used as the basis for these monthly bulletins.
+
+
+    How to access:
+
+    ````python
+    import xarray as xr
+    
+    ds = xr.open_dataset("s3://hedp/era5/ecv-for-climate-change-1979-2023.zarr", engine="zarr", chunks={})
+    ```
 license: CC-BY-4.0
 providers:
 - name: ECMWF
