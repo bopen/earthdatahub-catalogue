@@ -74,7 +74,7 @@ providers:
   url: https://www.bopen.eu/
 assets:
   data:
-    href: s3://hedp/era5/reanalysis-era5-land-europe-1950-2023.zarr
+    href: s3://hedp/era5/ecv-for-climate-change-1979-2023.zarr
     roles:
     - data
 
