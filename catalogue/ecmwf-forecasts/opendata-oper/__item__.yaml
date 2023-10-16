@@ -12,9 +12,7 @@ properties:
   # datetime: null
   # start_datetime: #  1940-01-01
   # end_datetime: #  2023-08-31
-  dc:abstract:
-    The high-resolution forecast is a single forecast included in the ECMWF medium-range forecasts.
-    The forecast has a horizontal resolution of around 9 km and provides a description of a possible evolution of the weather out to 10 days ahead
+  dc:abstract: The high-resolution forecast is a single forecast included in the ECMWF medium-range forecasts. The forecast has a horizontal resolution of around 9 km and provides a description of a possible evolution of the weather out to 10 days ahead
   dc:access_rights: charges apply
   dc:title: ECMWF high-resolution forecast
   dc:subject:
@@ -23,10 +21,8 @@ properties:
   - ECMWF
   - forecast
   - weather
-  dc:description:
-    The high-resolution forecast is a single forecast included in the ECMWF medium-range forecasts.
-    The forecast has a horizontal resolution of around 9 km and provides a description of a possible evolution of the weather out to 10 days ahead
-license: CC-BY-4.0  # checked
+  dc:description: The high-resolution forecast is a single forecast included in the ECMWF medium-range forecasts. The forecast has a horizontal resolution of around 9 km and provides a description of a possible evolution of the weather out to 10 days ahead
+license: CC-BY-4.0 # checked
 providers:
 - name: ECMWF
   roles:
@@ -37,9 +33,9 @@ providers:
   roles:
   - processor
   - host
-  url: https://www.bopen.eu/  
-# assets:
-#   data:
-#     href:
-#     roles:
-#     - data
+  url: https://www.bopen.eu/
+assets:
+  data:
+    href: s3://hedp/ecmwf-forecasts/opendata-oper-20231016T00.zarr
+    roles:
+    - data
