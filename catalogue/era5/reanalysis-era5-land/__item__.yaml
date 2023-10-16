@@ -68,6 +68,6 @@ assets:
     roles:
     - data
   thumbnail:
-    href: https://www.stintup.com/wp-content/uploads/2019/07/cropped-map_era5_daily_t2m_anom_europe_25-29_Jun_2019_land_only-copia-1.png
+    href: 
     roles:
     - thumbnail

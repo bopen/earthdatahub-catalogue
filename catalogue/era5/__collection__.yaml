@@ -60,4 +60,4 @@ providers:
   url: https://www.ecmwf.int/
 assets:
   thumbnail:
-    href: https://www.ecmwf.int/sites/default/files/medialibrary/2019-01/C3S_annual_anomaly_Global_ei_2T_2018_logo_690px.jpg
+    href: 

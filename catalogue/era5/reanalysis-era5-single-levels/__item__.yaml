@@ -65,7 +65,7 @@ providers:
   url: https://www.bopen.eu/
 assets:
   thumbnail:
-    href: https://datastore.copernicus-climate.eu/c3s/published-forms-v2/c3sprod/reanalysis-era5-single-levels/overview.jpg
+    href: 
     roles:
     - thumbnail
   data:
