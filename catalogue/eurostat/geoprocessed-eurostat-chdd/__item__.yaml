@@ -16,12 +16,14 @@ properties:
   dc:access_rights: charges apply
   dc:title: Eurostat CDD & HDD data over Europe
   dc:subject:
-  - EUROSTAT
+  - eurostat
   - CDD
   - HDD
-  - EUROPE
+  - europe
   - geoprocessed
   - geospatial
+  - heating
+  - cooling
   dc:description:
     Heating degree day (HDD) index is a weather-based
     technical index designed to describe the need for

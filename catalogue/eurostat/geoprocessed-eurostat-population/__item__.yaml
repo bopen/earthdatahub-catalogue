@@ -16,15 +16,16 @@ properties:
   dc:access_rights: charges apply
   dc:title: Eurostat population data over Europe
   dc:subject:
-  - EUROSTAT
+  - eurostat
   - population
-  - EUROPE
+  - europe
+  - unidemo
   - geoprocessed
   - geospatial
   dc:description:
     Each year Eurostat collects demographic data at regional level
     from 37 countries as part of the Unified Demography (Unidemo)
-    project. UNIDEMO is Eurostat’s main annual demographic data
+    project. UNIDEMO is Eurostat main annual demographic data
     collection and aims to gather information on demography and
     migration. UNIDEMO collects data at national and regional
     levels by various breakdowns on population stocks;
