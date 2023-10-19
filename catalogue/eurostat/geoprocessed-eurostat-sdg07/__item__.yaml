@@ -16,15 +16,16 @@ properties:
   dc:access_rights: charges apply
   dc:title: EUROSTAT Final Consumption of Energy data over Europe
   dc:subject:
-  - EUROSTAT
-  - Energy
-  - EUROPE
+  - eurostat
+  - energy
+  - SDG
+  - europe
   - geoprocessed
   - geospatial
   dc:description:
     The indicator is part of the EU Sustainable Development Goals (SDG)
     indicator set. It is used to monitor progress towards SDG 7 on
-    affordable and clean energy; which is embedded in the European
+    affordable and clean energy, which is embedded in the European
     Commission's Priorities under the 'European Green Deal'.
 
     SDG 7 calls for ensuring universal access to modern energy services,

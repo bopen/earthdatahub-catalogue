@@ -16,9 +16,9 @@ properties:
   dc:access_rights: charges apply
   dc:title: Eurostat mortality data over Europe
   dc:subject:
-  - EUROSTAT
+  - eurostat
   - mortality
-  - EUROPE
+  - europe
   - geoprocessed
   - geospatial
   dc:description:
