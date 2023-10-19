@@ -75,7 +75,11 @@ extent:
       -
 license: MISSING
 keywords:
-- EUROSTAT
+- eurostat
+- statistics
+- energy
+- population
+- heating
 providers:
 - name: EUROSTAT
   roles:
