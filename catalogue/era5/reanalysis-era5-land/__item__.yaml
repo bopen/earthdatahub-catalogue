@@ -1,7 +1,11 @@
 links:
-- title: ERA5-Land online documentation
-  rel: documentation
-  href: https://confluence.ecmwf.int/display/CKB/ERA5-Land%3A+data+documentation
+- title: Original data source
+  rel: derived_from
+  href: https://doi.org/10.24381/cds.e2161bac
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
   type: text/html
 bbox:
 - -27
@@ -62,7 +66,6 @@ properties:
     )
     ```
 
-license: CC-BY-4.0
 providers:
 - name: ECMWF
   roles:
@@ -74,10 +77,6 @@ providers:
   - processor
   - host
   url: https://www.bopen.eu/
-- name: Destination Earth
-  roles:
-  - funder
-  url: https://destination-earth.eu/
 assets:
   data:
     href: s3://hedp/era5/reanalysis-era5-land-europe-1950-2023.zarr
