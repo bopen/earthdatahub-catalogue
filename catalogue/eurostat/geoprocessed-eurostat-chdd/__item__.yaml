@@ -1,7 +1,11 @@
 links:
-- title: EUROSTAT data documentation
-  rel: documentation
+- title: Original data source
+  rel: derived_from
   href: https://ec.europa.eu/eurostat/cache/metadata/en/nrg_chdd_esms.htm
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
   type: text/html
 bbox:
 - 6
@@ -35,8 +39,6 @@ properties:
     HDD and CDD are derived from meteorological observations
     of air temperature, interpolated to regular grids
     at 25 km resolution for Europe.
-
-license: https://ec.europa.eu/info/legal-notice_en
 providers:
 - name: EUROSTAT
   roles:

@@ -1,7 +1,11 @@
 links:
-- title: EUROSTAT data documentation
-  rel: documentation
-  href: https://ec.europa.eu/eurostat/cache/metadata/en/sdg_07_11_esmsip2.htm
+- title: Original data source
+  rel: derived_from
+  href:  https://ec.europa.eu/eurostat/cache/metadata/en/sdg_07_11_esmsip2.htm
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
   type: text/html
 bbox:
 - 6
@@ -50,7 +54,6 @@ properties:
     and Renewable energy Directives set ambitious EU targets
     to be reached by 2030.
 
-license: https://ec.europa.eu/info/legal-notice_en
 providers:
 - name: EUROSTAT
   roles:

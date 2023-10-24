@@ -1,7 +1,11 @@
 links:
-- title: Era5 data documentation
-  rel: documentation
-  href: https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation
+- title: Original data source
+  rel: derived_from
+  href: https://doi.org/10.24381/cds.adbb2d47
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
   type: text/html
 bbox:
 - -180
@@ -67,7 +71,6 @@ properties:
     )
     ```
 
-license: CC-BY-4.0
 providers:
 - name: ECMWF
   roles:

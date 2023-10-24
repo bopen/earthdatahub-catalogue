@@ -35,7 +35,7 @@ links:
   rel: derived_from
   href: https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation
   type: text/html
-- title: Licence to use Copernicus Products
+- title: Licence to use Copernicus products
   rel: license
   href: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
   type: application/pdf

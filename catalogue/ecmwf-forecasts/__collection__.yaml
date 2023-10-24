@@ -27,6 +27,10 @@ links:
   rel: documentation
   href: https://www.ecmwf.int/en/forecasts/documentation-and-support/medium-range-forecasts
   type: text/html
+- title: Licence to use Copernicus products
+  rel: license
+  href: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+  type: application/pdf
 extent:
   spatial:
     bbox:
@@ -38,7 +42,7 @@ extent:
     interval:
     - - 
       - 
-license: CC-BY-4.0  # checked
+license: various  # checked
 keywords:
 - Open data
 - HRES
@@ -56,7 +60,3 @@ assets:
     href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/ecmwf-forecasts/thumbnail_be47c240ccf75f5e6f167520fb6ea1884d46b2ee3c1ce01e360a48b4c6a1f26a.png
     roles:
     - thumbnail
-#   data:
-#     href:
-#     roles:
-#     - data
