@@ -1,7 +1,11 @@
 links:
-- title: EUROSTAT data documentation
-  rel: documentation
+- title: Original data source
+  rel: derived_from
   href: https://ec.europa.eu/eurostat/cache/metadata/en/demo_r_gind3_esms.htm
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
   type: text/html
 bbox:
 - -27
@@ -46,7 +50,6 @@ properties:
     the European Union into 104 regions at NUTS level 1;
     281 at NUTS level 2; and 1348 at NUTS level 3.
 
-license: https://ec.europa.eu/info/legal-notice_en
 providers:
 - name: EUROSTAT
   roles:

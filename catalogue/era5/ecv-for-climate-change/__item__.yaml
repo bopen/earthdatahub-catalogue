@@ -3,6 +3,10 @@ links:
   rel: documentation
   href: https://confluence.ecmwf.int/display/CKB/Essential+Climate+Variables+for+assessment+of+climate+variability+from+1979+to+present%3A+Product+user+guide
   type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
+  type: text/html
 bbox:
 - -180
 - -90
@@ -69,7 +73,6 @@ properties:
     )
     ```
 
-license: CC-BY-4.0
 providers:
 - name: ECMWF
   roles:
@@ -80,10 +83,6 @@ providers:
   roles:
   - processor
   - host
-  url: https://www.bopen.eu/
-- name: B-Open
-  roles:
-  - funder
   url: https://www.bopen.eu/
 assets:
   data:
