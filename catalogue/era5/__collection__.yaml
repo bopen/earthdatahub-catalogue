@@ -31,10 +31,14 @@ description:
   which has evolved considerably over time. They also indicate flow-dependent sensitive areas.
 
 links:
-- title: Era5 data documentation
-  rel: documentation
+- title: ERA5 documentation
+  rel: derived_from
   href: https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation
   type: text/html
+- title: Licence to use Copernicus Products
+  rel: license
+  href: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+  type: application/pdf
 extent:
   spatial:
     bbox:
@@ -46,7 +50,7 @@ extent:
     interval:
     - - 1940-01-01T00:00:00Z
       - 
-license: CC-BY-4.0
+license: various
 keywords:
 - ERA5
 - ECMWF
