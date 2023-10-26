@@ -1,5 +1,5 @@
 links:
-- title: Original data source
+- title: Eurostat
   rel: derived_from
   href: https://ec.europa.eu/eurostat/cache/metadata/en/demomwk_esms.htm
   type: text/html

@@ -1,5 +1,5 @@
 links:
-- title: Original data source
+- title: Eurostat
   rel: derived_from
   href: https://ec.europa.eu/eurostat/cache/metadata/en/demo_r_gind3_esms.htm
   type: text/html

@@ -1,5 +1,5 @@
 links:
-- title: Original data source
+- title: ECMWF
   rel: derived_from
   href: https://doi.org/10.24381/cds.adbb2d47
   type: text/html

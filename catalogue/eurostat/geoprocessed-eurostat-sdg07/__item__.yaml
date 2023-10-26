@@ -1,5 +1,5 @@
 links:
-- title: Original data source
+- title: Eurostat
   rel: derived_from
   href:  https://ec.europa.eu/eurostat/cache/metadata/en/sdg_07_11_esmsip2.htm
   type: text/html

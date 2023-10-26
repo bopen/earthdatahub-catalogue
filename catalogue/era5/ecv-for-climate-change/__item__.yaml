@@ -1,6 +1,6 @@
 links:
-- title: Essential Climate Variables for assessment of climate variability from 1979 to present - Product user guide
-  rel: documentation
+- title: ECMWF
+  rel: derived_from
   href: https://confluence.ecmwf.int/display/CKB/Essential+Climate+Variables+for+assessment+of+climate+variability+from+1979+to+present%3A+Product+user+guide
   type: text/html
 - title: Destination Earth
