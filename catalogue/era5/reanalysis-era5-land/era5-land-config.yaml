@@ -1,20 +1,18 @@
-chunks: {latitude: 32, longitude: 32, time: 30}
+chunks: {latitude: 256, longitude: 128}
 request_client_class_name: cads-api-client
-robust_to_zarr_kwargs: {restart_block: 1, restart_dim: "time"}
+robust_to_zarr_kwargs: {restart_block: 73}
 to_zarr_kwargs:
-  store: s3://hedp/era5/reanalysis-era5-land-1950-2023.zarr
+  store: s3://data-access-dev/era5/reanalysis-era5-land-no-antartica-1950-2023.zarr
   write_empty_chunks: false
-  consolidated: true
 xarray_open_kwargs:
-  cache_kwargs: {cache_file: true}
+  cache_kwargs: {cache_file: false}
   chunks: {}
   engine: ecmwf
   filename_or_obj:
     collection_id: reanalysis-era5-land
-    area: ['73.99', '-27', '26', '44.99']
-    date: [1950-01-01/2023-08-31]
+    area: ['90', '0', '-57.1', '360']
+    date: [1950-01-01/2023-09-30]
     time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
-    variable: [total_precipitation, 2m_temperature]
+    variable: [total_precipitation]
   request_chunker_kwargs: {merge_date_time: false}
-  request_chunks: {day: 10}
-
+  request_chunks: {day: 5}
