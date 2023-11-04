@@ -1,26 +1,26 @@
 steps:
-- chunks: {latitude: 256, longitude: 128}
+- chunks: {latitude: 128, longitude: 256}
   request_client_class_name: cads-api-client
-  robust_to_zarr_kwargs: {restart_block: 96}
-  to_zarr_kwargs: {store: 's3://data-access-dev/era5/reanalysis-era5-land-no-antartica-1950-2023.zarr', write_empty_chunks: false}
+  robust_to_zarr_kwargs: {restart_block: 96, restart_dim: valid_time}
+  to_zarr_kwargs: {store: 's3://ecmwf-era5-land/intermediate/reanalysis-era5-land-no-antartica.zarr', write_empty_chunks: false}
   xarray_open_kwargs:
     cache_kwargs: {cache_file: false}
+    cfgrib_kwargs:
+      time_dims: [valid_time]
     chunks: {}
     engine: ecmwf
     filename_or_obj:
-      collection_id: reanalysis-era5-land
       area: ['90', '0', '-57.1', '360']
-      date: [1950-01-01/2023-09-30]
+      collection_id: reanalysis-era5-land
+      date: [1950-01-01/1950-12-31]
       time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
       variable: [2m_temperature, total_precipitation]
-    request_chunker_kwargs: {merge_date_time: false}
+    request_chunker_kwargs: {time_dim: valid_time}
     request_chunks: {day: 5}
-- chunks: {latitude: 32, longitude: 64, time: 85}
-  robust_to_zarr_kwargs: {restart_block: 32}
-  to_zarr_kwargs:
-    store: s3://hedp/era5/reanalysis-era5-land-no-antartica-1950-2023.zarr
-    write_empty_chunks: false
+- chunks: {latitude: 32, longitude: 64, valid_time: 2016}
+  robust_to_zarr_kwargs: {restart_block: 32, restart_dim: valid_time}
+  to_zarr_kwargs: {store: 's3://ecmwf-era5-land/reanalysis-era5-land-no-antartica.zarr', write_empty_chunks: false}
   xarray_open_kwargs:
-    chunks: {time: 85}
+    chunks: {valid_time: 85}
     engine: zarr
-    filename_or_obj: s3://data-access-dev/era5/reanalysis-era5-land-no-antartica-1950-2023.zarr
+    filename_or_obj: s3://ecmwf-era5-land/intermediate/reanalysis-era5-land-no-antartica.zarr
