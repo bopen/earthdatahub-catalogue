@@ -2,7 +2,11 @@ steps:
 - chunks: {latitude: 128, longitude: 256}
   request_client_class_name: cads-api-client
   robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 96}
-  to_zarr_kwargs: {store: 's3://ecmwf-era5/intermediate/reanalysis-era5-single-levels-reanalysis.zarr', write_empty_chunks: false}
+  to_zarr_kwargs:
+    encoding:
+      t2m: {dtype: float16}
+    store: s3://ecmwf-era5/intermediate/reanalysis-era5-single-levels-reanalysis.zarr
+    write_empty_chunks: false
   xarray_open_kwargs:
     cache_kwargs: {cache_file: false}
     cfgrib_kwargs:
