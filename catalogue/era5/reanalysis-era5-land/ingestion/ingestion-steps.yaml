@@ -14,7 +14,7 @@ steps:
       collection_id: reanalysis-era5-land
       date: [1950-01-01/2023-10-31]
       time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
-      variable: [2m_temperature, total_precipitation, 10m_u_component_of_wind, 10m_v_component_of_wind]
+      variable: [2m_temperature, total_precipitation, 10m_u_component_of_wind, 10m_v_component_of_wind, surface_net_solar_radiation]
     request_chunker_kwargs: {time_dim: valid_time}
     request_chunks: {day: 5}
 - chunks: {latitude: 32, longitude: 64, valid_time: 2880}
