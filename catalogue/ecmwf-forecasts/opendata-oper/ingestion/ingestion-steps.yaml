@@ -1,5 +1,5 @@
 steps:
-- chunks: {latitude: 32, longitude: 32, step: 65}
+- chunks: {latitude: 256, longitude: 256, step: 65}
   robust_to_zarr_kwargs: {time_dim: step, time_restart_block: 65}
   to_zarr_kwargs:
     store: s3://data-access-dev/nm/ecmwf-forecasts/opendata-oper.zarr
