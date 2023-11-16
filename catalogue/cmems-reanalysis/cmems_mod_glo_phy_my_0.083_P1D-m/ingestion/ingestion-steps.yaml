@@ -1,7 +1,8 @@
 steps:
-- robust_to_zarr_kwargs: {time_dim: time, time_restart_block: 8}
+- robust_to_zarr_kwargs: {time_dim: time, time_restart_block: 4}
   to_zarr_kwargs: {store: 's3://cmems-reanalysis/cmems_mod_glo_phy_my_0.083_P1D-m.zarr', write_empty_chunks: false}
   xarray_open_kwargs:
     chunks: {"latitude": 128, "longitude": 256, "depth": 1, "time": 120}
     filename_or_obj: https://aamici:kA2iDeh5c!f*tW.@my.cmems-du.eu/thredds/dodsC/cmems_mod_glo_phy_my_0.083_P1D-m
     engine: netcdf4
+    drop_variables: [so, thetao, vo, uo]
