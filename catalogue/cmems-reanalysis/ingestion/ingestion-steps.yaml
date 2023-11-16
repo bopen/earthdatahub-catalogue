@@ -1,8 +1,0 @@
-steps:
-- chunks: {latitude: 32, longitude: 64}
-  robust_to_zarr_kwargs: {time_dim: time, time_restart_block: 96}
-  to_zarr_kwargs: {store: 's3://data-access-dev/cmems/cmems-reanlysis.zarr', write_empty_chunks: false}
-  xarray_open_kwargs:
-    chunks: {time: 20, depth: 1, latitude: 32, longitude: 64}
-    filename_or_obj: https://nrt.cmems-du.eu/thredds/dodsC/cmems_mod_glo_phy_anfc_0.083deg_PT1H-m
-    engine: pydap
