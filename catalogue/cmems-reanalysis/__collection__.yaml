@@ -1,0 +1,39 @@
+title: Global Ocean Physics Reanalysis
+dc:abstract: The GLORYS12V1 product is the CMEMS global ocean eddy-resolving (1/12° horizontal resolution, 50 vertical levels) reanalysis covering the altimetry (1993 onward).
+
+links:
+- title: ERA5 documentation
+  rel: derived_from
+  href: https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation
+  type: text/html
+- title: Licence to use Copernicus products
+  rel: license
+  href: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+  type: application/pdf
+extent:
+  spatial:
+    bbox:
+    - - -180
+      - -90
+      - 180
+      - 90
+  temporal:
+    interval:
+    - - 1993-01-01T12:00:00Z
+      - 2020-12-31T12:00:00Z
+license: various
+keywords:
+- CMEMS
+- reanalysis
+- ocean
+providers:
+- name: CMEMS
+  roles:
+  - producer
+  - licensor
+  url: https://marine.copernicus.eu
+assets:
+  thumbnail:
+    href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/era5/thumbnail_bd126ec0726b50cf50767a44a0b90fafe7757d0b7b97ddef6d723afc1203b472.png
+    roles:
+    - thumbnail
