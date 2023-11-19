@@ -36,12 +36,12 @@ properties:
       axis: x
       reference_system: 4326
   cube:variables:
-    t2m:
-      dimensions: [valid_time, latitude, longitude]
+    mlotst:
+      dimensions: [time, latitude, longitude]
       type: data
-      unit: K
+      unit: m
       description: |
-        *2m temperature*. Temperature of air at 2m above the surface of land, sea or in-land waters. 2m temperature is calculated by interpolating between the lowest model level and the Earth's surface, taking account of the atmospheric conditions. Temperature measured in kelvin can be converted to degrees Celsius (°C) by subtracting 273.15.
+        Density ocean mixed layer thickness
 
 providers:
 - name: CMEMS
