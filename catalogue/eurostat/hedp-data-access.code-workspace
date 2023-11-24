@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../hedp-data-access"
+		},
+		{
+			"path": "../../../hedp-webportal"
+		},
+		{
+			"path": "../.."
+		}
+	]
+}
