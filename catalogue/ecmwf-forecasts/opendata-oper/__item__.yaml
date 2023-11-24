@@ -4,15 +4,15 @@ links:
   href: https://www.ecmwf.int/en/forecasts/documentation-and-support/medium-range-forecasts
   type: text/html
 bbox:
-- -180
-- -90
-- 180
-- 90
+- -180.0
+- -90.0
+- 179.6
+- 90.0
 properties:
-  # datetime: null
-  # start_datetime: #  1940-01-01
-  # end_datetime: #  2023-08-31
-  dc:abstract: The high-resolution forecast is a single forecast included in the ECMWF medium-range forecasts. The forecast has a horizontal resolution of around 9 km and provides a description of a possible evolution of the weather out to 10 days ahead
+  dc:abstract: The high-resolution forecast is a single forecast included in the ECMWF
+    medium-range forecasts. The forecast has a horizontal resolution of around 9 km
+    and provides a description of a possible evolution of the weather out to 10 days
+    ahead
   dc:access_rights: charges apply
   dc:title: ECMWF high-resolution forecast
   dc:subject:
@@ -21,8 +21,144 @@ properties:
   - ECMWF
   - forecast
   - weather
-
-license: CC-BY-4.0 # checked
+  cube:variables:
+    10u:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre U wind component
+      units: m s**-1
+    10v:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre V wind component
+      units: m s**-1
+    2t:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre temperature
+      units: K
+    d:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Divergence
+      units: s**-1
+    gh:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Geopotential height
+      units: gpm
+    q:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Specific humidity
+      units: kg kg**-1
+    r:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Relative humidity
+      units: '%'
+    ro:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: Runoff
+      units: m
+    sp:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: Surface pressure
+      units: Pa
+    st:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: Soil temperature
+      units: K
+    t:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Temperature
+      units: K
+    tcwv:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: Total column vertically-integrated water vapour
+      units: kg m**-2
+    tp:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: Total precipitation
+      units: m
+    u:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: U component of wind
+      units: m s**-1
+    v:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: V component of wind
+      units: m s**-1
+    vo:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Vorticity (relative)
+      units: s**-1
+license: CC-BY-4.0
 providers:
 - name: ECMWF
   roles:
@@ -39,7 +175,7 @@ assets:
     href: s3://hedp/ecmwf-forecasts/opendata-oper-20231016T00.zarr
     roles:
     - data
-    url: https://www.bopen.eu/  
+    url: https://www.bopen.eu/
   thumbnail:
     href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/ecmwf-forecasts/items/opendata-oper/thumbnail_aadad51a1dd3add14b7fbbec7eea7aa56fda437a82b351a81947e7aa6d4f7a75.png
     roles:

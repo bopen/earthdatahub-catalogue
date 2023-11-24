@@ -8,15 +8,14 @@ links:
   href: https://destination-earth.eu/
   type: text/html
 bbox:
-- -27
-- 26
-- 45
-- 74
+- -27.0
+- 26.0
+- 44.9
+- 73.9
 properties:
-  start_datetime: 2015-01-05T00:00:00Z
-  end_datetime: 2019-12-30T00:00:00Z
-  dc:abstract:
-    Europe Eurostat mortality data from 2015 to 2019
+  start_datetime: '2015-01-05T00:00:00Z'
+  end_datetime: '2023-09-11T00:00:00Z'
+  dc:abstract: Europe Eurostat mortality data from 2015 to 2019
   dc:access_rights: charges apply
   dc:title: Eurostat mortality data over Europe
   dc:subject:
@@ -25,7 +24,16 @@ properties:
   - europe
   - geoprocessed
   - geospatial
-
+  cube:variables:
+    mortality_Y_GE65:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    spatial_ref:
+      dimensions: []
+      type: data
 providers:
 - name: EUROSTAT
   roles:

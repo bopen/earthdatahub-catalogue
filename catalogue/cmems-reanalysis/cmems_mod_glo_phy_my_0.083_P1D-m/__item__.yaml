@@ -8,13 +8,13 @@ links:
   href: https://destination-earth.eu/
   type: text/html
 bbox:
-- -27
-- 26
-- 45
-- 74
+- -180.0
+- -80.0
+- 179.9
+- 90.0
 properties:
-  start_datetime: 1993-01-01T00:00:00Z
-  end_datetime: 2020-12-31T00:00:00Z
+  start_datetime: '1993-01-01T12:00:00Z'
+  end_datetime: '2020-12-31T12:00:00Z'
   dc:abstract: Global Ocean Physics Reanalysis
   dc:access_rights: free of charge
   dc:title: Global Ocean Physics Reanalysis
@@ -25,7 +25,9 @@ properties:
   cube:dimensions:
     time:
       type: temporal
-      extent: ['1993-01-01T00:00:00Z', '2020-12-31T00:00:00Z']
+      extent:
+      - '1993-01-01T00:00:00Z'
+      - '2020-12-31T00:00:00Z'
       step: PT1D
     latitude:
       type: spatial
@@ -37,12 +39,64 @@ properties:
       reference_system: 4326
   cube:variables:
     mlotst:
-      dimensions: [time, latitude, longitude]
+      dimensions:
+      - time
+      - latitude
+      - longitude
       type: data
       unit: m
-      description: |
-        Density ocean mixed layer thickness
+      description: 'Density ocean mixed layer thickness
 
+        '
+      units: m
+    bottomT:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Sea floor potential temperature
+      units: degrees_C
+    siconc:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Ice concentration
+      units: '1'
+    sithick:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Sea ice thickness
+      units: m
+    usi:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Sea ice eastward velocity
+      units: m s-1
+    vsi:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Sea ice northward velocity
+      units: m s-1
+    zos:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Sea surface height
+      units: m
 providers:
 - name: CMEMS
   roles:
