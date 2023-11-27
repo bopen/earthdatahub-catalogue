@@ -13,7 +13,7 @@ links:
   type: text/html
 - title: Licence to use Eurostat products
   rel: license
-  href: https://ec.europa.eu/eurostat/about-us/policies/copyright#:~:text=What%20to%20do%20if%20you,listed%20in%20the%20exceptions%20above).
+  href: https://ec.europa.eu/eurostat/about-us/policies/copyright
   type: text/html
 extent:
   spatial:
