@@ -25,11 +25,12 @@ How to access:
 
 ```python
 
-    import xarray as xr
-    
-    ds = xr.open_dataset(
-        "s3://hedp/era5/ecv-for-climate-change-1979-2023.zarr",
-        engine="zarr",
-        chunks={},
-    )
+import xarray as xr
+
+ds = xr.open_dataset(
+    "s3://hedp/era5/ecv-for-climate-change-1979-2023.zarr",
+    engine="zarr",
+    chunks={},
+    storate_options={"enpoint_url": "https://s3.gra.perf.cloud.ovh.net"}
+)
 ```

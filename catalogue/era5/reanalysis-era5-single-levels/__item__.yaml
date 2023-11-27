@@ -34,7 +34,6 @@ properties:
       - longitude
       type: data
       description: 2 metre temperature
-      units: K
       unit: K
     tp:
       dimensions:
@@ -43,7 +42,6 @@ properties:
       - longitude
       type: data
       description: Total precipitation
-      units: m
       unit: m
     u10:
       dimensions:
@@ -52,7 +50,6 @@ properties:
       - longitude
       type: data
       description: 10 metre U wind component
-      units: m s**-1
       unit: m s**-1
     v10:
       dimensions:
@@ -61,7 +58,6 @@ properties:
       - longitude
       type: data
       description: 10 metre V wind component
-      units: m s**-1
       unit: m s**-1
 providers:
 - name: ECMWF

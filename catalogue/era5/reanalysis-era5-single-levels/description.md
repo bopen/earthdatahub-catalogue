@@ -31,9 +31,10 @@ How to access:
 
 import xarray as xr
 
-    ds = xr.open_dataset(
-        "s3://hedp/era5/reanalysis-era5-single-levels-1940-2023.zarr",
-        engine="zarr",
-        chunks={},
-    )
+ds = xr.open_dataset(
+    "s3://ecmwf-era5-single-levels/reanalysis-era5-single-levels.zarr",
+    engine="zarr",
+    chunks={},
+    storate_options={"enpoint_url": "https://s3.gra.perf.cloud.ovh.net"}
+)
 ```

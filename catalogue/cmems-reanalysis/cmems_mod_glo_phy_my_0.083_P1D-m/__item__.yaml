@@ -44,9 +44,8 @@ properties:
       - latitude
       - longitude
       type: data
-      unit: m
       description: Density ocean mixed layer thickness
-      units: m
+      unit: m
     bottomT:
       dimensions:
       - time
@@ -54,7 +53,6 @@ properties:
       - longitude
       type: data
       description: Sea floor potential temperature
-      units: degrees_C
       unit: degrees_C
     siconc:
       dimensions:
@@ -63,7 +61,6 @@ properties:
       - longitude
       type: data
       description: Ice concentration
-      units: '1'
       unit: '1'
     sithick:
       dimensions:
@@ -72,7 +69,6 @@ properties:
       - longitude
       type: data
       description: Sea ice thickness
-      units: m
       unit: m
     usi:
       dimensions:
@@ -81,7 +77,6 @@ properties:
       - longitude
       type: data
       description: Sea ice eastward velocity
-      units: m s-1
       unit: m s-1
     vsi:
       dimensions:
@@ -90,7 +85,6 @@ properties:
       - longitude
       type: data
       description: Sea ice northward velocity
-      units: m s-1
       unit: m s-1
     zos:
       dimensions:
@@ -99,7 +93,6 @@ properties:
       - longitude
       type: data
       description: Sea surface height
-      units: m
       unit: m
 providers:
 - name: CMEMS
