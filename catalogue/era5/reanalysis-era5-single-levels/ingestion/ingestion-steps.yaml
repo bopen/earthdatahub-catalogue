@@ -2,15 +2,13 @@ steps:
 - chunks: {latitude: 256, longitude: 256}
   request_client_class_name: cads-api-client
   robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 72}
-  to_zarr_kwargs:
-    store: s3://ecmwf-era5-single-levels-tmp/reanalysis-era5-single-levels.zarr
-    write_empty_chunks: false
-    consolidated: true
   to_zarr_encoding:
     t2m: {dtype: float16}
     tp: {dtype: float16}
     u10: {dtype: float16}
     v10: {dtype: float16}
+  to_zarr_kwargs: {store: s3://ecmwf-era5-single-levels-tmp/reanalysis-era5-single-levels.zarr,
+    write_empty_chunks: false}
   xarray_open_kwargs:
     cache_kwargs: {cache_file: false}
     cfgrib_kwargs:
@@ -20,18 +18,17 @@ steps:
     filename_or_obj:
       area: ['90', '0', '-90', '360']
       collection_id: reanalysis-era5-single-levels
-      product_type: reanalysis
       date: [1940-01-01/2023-10-31]
       time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
+      product_type: reanalysis
       variable: [2m_temperature, total_precipitation, 10m_u_component_of_wind, 10m_v_component_of_wind]
       # 2m_dewpoint_temperature, mean_sea_level_pressure, mean_wave_direction, mean_wave_period, sea_surface_temperature, significant_height_of_combined_wind_waves_and_swell, surface_pressure]
     request_chunker_kwargs: {time_dim: valid_time}
     request_chunks: {day: 20}
 - chunks: {latitude: 64, longitude: 64, valid_time: 2880}
   robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 6}
-  to_zarr_kwargs:
-    store: s3://ecmwf-era5-single-levels/reanalysis-era5-single-levels.zarr
-    write_empty_chunks: false
+  to_zarr_kwargs: {store: s3://ecmwf-era5-single-levels/reanalysis-era5-single-levels.zarr,
+    write_empty_chunks: false}
   xarray_open_kwargs:
     chunks: {valid_time: 2880}
     engine: zarr
