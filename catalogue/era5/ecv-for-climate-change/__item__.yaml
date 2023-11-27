@@ -35,6 +35,7 @@ properties:
       type: data
       description: Volumetric soil water layer 1
       units: m**3 m**-3
+      unit: m**3 m**-3
     t2m:
       dimensions:
       - time
@@ -43,6 +44,7 @@ properties:
       type: data
       description: 2 metre temperature
       units: K
+      unit: K
     tp:
       dimensions:
       - time
@@ -51,6 +53,7 @@ properties:
       type: data
       description: Total precipitation
       units: m
+      unit: m
 providers:
 - name: ECMWF
   roles:

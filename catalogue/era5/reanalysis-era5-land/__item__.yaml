@@ -52,6 +52,7 @@ properties:
         \ the atmospheric conditions. Temperature measured in kelvin can be converted\
         \ to degrees Celsius (\xB0C) by subtracting 273.15."
       units: K
+      unit: K
     tp:
       dimensions:
       - valid_time
@@ -73,6 +74,7 @@ properties:
         local to a particular point in space and time, rather than representing averages
         over a model grid box and model time step.'
       units: m
+      unit: m
     ssr:
       dimensions:
       - valid_time
@@ -81,6 +83,7 @@ properties:
       type: data
       description: Surface net short-wave (solar) radiation
       units: J m**-2
+      unit: J m**-2
     u10:
       dimensions:
       - valid_time
@@ -89,6 +92,7 @@ properties:
       type: data
       description: 10 metre U wind component
       units: m s**-1
+      unit: m s**-1
     v10:
       dimensions:
       - valid_time
@@ -97,6 +101,7 @@ properties:
       type: data
       description: 10 metre V wind component
       units: m s**-1
+      unit: m s**-1
 providers:
 - name: ECMWF
   roles:

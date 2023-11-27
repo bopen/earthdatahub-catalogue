@@ -55,6 +55,7 @@ properties:
       type: data
       description: Sea floor potential temperature
       units: degrees_C
+      unit: degrees_C
     siconc:
       dimensions:
       - time
@@ -63,6 +64,7 @@ properties:
       type: data
       description: Ice concentration
       units: '1'
+      unit: '1'
     sithick:
       dimensions:
       - time
@@ -71,6 +73,7 @@ properties:
       type: data
       description: Sea ice thickness
       units: m
+      unit: m
     usi:
       dimensions:
       - time
@@ -79,6 +82,7 @@ properties:
       type: data
       description: Sea ice eastward velocity
       units: m s-1
+      unit: m s-1
     vsi:
       dimensions:
       - time
@@ -87,6 +91,7 @@ properties:
       type: data
       description: Sea ice northward velocity
       units: m s-1
+      unit: m s-1
     zos:
       dimensions:
       - time
@@ -95,6 +100,7 @@ properties:
       type: data
       description: Sea surface height
       units: m
+      unit: m
 providers:
 - name: CMEMS
   roles:

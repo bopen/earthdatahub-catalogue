@@ -30,6 +30,7 @@ properties:
       type: data
       description: 10 metre U wind component
       units: m s**-1
+      unit: m s**-1
     10v:
       dimensions:
       - step
@@ -38,6 +39,7 @@ properties:
       type: data
       description: 10 metre V wind component
       units: m s**-1
+      unit: m s**-1
     2t:
       dimensions:
       - step
@@ -46,6 +48,7 @@ properties:
       type: data
       description: 2 metre temperature
       units: K
+      unit: K
     d:
       dimensions:
       - step
@@ -55,6 +58,7 @@ properties:
       type: data
       description: Divergence
       units: s**-1
+      unit: s**-1
     gh:
       dimensions:
       - step
@@ -64,6 +68,7 @@ properties:
       type: data
       description: Geopotential height
       units: gpm
+      unit: gpm
     q:
       dimensions:
       - step
@@ -73,6 +78,7 @@ properties:
       type: data
       description: Specific humidity
       units: kg kg**-1
+      unit: kg kg**-1
     r:
       dimensions:
       - step
@@ -82,6 +88,7 @@ properties:
       type: data
       description: Relative humidity
       units: '%'
+      unit: '%'
     ro:
       dimensions:
       - step
@@ -90,6 +97,7 @@ properties:
       type: data
       description: Runoff
       units: m
+      unit: m
     sp:
       dimensions:
       - step
@@ -98,6 +106,7 @@ properties:
       type: data
       description: Surface pressure
       units: Pa
+      unit: Pa
     st:
       dimensions:
       - step
@@ -106,6 +115,7 @@ properties:
       type: data
       description: Soil temperature
       units: K
+      unit: K
     t:
       dimensions:
       - step
@@ -115,6 +125,7 @@ properties:
       type: data
       description: Temperature
       units: K
+      unit: K
     tcwv:
       dimensions:
       - step
@@ -123,6 +134,7 @@ properties:
       type: data
       description: Total column vertically-integrated water vapour
       units: kg m**-2
+      unit: kg m**-2
     tp:
       dimensions:
       - step
@@ -131,6 +143,7 @@ properties:
       type: data
       description: Total precipitation
       units: m
+      unit: m
     u:
       dimensions:
       - step
@@ -140,6 +153,7 @@ properties:
       type: data
       description: U component of wind
       units: m s**-1
+      unit: m s**-1
     v:
       dimensions:
       - step
@@ -149,6 +163,7 @@ properties:
       type: data
       description: V component of wind
       units: m s**-1
+      unit: m s**-1
     vo:
       dimensions:
       - step
@@ -158,6 +173,7 @@ properties:
       type: data
       description: Vorticity (relative)
       units: s**-1
+      unit: s**-1
 license: CC-BY-4.0
 providers:
 - name: ECMWF
