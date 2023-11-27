@@ -60,9 +60,10 @@ properties:
       type: data
       description: '*Total precipitation*. Accumulated liquid and frozen water, including
         rain and snow, that falls to the Earth''s surface. It is the sum of large-scale
-        precipitation and convective precipitation. Precipitation variables do not include fog,
-        dew or the precipitation that evaporates in the atmosphere before it lands at the
-        surface of the Earth. The units of precipitation are depth in metres.'
+        precipitation and convective precipitation. Precipitation variables do not
+        include fog, dew or the precipitation that evaporates in the atmosphere before
+        it lands at the surface of the Earth. The units of precipitation are depth
+        in metres.'
       unit: m
     ssr:
       dimensions:
