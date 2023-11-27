@@ -45,9 +45,7 @@ properties:
       - longitude
       type: data
       unit: m
-      description: 'Density ocean mixed layer thickness
-
-        '
+      description: Density ocean mixed layer thickness
       units: m
     bottomT:
       dimensions:
