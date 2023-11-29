@@ -24,3 +24,7 @@ Deal includes energy efficiency as a key measure for
 reducing cross-sectoral GHG emissions. Energy efficiency
 and Renewable energy Directives set ambitious EU targets
 to be reached by 2030.
+
+The dataset contains the variables million tonnes of oil equivalent (MTOE),
+Index,2005=100 (I05), and tonnes of oil equivalent per capita (TOE_HAB) for
+NUTS level 0.
