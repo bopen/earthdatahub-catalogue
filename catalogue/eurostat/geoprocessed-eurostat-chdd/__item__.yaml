@@ -8,10 +8,10 @@ links:
   href: https://destination-earth.eu/
   type: text/html
 bbox:
-- 6.0
-- 35.0
-- 19.0
-- 55.0
+- -27.0
+- 26.0
+- 44.9
+- 73.9
 properties:
   start_datetime: '1979-01-01T00:00:00Z'
   end_datetime: '2022-01-01T00:00:00Z'
@@ -28,13 +28,49 @@ properties:
   - heating
   - cooling
   cube:variables:
-    cdd:
+    L0_NR_CDD:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    hdd:
+    L0_NR_HDD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_CDD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_HDD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_CDD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_HDD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_CDD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_HDD:
       dimensions:
       - time
       - lat
@@ -63,6 +99,6 @@ assets:
     roles:
     - thumbnail
   data:
-    href: s3://eurostat/eurostat-cooling-and-heating-degree-days-1979-2022.zarr
+    href: s3://eurostat/nrg_chddr2_a-19790101-20220101.zarr
     roles:
     - data

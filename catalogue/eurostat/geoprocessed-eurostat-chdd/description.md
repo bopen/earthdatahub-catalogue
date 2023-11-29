@@ -7,3 +7,5 @@ the cooling (air-conditioning) requirements of buildings.
 
 HDD and CDD are derived from meteorological observations of air temperature, interpolated to regular grids
 at 25 km resolution for Europe.
+
+HDD and CDD are available for NUTS levels 0,1,2,3.
