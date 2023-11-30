@@ -26,91 +26,361 @@ properties:
   - geoprocessed
   - geospatial
   cube:variables:
-    population_F_TOTAL:
+    L0_NR_F_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_F_UNK:
+    L0_NR_F_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_F_Y15_64:
+    L0_NR_F_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_F_Y_GE65:
+    L0_NR_F_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_F_Y_LT15:
+    L0_NR_F_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_M_TOTAL:
+    L0_NR_M_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_M_UNK:
+    L0_NR_M_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_M_Y15_64:
+    L0_NR_M_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_M_Y_GE65:
+    L0_NR_M_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_M_Y_LT15:
+    L0_NR_M_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_T_TOTAL:
+    L0_NR_T_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_T_UNK:
+    L0_NR_T_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_T_Y15_64:
+    L0_NR_T_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_T_Y_GE65:
+    L0_NR_T_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    population_T_Y_LT15:
+    L0_NR_T_Y_LT15:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_F_TOTAL:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_F_UNK:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_F_Y15_64:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_F_Y_GE65:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_F_Y_LT15:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_M_TOTAL:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_M_UNK:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_M_Y15_64:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_M_Y_GE65:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_M_Y_LT15:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_T_TOTAL:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_T_UNK:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_T_Y15_64:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_T_Y_GE65:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_T_Y_LT15:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_F_TOTAL:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_F_UNK:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_F_Y15_64:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_F_Y_GE65:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_F_Y_LT15:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_M_TOTAL:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_M_UNK:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_M_Y15_64:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_M_Y_GE65:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_M_Y_LT15:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_T_TOTAL:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_T_UNK:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_T_Y15_64:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_T_Y_GE65:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_T_Y_LT15:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_F_TOTAL:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_F_UNK:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_F_Y15_64:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_F_Y_GE65:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_F_Y_LT15:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_M_TOTAL:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_M_UNK:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_M_Y15_64:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_M_Y_GE65:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_M_Y_LT15:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_T_TOTAL:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_T_UNK:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_T_Y15_64:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_T_Y_GE65:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_T_Y_LT15:
       dimensions:
       - time
       - lat
@@ -139,6 +409,6 @@ assets:
     roles:
     - thumbnail
   data:
-    href: s3://eurostat/eurostat-population-1990-2021.zarr
+    href: s3://eurostat/demo_r_pjanaggr3-19900101-20220101.zarr
     roles:
     - data
