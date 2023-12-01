@@ -20,17 +20,3 @@ Climatologies and anomalies are calculated with respect to two reference periods
 The C3S monthly climate bulletin (https://climate.copernicus.eu/climate-bulletins) provides
 an assessment of the monthly state of the climate with an emphasis on the European geographical domain. 
 This data record is used as the basis for these monthly bulletins.
-
-How to access:
-
-```python
-
-import xarray as xr
-
-ds = xr.open_dataset(
-    "s3://hedp/era5/ecv-for-climate-change-1979-2023.zarr",
-    engine="zarr",
-    chunks={},
-    storate_options={"enpoint_url": "https://s3.gra.perf.cloud.ovh.net"}
-)
-```

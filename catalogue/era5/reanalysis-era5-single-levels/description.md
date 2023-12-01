@@ -24,17 +24,3 @@ Single levels variables are computed at one vertical level which can be surface 
 surface) or a dedicated pressure level in the atmosphere.
 
 Here we propose a focus on ERA5 hourly data on single levels (atmospheric, ocean-wave and land surface quantities) from 1940 to 2023
-
-How to access:
-
-```python
-
-import xarray as xr
-
-ds = xr.open_dataset(
-    "s3://ecmwf-era5-single-levels/reanalysis-era5-single-levels.zarr",
-    engine="zarr",
-    chunks={},
-    storate_options={"enpoint_url": "https://s3.gra.perf.cloud.ovh.net"}
-)
-```

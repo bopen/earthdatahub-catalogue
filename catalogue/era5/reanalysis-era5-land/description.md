@@ -22,19 +22,3 @@ businesses and individuals to access and use more accurate information on land s
 Here we propose a focus on Europe ERA5-Land hourly data from 1950 to 2023 as a zarr store optimised for time-analysis.
 
 Access is free to registered user thank to the support of the Destination Earth initiative.
-
-
-How to access:
-
-
-```python
-
-import xarray as xr
-
-ds = xr.open_dataset(
-    "s3://ecmwf-era5-land/reanalysis-era5-land-no-antartica-v0.zarr",
-    engine="zarr",
-    chunks={},
-    storate_options={"enpoint_url": "https://s3.gra.perf.cloud.ovh.net"}
-)
-```
