@@ -1,0 +1,222 @@
+links:
+- title: Eurostat
+  rel: derived_from
+  href: https://ec.europa.eu/eurostat/cache/metadata/en/reg_eco10_esms.htm
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- -27.0
+- 26.0
+- 44.9
+- 73.9
+properties:
+  start_datetime: '2000-01-01T00:00:00Z'
+  end_datetime: '2021-01-01T00:00:00Z'
+  dc:abstract: Europe EUROSTAT Gross domestic product (GDP) at current market prices by NUTS 3 regions from 2000 to 2022
+  dc:access_rights: charges apply
+  dc:title: Europe Gross domestic product (GDP)
+  dc:subject:
+  - eurostat
+  - economy
+  - gross domestic product
+  - europe
+  - geoprocessed
+  - geospatial
+  cube:variables:
+    L0_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_EUR_HAB_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_PPS_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PPS_EU27_2020_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PPS_HAB_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_EUR_HAB_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_MIO_PPS_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_PPS_EU27_2020_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_PPS_HAB_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_EUR_HAB_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MIO_PPS_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_PPS_EU27_2020_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_PPS_HAB_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_EUR_HAB_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MIO_PPS_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_PPS_EU27_2020_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_PPS_HAB_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    spatial_ref:
+      dimensions: []
+      type: data
+providers:
+- name: EUROSTAT
+  roles:
+  - producer
+  - licensor
+  url: https://ec.europa.eu/eurostat/web/main/home
+- name: B-Open
+  roles:
+  - host
+  url: https://www.bopen.eu/
+- name: mundialis GmbH & Co. KG
+  roles:
+  - processor
+  url: https://www.mundialis.de/
+assets:
+  thumbnail:
+    href: https://apps.mundialis.de/thumbnails/5/thumbnail.png # TODO!
+    roles:
+    - thumbnail
+  data:
+    href: s3://eurostat/nama_10r_3gdp-20000101-20210101.zarr
+    roles:
+    - data
