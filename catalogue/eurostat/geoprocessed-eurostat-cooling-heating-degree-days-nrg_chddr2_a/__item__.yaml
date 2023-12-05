@@ -95,7 +95,7 @@ providers:
   url: https://www.mundialis.de/
 assets:
   thumbnail:
-    href: https://apps.mundialis.de/thumbnails/2/thumbnail.png
+    href: https://apps.mundialis.de/bopen_hedp/thumbnails/nrg_chddr2_a-19790101-20220101.png
     roles:
     - thumbnail
   data:

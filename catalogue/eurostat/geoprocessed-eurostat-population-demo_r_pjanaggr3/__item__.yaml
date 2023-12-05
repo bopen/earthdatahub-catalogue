@@ -405,7 +405,7 @@ providers:
   url: https://www.mundialis.de/
 assets:
   thumbnail:
-    href: https://apps.mundialis.de/thumbnails/4/thumbnail.png
+    href: https://apps.mundialis.de/bopen_hedp/thumbnails/demo_r_pjanaggr3-19900101-20220101.png
     roles:
     - thumbnail
   data:

@@ -213,7 +213,7 @@ providers:
   url: https://www.mundialis.de/
 assets:
   thumbnail:
-    href: https://apps.mundialis.de/thumbnails/5/thumbnail.png # TODO!
+    href: https://apps.mundialis.de/bopen_hedp/thumbnails/nama_10r_3gdp-20000101-20210101.png
     roles:
     - thumbnail
   data:
