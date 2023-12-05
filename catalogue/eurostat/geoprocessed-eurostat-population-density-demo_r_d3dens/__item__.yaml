@@ -1,0 +1,78 @@
+links:
+- title: Eurostat
+  rel: derived_from
+  href: https://ec.europa.eu/eurostat/cache/metadata/en/demo_pop_esms.htm
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- -27.0
+- 26.0
+- 44.9
+- 73.9
+properties:
+  start_datetime: '1990-01-01T00:00:00Z'
+  end_datetime: '2022-01-01T00:00:00Z'
+  dc:abstract: Europe Eurostat population density data from 1990 to 2022
+  dc:access_rights: charges apply
+  dc:title: Eurostat population density data over Europe
+  dc:subject:
+  - eurostat
+  - population density
+  - europe
+  - unidemo
+  - geoprocessed
+  - geospatial
+  cube:variables:
+    L0_PER_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_PER_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_PER_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_PER_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    spatial_ref:
+      dimensions: []
+      type: data
+providers:
+- name: EUROSTAT
+  roles:
+  - producer
+  - licensor
+  url: https://ec.europa.eu/eurostat/web/main/home
+- name: B-Open
+  roles:
+  - host
+  url: https://www.bopen.eu/
+- name: mundialis GmbH & Co. KG
+  roles:
+  - processor
+  url: https://www.mundialis.de/
+assets:
+  thumbnail:
+    href: https://apps.mundialis.de/bopen_hedp/thumbnails/demo_r_d3dens-19900101-20220101.png
+    roles:
+    - thumbnail
+  data:
+    href: s3://eurostat/demo_r_d3dens-19900101-20220101.zarr
+    roles:
+    - data
