@@ -1,0 +1,505 @@
+links:
+- title: Eurostat
+  rel: derived_from
+  href: https://ec.europa.eu/eurostat/cache/metadata/en/gov_10dd_esms.htm
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- -27.0
+- 26.0
+- 44.9
+- 73.9
+properties:
+  start_datetime: '1995-01-01T00:00:00Z'
+  end_datetime: '2022-01-01T00:00:00Z'
+  dc:abstract: Europe EUROSTAT Government deficit and debt
+  dc:access_rights: charges apply
+  dc:title: Europe EUROSTAT Government deficit and debt
+  dc:subject:
+  - eurostat
+  - government
+  - finance
+  - europe
+  - geoprocessed
+  - geospatial
+  cube:variables:
+    L0_MIO_EUR_S1311_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S1311_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S1312_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S1312_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S1313_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S1313_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S1314_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S1314_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_AF_81L:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_D41PAY:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_GD_F2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_GD_F3:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_GD_F31:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_GD_F32:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_GD_F4:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_GD_F41:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_GD_F42:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_IGL_F4_EA19:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_IGL_F4_EA20:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_IGL_F4_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S13_P51G:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S1_B1GQ:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_EUR_S1_B5GQ:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S1311_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S1311_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S1312_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S1312_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S1313_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S1313_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S1314_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S1314_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_AF_81L:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_D41PAY:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_GD_F2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_GD_F3:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_GD_F31:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_GD_F32:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_GD_F4:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_GD_F41:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_GD_F42:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_IGL_F4_EA19:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_IGL_F4_EA20:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_IGL_F4_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S13_P51G:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S1_B1GQ:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MIO_NAC_S1_B5GQ:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S1311_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S1311_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S1312_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S1312_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S1313_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S1313_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S1314_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S1314_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_AF_81L:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_B9:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_D41PAY:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_GD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_GD_F2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_GD_F3:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_GD_F31:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_GD_F32:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_GD_F4:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_GD_F41:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_GD_F42:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_IGL_F4_EA19:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_IGL_F4_EA20:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_IGL_F4_EU27_2020:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S13_P51G:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S1_B1GQ:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PC_GDP_S1_B5GQ:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    spatial_ref:
+      dimensions: []
+      type: data
+license: CC-BY-4.0 - Contains modified Eurostat data – created by mundialis
+providers:
+- name: EUROSTAT
+  roles:
+  - producer
+  - licensor
+  url: https://ec.europa.eu/eurostat/web/main/home
+- name: B-Open
+  roles:
+  - host
+  url: https://www.bopen.eu/
+- name: mundialis GmbH & Co. KG
+  roles:
+  - processor
+  url: https://www.mundialis.de/
+assets:
+  thumbnail:
+    href: https://apps.mundialis.de/bopen_hedp/thumbnails/gov_10dd_edpt1-19950101-20220101.png
+    roles:
+    - thumbnail
+  data:
+    href: s3://eurostat/gov_10dd_edpt1-19950101-20220101.zarr
+    roles:
+    - data
