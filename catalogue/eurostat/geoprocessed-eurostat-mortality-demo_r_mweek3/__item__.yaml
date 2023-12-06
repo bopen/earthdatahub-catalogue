@@ -49,6 +49,54 @@ properties:
       - lat
       - lon
       type: data
+    L0_NR_T_Y70_74:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_T_Y70_74:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_T_Y70_74:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_T_Y70_74:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NR_T_Y75_79:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_NR_T_Y75_79:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_NR_T_Y75_79:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_NR_T_Y75_79:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
     spatial_ref:
       dimensions: []
       type: data
