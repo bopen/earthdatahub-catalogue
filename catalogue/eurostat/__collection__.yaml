@@ -11,9 +11,9 @@ links:
   rel: derived_from
   href: https://ec.europa.eu/eurostat/en/web/main/publications/manuals-and-guidelines
   type: text/html
-- title: Licence to use Eurostat products
+- title: CC-BY-4.0 - Contains modified Eurostat data – created by mundialis
   rel: license
-  href: https://ec.europa.eu/eurostat/about-us/policies/copyright
+  href: https://creativecommons.org/licenses/by/4.0/
   type: text/html
 extent:
   spatial:
