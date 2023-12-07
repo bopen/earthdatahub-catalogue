@@ -1,7 +1,7 @@
 links:
 - title: Eurostat
   rel: derived_from
-  href: https://ec.europa.eu/eurostat/cache/metadata/en/nrg_chdd_esms.htm
+  href: https://ec.europa.eu/eurostat/cache/metadata/en/reg_lmk_esms.htm
   type: text/html
 - title: Destination Earth
   rel: funded_by
