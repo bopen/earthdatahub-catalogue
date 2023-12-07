@@ -1,0 +1,655 @@
+links:
+- title: Eurostat
+  rel: derived_from
+  href: https://ec.europa.eu/eurostat/cache/metadata/en/nrg_chdd_esms.htm
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- -27.0
+- 26.0
+- 44.9
+- 73.9
+properties:
+  start_datetime: '1995-01-01T00:00:00Z'
+  end_datetime: '2022-01-01T00:00:00Z'
+  dc:abstract: Europe Eurostat Regional Labour Market Employment Rates by sex, age, educational attainment level, citizenship and degree of urbanisation
+  dc:access_rights: charges apply
+  dc:title: Eurostat Regional Labour Market Employment Rates
+  dc:subject:
+  - eurostat
+  - labour market
+  - employment
+  - europe
+  - geoprocessed
+  - geospatial
+  cube:variables:
+    L0_DEG1_TOTAL_ED0_2_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_ED0_2_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_ED0_2_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_ED0_2_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_ED3_4_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_ED3_4_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_ED3_4_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_ED3_4_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_ED5_8_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_ED5_8_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_ED5_8_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_ED5_8_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_NRP_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_NRP_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_NRP_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_NRP_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_TOTAL_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_TOTAL_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_TOTAL_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG1_TOTAL_TOTAL_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_ED0_2_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_ED0_2_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_ED0_2_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_ED0_2_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_ED3_4_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_ED3_4_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_ED3_4_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_ED3_4_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_ED5_8_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_ED5_8_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_ED5_8_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_ED5_8_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_NRP_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_NRP_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_NRP_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_NRP_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_TOTAL_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_TOTAL_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_TOTAL_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG2_TOTAL_TOTAL_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_ED0_2_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_ED0_2_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_ED0_2_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_ED0_2_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_ED3_4_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_ED3_4_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_ED3_4_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_ED3_4_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_ED5_8_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_ED5_8_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_ED5_8_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_ED5_8_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_NRP_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_NRP_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_NRP_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_NRP_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_TOTAL_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_TOTAL_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_TOTAL_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_DEG3_TOTAL_TOTAL_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_ED0_2_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_ED0_2_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_ED0_2_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_ED0_2_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_ED3_4_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_ED3_4_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_ED3_4_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_ED3_4_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_ED5_8_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_ED5_8_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_ED5_8_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_ED5_8_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_NRP_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_NRP_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_NRP_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_NRP_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_TOTAL_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_TOTAL_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_TOTAL_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_NRP_TOTAL_TOTAL_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_ED0_2_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_ED0_2_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_ED0_2_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_ED0_2_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_ED3_4_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_ED3_4_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_ED3_4_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_ED3_4_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_ED5_8_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_ED5_8_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_ED5_8_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_ED5_8_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_NRP_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_NRP_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_NRP_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_NRP_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_TOTAL_Y15_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_TOTAL_Y20_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_TOTAL_Y25_54_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_TOTAL_TOTAL_Y55_64_T_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    spatial_ref:
+      dimensions: []
+      type: data
+license: CC-BY-4.0 - Contains modified Eurostat data – created by mundialis
+providers:
+- name: EUROSTAT
+  roles:
+  - producer
+  - licensor
+  url: https://ec.europa.eu/eurostat/web/main/home
+- name: B-Open
+  roles:
+  - host
+  url: https://www.bopen.eu/
+- name: mundialis GmbH & Co. KG
+  roles:
+  - processor
+  url: https://www.mundialis.de/
+assets:
+  thumbnail:
+    href: https://apps.mundialis.de/bopen_hedp/thumbnails/lfst_r_erednu-19950101-20220101.png
+    roles:
+    - thumbnail
+  data:
+    href: s3://eurostat/lfst_r_erednu-19950101-20220101.zarr
+    roles:
+    - data
