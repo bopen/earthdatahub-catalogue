@@ -1,0 +1,902 @@
+links:
+- title: Eurostat
+  rel: derived_from
+  href: https://ec.europa.eu/eurostat/cache/metadata/en/apro_anip_esms.htm
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- -27.0
+- 26.0
+- 44.9
+- 73.9
+properties:
+  start_datetime: '1977-01-01T00:00:00Z'
+  end_datetime: '2023-01-01T00:00:00Z'
+  dc:abstract: Europe EUROSTAT Animal populations by NUTS 2 regions
+  dc:access_rights: charges apply
+  dc:title: Europe EUROSTAT Animal populations by NUTS 2 regions
+  dc:subject:
+  - eurostat
+  - agriculture
+  - livestock
+  - animals
+  - europe
+  - geoprocessed
+  - geospatial
+  cube:variables:
+    L0_A2000_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2010B_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2010C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2010_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2020_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2030_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2110C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2120_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2130_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2210C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2220B_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2220C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2220_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2230B_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2230C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2230_2330_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2230_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2300F_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2300G_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2300_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2400_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2410_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A2420_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3100_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3110_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3120KA_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3120K_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3120LA_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3120L_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3120_3133_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3120_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3131_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3132X_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3132Y_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3132Z_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3132_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A3133_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A4100_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A4110KC_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A4110KD_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A4110K_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A4120_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A4200_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A4210KA_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A4210KB_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A4210K_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_A4220_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2000_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2010B_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2010C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2010_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2020_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2030_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2110C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2120_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2130_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2210C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2220B_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2220C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2220_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2230B_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2230C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2230_2330_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2230_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2300F_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2300G_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2300_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2400_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2410_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A2420_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3100_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3110_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3120KA_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3120K_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3120LA_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3120L_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3120_3133_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3120_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3131_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3132X_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3132Y_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3132Z_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3132_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A3133_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A4100_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A4110KC_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A4110KD_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A4110K_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A4120_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A4200_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A4210KA_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A4210KB_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A4210K_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_A4220_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2000_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2010B_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2010C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2010_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2020_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2030_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2110C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2120_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2130_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2210C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2220B_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2220C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2220_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2230B_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2230C_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2230_2330_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2230_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2300F_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2300G_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2300_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2400_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2410_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A2420_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3100_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3110_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3120KA_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3120K_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3120LA_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3120L_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3120_3133_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3120_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3131_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3132X_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3132Y_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3132Z_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3132_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A3133_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A4100_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A4110KC_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A4110KD_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A4110K_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A4120_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A4200_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A4210KA_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A4210KB_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A4210K_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_A4220_THS_HD:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    spatial_ref:
+      dimensions: []
+      type: data
+license: CC-BY-4.0 - Contains modified Eurostat data – created by mundialis
+providers:
+- name: EUROSTAT
+  roles:
+  - producer
+  - licensor
+  url: https://ec.europa.eu/eurostat/web/main/home
+- name: B-Open
+  roles:
+  - host
+  url: https://www.bopen.eu/
+- name: mundialis GmbH & Co. KG
+  roles:
+  - processor
+  url: https://www.mundialis.de/
+assets:
+  thumbnail:
+    href: https://apps.mundialis.de/bopen_hedp/thumbnails/agr_r_animal-19770101-20230101.png
+    roles:
+    - thumbnail
+  data:
+    href: s3://eurostat/agr_r_animal-19770101-20230101.zarr
+    roles:
+    - data

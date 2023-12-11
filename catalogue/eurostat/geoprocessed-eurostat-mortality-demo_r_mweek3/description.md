@@ -13,4 +13,4 @@ Data variables are available for
 - temporal resolution: weekly
 - temporal extent: 01.01.2000-30.10.2023
 - sex: Total
-- age class: Y65-69,Y70-74,Y75-79
+- age class: Y65-69,Y70-74,Y75-79,Y80-84

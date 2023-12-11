@@ -1,0 +1,685 @@
+links:
+- title: Eurostat
+  rel: derived_from
+  href: https://ec.europa.eu/eurostat/cache/metadata/en/rd_esms.htm
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- -27.0
+- 26.0
+- 44.9
+- 73.9
+properties:
+  start_datetime: '1980-01-01T00:00:00Z'
+  end_datetime: '2022-01-01T00:00:00Z'
+  dc:abstract: Europe EUROSTAT Gross Domestic Expenditure on Research and Development (GERD) by sector of performance and NUTS 2 regions
+  dc:access_rights: charges apply
+  dc:title: Europe EUROSTAT GERD
+  dc:subject:
+  - eurostat
+  - GERD
+  - R&D
+  - europe
+  - geoprocessed
+  - geospatial
+  cube:variables:
+    L0_BES_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_BES_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_BES_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_BES_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_BES_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_BES_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_BES_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_GOV_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_GOV_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_GOV_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_GOV_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_GOV_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_GOV_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_GOV_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_HES_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_HES_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_HES_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_HES_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_HES_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_HES_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_HES_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PNP_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PNP_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PNP_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PNP_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PNP_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PNP_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_PNP_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_BES_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_BES_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_BES_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_BES_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_BES_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_BES_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_BES_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_GOV_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_GOV_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_GOV_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_GOV_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_GOV_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_GOV_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_GOV_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_HES_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_HES_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_HES_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_HES_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_HES_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_HES_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_HES_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_PNP_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_PNP_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_PNP_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_PNP_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_PNP_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_PNP_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_PNP_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_TOTAL_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_TOTAL_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_TOTAL_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_TOTAL_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_TOTAL_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_TOTAL_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L1_TOTAL_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_BES_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_BES_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_BES_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_BES_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_BES_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_BES_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_BES_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_GOV_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_GOV_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_GOV_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_GOV_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_GOV_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_GOV_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_GOV_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_HES_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_HES_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_HES_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_HES_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_HES_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_HES_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_HES_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_PNP_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_PNP_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_PNP_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_PNP_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_PNP_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_PNP_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_PNP_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_EUR_HAB:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_MIO_EUR:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_MIO_NAC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_MIO_PPS:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_MIO_PPS_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_PC_GDP:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_PPS_HAB_KP05:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    spatial_ref:
+      dimensions: []
+      type: data
+license: CC-BY-4.0 - Contains modified Eurostat data – created by mundialis
+providers:
+- name: EUROSTAT
+  roles:
+  - producer
+  - licensor
+  url: https://ec.europa.eu/eurostat/web/main/home
+- name: B-Open
+  roles:
+  - host
+  url: https://www.bopen.eu/
+- name: mundialis GmbH & Co. KG
+  roles:
+  - processor
+  url: https://www.mundialis.de/
+assets:
+  thumbnail:
+    href: https://apps.mundialis.de/bopen_hedp/thumbnails/rd_e_gerdreg-19800101-20220101.png
+    roles:
+    - thumbnail
+  data:
+    href: s3://eurostat/rd_e_gerdreg-19800101-20220101.zarr
+    roles:
+    - data
