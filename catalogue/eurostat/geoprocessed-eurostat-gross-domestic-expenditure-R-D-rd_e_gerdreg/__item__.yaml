@@ -1,7 +1,7 @@
 links:
 - title: Eurostat
   rel: derived_from
-  href: https://ec.europa.eu/eurostat/cache/metadata/en/apro_anip_esms.htm
+  href: https://ec.europa.eu/eurostat/cache/metadata/en/rd_esms.htm
   type: text/html
 - title: Destination Earth
   rel: funded_by
@@ -13,861 +13,644 @@ bbox:
 - 44.9
 - 73.9
 properties:
-  start_datetime: '1977-01-01T00:00:00Z'
-  end_datetime: '2023-01-01T00:00:00Z'
-  dc:abstract: Europe EUROSTAT Animal populations by NUTS 2 regions
+  start_datetime: '1980-01-01T00:00:00Z'
+  end_datetime: '2022-01-01T00:00:00Z'
+  dc:abstract: Europe EUROSTAT Gross Domestic Expenditure on Research and Development (GERD) by sector of performance and NUTS 2 regions
   dc:access_rights: charges apply
-  dc:title: Europe EUROSTAT Animal populations by NUTS 2 regions
+  dc:title: Europe EUROSTAT GERD
   dc:subject:
   - eurostat
-  - agriculture
-  - livestock
-  - animals
+  - GERD
+  - R&D
   - europe
   - geoprocessed
   - geospatial
   cube:variables:
-    L0_A2000_THS_HD:
+    L0_BES_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2010B_THS_HD:
+    L0_BES_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2010C_THS_HD:
+    L0_BES_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2010_THS_HD:
+    L0_BES_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2020_THS_HD:
+    L0_BES_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2030_THS_HD:
+    L0_BES_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2110C_THS_HD:
+    L0_BES_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2120_THS_HD:
+    L0_GOV_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2130_THS_HD:
+    L0_GOV_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2210C_THS_HD:
+    L0_GOV_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2220B_THS_HD:
+    L0_GOV_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2220C_THS_HD:
+    L0_GOV_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2220_THS_HD:
+    L0_GOV_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2230B_THS_HD:
+    L0_GOV_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2230C_THS_HD:
+    L0_HES_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2230_2330_THS_HD:
+    L0_HES_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2230_THS_HD:
+    L0_HES_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2300F_THS_HD:
+    L0_HES_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2300G_THS_HD:
+    L0_HES_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2300_THS_HD:
+    L0_HES_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2400_THS_HD:
+    L0_HES_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2410_THS_HD:
+    L0_PNP_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A2420_THS_HD:
+    L0_PNP_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3100_THS_HD:
+    L0_PNP_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3110_THS_HD:
+    L0_PNP_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3120KA_THS_HD:
+    L0_PNP_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3120K_THS_HD:
+    L0_PNP_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3120LA_THS_HD:
+    L0_PNP_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3120L_THS_HD:
+    L0_TOTAL_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3120_3133_THS_HD:
+    L0_TOTAL_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3120_THS_HD:
+    L0_TOTAL_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3131_THS_HD:
+    L0_TOTAL_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3132X_THS_HD:
+    L0_TOTAL_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3132Y_THS_HD:
+    L0_TOTAL_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3132Z_THS_HD:
+    L0_TOTAL_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3132_THS_HD:
+    L1_BES_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A3133_THS_HD:
+    L1_BES_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A4100_THS_HD:
+    L1_BES_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A4110KC_THS_HD:
+    L1_BES_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A4110KD_THS_HD:
+    L1_BES_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A4110K_THS_HD:
+    L1_BES_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A4120_THS_HD:
+    L1_BES_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A4200_THS_HD:
+    L1_GOV_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A4210KA_THS_HD:
+    L1_GOV_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A4210KB_THS_HD:
+    L1_GOV_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A4210K_THS_HD:
+    L1_GOV_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L0_A4220_THS_HD:
+    L1_GOV_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2000_THS_HD:
+    L1_GOV_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2010B_THS_HD:
+    L1_GOV_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2010C_THS_HD:
+    L1_HES_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2010_THS_HD:
+    L1_HES_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2020_THS_HD:
+    L1_HES_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2030_THS_HD:
+    L1_HES_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2110C_THS_HD:
+    L1_HES_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2120_THS_HD:
+    L1_HES_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2130_THS_HD:
+    L1_HES_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2210C_THS_HD:
+    L1_PNP_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2220B_THS_HD:
+    L1_PNP_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2220C_THS_HD:
+    L1_PNP_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2220_THS_HD:
+    L1_PNP_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2230B_THS_HD:
+    L1_PNP_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2230C_THS_HD:
+    L1_PNP_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2230_2330_THS_HD:
+    L1_PNP_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2230_THS_HD:
+    L1_TOTAL_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2300F_THS_HD:
+    L1_TOTAL_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2300G_THS_HD:
+    L1_TOTAL_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2300_THS_HD:
+    L1_TOTAL_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2400_THS_HD:
+    L1_TOTAL_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2410_THS_HD:
+    L1_TOTAL_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A2420_THS_HD:
+    L1_TOTAL_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3100_THS_HD:
+    L2_BES_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3110_THS_HD:
+    L2_BES_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3120KA_THS_HD:
+    L2_BES_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3120K_THS_HD:
+    L2_BES_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3120LA_THS_HD:
+    L2_BES_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3120L_THS_HD:
+    L2_BES_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3120_3133_THS_HD:
+    L2_BES_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3120_THS_HD:
+    L2_GOV_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3131_THS_HD:
+    L2_GOV_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3132X_THS_HD:
+    L2_GOV_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3132Y_THS_HD:
+    L2_GOV_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3132Z_THS_HD:
+    L2_GOV_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3132_THS_HD:
+    L2_GOV_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A3133_THS_HD:
+    L2_GOV_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A4100_THS_HD:
+    L2_HES_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A4110KC_THS_HD:
+    L2_HES_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A4110KD_THS_HD:
+    L2_HES_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A4110K_THS_HD:
+    L2_HES_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A4120_THS_HD:
+    L2_HES_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A4200_THS_HD:
+    L2_HES_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A4210KA_THS_HD:
+    L2_HES_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A4210KB_THS_HD:
+    L2_PNP_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A4210K_THS_HD:
+    L2_PNP_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_A4220_THS_HD:
+    L2_PNP_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L2_A2000_THS_HD:
+    L2_PNP_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L2_A2010B_THS_HD:
+    L2_PNP_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L2_A2010C_THS_HD:
+    L2_PNP_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L2_A2010_THS_HD:
+    L2_PNP_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L2_A2020_THS_HD:
+    L2_TOTAL_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L2_A2030_THS_HD:
+    L2_TOTAL_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L2_A2110C_THS_HD:
+    L2_TOTAL_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L2_A2120_THS_HD:
+    L2_TOTAL_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L2_A2130_THS_HD:
+    L2_TOTAL_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L2_A2210C_THS_HD:
+    L2_TOTAL_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L2_A2220B_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A2220C_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A2220_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A2230B_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A2230C_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A2230_2330_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A2230_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A2300F_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A2300G_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A2300_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A2400_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A2410_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A2420_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3100_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3110_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3120KA_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3120K_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3120LA_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3120L_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3120_3133_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3120_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3131_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3132X_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3132Y_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3132Z_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3132_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A3133_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A4100_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A4110KC_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A4110KD_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A4110K_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A4120_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A4200_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A4210KA_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A4210KB_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A4210K_THS_HD:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_A4220_THS_HD:
+    L2_TOTAL_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
@@ -893,10 +676,10 @@ providers:
   url: https://www.mundialis.de/
 assets:
   thumbnail:
-    href: https://apps.mundialis.de/bopen_hedp/thumbnails/agr_r_animal-19770101-20230101.png
+    href: https://apps.mundialis.de/bopen_hedp/thumbnails/rd_e_gerdreg-19800101-20220101.png
     roles:
     - thumbnail
   data:
-    href: s3://eurostat/agr_r_animal-19770101-20230101.zarr
+    href: s3://eurostat/rd_e_gerdreg-19800101-20220101.zarr
     roles:
     - data
