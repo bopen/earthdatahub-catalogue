@@ -1,0 +1,1497 @@
+links:
+- title: Eurostat
+  rel: derived_from
+  href: https://ec.europa.eu/eurostat/cache/metadata/en/aei_pr_soiler_esms.htm
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- -27.0
+- 26.0
+- 44.9
+- 73.9
+properties:
+  start_datetime: '2000-01-01T00:00:00Z'
+  end_datetime: '2016-01-01T00:00:00Z'
+  dc:abstract: Europe EUROSTAT Estimated soil erosion by water, by erosion level, land cover and NUTS 3 regions
+  dc:access_rights: charges apply
+  dc:title: Europe EUROSTAT soil erosion
+  dc:subject:
+  - eurostat
+  - soil erosion
+  - land cover
+  - water
+  - JRC
+  - europe
+  - geoprocessed
+  - geospatial
+  cube:variables:
+    L0_MOD_CLC23_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC23_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC23_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC23_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC23_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2X23_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2X23_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2X23_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2X23_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2X23_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2_3X331_332_335_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2_3X331_332_335_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2_3X331_332_335_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2_3X331_332_335_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_CLC2_3X331_332_335_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC23_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC23_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC23_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC23_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC23_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2X23_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2X23_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2X23_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2X23_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2X23_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2_3X331_332_335_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2_3X331_332_335_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2_3X331_332_335_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2_3X331_332_335_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_MOD_SEV_CLC2_3X331_332_335_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC23_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC23_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC23_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC23_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC23_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2X23_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2X23_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2X23_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2X23_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2X23_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2_3X331_332_335_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2_3X331_332_335_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2_3X331_332_335_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2_3X331_332_335_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_SEV_CLC2_3X331_332_335_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC23_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC23_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC23_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC23_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC23_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2X23_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2X23_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2X23_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2X23_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2X23_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2_3X331_332_335_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2_3X331_332_335_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2_3X331_332_335_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2_3X331_332_335_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L0_TOTAL_CLC2_3X331_332_335_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC23_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC23_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC23_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC23_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC23_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2X23_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2X23_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2X23_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2X23_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2X23_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2_3X331_332_335_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2_3X331_332_335_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2_3X331_332_335_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2_3X331_332_335_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_CLC2_3X331_332_335_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC23_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC23_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC23_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC23_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC23_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2X23_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2X23_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2X23_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2X23_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2X23_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2_3X331_332_335_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2_3X331_332_335_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2_3X331_332_335_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2_3X331_332_335_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_MOD_SEV_CLC2_3X331_332_335_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC23_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC23_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC23_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC23_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC23_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2X23_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2X23_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2X23_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2X23_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2X23_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2_3X331_332_335_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2_3X331_332_335_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2_3X331_332_335_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2_3X331_332_335_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_SEV_CLC2_3X331_332_335_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC23_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC23_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC23_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC23_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC23_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2X23_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2X23_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2X23_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2X23_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2X23_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2_3X331_332_335_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2_3X331_332_335_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2_3X331_332_335_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2_3X331_332_335_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L2_TOTAL_CLC2_3X331_332_335_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC23_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC23_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC23_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC23_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC23_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2X23_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2X23_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2X23_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2X23_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2X23_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2_3X331_332_335_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2_3X331_332_335_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2_3X331_332_335_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2_3X331_332_335_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_CLC2_3X331_332_335_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC23_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC23_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC23_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC23_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC23_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2X23_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2X23_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2X23_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2X23_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2X23_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2_3X331_332_335_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2_3X331_332_335_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2_3X331_332_335_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2_3X331_332_335_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_MOD_SEV_CLC2_3X331_332_335_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC23_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC23_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC23_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC23_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC23_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2X23_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2X23_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2X23_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2X23_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2X23_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2_3X331_332_335_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2_3X331_332_335_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2_3X331_332_335_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2_3X331_332_335_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_SEV_CLC2_3X331_332_335_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC23_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC23_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC23_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC23_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC23_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2X23_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2X23_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2X23_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2X23_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2X23_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2_321_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2_321_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2_321_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2_321_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2_321_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2_3X331_332_335_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2_3X331_332_335_KM2:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2_3X331_332_335_PC:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2_3X331_332_335_T:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    L3_TOTAL_CLC2_3X331_332_335_T_HA:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+    spatial_ref:
+      dimensions: []
+      type: data
+license: CC-BY-4.0 - Contains modified Eurostat data – created by mundialis
+providers:
+- name: EUROSTAT
+  roles:
+  - producer
+  - licensor
+  url: https://ec.europa.eu/eurostat/web/main/home
+- name: B-Open
+  roles:
+  - host
+  url: https://www.bopen.eu/
+- name: mundialis GmbH & Co. KG
+  roles:
+  - processor
+  url: https://www.mundialis.de/
+assets:
+  thumbnail:
+    href: https://apps.mundialis.de/bopen_hedp/thumbnails/aei_pr_soiler-20000101-20160101.png
+    roles:
+    - thumbnail
+  data:
+    href: s3://eurostat/aei_pr_soiler-20000101-20160101.zarr/
+    roles:
+    - data
