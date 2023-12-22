@@ -26,6 +26,23 @@ properties:
   - surface
   - reanalysis
   - weather
+  cube:dimensions:
+    valid_time:
+      type: temporal
+      extent:
+      - '1940-01-01T00:00:00Z'
+      - '2023-11-30T23:00:00Z'
+      step: PT1H
+    latitude:
+      type: spatial
+      axis: y
+      reference_system: 4326
+      step: 0.25
+    longitude:
+      type: spatial
+      axis: x
+      reference_system: 4326
+      step: 0.25
   cube:variables:
     t2m:
       dimensions:
