@@ -1,5 +1,5 @@
 links:
-- title: ECMWF
+- title: ERA5 hourly data on single levels from 1940 to present
   rel: derived_from
   href: https://doi.org/10.24381/cds.adbb2d47
   type: text/html
@@ -17,7 +17,7 @@ properties:
   end_datetime: '2023-11-30T23:00:00Z'
   dc:abstract: Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric,
     ocean-wave and land surface quantities
-  dc:access_rights: charges apply
+  dc:access_rights: free of charge
   dc:title: ERA5 hourly data on the surface
   dc:subject:
   - ERA5
@@ -84,17 +84,7 @@ properties:
       type: data
       description: 2 metre dewpoint temperature
       unit: K
-providers:
-- name: ECMWF
-  roles:
-  - producer
-  - licensor
-  url: https://www.ecmwf.int/
-- name: B-Open
-  roles:
-  - processor
-  - host
-  url: https://www.bopen.eu/
+
 assets:
   data:
     href: s3://ecmwf-era5-single-levels/reanalysis-era5-single-levels.zarr

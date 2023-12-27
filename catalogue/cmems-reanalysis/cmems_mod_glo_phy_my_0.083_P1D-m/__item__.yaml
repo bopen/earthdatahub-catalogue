@@ -1,5 +1,5 @@
 links:
-- title: CMEMS
+- title: Global Ocean Physics Reanalysis
   rel: derived_from
   href: https://doi.org/10.48670/moi-00021
   type: text/html
@@ -94,17 +94,7 @@ properties:
       type: data
       description: Sea surface height
       unit: m
-providers:
-- name: CMEMS
-  roles:
-  - producer
-  - licensor
-  url: https://marine.copernicus.eu/
-- name: B-Open
-  roles:
-  - processor
-  - host
-  url: https://www.bopen.eu/
+
 assets:
   data:
     href: s3://cmems-reanalysis/cmems_mod_glo_phy_my_0.083_P1D-m.zarr

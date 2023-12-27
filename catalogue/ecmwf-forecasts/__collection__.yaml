@@ -23,7 +23,7 @@ extent:
     interval:
     - - 
       - 
-license: various  # checked
+
 keywords:
 - Open data
 - HRES
@@ -36,6 +36,11 @@ providers:
   - producer
   - licensor
   url: https://www.ecmwf.int/
+- name: B-Open
+  roles:
+  - processor
+  - host
+  url: https://www.bopen.eu/
 assets:
   thumbnail:
     href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/ecmwf-forecasts/thumbnail_be47c240ccf75f5e6f167520fb6ea1884d46b2ee3c1ce01e360a48b4c6a1f26a.png

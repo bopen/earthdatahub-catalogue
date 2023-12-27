@@ -1,5 +1,5 @@
 links:
-- title: ECMWF
+- title: ERA5-Land hourly data from 1950 to present
   rel: derived_from
   href: https://doi.org/10.24381/cds.e2161bac
   type: text/html
@@ -91,17 +91,7 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-providers:
-- name: ECMWF
-  roles:
-  - producer
-  - licensor
-  url: https://www.ecmwf.int/
-- name: B-Open
-  roles:
-  - processor
-  - host
-  url: https://www.bopen.eu/
+
 assets:
   data:
     href: s3://ecmwf-era5-land/reanalysis-era5-land-no-antartica-v0.zarr

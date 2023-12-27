@@ -1,5 +1,5 @@
 links:
-- title: ECMWF
+- title: Essential Climate Variables for assessment of climate variability from 1979 to present
   rel: derived_from
   href: https://confluence.ecmwf.int/display/CKB/Essential+Climate+Variables+for+assessment+of+climate+variability+from+1979+to+present%3A+Product+user+guide
   type: text/html
@@ -68,17 +68,7 @@ properties:
       type: data
       description: Total precipitation
       unit: m
-providers:
-- name: ECMWF
-  roles:
-  - producer
-  - licensor
-  url: https://www.ecmwf.int/
-- name: B-Open
-  roles:
-  - processor
-  - host
-  url: https://www.bopen.eu/
+
 assets:
   data:
     href: s3://hedp/era5/ecv-for-climate-change-1979-2023.zarr

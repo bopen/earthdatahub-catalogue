@@ -13,7 +13,7 @@ properties:
     medium-range forecasts. The forecast has a horizontal resolution of around 9 km
     and provides a description of a possible evolution of the weather out to 10 days
     ahead
-  dc:access_rights: charges apply
+  dc:access_rights: free of charge
   dc:title: ECMWF high-resolution forecast
   dc:subject:
   - Open data
@@ -158,18 +158,7 @@ properties:
       type: data
       description: Vorticity (relative)
       unit: s**-1
-license: CC-BY-4.0
-providers:
-- name: ECMWF
-  roles:
-  - producer
-  - licensor
-  url: https://www.ecmwf.int/
-- name: B-Open
-  roles:
-  - processor
-  - host
-  url: https://www.bopen.eu/
+
 assets:
   data:
     href: s3://hedp/ecmwf-forecasts/opendata-oper-20231016T00.zarr
