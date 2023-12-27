@@ -2,9 +2,7 @@ title: ECMWF fifth generation reanalysis (ERA5)
 dc:abstract:
   ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather.
   Data is available from 1940 onwards.
-  Reanalysis combine model data to observations to produce more reliable estimates 
-  of the state of the atmosphere.
-links:
+  we propose a selection of the original data based on the most popular datasets and variables within
 - title: ERA5 documentation
   rel: derived_from
   href: https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation
