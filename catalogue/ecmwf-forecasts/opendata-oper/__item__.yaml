@@ -21,6 +21,23 @@ properties:
   - ECMWF
   - forecast
   - weather
+  cube:dimensions:
+    valid_time:
+      type: temporal
+      extent:
+      - 
+      - 
+      step: 
+    latitude:
+      type: spatial
+      axis: y
+      reference_system: 4326
+      step: 
+    longitude:
+      type: spatial
+      axis: x
+      reference_system: 4326
+      step: 
   cube:variables:
     10u:
       dimensions:
