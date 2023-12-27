@@ -15,7 +15,8 @@ bbox:
 properties:
   start_datetime: '1995-01-01T00:00:00Z'
   end_datetime: '2022-01-01T00:00:00Z'
-  dc:abstract: Europe Eurostat Regional Labour Market Employment Rates by sex, age, educational attainment level, citizenship and degree of urbanisation
+  dc:abstract: Europe Eurostat Regional Labour Market Employment Rates by sex, age,
+    educational attainment level, citizenship and degree of urbanisation
   dc:access_rights: charges apply
   dc:title: Eurostat Regional Labour Market Employment Rates
   dc:subject:
@@ -629,7 +630,7 @@ properties:
     spatial_ref:
       dimensions: []
       type: data
-license: CC-BY-4.0 - Contains modified Eurostat data – created by mundialis
+license: "CC-BY-4.0 - Contains modified Eurostat data \u2013 created by mundialis"
 providers:
 - name: EUROSTAT
   roles:

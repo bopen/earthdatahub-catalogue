@@ -389,7 +389,7 @@ properties:
     spatial_ref:
       dimensions: []
       type: data
-license: CC-BY-4.0 - Contains modified Eurostat data – created by mundialis
+license: "CC-BY-4.0 - Contains modified Eurostat data \u2013 created by mundialis"
 providers:
 - name: EUROSTAT
   roles:

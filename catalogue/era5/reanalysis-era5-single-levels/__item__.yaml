@@ -76,6 +76,14 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
+    d2m:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre dewpoint temperature
+      unit: K
 providers:
 - name: ECMWF
   roles:
