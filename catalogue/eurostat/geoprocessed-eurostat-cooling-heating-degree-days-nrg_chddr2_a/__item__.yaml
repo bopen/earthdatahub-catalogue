@@ -79,8 +79,6 @@ properties:
     spatial_ref:
       dimensions: []
       type: data
-
-
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/nrg_chddr2_a-19790101-20220101.png

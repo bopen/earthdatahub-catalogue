@@ -84,7 +84,6 @@ properties:
       type: data
       description: 2 metre dewpoint temperature
       unit: K
-
 assets:
   data:
     href: s3://ecmwf-era5-single-levels/reanalysis-era5-single-levels.zarr

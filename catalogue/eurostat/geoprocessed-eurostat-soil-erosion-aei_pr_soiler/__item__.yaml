@@ -1,5 +1,6 @@
 links:
-- title: Estimated soil erosion by water, by erosion level, land cover and NUTS 3 regions
+- title: Estimated soil erosion by water, by erosion level, land cover and NUTS 3
+    regions
   rel: derived_from
   href: https://ec.europa.eu/eurostat/cache/metadata/en/aei_pr_soiler_esms.htm
   type: text/html
@@ -1472,7 +1473,6 @@ properties:
     spatial_ref:
       dimensions: []
       type: data
-
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/aei_pr_soiler-20000101-20160101.png

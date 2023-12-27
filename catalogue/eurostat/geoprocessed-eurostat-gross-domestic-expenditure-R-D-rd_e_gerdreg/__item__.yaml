@@ -660,7 +660,6 @@ properties:
     spatial_ref:
       dimensions: []
       type: data
-
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/rd_e_gerdreg-19800101-20220101.png

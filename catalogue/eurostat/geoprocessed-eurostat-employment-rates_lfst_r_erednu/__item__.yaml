@@ -630,8 +630,6 @@ properties:
     spatial_ref:
       dimensions: []
       type: data
-
-
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/lfst_r_erednu-19950101-20220101.png

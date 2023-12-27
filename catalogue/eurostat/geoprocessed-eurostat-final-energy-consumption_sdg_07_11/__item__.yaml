@@ -47,7 +47,6 @@ properties:
     spatial_ref:
       dimensions: []
       type: data
-
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/sdg_07_11-20000101-20210101.png

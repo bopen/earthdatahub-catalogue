@@ -25,19 +25,19 @@ properties:
     valid_time:
       type: temporal
       extent:
-      - 
-      - 
-      step: 
+      - null
+      - null
+      step: null
     latitude:
       type: spatial
       axis: y
       reference_system: 4326
-      step: 
+      step: null
     longitude:
       type: spatial
       axis: x
       reference_system: 4326
-      step: 
+      step: null
   cube:variables:
     10u:
       dimensions:
@@ -175,7 +175,6 @@ properties:
       type: data
       description: Vorticity (relative)
       unit: s**-1
-
 assets:
   data:
     href: s3://hedp/ecmwf-forecasts/opendata-oper-20231016T00.zarr

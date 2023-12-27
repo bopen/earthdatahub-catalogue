@@ -91,7 +91,6 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-
 assets:
   data:
     href: s3://ecmwf-era5-land/reanalysis-era5-land-no-antartica-v0.zarr

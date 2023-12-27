@@ -124,7 +124,6 @@ properties:
       - lat
       - lon
       type: data
-
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/demo_r_mweek3-20000103-20231030.png

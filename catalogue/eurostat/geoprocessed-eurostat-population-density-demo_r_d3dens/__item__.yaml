@@ -53,7 +53,6 @@ properties:
     spatial_ref:
       dimensions: []
       type: data
-
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/demo_r_d3dens-19900101-20220101.png

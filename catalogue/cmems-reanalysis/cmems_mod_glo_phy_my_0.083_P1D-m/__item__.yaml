@@ -96,7 +96,6 @@ properties:
       type: data
       description: Sea surface height
       unit: m
-
 assets:
   data:
     href: s3://cmems-reanalysis/cmems_mod_glo_phy_my_0.083_P1D-m.zarr

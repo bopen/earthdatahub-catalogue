@@ -876,7 +876,6 @@ properties:
     spatial_ref:
       dimensions: []
       type: data
-
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/agr_r_animal-19770101-20230101.png
