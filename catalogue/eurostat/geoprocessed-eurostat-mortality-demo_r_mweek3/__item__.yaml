@@ -1,5 +1,5 @@
 links:
-- title: Eurostat
+- title: Deaths by week
   rel: derived_from
   href: https://ec.europa.eu/eurostat/cache/metadata/en/demomwk_esms.htm
   type: text/html
@@ -124,21 +124,7 @@ properties:
       - lat
       - lon
       type: data
-license: "CC-BY-4.0 - Contains modified Eurostat data \u2013 created by mundialis"
-providers:
-- name: EUROSTAT
-  roles:
-  - producer
-  - licensor
-  url: https://ec.europa.eu/eurostat/web/main/home
-- name: B-Open
-  roles:
-  - host
-  url: https://www.bopen.eu/
-- name: mundialis GmbH & Co. KG
-  roles:
-  - processor
-  url: https://www.mundialis.de/
+
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/demo_r_mweek3-20000103-20231030.png

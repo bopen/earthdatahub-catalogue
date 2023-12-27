@@ -1,5 +1,5 @@
 links:
-- title: Eurostat
+- title: Estimated soil erosion by water, by erosion level, land cover and NUTS 3 regions
   rel: derived_from
   href: https://ec.europa.eu/eurostat/cache/metadata/en/aei_pr_soiler_esms.htm
   type: text/html
@@ -1472,21 +1472,7 @@ properties:
     spatial_ref:
       dimensions: []
       type: data
-license: "CC-BY-4.0 - Contains modified Eurostat data \u2013 created by mundialis"
-providers:
-- name: EUROSTAT
-  roles:
-  - producer
-  - licensor
-  url: https://ec.europa.eu/eurostat/web/main/home
-- name: B-Open
-  roles:
-  - host
-  url: https://www.bopen.eu/
-- name: mundialis GmbH & Co. KG
-  roles:
-  - processor
-  url: https://www.mundialis.de/
+
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/aei_pr_soiler-20000101-20160101.png

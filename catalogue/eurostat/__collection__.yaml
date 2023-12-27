@@ -41,6 +41,14 @@ providers:
   - producer
   - licensor
   url: https://ec.europa.eu/eurostat/web/main/home
+- name: B-Open
+  roles:
+  - host
+  url: https://www.bopen.eu/
+- name: mundialis GmbH & Co. KG
+  roles:
+  - processor
+  url: https://www.mundialis.de/
 assets:
   thumbnail:
     href: https://apps.mundialis.de/thumbnails/1/thumbnail.png

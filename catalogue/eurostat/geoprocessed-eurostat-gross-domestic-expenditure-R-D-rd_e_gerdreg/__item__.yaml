@@ -1,5 +1,5 @@
 links:
-- title: Eurostat
+- title: Research and development
   rel: derived_from
   href: https://ec.europa.eu/eurostat/cache/metadata/en/rd_esms.htm
   type: text/html
@@ -660,21 +660,7 @@ properties:
     spatial_ref:
       dimensions: []
       type: data
-license: "CC-BY-4.0 - Contains modified Eurostat data \u2013 created by mundialis"
-providers:
-- name: EUROSTAT
-  roles:
-  - producer
-  - licensor
-  url: https://ec.europa.eu/eurostat/web/main/home
-- name: B-Open
-  roles:
-  - host
-  url: https://www.bopen.eu/
-- name: mundialis GmbH & Co. KG
-  roles:
-  - processor
-  url: https://www.mundialis.de/
+
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/rd_e_gerdreg-19800101-20220101.png
