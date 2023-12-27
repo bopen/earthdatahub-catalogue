@@ -1,8 +1,8 @@
-The Essential Climate Variables for assessment of climate variability from 1979 to present dataset contains 
+The [Essential Climate Variables for assessment of climate variability from 1979 to present](https://confluence.ecmwf.int/display/CKB/Essential+Climate+Variables+for+assessment+of+climate+variability+from+1979+to+present%3A+Product+user+guide) dataset contains 
 a selection of climatologies, monthly anomalies and monthly mean fields of 
 Essential Climate Variables (ECVs) suitable for monitoring and assessment of climate variability and change. 
 
-Selection criteria are based on accuracy and temporal consistency on monthly to decadal time scales. 
+<!---Selection criteria are based on accuracy and temporal consistency on monthly to decadal time scales. 
 The ECV data products in this set have been estimated from climate reanalyses ERA-Interim and ERA5, 
 and, depending on the source, may have been adjusted to account for biases and other known deficiencies. 
 
@@ -19,4 +19,10 @@ Climatologies and anomalies are calculated with respect to two reference periods
 
 The C3S monthly climate bulletin (https://climate.copernicus.eu/climate-bulletins) provides
 an assessment of the monthly state of the climate with an emphasis on the European geographical domain. 
-This data record is used as the basis for these monthly bulletins.
+This data record is used as the basis for these monthly bulletins.--->
+
+Here we propose a subset of the ECV world data on soil water, two metre temperature and total precipitation. The data are available from 1978 until the last closed month and updated monthly.
+
+They are presented as a zarr archive optimised for time analysis.
+
+Data are free for access for DestinE Service Platform registered users.

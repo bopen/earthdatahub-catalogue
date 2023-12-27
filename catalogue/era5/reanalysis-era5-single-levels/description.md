@@ -1,4 +1,4 @@
-ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 8 decades.
+<!---ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 8 decades.
 Data is available from 1940 onwards.
 
 Reanalysis combines model data with observations.
@@ -21,6 +21,11 @@ ocean-wave and land-surface quantities. An uncertainty estimate is sampled by an
 Such uncertainty estimates are closely related to the information content of the available observing system
 which has evolved considerably over time. They also indicate flow-dependent sensitive areas.
 Single levels variables are computed at one vertical level which can be surface (or a level close to the
-surface) or a dedicated pressure level in the atmosphere.
+surface) or a dedicated pressure level in the atmosphere.--->
 
-Here we propose a focus on ERA5 hourly data on single levels (atmospheric, ocean-wave and land surface quantities) from 1940 to 2023
+
+Here we propose a subset of ERA5 data for world atmospheric, ocean-wave and land surface quantities called [ERA5 hourly data on single levels](https://doi.org/10.24381/cds.adbb2d47). Focus is on temperature (2 metres and dewpoint), total precipitation and 10 metres wind speed. The data are available from 1940 until the last closed month and updated monthly and are regridded to a regular lat-lon grid of 0.25 degrees.
+
+They are presented as a zarr archive optimised for time analysis.
+
+Data are free for access for DestinE Service Platform registered users.
