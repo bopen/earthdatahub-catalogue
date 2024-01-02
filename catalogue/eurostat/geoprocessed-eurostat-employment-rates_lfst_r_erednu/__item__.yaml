@@ -33,600 +33,800 @@ properties:
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_ED0_2_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_ED0_2_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_ED0_2_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_ED3_4_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_ED3_4_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_ED3_4_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_ED3_4_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_ED5_8_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_ED5_8_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_ED5_8_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_ED5_8_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_NRP_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_NRP_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_NRP_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_NRP_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_TOTAL_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_TOTAL_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_TOTAL_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG1_TOTAL_TOTAL_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Cities; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_ED0_2_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_ED0_2_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_ED0_2_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_ED0_2_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_ED3_4_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_ED3_4_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_ED3_4_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_ED3_4_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_ED5_8_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_ED5_8_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_ED5_8_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_ED5_8_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_NRP_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_NRP_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_NRP_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_NRP_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_TOTAL_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_TOTAL_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_TOTAL_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG2_TOTAL_TOTAL_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Towns and suburbs; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_ED0_2_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_ED0_2_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_ED0_2_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_ED0_2_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_ED3_4_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_ED3_4_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_ED3_4_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_ED3_4_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_ED5_8_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_ED5_8_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_ED5_8_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_ED5_8_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_NRP_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_NRP_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_NRP_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_NRP_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_TOTAL_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_TOTAL_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_TOTAL_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_DEG3_TOTAL_TOTAL_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Rural areas; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_ED0_2_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_ED0_2_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_ED0_2_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_ED0_2_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_ED3_4_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_ED3_4_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_ED3_4_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_ED3_4_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_ED5_8_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_ED5_8_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_ED5_8_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_ED5_8_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_NRP_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_NRP_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_NRP_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_NRP_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: No response; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_TOTAL_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_TOTAL_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_TOTAL_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_NRP_TOTAL_TOTAL_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_ED0_2_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_ED0_2_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_ED0_2_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_ED0_2_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Less than primary, primary and lower secondary education (levels 0-2); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_ED3_4_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_ED3_4_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_ED3_4_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_ED3_4_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Upper secondary and post-secondary non-tertiary education (levels 3 and 4); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_ED5_8_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_ED5_8_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_ED5_8_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_ED5_8_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): Tertiary education (levels 5-8); Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_NRP_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_NRP_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_NRP_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_NRP_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: No response; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_TOTAL_Y15_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 15 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_TOTAL_Y20_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 20 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_TOTAL_Y25_54_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 25 to 54 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_TOTAL_TOTAL_Y55_64_T_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Degree of urbanisation: Total; Country of citizenship: Total; International Standard Classification of Education (ISCED 2011): All ISCED 2011 levels; Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
+      unit: Percentage
     spatial_ref:
       dimensions: []
       type: data

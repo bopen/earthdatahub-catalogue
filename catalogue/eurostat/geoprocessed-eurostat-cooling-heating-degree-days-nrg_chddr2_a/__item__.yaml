@@ -34,48 +34,64 @@ properties:
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Energy indicator: Cooling degree days'
+      unit: Number
     L0_NR_HDD:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Energy indicator: Heating degree days'
+      unit: Number
     L1_NR_CDD:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Energy indicator: Cooling degree days'
+      unit: Number
     L1_NR_HDD:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Energy indicator: Heating degree days'
+      unit: Number
     L2_NR_CDD:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Energy indicator: Cooling degree days'
+      unit: Number
     L2_NR_HDD:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Energy indicator: Heating degree days'
+      unit: Number
     L3_NR_CDD:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Energy indicator: Cooling degree days'
+      unit: Number
     L3_NR_HDD:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Energy indicator: Heating degree days'
+      unit: Number
     spatial_ref:
       dimensions: []
       type: data

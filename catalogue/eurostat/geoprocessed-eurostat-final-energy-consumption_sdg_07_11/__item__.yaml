@@ -32,18 +32,24 @@ properties:
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0'
+      unit: Index, 2005=100
     L0_MTOE:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0'
+      unit: Million tonnes of oil equivalent
     L0_TOE_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0'
+      unit: Tonnes of oil equivalent (TOE) per capita
     spatial_ref:
       dimensions: []
       type: data
