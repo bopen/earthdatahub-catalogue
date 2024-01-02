@@ -33,630 +33,840 @@ properties:
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L0'
+      unit: Euro per inhabitant
     L0_BES_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L0'
+      unit: Million euro
     L0_BES_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L0'
+      unit: Million units of national currency
     L0_BES_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L0'
+      unit: Million purchasing power standards (PPS)
     L0_BES_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L0'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L0_BES_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L0'
+      unit: Percentage of gross domestic product (GDP)
     L0_BES_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L0'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L0_GOV_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L0'
+      unit: Euro per inhabitant
     L0_GOV_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L0'
+      unit: Million euro
     L0_GOV_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L0'
+      unit: Million units of national currency
     L0_GOV_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L0'
+      unit: Million purchasing power standards (PPS)
     L0_GOV_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L0'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L0_GOV_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L0'
+      unit: Percentage of gross domestic product (GDP)
     L0_GOV_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L0'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L0_HES_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L0'
+      unit: Euro per inhabitant
     L0_HES_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L0'
+      unit: Million euro
     L0_HES_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L0'
+      unit: Million units of national currency
     L0_HES_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L0'
+      unit: Million purchasing power standards (PPS)
     L0_HES_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L0'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L0_HES_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L0'
+      unit: Percentage of gross domestic product (GDP)
     L0_HES_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L0'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L0_PNP_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L0'
+      unit: Euro per inhabitant
     L0_PNP_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L0'
+      unit: Million euro
     L0_PNP_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L0'
+      unit: Million units of national currency
     L0_PNP_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L0'
+      unit: Million purchasing power standards (PPS)
     L0_PNP_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L0'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L0_PNP_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L0'
+      unit: Percentage of gross domestic product (GDP)
     L0_PNP_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L0'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L0_TOTAL_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L0'
+      unit: Euro per inhabitant
     L0_TOTAL_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L0'
+      unit: Million euro
     L0_TOTAL_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L0'
+      unit: Million units of national currency
     L0_TOTAL_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L0'
+      unit: Million purchasing power standards (PPS)
     L0_TOTAL_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L0'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L0_TOTAL_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L0'
+      unit: Percentage of gross domestic product (GDP)
     L0_TOTAL_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L0'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L1_BES_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L1'
+      unit: Euro per inhabitant
     L1_BES_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L1'
+      unit: Million euro
     L1_BES_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L1'
+      unit: Million units of national currency
     L1_BES_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L1'
+      unit: Million purchasing power standards (PPS)
     L1_BES_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L1'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L1_BES_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L1'
+      unit: Percentage of gross domestic product (GDP)
     L1_BES_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L1'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L1_GOV_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L1'
+      unit: Euro per inhabitant
     L1_GOV_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L1'
+      unit: Million euro
     L1_GOV_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L1'
+      unit: Million units of national currency
     L1_GOV_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L1'
+      unit: Million purchasing power standards (PPS)
     L1_GOV_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L1'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L1_GOV_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L1'
+      unit: Percentage of gross domestic product (GDP)
     L1_GOV_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L1'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L1_HES_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L1'
+      unit: Euro per inhabitant
     L1_HES_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L1'
+      unit: Million euro
     L1_HES_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L1'
+      unit: Million units of national currency
     L1_HES_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L1'
+      unit: Million purchasing power standards (PPS)
     L1_HES_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L1'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L1_HES_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L1'
+      unit: Percentage of gross domestic product (GDP)
     L1_HES_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L1'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L1_PNP_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L1'
+      unit: Euro per inhabitant
     L1_PNP_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L1'
+      unit: Million euro
     L1_PNP_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L1'
+      unit: Million units of national currency
     L1_PNP_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L1'
+      unit: Million purchasing power standards (PPS)
     L1_PNP_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L1'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L1_PNP_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L1'
+      unit: Percentage of gross domestic product (GDP)
     L1_PNP_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L1'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L1_TOTAL_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L1'
+      unit: Euro per inhabitant
     L1_TOTAL_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L1'
+      unit: Million euro
     L1_TOTAL_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L1'
+      unit: Million units of national currency
     L1_TOTAL_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L1'
+      unit: Million purchasing power standards (PPS)
     L1_TOTAL_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L1'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L1_TOTAL_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L1'
+      unit: Percentage of gross domestic product (GDP)
     L1_TOTAL_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L1'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L2_BES_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L2'
+      unit: Euro per inhabitant
     L2_BES_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L2'
+      unit: Million euro
     L2_BES_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L2'
+      unit: Million units of national currency
     L2_BES_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L2'
+      unit: Million purchasing power standards (PPS)
     L2_BES_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L2'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L2_BES_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L2'
+      unit: Percentage of gross domestic product (GDP)
     L2_BES_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Business enterprise sector; NUTS_Level: L2'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L2_GOV_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L2'
+      unit: Euro per inhabitant
     L2_GOV_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L2'
+      unit: Million euro
     L2_GOV_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L2'
+      unit: Million units of national currency
     L2_GOV_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L2'
+      unit: Million purchasing power standards (PPS)
     L2_GOV_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L2'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L2_GOV_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L2'
+      unit: Percentage of gross domestic product (GDP)
     L2_GOV_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Government sector; NUTS_Level: L2'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L2_HES_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L2'
+      unit: Euro per inhabitant
     L2_HES_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L2'
+      unit: Million euro
     L2_HES_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L2'
+      unit: Million units of national currency
     L2_HES_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L2'
+      unit: Million purchasing power standards (PPS)
     L2_HES_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L2'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L2_HES_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L2'
+      unit: Percentage of gross domestic product (GDP)
     L2_HES_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Higher education sector; NUTS_Level: L2'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L2_PNP_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L2'
+      unit: Euro per inhabitant
     L2_PNP_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L2'
+      unit: Million euro
     L2_PNP_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L2'
+      unit: Million units of national currency
     L2_PNP_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L2'
+      unit: Million purchasing power standards (PPS)
     L2_PNP_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L2'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L2_PNP_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L2'
+      unit: Percentage of gross domestic product (GDP)
     L2_PNP_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: Private non-profit sector; NUTS_Level: L2'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     L2_TOTAL_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L2'
+      unit: Euro per inhabitant
     L2_TOTAL_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L2'
+      unit: Million euro
     L2_TOTAL_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L2'
+      unit: Million units of national currency
     L2_TOTAL_MIO_PPS:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L2'
+      unit: Million purchasing power standards (PPS)
     L2_TOTAL_MIO_PPS_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L2'
+      unit: Million purchasing power standards (PPS) at 2005 prices
     L2_TOTAL_PC_GDP:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L2'
+      unit: Percentage of gross domestic product (GDP)
     L2_TOTAL_PPS_HAB_KP05:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Sector of performance: All sectors; NUTS_Level: L2'
+      unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
     spatial_ref:
       dimensions: []
       type: data

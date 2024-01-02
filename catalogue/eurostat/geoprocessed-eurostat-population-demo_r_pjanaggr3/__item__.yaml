@@ -32,360 +32,480 @@ properties:
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Females; Age class: Total'
+      unit: Number
     L0_NR_F_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Females; Age class: Unknown'
+      unit: Number
     L0_NR_F_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Females; Age class: From 15 to 64 years'
+      unit: Number
     L0_NR_F_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Females; Age class: 65 years or over'
+      unit: Number
     L0_NR_F_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Females; Age class: Less than 15 years'
+      unit: Number
     L0_NR_M_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Males; Age class: Total'
+      unit: Number
     L0_NR_M_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Males; Age class: Unknown'
+      unit: Number
     L0_NR_M_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Males; Age class: From 15 to 64 years'
+      unit: Number
     L0_NR_M_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Males; Age class: 65 years or over'
+      unit: Number
     L0_NR_M_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Males; Age class: Less than 15 years'
+      unit: Number
     L0_NR_T_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Total; Age class: Total'
+      unit: Number
     L0_NR_T_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Total; Age class: Unknown'
+      unit: Number
     L0_NR_T_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Total; Age class: From 15 to 64 years'
+      unit: Number
     L0_NR_T_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Total; Age class: 65 years or over'
+      unit: Number
     L0_NR_T_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Total; Age class: Less than 15 years'
+      unit: Number
     L1_NR_F_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Females; Age class: Total'
+      unit: Number
     L1_NR_F_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Females; Age class: Unknown'
+      unit: Number
     L1_NR_F_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Females; Age class: From 15 to 64 years'
+      unit: Number
     L1_NR_F_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Females; Age class: 65 years or over'
+      unit: Number
     L1_NR_F_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Females; Age class: Less than 15 years'
+      unit: Number
     L1_NR_M_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Males; Age class: Total'
+      unit: Number
     L1_NR_M_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Males; Age class: Unknown'
+      unit: Number
     L1_NR_M_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Males; Age class: From 15 to 64 years'
+      unit: Number
     L1_NR_M_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Males; Age class: 65 years or over'
+      unit: Number
     L1_NR_M_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Males; Age class: Less than 15 years'
+      unit: Number
     L1_NR_T_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Total; Age class: Total'
+      unit: Number
     L1_NR_T_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Total; Age class: Unknown'
+      unit: Number
     L1_NR_T_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Total; Age class: From 15 to 64 years'
+      unit: Number
     L1_NR_T_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Total; Age class: 65 years or over'
+      unit: Number
     L1_NR_T_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Total; Age class: Less than 15 years'
+      unit: Number
     L2_NR_F_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Females; Age class: Total'
+      unit: Number
     L2_NR_F_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Females; Age class: Unknown'
+      unit: Number
     L2_NR_F_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Females; Age class: From 15 to 64 years'
+      unit: Number
     L2_NR_F_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Females; Age class: 65 years or over'
+      unit: Number
     L2_NR_F_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Females; Age class: Less than 15 years'
+      unit: Number
     L2_NR_M_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Males; Age class: Total'
+      unit: Number
     L2_NR_M_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Males; Age class: Unknown'
+      unit: Number
     L2_NR_M_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Males; Age class: From 15 to 64 years'
+      unit: Number
     L2_NR_M_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Males; Age class: 65 years or over'
+      unit: Number
     L2_NR_M_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Males; Age class: Less than 15 years'
+      unit: Number
     L2_NR_T_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Total; Age class: Total'
+      unit: Number
     L2_NR_T_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Total; Age class: Unknown'
+      unit: Number
     L2_NR_T_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Total; Age class: From 15 to 64 years'
+      unit: Number
     L2_NR_T_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Total; Age class: 65 years or over'
+      unit: Number
     L2_NR_T_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Total; Age class: Less than 15 years'
+      unit: Number
     L3_NR_F_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Females; Age class: Total'
+      unit: Number
     L3_NR_F_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Females; Age class: Unknown'
+      unit: Number
     L3_NR_F_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Females; Age class: From 15 to 64 years'
+      unit: Number
     L3_NR_F_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Females; Age class: 65 years or over'
+      unit: Number
     L3_NR_F_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Females; Age class: Less than 15 years'
+      unit: Number
     L3_NR_M_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Males; Age class: Total'
+      unit: Number
     L3_NR_M_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Males; Age class: Unknown'
+      unit: Number
     L3_NR_M_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Males; Age class: From 15 to 64 years'
+      unit: Number
     L3_NR_M_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Males; Age class: 65 years or over'
+      unit: Number
     L3_NR_M_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Males; Age class: Less than 15 years'
+      unit: Number
     L3_NR_T_TOTAL:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Total; Age class: Total'
+      unit: Number
     L3_NR_T_UNK:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Total; Age class: Unknown'
+      unit: Number
     L3_NR_T_Y15_64:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Total; Age class: From 15 to 64 years'
+      unit: Number
     L3_NR_T_Y_GE65:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Total; Age class: 65 years or over'
+      unit: Number
     L3_NR_T_Y_LT15:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3; Sex: Total; Age class: Less than 15 years'
+      unit: Number
     spatial_ref:
       dimensions: []
       type: data

@@ -32,24 +32,32 @@ properties:
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0'
+      unit: Persons per square kilometre
     L1_PER_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1'
+      unit: Persons per square kilometre
     L2_PER_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2'
+      unit: Persons per square kilometre
     L3_PER_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3'
+      unit: Persons per square kilometre
     spatial_ref:
       dimensions: []
       type: data

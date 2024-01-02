@@ -31,98 +31,130 @@ properties:
       - lat
       - lon
       type: data
-    L1_NR_T_Y65_69:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_NR_T_Y65_69:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L3_NR_T_Y65_69:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
+      description: 'NUTS_Level: L0; Sex: Total; Age class: From 65 to 69 years'
+      unit: Number
     L0_NR_T_Y70_74:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_NR_T_Y70_74:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_NR_T_Y70_74:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L3_NR_T_Y70_74:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
+      description: 'NUTS_Level: L0; Sex: Total; Age class: From 70 to 74 years'
+      unit: Number
     L0_NR_T_Y75_79:
       dimensions:
       - time
       - lat
       - lon
       type: data
-    L1_NR_T_Y75_79:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L2_NR_T_Y75_79:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    L3_NR_T_Y75_79:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-    spatial_ref:
-      dimensions: []
-      type: data
+      description: 'NUTS_Level: L0; Sex: Total; Age class: From 75 to 79 years'
+      unit: Number
     L0_NR_T_Y80_84:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0; Sex: Total; Age class: From 80 to 84 years'
+      unit: Number
+    L1_NR_T_Y65_69:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: 'NUTS_Level: L1; Sex: Total; Age class: From 65 to 69 years'
+      unit: Number
+    L1_NR_T_Y70_74:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: 'NUTS_Level: L1; Sex: Total; Age class: From 70 to 74 years'
+      unit: Number
+    L1_NR_T_Y75_79:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: 'NUTS_Level: L1; Sex: Total; Age class: From 75 to 79 years'
+      unit: Number
     L1_NR_T_Y80_84:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1; Sex: Total; Age class: From 80 to 84 years'
+      unit: Number
+    L2_NR_T_Y65_69:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: 'NUTS_Level: L2; Sex: Total; Age class: From 65 to 69 years'
+      unit: Number
+    L2_NR_T_Y70_74:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: 'NUTS_Level: L2; Sex: Total; Age class: From 70 to 74 years'
+      unit: Number
+    L2_NR_T_Y75_79:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: 'NUTS_Level: L2; Sex: Total; Age class: From 75 to 79 years'
+      unit: Number
     L2_NR_T_Y80_84:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2; Sex: Total; Age class: From 80 to 84 years'
+      unit: Number
+    L3_NR_T_Y65_69:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: 'NUTS_Level: L3; Sex: Total; Age class: From 65 to 69 years'
+      unit: Number
+    L3_NR_T_Y70_74:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: 'NUTS_Level: L3; Sex: Total; Age class: From 70 to 74 years'
+      unit: Number
+    L3_NR_T_Y75_79:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: 'NUTS_Level: L3; Sex: Total; Age class: From 75 to 79 years'
+      unit: Number
     L3_NR_T_Y80_84:
       dimensions:
       - time
       - lat
       - lon
+      type: data
+      description: 'NUTS_Level: L3; Sex: Total; Age class: From 80 to 84 years'
+      unit: Number
+    spatial_ref:
+      dimensions: []
       type: data
 assets:
   thumbnail:

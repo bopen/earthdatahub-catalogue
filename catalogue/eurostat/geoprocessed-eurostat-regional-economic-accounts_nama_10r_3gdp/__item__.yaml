@@ -33,168 +33,224 @@ properties:
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0'
+      unit: Euro per inhabitant
     L0_EUR_HAB_EU27_2020:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0'
+      unit: Euro per inhabitant in percentage of the EU27 (from 2020) average
     L0_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0'
+      unit: Million euro
     L0_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0'
+      unit: Million units of national currency
     L0_MIO_PPS_EU27_2020:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0'
+      unit: Million purchasing power standards (PPS, EU27 from 2020)
     L0_PPS_EU27_2020_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0'
+      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant
     L0_PPS_HAB_EU27_2020:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L0'
+      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage of the EU27 (from 2020) average
     L1_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1'
+      unit: Euro per inhabitant
     L1_EUR_HAB_EU27_2020:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1'
+      unit: Euro per inhabitant in percentage of the EU27 (from 2020) average
     L1_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1'
+      unit: Million euro
     L1_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1'
+      unit: Million units of national currency
     L1_MIO_PPS_EU27_2020:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1'
+      unit: Million purchasing power standards (PPS, EU27 from 2020)
     L1_PPS_EU27_2020_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1'
+      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant
     L1_PPS_HAB_EU27_2020:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L1'
+      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage of the EU27 (from 2020) average
     L2_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2'
+      unit: Euro per inhabitant
     L2_EUR_HAB_EU27_2020:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2'
+      unit: Euro per inhabitant in percentage of the EU27 (from 2020) average
     L2_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2'
+      unit: Million euro
     L2_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2'
+      unit: Million units of national currency
     L2_MIO_PPS_EU27_2020:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2'
+      unit: Million purchasing power standards (PPS, EU27 from 2020)
     L2_PPS_EU27_2020_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2'
+      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant
     L2_PPS_HAB_EU27_2020:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L2'
+      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage of the EU27 (from 2020) average
     L3_EUR_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3'
+      unit: Euro per inhabitant
     L3_EUR_HAB_EU27_2020:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3'
+      unit: Euro per inhabitant in percentage of the EU27 (from 2020) average
     L3_MIO_EUR:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3'
+      unit: Million euro
     L3_MIO_NAC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3'
+      unit: Million units of national currency
     L3_MIO_PPS_EU27_2020:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3'
+      unit: Million purchasing power standards (PPS, EU27 from 2020)
     L3_PPS_EU27_2020_HAB:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3'
+      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant
     L3_PPS_HAB_EU27_2020:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'NUTS_Level: L3'
+      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage of the EU27 (from 2020) average
     spatial_ref:
       dimensions: []
       type: data

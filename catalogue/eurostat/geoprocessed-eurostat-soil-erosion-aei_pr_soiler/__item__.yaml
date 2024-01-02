@@ -36,1440 +36,1920 @@ properties:
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Hectare
     L0_MOD_CLC23_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Square kilometre
     L0_MOD_CLC23_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Percentage
     L0_MOD_CLC23_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Tonne
     L0_MOD_CLC23_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_MOD_CLC2X23_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Hectare
     L0_MOD_CLC2X23_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Square kilometre
     L0_MOD_CLC2X23_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Percentage
     L0_MOD_CLC2X23_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Tonne
     L0_MOD_CLC2X23_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_MOD_CLC2_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Hectare
     L0_MOD_CLC2_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Square kilometre
     L0_MOD_CLC2_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Percentage
     L0_MOD_CLC2_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Tonne
     L0_MOD_CLC2_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_MOD_CLC2_3X331_332_335_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Hectare
     L0_MOD_CLC2_3X331_332_335_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Square kilometre
     L0_MOD_CLC2_3X331_332_335_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Percentage
     L0_MOD_CLC2_3X331_332_335_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Tonne
     L0_MOD_CLC2_3X331_332_335_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_MOD_SEV_CLC23_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Hectare
     L0_MOD_SEV_CLC23_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Square kilometre
     L0_MOD_SEV_CLC23_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Percentage
     L0_MOD_SEV_CLC23_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Tonne
     L0_MOD_SEV_CLC23_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_MOD_SEV_CLC2X23_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Hectare
     L0_MOD_SEV_CLC2X23_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Square kilometre
     L0_MOD_SEV_CLC2X23_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Percentage
     L0_MOD_SEV_CLC2X23_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Tonne
     L0_MOD_SEV_CLC2X23_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_MOD_SEV_CLC2_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Hectare
     L0_MOD_SEV_CLC2_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Square kilometre
     L0_MOD_SEV_CLC2_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Percentage
     L0_MOD_SEV_CLC2_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Tonne
     L0_MOD_SEV_CLC2_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_MOD_SEV_CLC2_3X331_332_335_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Hectare
     L0_MOD_SEV_CLC2_3X331_332_335_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Square kilometre
     L0_MOD_SEV_CLC2_3X331_332_335_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Percentage
     L0_MOD_SEV_CLC2_3X331_332_335_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Tonne
     L0_MOD_SEV_CLC2_3X331_332_335_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_SEV_CLC23_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Hectare
     L0_SEV_CLC23_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Square kilometre
     L0_SEV_CLC23_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Percentage
     L0_SEV_CLC23_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Tonne
     L0_SEV_CLC23_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_SEV_CLC2X23_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Hectare
     L0_SEV_CLC2X23_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Square kilometre
     L0_SEV_CLC2X23_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Percentage
     L0_SEV_CLC2X23_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Tonne
     L0_SEV_CLC2X23_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_SEV_CLC2_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Hectare
     L0_SEV_CLC2_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Square kilometre
     L0_SEV_CLC2_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Percentage
     L0_SEV_CLC2_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Tonne
     L0_SEV_CLC2_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_SEV_CLC2_3X331_332_335_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Hectare
     L0_SEV_CLC2_3X331_332_335_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Square kilometre
     L0_SEV_CLC2_3X331_332_335_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Percentage
     L0_SEV_CLC2_3X331_332_335_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Tonne
     L0_SEV_CLC2_3X331_332_335_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_TOTAL_CLC23_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Hectare
     L0_TOTAL_CLC23_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Square kilometre
     L0_TOTAL_CLC23_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_CLC23_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Tonne
     L0_TOTAL_CLC23_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_TOTAL_CLC2X23_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Hectare
     L0_TOTAL_CLC2X23_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Square kilometre
     L0_TOTAL_CLC2X23_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_CLC2X23_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Tonne
     L0_TOTAL_CLC2X23_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_TOTAL_CLC2_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Hectare
     L0_TOTAL_CLC2_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Square kilometre
     L0_TOTAL_CLC2_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_CLC2_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Tonne
     L0_TOTAL_CLC2_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L0'
+      unit: Tonnes per hectare
     L0_TOTAL_CLC2_3X331_332_335_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Hectare
     L0_TOTAL_CLC2_3X331_332_335_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Square kilometre
     L0_TOTAL_CLC2_3X331_332_335_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Percentage
     L0_TOTAL_CLC2_3X331_332_335_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Tonne
     L0_TOTAL_CLC2_3X331_332_335_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L0'
+      unit: Tonnes per hectare
     L2_MOD_CLC23_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Hectare
     L2_MOD_CLC23_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Square kilometre
     L2_MOD_CLC23_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Percentage
     L2_MOD_CLC23_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Tonne
     L2_MOD_CLC23_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_MOD_CLC2X23_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Hectare
     L2_MOD_CLC2X23_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Square kilometre
     L2_MOD_CLC2X23_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Percentage
     L2_MOD_CLC2X23_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Tonne
     L2_MOD_CLC2X23_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_MOD_CLC2_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Hectare
     L2_MOD_CLC2_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Square kilometre
     L2_MOD_CLC2_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Percentage
     L2_MOD_CLC2_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Tonne
     L2_MOD_CLC2_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_MOD_CLC2_3X331_332_335_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Hectare
     L2_MOD_CLC2_3X331_332_335_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Square kilometre
     L2_MOD_CLC2_3X331_332_335_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Percentage
     L2_MOD_CLC2_3X331_332_335_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Tonne
     L2_MOD_CLC2_3X331_332_335_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_MOD_SEV_CLC23_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Hectare
     L2_MOD_SEV_CLC23_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Square kilometre
     L2_MOD_SEV_CLC23_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Percentage
     L2_MOD_SEV_CLC23_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Tonne
     L2_MOD_SEV_CLC23_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_MOD_SEV_CLC2X23_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Hectare
     L2_MOD_SEV_CLC2X23_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Square kilometre
     L2_MOD_SEV_CLC2X23_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Percentage
     L2_MOD_SEV_CLC2X23_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Tonne
     L2_MOD_SEV_CLC2X23_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_MOD_SEV_CLC2_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Hectare
     L2_MOD_SEV_CLC2_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Square kilometre
     L2_MOD_SEV_CLC2_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Percentage
     L2_MOD_SEV_CLC2_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Tonne
     L2_MOD_SEV_CLC2_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_MOD_SEV_CLC2_3X331_332_335_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Hectare
     L2_MOD_SEV_CLC2_3X331_332_335_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Square kilometre
     L2_MOD_SEV_CLC2_3X331_332_335_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Percentage
     L2_MOD_SEV_CLC2_3X331_332_335_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Tonne
     L2_MOD_SEV_CLC2_3X331_332_335_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_SEV_CLC23_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Hectare
     L2_SEV_CLC23_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Square kilometre
     L2_SEV_CLC23_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Percentage
     L2_SEV_CLC23_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Tonne
     L2_SEV_CLC23_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_SEV_CLC2X23_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Hectare
     L2_SEV_CLC2X23_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Square kilometre
     L2_SEV_CLC2X23_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Percentage
     L2_SEV_CLC2X23_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Tonne
     L2_SEV_CLC2X23_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_SEV_CLC2_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Hectare
     L2_SEV_CLC2_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Square kilometre
     L2_SEV_CLC2_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Percentage
     L2_SEV_CLC2_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Tonne
     L2_SEV_CLC2_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_SEV_CLC2_3X331_332_335_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Hectare
     L2_SEV_CLC2_3X331_332_335_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Square kilometre
     L2_SEV_CLC2_3X331_332_335_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Percentage
     L2_SEV_CLC2_3X331_332_335_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Tonne
     L2_SEV_CLC2_3X331_332_335_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_TOTAL_CLC23_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Hectare
     L2_TOTAL_CLC23_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Square kilometre
     L2_TOTAL_CLC23_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Percentage
     L2_TOTAL_CLC23_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Tonne
     L2_TOTAL_CLC23_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_TOTAL_CLC2X23_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Hectare
     L2_TOTAL_CLC2X23_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Square kilometre
     L2_TOTAL_CLC2X23_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Percentage
     L2_TOTAL_CLC2X23_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Tonne
     L2_TOTAL_CLC2X23_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_TOTAL_CLC2_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Hectare
     L2_TOTAL_CLC2_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Square kilometre
     L2_TOTAL_CLC2_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Percentage
     L2_TOTAL_CLC2_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Tonne
     L2_TOTAL_CLC2_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L2'
+      unit: Tonnes per hectare
     L2_TOTAL_CLC2_3X331_332_335_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Hectare
     L2_TOTAL_CLC2_3X331_332_335_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Square kilometre
     L2_TOTAL_CLC2_3X331_332_335_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Percentage
     L2_TOTAL_CLC2_3X331_332_335_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Tonne
     L2_TOTAL_CLC2_3X331_332_335_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L2'
+      unit: Tonnes per hectare
     L3_MOD_CLC23_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Hectare
     L3_MOD_CLC23_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Square kilometre
     L3_MOD_CLC23_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Percentage
     L3_MOD_CLC23_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Tonne
     L3_MOD_CLC23_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_MOD_CLC2X23_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Hectare
     L3_MOD_CLC2X23_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Square kilometre
     L3_MOD_CLC2X23_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Percentage
     L3_MOD_CLC2X23_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Tonne
     L3_MOD_CLC2X23_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_MOD_CLC2_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Hectare
     L3_MOD_CLC2_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Square kilometre
     L3_MOD_CLC2_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Percentage
     L3_MOD_CLC2_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Tonne
     L3_MOD_CLC2_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_MOD_CLC2_3X331_332_335_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Hectare
     L3_MOD_CLC2_3X331_332_335_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Square kilometre
     L3_MOD_CLC2_3X331_332_335_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Percentage
     L3_MOD_CLC2_3X331_332_335_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Tonne
     L3_MOD_CLC2_3X331_332_335_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_MOD_SEV_CLC23_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Hectare
     L3_MOD_SEV_CLC23_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Square kilometre
     L3_MOD_SEV_CLC23_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Percentage
     L3_MOD_SEV_CLC23_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Tonne
     L3_MOD_SEV_CLC23_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_MOD_SEV_CLC2X23_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Hectare
     L3_MOD_SEV_CLC2X23_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Square kilometre
     L3_MOD_SEV_CLC2X23_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Percentage
     L3_MOD_SEV_CLC2X23_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Tonne
     L3_MOD_SEV_CLC2X23_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_MOD_SEV_CLC2_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Hectare
     L3_MOD_SEV_CLC2_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Square kilometre
     L3_MOD_SEV_CLC2_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Percentage
     L3_MOD_SEV_CLC2_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Tonne
     L3_MOD_SEV_CLC2_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_MOD_SEV_CLC2_3X331_332_335_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Hectare
     L3_MOD_SEV_CLC2_3X331_332_335_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Square kilometre
     L3_MOD_SEV_CLC2_3X331_332_335_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Percentage
     L3_MOD_SEV_CLC2_3X331_332_335_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Tonne
     L3_MOD_SEV_CLC2_3X331_332_335_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Moderate or severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_SEV_CLC23_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Hectare
     L3_SEV_CLC23_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Square kilometre
     L3_SEV_CLC23_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Percentage
     L3_SEV_CLC23_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Tonne
     L3_SEV_CLC23_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_SEV_CLC2X23_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Hectare
     L3_SEV_CLC2X23_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Square kilometre
     L3_SEV_CLC2X23_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Percentage
     L3_SEV_CLC2X23_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Tonne
     L3_SEV_CLC2X23_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_SEV_CLC2_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Hectare
     L3_SEV_CLC2_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Square kilometre
     L3_SEV_CLC2_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Percentage
     L3_SEV_CLC2_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Tonne
     L3_SEV_CLC2_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_SEV_CLC2_3X331_332_335_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Hectare
     L3_SEV_CLC2_3X331_332_335_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Square kilometre
     L3_SEV_CLC2_3X331_332_335_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Percentage
     L3_SEV_CLC2_3X331_332_335_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Tonne
     L3_SEV_CLC2_3X331_332_335_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Severe; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_TOTAL_CLC23_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Hectare
     L3_TOTAL_CLC23_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Square kilometre
     L3_TOTAL_CLC23_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Percentage
     L3_TOTAL_CLC23_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Tonne
     L3_TOTAL_CLC23_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Pastures and natural grassland; NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_TOTAL_CLC2X23_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Hectare
     L3_TOTAL_CLC2X23_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Square kilometre
     L3_TOTAL_CLC2X23_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Percentage
     L3_TOTAL_CLC2X23_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Tonne
     L3_TOTAL_CLC2X23_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas (excluding pastures); NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_TOTAL_CLC2_321_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Hectare
     L3_TOTAL_CLC2_321_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Square kilometre
     L3_TOTAL_CLC2_321_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Percentage
     L3_TOTAL_CLC2_321_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Tonne
     L3_TOTAL_CLC2_321_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas and natural grassland; NUTS_Level: L3'
+      unit: Tonnes per hectare
     L3_TOTAL_CLC2_3X331_332_335_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Hectare
     L3_TOTAL_CLC2_3X331_332_335_KM2:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Square kilometre
     L3_TOTAL_CLC2_3X331_332_335_PC:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Percentage
     L3_TOTAL_CLC2_3X331_332_335_T:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Tonne
     L3_TOTAL_CLC2_3X331_332_335_T_HA:
       dimensions:
       - time
       - lat
       - lon
       type: data
+      description: 'Level: Total; Nomenclature of land cover and land use (Corine Land Cover 2018): Agricultural areas, forest and semi natural areas (excluding beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level: L3'
+      unit: Tonnes per hectare
     spatial_ref:
       dimensions: []
       type: data
