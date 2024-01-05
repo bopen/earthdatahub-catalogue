@@ -42,7 +42,7 @@ properties:
       unit: m
 assets:
   data:
-    href: s3://copernicus-dem/GLO-90-europe.zarr
+    href: s3://copernicus-dem/GLO-90-europe-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
