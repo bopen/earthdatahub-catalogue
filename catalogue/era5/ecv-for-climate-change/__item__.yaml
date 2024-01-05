@@ -74,6 +74,11 @@ assets:
     href: s3://hedp/era5/ecv-for-climate-change-1979-2023.zarr
     roles:
     - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+    xarray:storage_options:
+      endpoint_url: https://s3.gra.perf.cloud.ovh.net
   thumbnail:
     href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/era5/items/ecv-for-climate-change.png
     roles:
