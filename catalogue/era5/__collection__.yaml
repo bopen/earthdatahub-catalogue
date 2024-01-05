@@ -3,6 +3,7 @@ dc:abstract:
   ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather.
   Data is available from 1940 onwards.
   we propose a selection of the original data based on the most popular datasets and variables within
+links:
 - title: ERA5 documentation
   rel: derived_from
   href: https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation
