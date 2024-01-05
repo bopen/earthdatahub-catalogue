@@ -1,0 +1,39 @@
+title: Copernicus Digital Elevation Model (DEM)
+dc:abstract:
+  The Copernicus DEM is a Digital Surface Model (DSM) that represents
+  the surface of the Earth including buildings, infrastructure and vegetation.
+  We propose a subset of the whole corpus of data based on the most popular datasets.
+links:
+- title: Copernicus DEM documentation
+  rel: derived_from
+  href: https://doi.org/10.5270/ESA-c5d3d65
+  type: text/html
+- title: Licence to use Copernicus DEM
+  rel: license
+  href: https://spacedata.copernicus.eu/documents/20123/121286/CSCDA_ESA_Mission-specific+Annex_31_Oct_22.pdf/fb109818-56ad-bbee-053c-d972aed25ce6
+  type: application/pdf
+extent:
+  spatial:
+    bbox:
+    - - -180
+      - -90
+      - 180
+      - 90
+  temporal:
+    interval:
+    - - 2022-01-01T00:00:00Z
+      - 
+keywords:
+- Copernicus
+- DEM
+providers:
+- name: Copernicus
+  roles:
+  - producer
+  - licensor
+  url: https://www.copernicus.eu
+- name: B-Open
+  roles:
+  - processor
+  - host
+  url: https://www.bopen.eu/
