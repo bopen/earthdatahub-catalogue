@@ -23,6 +23,7 @@ extent:
     interval:
     - - 2022-01-01T00:00:00Z
       - 
+license: various
 keywords:
 - Copernicus
 - DEM
