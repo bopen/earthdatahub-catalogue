@@ -27,17 +27,14 @@ properties:
       extent:
       - null
       - null
-      step: null
     latitude:
       type: spatial
       axis: y
       reference_system: 4326
-      step: null
     longitude:
       type: spatial
       axis: x
       reference_system: 4326
-      step: null
   cube:variables:
     10u:
       dimensions:
