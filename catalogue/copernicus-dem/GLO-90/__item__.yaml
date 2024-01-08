@@ -1,5 +1,5 @@
 links:
-- title: Copernicus DEM Global 90m (Europe)
+- title: Copernicus DEM Global 90m
   rel: derived_from
   href: https://doi.org/10.5270/ESA-c5d3d65
   type: text/html
@@ -8,16 +8,16 @@ links:
   href: https://destination-earth.eu/
   type: text/html
 bbox:
-- -27
-- 26
-- 45
-- 74
+- -180
+- -90
+- 180
+- 90
 properties:
   start_datetime: '2022-01-01T12:00:00Z'
   end_datetime: '2022-01-01T12:00:00Z'
-  dc:abstract: Copernicus DEM Global 90m (Europe)
+  dc:abstract: Copernicus DEM Global 90m
   dc:access_rights: free of charge
-  dc:title: Copernicus DEM Global 90m (Europe)
+  dc:title: Copernicus DEM Global 90m
   dc:subject:
   - Copernicus
   - DEM
@@ -42,7 +42,7 @@ properties:
       unit: m
 assets:
   data:
-    href: s3://copernicus-dem/GLO-90-europe-v0.zarr
+    href: s3://copernicus-dem/GLO-90-v0.zarr
     roles:
     - data
     xarray:open_kwargs:

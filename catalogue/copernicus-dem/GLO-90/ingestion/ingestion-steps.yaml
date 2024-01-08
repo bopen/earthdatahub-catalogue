@@ -1,0 +1,13 @@
+steps:
+- xarray_datastore_class: url_datastore
+  xarray_datastore_kwargs:
+    url_template: s3://EODATA/auxdata/CopDEM_COG/copernicus-dem-90m/Copernicus_DSM_COG_30_{ns_latitude}_00_{ew_longitude}_00_DEM/Copernicus_DSM_COG_30_{ns_latitude}_00_{ew_longitude}_00_DEM.tif
+    step: 1200
+    s3fs_kwargs:
+      key: JLVJZ2W4MLMV9PWOIGLV
+      secret: AYWMDTH577QZy9YiGlNzejqqiqds69I40MCD5jei
+      endpoint_url: https://eodata.dataspace.copernicus.eu
+  robust_to_zarr_kwargs: {time_dim: lon, time_restart_block: 1}
+  to_zarr_kwargs: {store: 's3://copernicus-dem/GLO-90-v1.zarr', write_empty_chunks: false}
+  xarray_open_kwargs:
+    chunks: {}
