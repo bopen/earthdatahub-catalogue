@@ -38,3 +38,4 @@ providers:
   - processor
   - host
   url: https://www.bopen.eu/
+search_weight: 50

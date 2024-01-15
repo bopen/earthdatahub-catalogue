@@ -50,4 +50,4 @@ assets:
       chunks: {}
     xarray:storage_options:
       endpoint_url: https://s3.gra.perf.cloud.ovh.net
-
+search_weight: 50

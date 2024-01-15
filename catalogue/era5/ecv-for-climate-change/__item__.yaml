@@ -83,3 +83,4 @@ assets:
     href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/era5/items/ecv-for-climate-change.png
     roles:
     - thumbnail
+search_weight: 50

@@ -105,3 +105,4 @@ assets:
     href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/era5/items/reanalysis-era5-land/thumbnail_994eb8e45caae30939495bcf2ae61b50417f484b8e0af0524d629094b4f8ee99.png
     roles:
     - thumbnail
+search_weight: 80

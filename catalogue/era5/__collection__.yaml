@@ -45,3 +45,4 @@ assets:
     href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/era5/thumbnail_bd126ec0726b50cf50767a44a0b90fafe7757d0b7b97ddef6d723afc1203b472.png
     roles:
     - thumbnail
+search_weight: 80

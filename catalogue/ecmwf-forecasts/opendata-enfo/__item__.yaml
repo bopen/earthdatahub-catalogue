@@ -34,3 +34,4 @@ assets:
   #   href:
   #   roles:
   #   - data
+search_weight: 0
