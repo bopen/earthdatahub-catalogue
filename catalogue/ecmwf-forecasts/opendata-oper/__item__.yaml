@@ -1,6 +1,6 @@
 links:
 - title: Medium-range forecasts
-  rel: documentation
+  rel: derived_from
   href: https://www.ecmwf.int/en/forecasts/documentation-and-support/medium-range-forecasts
   type: text/html
 bbox:
