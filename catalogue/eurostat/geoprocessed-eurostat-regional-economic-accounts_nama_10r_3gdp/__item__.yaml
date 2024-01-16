@@ -82,7 +82,8 @@ properties:
       - lon
       type: data
       description: 'NUTS_Level: L0'
-      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage of the EU27 (from 2020) average
+      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage
+        of the EU27 (from 2020) average
     L1_EUR_HAB:
       dimensions:
       - time
@@ -138,7 +139,8 @@ properties:
       - lon
       type: data
       description: 'NUTS_Level: L1'
-      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage of the EU27 (from 2020) average
+      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage
+        of the EU27 (from 2020) average
     L2_EUR_HAB:
       dimensions:
       - time
@@ -194,7 +196,8 @@ properties:
       - lon
       type: data
       description: 'NUTS_Level: L2'
-      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage of the EU27 (from 2020) average
+      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage
+        of the EU27 (from 2020) average
     L3_EUR_HAB:
       dimensions:
       - time
@@ -250,7 +253,8 @@ properties:
       - lon
       type: data
       description: 'NUTS_Level: L3'
-      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage of the EU27 (from 2020) average
+      unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage
+        of the EU27 (from 2020) average
     spatial_ref:
       dimensions: []
       type: data

@@ -8,10 +8,10 @@ links:
   href: https://destination-earth.eu/
   type: text/html
 bbox:
-- -180
-- -90
-- 180
-- 90
+- -180.0
+- -90.0
+- 180.0
+- 90.0
 properties:
   start_datetime: '2022-01-01T12:00:00Z'
   end_datetime: '2022-01-01T12:00:00Z'
@@ -35,8 +35,8 @@ properties:
   cube:variables:
     dsm:
       dimensions:
-      - latitude
-      - longitude
+      - lat
+      - lon
       type: data
       description: altitude over the geoid
       unit: m
