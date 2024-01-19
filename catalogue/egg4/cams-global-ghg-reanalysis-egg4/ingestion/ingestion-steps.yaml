@@ -1,0 +1,30 @@
+steps:
+- chunks: {latitude: 256, longitude: 256}
+  robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 96}
+  to_zarr_kwargs: {store: 's3://nm-dev/intermediate/cams-global-ghg-reanalysis-egg4.zarr',
+                   write_empty_chunks: false}
+  xarray_open_kwargs:
+    cache_kwargs: {cache_file: true}
+    cfgrib_kwargs:
+      time_dims: [valid_time]
+    chunks: {}
+    engine: ecmwf
+    filename_or_obj:
+      area: ['90', '0', '-90', '360']
+      dataset: 'cams-global-ghg-reanalysis-egg4'
+      date: [2003-01-02/2003-01-10]
+      step: ['0', '3', '6', '9', '12', '15', '18', '21']
+      time: ['00:00', '03:00', '06:00', '09:00', '12:00', '15:00', '18:00', '21:00']
+      variable: [surface_solar_radiation_downwards]
+    request_chunker_kwargs: {time_dim: valid_time}
+    request_chunks: {day: 5}
+    client_kwargs: {url: https://ads.atmosphere.copernicus.eu/api/v2, key: 17995:b2c007b4-c79e-45d9-b635-19aea609fa4f}
+- chunks: {latitude: 64, longitude: 64, valid_time: 2880}
+  robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 6}
+  to_zarr_kwargs:
+    store: 's3://nm-dev/cams-global-ghg-reanalysis-egg4.zarr'
+    write_empty_chunks: false
+  xarray_open_kwargs:
+    chunks: {valid_time: 2880}
+    engine: zarr
+    filename_or_obj: s3://nm-dev/intermediate/cams-global-ghg-reanalysis-egg4.zarr
