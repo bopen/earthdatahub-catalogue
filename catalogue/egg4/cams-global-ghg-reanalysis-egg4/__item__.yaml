@@ -1,0 +1,99 @@
+links:
+- title: CAMS global greenhouse gas reanalysis (EGG4)
+  rel: derived_from
+  href: https://confluence.ecmwf.int/display/CKB/CAMS%3A+Reanalysis+data+documentation
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- -180
+- -90
+- 180
+- 90
+properties:
+  start_datetime: '1940-01-01T00:00:00Z'
+  end_datetime: '2023-11-30T23:00:00Z'
+  dc:abstract: 'This dataset is part of the ECMWF Atmospheric Composition Reanalysis focusing on long-lived 
+  greenhouse gases: carbon dioxide (CO2) and methane (CH4)'
+  dc:access_rights: free of charge
+  dc:title: CAMS global greenhouse gas reanalysis (EGG4)
+  dc:subject:
+    - CAMS
+    - ECMWF
+    - reanalysis
+    - greenhouse
+    - EGG4
+    - gas
+  cube:dimensions:
+    valid_time:
+      type: temporal
+      extent:
+      - '1940-01-01T00:00:00Z'
+      - '2023-11-30T23:00:00Z'
+      step: P1M
+    latitude:
+      type: spatial
+      axis: y
+      reference_system: 4326
+      step: 0.75
+    longitude:
+      type: spatial
+      axis: x
+      reference_system: 4326
+      step: 0.75
+  cube:variables:
+    t2m:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre temperature
+      unit: K
+    tp:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Total precipitation
+      unit: m
+    u10:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre U wind component
+      unit: m s**-1
+    v10:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre V wind component
+      unit: m s**-1
+    d2m:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre dewpoint temperature
+      unit: K
+assets:
+  data:
+    href: s3://egg4/cams-global-ghg-reanalysis-egg4.zarr
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+  thumbnail:
+    href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/era5/items/reanalysis-era5-single-levels/thumbnail_efd976186fcce26441020a0094a209d9828f1168ad5a04ed354b12feefad2b8c.png
+    roles:
+    - thumbnail
+search_weight: 40

@@ -1,0 +1,49 @@
+title: CAMS global greenhouse gas reanalysis (EGG4)
+dc:abstract:
+  The CAMS reanalysis is the latest global reanalysis data set of atmospheric composition (AC) 
+  produced by the Copernicus Atmosphere Monitoring Service, consisting of 3-dimensional time-consistent 
+  AC fields, including aerosols, chemical species and greenhouse gases
+links:
+- title: CAMS reanalysis
+  rel: derived_from
+  href: https://confluence.ecmwf.int/display/CKB/CAMS%3A+Reanalysis+data+documentation
+- title: Licence to use Copernicus products
+  rel: license
+  href: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+  type: application/pdf
+extent:
+  spatial:
+    bbox:
+    - - -180
+      - -90
+      - 180
+      - 90
+  temporal:
+    interval:
+    - - 2003-01-01T00:00:00Z
+      - 2020-01-01T00:00:00Z
+license: various
+keywords:
+- CAMS
+- ECMWF
+- reanalysis
+- greenhouse
+- EGG4
+- gas
+providers:
+- name: ECMWF
+  roles:
+  - producer
+  - licensor
+  url: https://www.ecmwf.int/
+- name: B-Open
+  roles:
+  - processor
+  - host
+  url: https://www.bopen.eu/
+assets:
+  thumbnail:
+    href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/era5/thumbnail_bd126ec0726b50cf50767a44a0b90fafe7757d0b7b97ddef6d723afc1203b472.png
+    roles:
+    - thumbnail
+search_weight: 40
