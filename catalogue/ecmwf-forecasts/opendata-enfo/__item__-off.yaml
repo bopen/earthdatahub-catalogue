@@ -23,7 +23,7 @@ properties:
   - ECMWF
   - forecast
   - weather
-
+  dc:accrual_periodicity: freq:XXX
 
 assets:
   thumbnail:

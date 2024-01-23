@@ -22,6 +22,7 @@ properties:
   - Ocean
   - CMEMS
   - reanalysis
+  dc:accrual_periodicity: freq:monthly
   cube:dimensions:
     valid_time:
       type: temporal

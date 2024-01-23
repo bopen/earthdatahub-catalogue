@@ -27,6 +27,7 @@ properties:
   - ECMWF
   - reanalysis
   - climate
+  dc:accrual_periodicity: freq:monthly
   cube:dimensions:
     time:
       type: temporal
