@@ -41,7 +41,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, less than 1 year old, for slaughter; NUTS_Level: L0'
+      description: 'Live animals: Bovine animals, less than 1 year old, for slaughter;
+        NUTS_Level: L0'
       unit: Thousand heads (animals)
     L0_A2010C_THS_HD:
       dimensions:
@@ -49,7 +50,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, less than 1 year old, not for slaughter; NUTS_Level: L0'
+      description: 'Live animals: Bovine animals, less than 1 year old, not for slaughter;
+        NUTS_Level: L0'
       unit: Thousand heads (animals)
     L0_A2010_THS_HD:
       dimensions:
@@ -57,7 +59,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, less than 1 year old; NUTS_Level: L0'
+      description: 'Live animals: Bovine animals, less than 1 year old; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A2020_THS_HD:
       dimensions:
@@ -65,7 +68,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, 1 to less than 2 years old; NUTS_Level: L0'
+      description: 'Live animals: Bovine animals, 1 to less than 2 years old; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A2030_THS_HD:
       dimensions:
@@ -73,7 +77,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, 2 years old or over; NUTS_Level: L0'
+      description: 'Live animals: Bovine animals, 2 years old or over; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A2110C_THS_HD:
       dimensions:
@@ -81,7 +86,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Male calves, less than 1 year old, not for slaughter; NUTS_Level: L0'
+      description: 'Live animals: Male calves, less than 1 year old, not for slaughter;
+        NUTS_Level: L0'
       unit: Thousand heads (animals)
     L0_A2120_THS_HD:
       dimensions:
@@ -89,7 +95,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Male bovine animals, 1 to less than 2 years old; NUTS_Level: L0'
+      description: 'Live animals: Male bovine animals, 1 to less than 2 years old;
+        NUTS_Level: L0'
       unit: Thousand heads (animals)
     L0_A2130_THS_HD:
       dimensions:
@@ -97,7 +104,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Male bovine animals, 2 years old or over; NUTS_Level: L0'
+      description: 'Live animals: Male bovine animals, 2 years old or over; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A2210C_THS_HD:
       dimensions:
@@ -105,7 +113,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Female calves, less than 1 year old, not for slaughter; NUTS_Level: L0'
+      description: 'Live animals: Female calves, less than 1 year old, not for slaughter;
+        NUTS_Level: L0'
       unit: Thousand heads (animals)
     L0_A2220B_THS_HD:
       dimensions:
@@ -113,7 +122,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 1 year old, for slaughter; NUTS_Level: L0'
+      description: 'Live animals: Heifers, 1 year old, for slaughter; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A2220C_THS_HD:
       dimensions:
@@ -121,7 +131,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 1 year old, not for slaughter; NUTS_Level: L0'
+      description: 'Live animals: Heifers, 1 year old, not for slaughter; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A2220_THS_HD:
       dimensions:
@@ -129,7 +140,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 1 to less than 2 years old; NUTS_Level: L0'
+      description: 'Live animals: Heifers, 1 to less than 2 years old; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A2230B_THS_HD:
       dimensions:
@@ -137,7 +149,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 2 years old or over, for slaughter; NUTS_Level: L0'
+      description: 'Live animals: Heifers, 2 years old or over, for slaughter; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A2230C_THS_HD:
       dimensions:
@@ -145,7 +158,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 2 years old or over, not for slaughter; NUTS_Level: L0'
+      description: 'Live animals: Heifers, 2 years old or over, not for slaughter;
+        NUTS_Level: L0'
       unit: Thousand heads (animals)
     L0_A2230_2330_THS_HD:
       dimensions:
@@ -153,7 +167,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Female bovine animals, 2 years old or over; NUTS_Level: L0'
+      description: 'Live animals: Female bovine animals, 2 years old or over; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A2230_THS_HD:
       dimensions:
@@ -225,7 +240,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Piglets, live weight of under 20 kg; NUTS_Level: L0'
+      description: 'Live animals: Piglets, live weight of under 20 kg; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A3120KA_THS_HD:
       dimensions:
@@ -273,7 +289,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Breeding sows, live weight 50 kg or over; NUTS_Level: L0'
+      description: 'Live animals: Breeding sows, live weight 50 kg or over; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A3131_THS_HD:
       dimensions:
@@ -281,7 +298,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Pigs, from 20 kg to less than 50 kg; NUTS_Level: L0'
+      description: 'Live animals: Pigs, from 20 kg to less than 50 kg; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A3132X_THS_HD:
       dimensions:
@@ -289,7 +307,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Fattening pigs, from 50 kg to less than 80 kg; NUTS_Level: L0'
+      description: 'Live animals: Fattening pigs, from 50 kg to less than 80 kg; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A3132Y_THS_HD:
       dimensions:
@@ -297,7 +316,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Fattening pigs, from 80 kg to less than 110 kg; NUTS_Level: L0'
+      description: 'Live animals: Fattening pigs, from 80 kg to less than 110 kg;
+        NUTS_Level: L0'
       unit: Thousand heads (animals)
     L0_A3132Z_THS_HD:
       dimensions:
@@ -305,7 +325,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Fattening pigs, live weight 110 kg or over; NUTS_Level: L0'
+      description: 'Live animals: Fattening pigs, live weight 110 kg or over; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A3132_THS_HD:
       dimensions:
@@ -313,7 +334,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Fattening pigs, live weight 50 kg or over; NUTS_Level: L0'
+      description: 'Live animals: Fattening pigs, live weight 50 kg or over; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A3133_THS_HD:
       dimensions:
@@ -337,7 +359,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Milk ewes and ewe-lambs put to the ram; NUTS_Level: L0'
+      description: 'Live animals: Milk ewes and ewe-lambs put to the ram; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A4110KD_THS_HD:
       dimensions:
@@ -345,7 +368,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Non milk ewes and ewe-lambs put to the ram; NUTS_Level: L0'
+      description: 'Live animals: Non milk ewes and ewe-lambs put to the ram; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A4110K_THS_HD:
       dimensions:
@@ -393,7 +417,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Goats mated and having already kidded; NUTS_Level: L0'
+      description: 'Live animals: Goats mated and having already kidded; NUTS_Level:
+        L0'
       unit: Thousand heads (animals)
     L0_A4220_THS_HD:
       dimensions:
@@ -417,7 +442,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, less than 1 year old, for slaughter; NUTS_Level: L1'
+      description: 'Live animals: Bovine animals, less than 1 year old, for slaughter;
+        NUTS_Level: L1'
       unit: Thousand heads (animals)
     L1_A2010C_THS_HD:
       dimensions:
@@ -425,7 +451,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, less than 1 year old, not for slaughter; NUTS_Level: L1'
+      description: 'Live animals: Bovine animals, less than 1 year old, not for slaughter;
+        NUTS_Level: L1'
       unit: Thousand heads (animals)
     L1_A2010_THS_HD:
       dimensions:
@@ -433,7 +460,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, less than 1 year old; NUTS_Level: L1'
+      description: 'Live animals: Bovine animals, less than 1 year old; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A2020_THS_HD:
       dimensions:
@@ -441,7 +469,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, 1 to less than 2 years old; NUTS_Level: L1'
+      description: 'Live animals: Bovine animals, 1 to less than 2 years old; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A2030_THS_HD:
       dimensions:
@@ -449,7 +478,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, 2 years old or over; NUTS_Level: L1'
+      description: 'Live animals: Bovine animals, 2 years old or over; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A2110C_THS_HD:
       dimensions:
@@ -457,7 +487,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Male calves, less than 1 year old, not for slaughter; NUTS_Level: L1'
+      description: 'Live animals: Male calves, less than 1 year old, not for slaughter;
+        NUTS_Level: L1'
       unit: Thousand heads (animals)
     L1_A2120_THS_HD:
       dimensions:
@@ -465,7 +496,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Male bovine animals, 1 to less than 2 years old; NUTS_Level: L1'
+      description: 'Live animals: Male bovine animals, 1 to less than 2 years old;
+        NUTS_Level: L1'
       unit: Thousand heads (animals)
     L1_A2130_THS_HD:
       dimensions:
@@ -473,7 +505,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Male bovine animals, 2 years old or over; NUTS_Level: L1'
+      description: 'Live animals: Male bovine animals, 2 years old or over; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A2210C_THS_HD:
       dimensions:
@@ -481,7 +514,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Female calves, less than 1 year old, not for slaughter; NUTS_Level: L1'
+      description: 'Live animals: Female calves, less than 1 year old, not for slaughter;
+        NUTS_Level: L1'
       unit: Thousand heads (animals)
     L1_A2220B_THS_HD:
       dimensions:
@@ -489,7 +523,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 1 year old, for slaughter; NUTS_Level: L1'
+      description: 'Live animals: Heifers, 1 year old, for slaughter; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A2220C_THS_HD:
       dimensions:
@@ -497,7 +532,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 1 year old, not for slaughter; NUTS_Level: L1'
+      description: 'Live animals: Heifers, 1 year old, not for slaughter; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A2220_THS_HD:
       dimensions:
@@ -505,7 +541,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 1 to less than 2 years old; NUTS_Level: L1'
+      description: 'Live animals: Heifers, 1 to less than 2 years old; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A2230B_THS_HD:
       dimensions:
@@ -513,7 +550,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 2 years old or over, for slaughter; NUTS_Level: L1'
+      description: 'Live animals: Heifers, 2 years old or over, for slaughter; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A2230C_THS_HD:
       dimensions:
@@ -521,7 +559,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 2 years old or over, not for slaughter; NUTS_Level: L1'
+      description: 'Live animals: Heifers, 2 years old or over, not for slaughter;
+        NUTS_Level: L1'
       unit: Thousand heads (animals)
     L1_A2230_2330_THS_HD:
       dimensions:
@@ -529,7 +568,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Female bovine animals, 2 years old or over; NUTS_Level: L1'
+      description: 'Live animals: Female bovine animals, 2 years old or over; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A2230_THS_HD:
       dimensions:
@@ -601,7 +641,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Piglets, live weight of under 20 kg; NUTS_Level: L1'
+      description: 'Live animals: Piglets, live weight of under 20 kg; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A3120KA_THS_HD:
       dimensions:
@@ -649,7 +690,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Breeding sows, live weight 50 kg or over; NUTS_Level: L1'
+      description: 'Live animals: Breeding sows, live weight 50 kg or over; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A3131_THS_HD:
       dimensions:
@@ -657,7 +699,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Pigs, from 20 kg to less than 50 kg; NUTS_Level: L1'
+      description: 'Live animals: Pigs, from 20 kg to less than 50 kg; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A3132X_THS_HD:
       dimensions:
@@ -665,7 +708,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Fattening pigs, from 50 kg to less than 80 kg; NUTS_Level: L1'
+      description: 'Live animals: Fattening pigs, from 50 kg to less than 80 kg; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A3132Y_THS_HD:
       dimensions:
@@ -673,7 +717,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Fattening pigs, from 80 kg to less than 110 kg; NUTS_Level: L1'
+      description: 'Live animals: Fattening pigs, from 80 kg to less than 110 kg;
+        NUTS_Level: L1'
       unit: Thousand heads (animals)
     L1_A3132Z_THS_HD:
       dimensions:
@@ -681,7 +726,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Fattening pigs, live weight 110 kg or over; NUTS_Level: L1'
+      description: 'Live animals: Fattening pigs, live weight 110 kg or over; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A3132_THS_HD:
       dimensions:
@@ -689,7 +735,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Fattening pigs, live weight 50 kg or over; NUTS_Level: L1'
+      description: 'Live animals: Fattening pigs, live weight 50 kg or over; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A3133_THS_HD:
       dimensions:
@@ -713,7 +760,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Milk ewes and ewe-lambs put to the ram; NUTS_Level: L1'
+      description: 'Live animals: Milk ewes and ewe-lambs put to the ram; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A4110KD_THS_HD:
       dimensions:
@@ -721,7 +769,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Non milk ewes and ewe-lambs put to the ram; NUTS_Level: L1'
+      description: 'Live animals: Non milk ewes and ewe-lambs put to the ram; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A4110K_THS_HD:
       dimensions:
@@ -769,7 +818,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Goats mated and having already kidded; NUTS_Level: L1'
+      description: 'Live animals: Goats mated and having already kidded; NUTS_Level:
+        L1'
       unit: Thousand heads (animals)
     L1_A4220_THS_HD:
       dimensions:
@@ -793,7 +843,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, less than 1 year old, for slaughter; NUTS_Level: L2'
+      description: 'Live animals: Bovine animals, less than 1 year old, for slaughter;
+        NUTS_Level: L2'
       unit: Thousand heads (animals)
     L2_A2010C_THS_HD:
       dimensions:
@@ -801,7 +852,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, less than 1 year old, not for slaughter; NUTS_Level: L2'
+      description: 'Live animals: Bovine animals, less than 1 year old, not for slaughter;
+        NUTS_Level: L2'
       unit: Thousand heads (animals)
     L2_A2010_THS_HD:
       dimensions:
@@ -809,7 +861,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, less than 1 year old; NUTS_Level: L2'
+      description: 'Live animals: Bovine animals, less than 1 year old; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A2020_THS_HD:
       dimensions:
@@ -817,7 +870,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, 1 to less than 2 years old; NUTS_Level: L2'
+      description: 'Live animals: Bovine animals, 1 to less than 2 years old; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A2030_THS_HD:
       dimensions:
@@ -825,7 +879,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Bovine animals, 2 years old or over; NUTS_Level: L2'
+      description: 'Live animals: Bovine animals, 2 years old or over; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A2110C_THS_HD:
       dimensions:
@@ -833,7 +888,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Male calves, less than 1 year old, not for slaughter; NUTS_Level: L2'
+      description: 'Live animals: Male calves, less than 1 year old, not for slaughter;
+        NUTS_Level: L2'
       unit: Thousand heads (animals)
     L2_A2120_THS_HD:
       dimensions:
@@ -841,7 +897,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Male bovine animals, 1 to less than 2 years old; NUTS_Level: L2'
+      description: 'Live animals: Male bovine animals, 1 to less than 2 years old;
+        NUTS_Level: L2'
       unit: Thousand heads (animals)
     L2_A2130_THS_HD:
       dimensions:
@@ -849,7 +906,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Male bovine animals, 2 years old or over; NUTS_Level: L2'
+      description: 'Live animals: Male bovine animals, 2 years old or over; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A2210C_THS_HD:
       dimensions:
@@ -857,7 +915,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Female calves, less than 1 year old, not for slaughter; NUTS_Level: L2'
+      description: 'Live animals: Female calves, less than 1 year old, not for slaughter;
+        NUTS_Level: L2'
       unit: Thousand heads (animals)
     L2_A2220B_THS_HD:
       dimensions:
@@ -865,7 +924,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 1 year old, for slaughter; NUTS_Level: L2'
+      description: 'Live animals: Heifers, 1 year old, for slaughter; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A2220C_THS_HD:
       dimensions:
@@ -873,7 +933,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 1 year old, not for slaughter; NUTS_Level: L2'
+      description: 'Live animals: Heifers, 1 year old, not for slaughter; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A2220_THS_HD:
       dimensions:
@@ -881,7 +942,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 1 to less than 2 years old; NUTS_Level: L2'
+      description: 'Live animals: Heifers, 1 to less than 2 years old; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A2230B_THS_HD:
       dimensions:
@@ -889,7 +951,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 2 years old or over, for slaughter; NUTS_Level: L2'
+      description: 'Live animals: Heifers, 2 years old or over, for slaughter; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A2230C_THS_HD:
       dimensions:
@@ -897,7 +960,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Heifers, 2 years old or over, not for slaughter; NUTS_Level: L2'
+      description: 'Live animals: Heifers, 2 years old or over, not for slaughter;
+        NUTS_Level: L2'
       unit: Thousand heads (animals)
     L2_A2230_2330_THS_HD:
       dimensions:
@@ -905,7 +969,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Female bovine animals, 2 years old or over; NUTS_Level: L2'
+      description: 'Live animals: Female bovine animals, 2 years old or over; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A2230_THS_HD:
       dimensions:
@@ -977,7 +1042,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Piglets, live weight of under 20 kg; NUTS_Level: L2'
+      description: 'Live animals: Piglets, live weight of under 20 kg; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A3120KA_THS_HD:
       dimensions:
@@ -1025,7 +1091,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Breeding sows, live weight 50 kg or over; NUTS_Level: L2'
+      description: 'Live animals: Breeding sows, live weight 50 kg or over; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A3131_THS_HD:
       dimensions:
@@ -1033,7 +1100,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Pigs, from 20 kg to less than 50 kg; NUTS_Level: L2'
+      description: 'Live animals: Pigs, from 20 kg to less than 50 kg; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A3132X_THS_HD:
       dimensions:
@@ -1041,7 +1109,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Fattening pigs, from 50 kg to less than 80 kg; NUTS_Level: L2'
+      description: 'Live animals: Fattening pigs, from 50 kg to less than 80 kg; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A3132Y_THS_HD:
       dimensions:
@@ -1049,7 +1118,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Fattening pigs, from 80 kg to less than 110 kg; NUTS_Level: L2'
+      description: 'Live animals: Fattening pigs, from 80 kg to less than 110 kg;
+        NUTS_Level: L2'
       unit: Thousand heads (animals)
     L2_A3132Z_THS_HD:
       dimensions:
@@ -1057,7 +1127,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Fattening pigs, live weight 110 kg or over; NUTS_Level: L2'
+      description: 'Live animals: Fattening pigs, live weight 110 kg or over; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A3132_THS_HD:
       dimensions:
@@ -1065,7 +1136,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Fattening pigs, live weight 50 kg or over; NUTS_Level: L2'
+      description: 'Live animals: Fattening pigs, live weight 50 kg or over; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A3133_THS_HD:
       dimensions:
@@ -1089,7 +1161,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Milk ewes and ewe-lambs put to the ram; NUTS_Level: L2'
+      description: 'Live animals: Milk ewes and ewe-lambs put to the ram; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A4110KD_THS_HD:
       dimensions:
@@ -1097,7 +1170,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Non milk ewes and ewe-lambs put to the ram; NUTS_Level: L2'
+      description: 'Live animals: Non milk ewes and ewe-lambs put to the ram; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A4110K_THS_HD:
       dimensions:
@@ -1145,7 +1219,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'Live animals: Goats mated and having already kidded; NUTS_Level: L2'
+      description: 'Live animals: Goats mated and having already kidded; NUTS_Level:
+        L2'
       unit: Thousand heads (animals)
     L2_A4220_THS_HD:
       dimensions:

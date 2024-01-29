@@ -32,7 +32,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Central government; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: Central government; National accounts
+        indicator (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Million euro
     L0_MIO_EUR_S1311_GD:
       dimensions:
@@ -40,7 +41,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Central government; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: Central government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt'
       unit: Million euro
     L0_MIO_EUR_S1312_B9:
       dimensions:
@@ -48,7 +50,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: State government; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: State government; National accounts indicator
+        (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Million euro
     L0_MIO_EUR_S1312_GD:
       dimensions:
@@ -56,7 +59,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: State government; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: State government; National accounts indicator
+        (ESA 2010): Government consolidated gross debt'
       unit: Million euro
     L0_MIO_EUR_S1313_B9:
       dimensions:
@@ -64,7 +68,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Local government; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: Local government; National accounts indicator
+        (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Million euro
     L0_MIO_EUR_S1313_GD:
       dimensions:
@@ -72,7 +77,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Local government; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: Local government; National accounts indicator
+        (ESA 2010): Government consolidated gross debt'
       unit: Million euro
     L0_MIO_EUR_S1314_B9:
       dimensions:
@@ -80,7 +86,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Social security funds; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: Social security funds; National accounts
+        indicator (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Million euro
     L0_MIO_EUR_S1314_GD:
       dimensions:
@@ -88,7 +95,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Social security funds; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: Social security funds; National accounts
+        indicator (ESA 2010): Government consolidated gross debt'
       unit: Million euro
     L0_MIO_EUR_S13_AF_81L:
       dimensions:
@@ -96,7 +104,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Trade credits and advances - liabilities'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Trade credits and advances - liabilities'
       unit: Million euro
     L0_MIO_EUR_S13_B9:
       dimensions:
@@ -104,7 +113,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Million euro
     L0_MIO_EUR_S13_D41PAY:
       dimensions:
@@ -112,7 +122,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Interest, payable'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Interest, payable'
       unit: Million euro
     L0_MIO_EUR_S13_GD:
       dimensions:
@@ -120,7 +131,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt'
       unit: Million euro
     L0_MIO_EUR_S13_GD_F2:
       dimensions:
@@ -128,7 +140,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Currency and deposits'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Currency
+        and deposits'
       unit: Million euro
     L0_MIO_EUR_S13_GD_F3:
       dimensions:
@@ -136,7 +150,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Debt securities'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Debt
+        securities'
       unit: Million euro
     L0_MIO_EUR_S13_GD_F31:
       dimensions:
@@ -144,7 +160,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Short-term debt securities'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Short-term
+        debt securities'
       unit: Million euro
     L0_MIO_EUR_S13_GD_F32:
       dimensions:
@@ -152,7 +170,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Long-term debt securities'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Long-term
+        debt securities'
       unit: Million euro
     L0_MIO_EUR_S13_GD_F4:
       dimensions:
@@ -160,7 +180,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Loans'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Loans'
       unit: Million euro
     L0_MIO_EUR_S13_GD_F41:
       dimensions:
@@ -168,7 +189,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Short-term loans'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Short-term
+        loans'
       unit: Million euro
     L0_MIO_EUR_S13_GD_F42:
       dimensions:
@@ -176,7 +199,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Long-term loans'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Long-term
+        loans'
       unit: Million euro
     L0_MIO_EUR_S13_IGL_F4_EA19:
       dimensions:
@@ -184,7 +209,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Intergovernmental lending within EA19 (2015-2022)'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Intergovernmental lending within EA19 (2015-2022)'
       unit: Million euro
     L0_MIO_EUR_S13_IGL_F4_EA20:
       dimensions:
@@ -192,7 +218,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Intergovernmental lending within EA20 (from 2023)'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Intergovernmental lending within EA20 (from 2023)'
       unit: Million euro
     L0_MIO_EUR_S13_IGL_F4_EU27_2020:
       dimensions:
@@ -200,7 +227,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Intergovernmental lending within EU27 (from 2020)'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Intergovernmental lending within EU27 (from 2020)'
       unit: Million euro
     L0_MIO_EUR_S13_P51G:
       dimensions:
@@ -208,7 +236,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Gross fixed capital formation'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Gross fixed capital formation'
       unit: Million euro
     L0_MIO_EUR_S1_B1GQ:
       dimensions:
@@ -216,7 +245,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Total economy; National accounts indicator (ESA 2010): Gross domestic product at market prices'
+      description: 'NUTS_Level: L0; Sector: Total economy; National accounts indicator
+        (ESA 2010): Gross domestic product at market prices'
       unit: Million euro
     L0_MIO_EUR_S1_B5GQ:
       dimensions:
@@ -224,7 +254,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Total economy; National accounts indicator (ESA 2010): Gross national income at market prices'
+      description: 'NUTS_Level: L0; Sector: Total economy; National accounts indicator
+        (ESA 2010): Gross national income at market prices'
       unit: Million euro
     L0_MIO_NAC_S1311_B9:
       dimensions:
@@ -232,7 +263,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Central government; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: Central government; National accounts
+        indicator (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Million units of national currency
     L0_MIO_NAC_S1311_GD:
       dimensions:
@@ -240,7 +272,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Central government; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: Central government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt'
       unit: Million units of national currency
     L0_MIO_NAC_S1312_B9:
       dimensions:
@@ -248,7 +281,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: State government; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: State government; National accounts indicator
+        (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Million units of national currency
     L0_MIO_NAC_S1312_GD:
       dimensions:
@@ -256,7 +290,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: State government; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: State government; National accounts indicator
+        (ESA 2010): Government consolidated gross debt'
       unit: Million units of national currency
     L0_MIO_NAC_S1313_B9:
       dimensions:
@@ -264,7 +299,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Local government; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: Local government; National accounts indicator
+        (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Million units of national currency
     L0_MIO_NAC_S1313_GD:
       dimensions:
@@ -272,7 +308,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Local government; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: Local government; National accounts indicator
+        (ESA 2010): Government consolidated gross debt'
       unit: Million units of national currency
     L0_MIO_NAC_S1314_B9:
       dimensions:
@@ -280,7 +317,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Social security funds; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: Social security funds; National accounts
+        indicator (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Million units of national currency
     L0_MIO_NAC_S1314_GD:
       dimensions:
@@ -288,7 +326,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Social security funds; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: Social security funds; National accounts
+        indicator (ESA 2010): Government consolidated gross debt'
       unit: Million units of national currency
     L0_MIO_NAC_S13_AF_81L:
       dimensions:
@@ -296,7 +335,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Trade credits and advances - liabilities'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Trade credits and advances - liabilities'
       unit: Million units of national currency
     L0_MIO_NAC_S13_B9:
       dimensions:
@@ -304,7 +344,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Million units of national currency
     L0_MIO_NAC_S13_D41PAY:
       dimensions:
@@ -312,7 +353,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Interest, payable'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Interest, payable'
       unit: Million units of national currency
     L0_MIO_NAC_S13_GD:
       dimensions:
@@ -320,7 +362,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt'
       unit: Million units of national currency
     L0_MIO_NAC_S13_GD_F2:
       dimensions:
@@ -328,7 +371,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Currency and deposits'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Currency
+        and deposits'
       unit: Million units of national currency
     L0_MIO_NAC_S13_GD_F3:
       dimensions:
@@ -336,7 +381,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Debt securities'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Debt
+        securities'
       unit: Million units of national currency
     L0_MIO_NAC_S13_GD_F31:
       dimensions:
@@ -344,7 +391,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Short-term debt securities'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Short-term
+        debt securities'
       unit: Million units of national currency
     L0_MIO_NAC_S13_GD_F32:
       dimensions:
@@ -352,7 +401,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Long-term debt securities'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Long-term
+        debt securities'
       unit: Million units of national currency
     L0_MIO_NAC_S13_GD_F4:
       dimensions:
@@ -360,7 +411,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Loans'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Loans'
       unit: Million units of national currency
     L0_MIO_NAC_S13_GD_F41:
       dimensions:
@@ -368,7 +420,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Short-term loans'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Short-term
+        loans'
       unit: Million units of national currency
     L0_MIO_NAC_S13_GD_F42:
       dimensions:
@@ -376,7 +430,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Long-term loans'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Long-term
+        loans'
       unit: Million units of national currency
     L0_MIO_NAC_S13_IGL_F4_EA19:
       dimensions:
@@ -384,7 +440,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Intergovernmental lending within EA19 (2015-2022)'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Intergovernmental lending within EA19 (2015-2022)'
       unit: Million units of national currency
     L0_MIO_NAC_S13_IGL_F4_EA20:
       dimensions:
@@ -392,7 +449,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Intergovernmental lending within EA20 (from 2023)'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Intergovernmental lending within EA20 (from 2023)'
       unit: Million units of national currency
     L0_MIO_NAC_S13_IGL_F4_EU27_2020:
       dimensions:
@@ -400,7 +458,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Intergovernmental lending within EU27 (from 2020)'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Intergovernmental lending within EU27 (from 2020)'
       unit: Million units of national currency
     L0_MIO_NAC_S13_P51G:
       dimensions:
@@ -408,7 +467,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Gross fixed capital formation'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Gross fixed capital formation'
       unit: Million units of national currency
     L0_MIO_NAC_S1_B1GQ:
       dimensions:
@@ -416,7 +476,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Total economy; National accounts indicator (ESA 2010): Gross domestic product at market prices'
+      description: 'NUTS_Level: L0; Sector: Total economy; National accounts indicator
+        (ESA 2010): Gross domestic product at market prices'
       unit: Million units of national currency
     L0_MIO_NAC_S1_B5GQ:
       dimensions:
@@ -424,7 +485,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Total economy; National accounts indicator (ESA 2010): Gross national income at market prices'
+      description: 'NUTS_Level: L0; Sector: Total economy; National accounts indicator
+        (ESA 2010): Gross national income at market prices'
       unit: Million units of national currency
     L0_PC_GDP_S1311_B9:
       dimensions:
@@ -432,7 +494,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Central government; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: Central government; National accounts
+        indicator (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S1311_GD:
       dimensions:
@@ -440,7 +503,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Central government; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: Central government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S1312_B9:
       dimensions:
@@ -448,7 +512,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: State government; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: State government; National accounts indicator
+        (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S1312_GD:
       dimensions:
@@ -456,7 +521,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: State government; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: State government; National accounts indicator
+        (ESA 2010): Government consolidated gross debt'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S1313_B9:
       dimensions:
@@ -464,7 +530,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Local government; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: Local government; National accounts indicator
+        (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S1313_GD:
       dimensions:
@@ -472,7 +539,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Local government; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: Local government; National accounts indicator
+        (ESA 2010): Government consolidated gross debt'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S1314_B9:
       dimensions:
@@ -480,7 +548,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Social security funds; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: Social security funds; National accounts
+        indicator (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S1314_GD:
       dimensions:
@@ -488,7 +557,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Social security funds; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: Social security funds; National accounts
+        indicator (ESA 2010): Government consolidated gross debt'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_AF_81L:
       dimensions:
@@ -496,7 +566,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Trade credits and advances - liabilities'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Trade credits and advances - liabilities'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_B9:
       dimensions:
@@ -504,7 +575,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Net lending (+) /net borrowing (-)'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Net lending (+) /net borrowing (-)'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_D41PAY:
       dimensions:
@@ -512,7 +584,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Interest, payable'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Interest, payable'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_GD:
       dimensions:
@@ -520,7 +593,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_GD_F2:
       dimensions:
@@ -528,7 +602,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Currency and deposits'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Currency
+        and deposits'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_GD_F3:
       dimensions:
@@ -536,7 +612,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Debt securities'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Debt
+        securities'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_GD_F31:
       dimensions:
@@ -544,7 +622,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Short-term debt securities'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Short-term
+        debt securities'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_GD_F32:
       dimensions:
@@ -552,7 +632,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Long-term debt securities'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Long-term
+        debt securities'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_GD_F4:
       dimensions:
@@ -560,7 +642,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Loans'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Loans'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_GD_F41:
       dimensions:
@@ -568,7 +651,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Short-term loans'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Short-term
+        loans'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_GD_F42:
       dimensions:
@@ -576,7 +661,9 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Government consolidated gross debt at face value - Long-term loans'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Government consolidated gross debt at face value - Long-term
+        loans'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_IGL_F4_EA19:
       dimensions:
@@ -584,7 +671,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Intergovernmental lending within EA19 (2015-2022)'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Intergovernmental lending within EA19 (2015-2022)'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_IGL_F4_EA20:
       dimensions:
@@ -592,7 +680,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Intergovernmental lending within EA20 (from 2023)'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Intergovernmental lending within EA20 (from 2023)'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_IGL_F4_EU27_2020:
       dimensions:
@@ -600,7 +689,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Intergovernmental lending within EU27 (from 2020)'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Intergovernmental lending within EU27 (from 2020)'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S13_P51G:
       dimensions:
@@ -608,7 +698,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: General government; National accounts indicator (ESA 2010): Gross fixed capital formation'
+      description: 'NUTS_Level: L0; Sector: General government; National accounts
+        indicator (ESA 2010): Gross fixed capital formation'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S1_B1GQ:
       dimensions:
@@ -616,7 +707,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Total economy; National accounts indicator (ESA 2010): Gross domestic product at market prices'
+      description: 'NUTS_Level: L0; Sector: Total economy; National accounts indicator
+        (ESA 2010): Gross domestic product at market prices'
       unit: Percentage of gross domestic product (GDP)
     L0_PC_GDP_S1_B5GQ:
       dimensions:
@@ -624,7 +716,8 @@ properties:
       - lat
       - lon
       type: data
-      description: 'NUTS_Level: L0; Sector: Total economy; National accounts indicator (ESA 2010): Gross national income at market prices'
+      description: 'NUTS_Level: L0; Sector: Total economy; National accounts indicator
+        (ESA 2010): Gross national income at market prices'
       unit: Percentage of gross domestic product (GDP)
     spatial_ref:
       dimensions: []

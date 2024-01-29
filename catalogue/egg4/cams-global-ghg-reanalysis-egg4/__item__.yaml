@@ -8,24 +8,24 @@ links:
   href: https://destination-earth.eu/
   type: text/html
 bbox:
-- -180
-- -90
-- 180
-- 90
+- 0.0
+- -90.0
+- 359.2
+- 90.0
 properties:
-  start_datetime: '1940-01-01T00:00:00Z'
-  end_datetime: '2023-11-30T23:00:00Z'
-  dc:abstract: 'This dataset is part of the ECMWF Atmospheric Composition Reanalysis focusing on long-lived 
-  greenhouse gases: carbon dioxide (CO2) and methane (CH4)'
+  start_datetime: '2003-01-02T00:00:00Z'
+  end_datetime: '2020-12-31T21:00:00Z'
+  dc:abstract: 'This dataset is part of the ECMWF Atmospheric Composition Reanalysis
+    focusing on long-lived greenhouse gases: carbon dioxide (CO2) and methane (CH4)'
   dc:access_rights: free of charge
   dc:title: CAMS global greenhouse gas reanalysis (EGG4)
   dc:subject:
-    - CAMS
-    - ECMWF
-    - reanalysis
-    - greenhouse
-    - EGG4
-    - gas
+  - CAMS
+  - ECMWF
+  - reanalysis
+  - greenhouse
+  - EGG4
+  - gas
   dc:accrual_periodicity: freq:monthly
   cube:dimensions:
     valid_time:
@@ -45,46 +45,14 @@ properties:
       reference_system: 4326
       step: 0.75
   cube:variables:
-    t2m:
+    tcch4:
       dimensions:
       - valid_time
       - latitude
       - longitude
       type: data
-      description: 2 metre temperature
-      unit: K
-    tp:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Total precipitation
-      unit: m
-    u10:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: 10 metre U wind component
-      unit: m s**-1
-    v10:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: 10 metre V wind component
-      unit: m s**-1
-    d2m:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: 2 metre dewpoint temperature
-      unit: K
+      description: CH4 column-mean molar fraction
+      unit: ppb
 assets:
   data:
     href: s3://egg4/cams-global-ghg-reanalysis-egg4.zarr
