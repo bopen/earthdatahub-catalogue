@@ -43,7 +43,7 @@ properties:
     spatial_ref:
       dimensions: []
       type: data
-  dc:extent: 3359.0 GiB
+  dc:extent: 3,359.0 GiB
 assets:
   data:
     href: s3://copernicus-dem/GLO-30-v0.zarr

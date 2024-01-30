@@ -22,12 +22,6 @@ steps:
   to_zarr_kwargs:
     store: 's3://ecmwf-era5-land/reanalysis-era5-land-no-antartica-v0.zarr'
     write_empty_chunks: false
-  to_zarr_encoding:
-    t2m: {dtype: float16}
-    tp: {dtype: float16}
-    u10: {dtype: float16}
-    v10: {dtype: float16}
-    ssr: {dtype: float16}
   xarray_open_kwargs:
     chunks: {valid_time: 2880}
     consolidated: false
