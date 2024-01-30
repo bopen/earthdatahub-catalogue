@@ -83,6 +83,7 @@ properties:
       type: data
       description: Total precipitation
       unit: m
+  dc:extent: 34297.0 GiB
 assets:
   data:
     href: s3://ecmwf-era5-land/reanalysis-era5-land-no-antartica-v0.zarr

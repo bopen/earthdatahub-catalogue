@@ -175,6 +175,7 @@ properties:
       type: data
       description: Vorticity (relative)
       unit: s**-1
+  dc:extent: 8.0 GiB
 assets:
   data:
     href: s3://hedp/ecmwf-forecasts/opendata-oper-20231016T00.zarr

@@ -10,7 +10,7 @@ links:
 bbox:
 - -180.0
 - -80.0
-- 179.9
+- 179.89999389648438
 - 90.0
 properties:
   start_datetime: '1993-01-01T12:00:00Z'
@@ -97,6 +97,7 @@ properties:
       type: data
       description: Sea surface height
       unit: m
+  dc:extent: 2525.0 GiB
 assets:
   data:
     href: s3://cmems-reanalysis/cmems_mod_glo_phy_my_0.083_P1D-m.zarr

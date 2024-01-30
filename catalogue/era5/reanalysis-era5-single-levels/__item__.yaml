@@ -85,14 +85,18 @@ properties:
       type: data
       description: 2 metre dewpoint temperature
       unit: K
+  dc:extent: 7637.0 GiB
 assets:
   data:
-    href: https://$username:$password@earthdatahub.com/stores/ecmwf-era5-single-levels/reanalysis-era5-single-levels.zarr
+    href: https://earthdatahub.com/stores/ecmwf-era5-single-levels/reanalysis-era5-single-levels.zarr
     roles:
     - data
     xarray:open_kwargs:
       engine: zarr
       chunks: {}
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
   thumbnail:
     href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/era5/items/reanalysis-era5-single-levels/thumbnail_efd976186fcce26441020a0094a209d9828f1168ad5a04ed354b12feefad2b8c.png
     roles:

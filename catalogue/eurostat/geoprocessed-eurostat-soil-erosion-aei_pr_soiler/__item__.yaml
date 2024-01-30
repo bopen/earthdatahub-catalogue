@@ -2358,12 +2358,19 @@ properties:
     spatial_ref:
       dimensions: []
       type: data
+  dc:extent: 2.0 GiB
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/aei_pr_soiler-20000101-20160101.png
     roles:
     - thumbnail
   data:
-    href: s3://eurostat/aei_pr_soiler-20000101-20160101.zarr/
+    href: https://earthdatahub.com/stores/eurostat/aei_pr_soiler-20000101-20160101.zarr/
     roles:
     - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
