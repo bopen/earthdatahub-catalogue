@@ -18,12 +18,14 @@ steps:
     request_chunker_kwargs: {time_dim: valid_time}
     request_chunks: {day: 5}
 - chunks: {latitude: 64, longitude: 64, valid_time: 2880}
-  robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 6}
+  robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 96}
   to_zarr_kwargs:
     store: 's3://ecmwf-era5-land/reanalysis-era5-land-no-antartica-v0.zarr'
     write_empty_chunks: false
+    consolidated: true
   xarray_open_kwargs:
-    chunks: {valid_time: 2880}
-    consolidated: false
     engine: zarr
     filename_or_obj: s3://ecmwf-era5-land/intermediate/reanalysis-era5-land-no-antartica.zarr
+    consolidated: false
+    chunks: {}
+    drop_variables: [ssr]
