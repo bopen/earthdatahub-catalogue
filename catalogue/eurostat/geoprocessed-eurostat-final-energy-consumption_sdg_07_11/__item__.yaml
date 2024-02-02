@@ -50,9 +50,6 @@ properties:
       type: data
       description: 'NUTS_Level: L0'
       unit: Tonnes of oil equivalent (TOE) per capita
-    spatial_ref:
-      dimensions: []
-      type: data
   dc:extent: 0.0 GiB
 assets:
   thumbnail:

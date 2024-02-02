@@ -255,9 +255,6 @@ properties:
       description: 'NUTS_Level: L3'
       unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage
         of the EU27 (from 2020) average
-    spatial_ref:
-      dimensions: []
-      type: data
   dc:extent: 2.0 GiB
 assets:
   thumbnail:

@@ -40,9 +40,6 @@ properties:
       type: data
       description: altitude over the geoid
       unit: m
-    spatial_ref:
-      dimensions: []
-      type: data
   dc:extent: 3,359.0 GiB
 assets:
   data:

@@ -153,9 +153,6 @@ properties:
       type: data
       description: 'NUTS_Level: L3; Sex: Total; Age class: From 80 to 84 years'
       unit: Number
-    spatial_ref:
-      dimensions: []
-      type: data
   dc:extent: 55.0 GiB
 assets:
   thumbnail:

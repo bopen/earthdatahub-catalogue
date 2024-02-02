@@ -92,9 +92,6 @@ properties:
       type: data
       description: 'NUTS_Level: L3; Energy indicator: Heating degree days'
       unit: Number
-    spatial_ref:
-      dimensions: []
-      type: data
   dc:extent: 1.0 GiB
 assets:
   thumbnail:

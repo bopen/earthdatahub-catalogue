@@ -1230,9 +1230,6 @@ properties:
       type: data
       description: 'Live animals: Other goats; NUTS_Level: L2'
       unit: Thousand heads (animals)
-    spatial_ref:
-      dimensions: []
-      type: data
   dc:extent: 18.0 GiB
 assets:
   thumbnail:

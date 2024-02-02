@@ -2355,9 +2355,6 @@ properties:
         beaches, dunes, sand plains, bare rock and glaciers and perpetual snow); NUTS_Level:
         L3'
       unit: Tonnes per hectare
-    spatial_ref:
-      dimensions: []
-      type: data
   dc:extent: 2.0 GiB
 assets:
   thumbnail:

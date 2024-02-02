@@ -909,9 +909,6 @@ properties:
       type: data
       description: 'Sector of performance: All sectors; NUTS_Level: L2'
       unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
-    spatial_ref:
-      dimensions: []
-      type: data
   dc:extent: 12.0 GiB
 assets:
   thumbnail:

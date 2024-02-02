@@ -719,9 +719,6 @@ properties:
       description: 'NUTS_Level: L0; Sector: Total economy; National accounts indicator
         (ESA 2010): Gross national income at market prices'
       unit: Percentage of gross domestic product (GDP)
-    spatial_ref:
-      dimensions: []
-      type: data
   dc:extent: 6.0 GiB
 assets:
   thumbnail:

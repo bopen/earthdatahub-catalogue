@@ -58,9 +58,6 @@ properties:
       type: data
       description: 'NUTS_Level: L3'
       unit: Persons per square kilometre
-    spatial_ref:
-      dimensions: []
-      type: data
   dc:extent: 0.0 GiB
 assets:
   thumbnail:
