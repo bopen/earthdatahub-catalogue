@@ -1,8 +1,8 @@
 steps:
-- chunks: {latitude: 256, longitude: 256, step: 65}
-  robust_to_zarr_kwargs: {time_dim: step, time_restart_block: 65}
+- chunks: {latitude: 256, longitude: 256, step: 5}
+  robust_to_zarr_kwargs: {time_dim: step, time_restart_block: 5}
   to_zarr_kwargs:
-    store: s3://data-access-dev/nm/ecmwf-forecasts/opendata-enfo.zarr
+    store: s3://ecmwf-forecasts/enfo/intermediate/opendata-enfo.zarr
     write_empty_chunks: false
   xarray_open_kwargs:
     cache_kwargs: {cache_file: true}
@@ -12,7 +12,7 @@ steps:
     filename_or_obj:
       "source": ecmwf
       "stream": enfo
-      "date": -1
+      #"date": -1
       "type": pf
       "time": ["0"]
       "number": [ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50 ]
@@ -20,4 +20,14 @@ steps:
       "levelist": [1000, 925, 850, 700, 500, 300, 250, 200, 50]
       "param": [t, u]
     request_chunker_kwargs: {time_dim: step}
-    request_chunks: {levelist: 1}
+    request_chunks: {levelist: 1, step: 1}
+- chunks: { step: 65 }
+  robust_to_zarr_kwargs: { time_dim: step, time_restart_block: 65 }
+  to_zarr_kwargs:
+    store: s3:/ecmwf-forecasts/enfo/opendata-enfo.zarr
+    write_empty_chunks: false
+  xarray_open_kwargs:
+    chunks: {step: 5}
+    engine: zarr
+    filename_or_obj: s3://ecmwf-forecasts/enfo/intermediate/opendata-enfo.zarr
+
