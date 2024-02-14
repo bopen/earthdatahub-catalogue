@@ -26,6 +26,24 @@ properties:
   - europe
   - geoprocessed
   - geospatial
+  dc:accrual_periodicity: freq:yearly
+  cube:dimensions:
+    time:
+      type: temporal
+      extent:
+      - '2000-01-01T00:00:00Z'
+      - '2021-01-01T00:00:00Z'
+      step: P1Y
+    lat:
+      type: spatial
+      axis: y
+      reference_system: 4326
+      step: 0.1
+    lon:
+      type: spatial
+      axis: x
+      reference_system: 4326
+      step: 0.1
   cube:variables:
     L0_EUR_HAB:
       dimensions:
