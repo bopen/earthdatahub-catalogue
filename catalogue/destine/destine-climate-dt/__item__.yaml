@@ -1,0 +1,189 @@
+links:
+- title: high-resolution forecasts
+  rel: derived_from
+  href: 
+  type: text/html
+bbox:
+- -180.0
+- -90.0
+- 179.6
+- 90.0
+properties:
+  dc:abstract: ECMWF's DestinE test climate forecasts dataset
+  dc:access_rights: free of charge
+  dc:title: ECMWF's DestinE high-resolution forecast (test)
+  dc:subject:
+  - DestinE
+  - ECMWF
+  - forecast
+  - weather
+  cube:dimensions:
+    valid_time:
+      type: temporal
+      extent:
+      - null
+      - null
+      step: PT1H
+    latitude:
+      type: spatial
+      axis: y
+      reference_system: 4326
+      step: 0.01
+    longitude:
+      type: spatial
+      axis: x
+      reference_system: 4326
+      step: 0.01
+  cube:variables:
+    10u:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre U wind component
+      unit: m s**-1
+    10v:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre V wind component
+      unit: m s**-1
+    2t:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre temperature
+      unit: K
+    d:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Divergence
+      unit: s**-1
+    gh:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Geopotential height
+      unit: gpm
+    q:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Specific humidity
+      unit: kg kg**-1
+    r:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Relative humidity
+      unit: '%'
+    ro:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: Runoff
+      unit: m
+    sp:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: Surface pressure
+      unit: Pa
+    st:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: Soil temperature
+      unit: K
+    t:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Temperature
+      unit: K
+    tcwv:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: Total column vertically-integrated water vapour
+      unit: kg m**-2
+    tp:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: Total precipitation
+      unit: m
+    u:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: U component of wind
+      unit: m s**-1
+    v:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: V component of wind
+      unit: m s**-1
+    vo:
+      dimensions:
+      - step
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Vorticity (relative)
+      unit: s**-1
+  dc:extent: 8.0 GiB
+assets:
+  data:
+    href: s3://hedp/ecmwf-forecasts/opendata-oper-20231016T00.zarr
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+    xarray:storage_options:
+      endpoint_url: https://s3.gra.perf.cloud.ovh.net
+  thumbnail:
+    href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/ecmwf-forecasts/items/opendata-oper/thumbnail_aadad51a1dd3add14b7fbbec7eea7aa56fda437a82b351a81947e7aa6d4f7a75.png
+    roles:
+    - thumbnail
+search_weight: 50
