@@ -4,10 +4,10 @@ links:
   href: https://destination-earth.eu/
   type: text/html
 bbox:
-- -180.0
-- -90.0
-- 179.6
-- 90.0
+- -3.1
+- -1.6
+- 3.1
+- 1.6
 properties:
   dc:abstract: Test data for the digital twin on climate change adaptation
   dc:access_rights: free of charge
@@ -35,146 +35,17 @@ properties:
       reference_system: 4326
       step: 0.01
   cube:variables:
-    10u:
-      dimensions:
-      - step
-      - latitude
-      - longitude
-      type: data
-      description: 10 metre U wind component
-      unit: m s**-1
-    10v:
-      dimensions:
-      - step
-      - latitude
-      - longitude
-      type: data
-      description: 10 metre V wind component
-      unit: m s**-1
-    2t:
-      dimensions:
-      - step
-      - latitude
-      - longitude
-      type: data
-      description: 2 metre temperature
-      unit: K
-    d:
-      dimensions:
-      - step
-      - isobaricInhPa
-      - latitude
-      - longitude
-      type: data
-      description: Divergence
-      unit: s**-1
-    gh:
-      dimensions:
-      - step
-      - isobaricInhPa
-      - latitude
-      - longitude
-      type: data
-      description: Geopotential height
-      unit: gpm
-    q:
-      dimensions:
-      - step
-      - isobaricInhPa
-      - latitude
-      - longitude
-      type: data
-      description: Specific humidity
-      unit: kg kg**-1
-    r:
-      dimensions:
-      - step
-      - isobaricInhPa
-      - latitude
-      - longitude
-      type: data
-      description: Relative humidity
-      unit: '%'
-    ro:
-      dimensions:
-      - step
-      - latitude
-      - longitude
-      type: data
-      description: Runoff
-      unit: m
     sp:
       dimensions:
-      - step
       - latitude
       - longitude
       type: data
       description: Surface pressure
       unit: Pa
-    st:
-      dimensions:
-      - step
-      - latitude
-      - longitude
-      type: data
-      description: Soil temperature
-      unit: K
-    t:
-      dimensions:
-      - step
-      - isobaricInhPa
-      - latitude
-      - longitude
-      type: data
-      description: Temperature
-      unit: K
-    tcwv:
-      dimensions:
-      - step
-      - latitude
-      - longitude
-      type: data
-      description: Total column vertically-integrated water vapour
-      unit: kg m**-2
-    tp:
-      dimensions:
-      - step
-      - latitude
-      - longitude
-      type: data
-      description: Total precipitation
-      unit: m
-    u:
-      dimensions:
-      - step
-      - isobaricInhPa
-      - latitude
-      - longitude
-      type: data
-      description: U component of wind
-      unit: m s**-1
-    v:
-      dimensions:
-      - step
-      - isobaricInhPa
-      - latitude
-      - longitude
-      type: data
-      description: V component of wind
-      unit: m s**-1
-    vo:
-      dimensions:
-      - step
-      - isobaricInhPa
-      - latitude
-      - longitude
-      type: data
-      description: Vorticity (relative)
-      unit: s**-1
-  dc:extent: 8.0 GiB
+  dc:extent: 0.0 GiB
 assets:
   data:
-    href: s3://hedp/ecmwf-forecasts/opendata-oper-20231016T00.zarr
+    href: s3://destine-climate-dt/destine-climate-dt.zarr
     roles:
     - data
     xarray:open_kwargs:
