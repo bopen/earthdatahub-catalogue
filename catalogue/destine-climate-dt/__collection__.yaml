@@ -3,9 +3,9 @@ dc:abstract:
   Destination Earth digital twin on climate change adaptation
 
 links:
-- title: high-resolution forecasts
+- title: Destination Earth
   rel: derived_from
-  href: 
+  href: https://destination-earth.eu/
   type: text/html
 - title: Licence to use Copernicus products
   rel: license
@@ -40,9 +40,4 @@ providers:
   - processor
   - host
   url: https://www.bopen.eu/
-assets:
-  thumbnail:
-    href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/ecmwf-forecasts/thumbnail_be47c240ccf75f5e6f167520fb6ea1884d46b2ee3c1ce01e360a48b4c6a1f26a.png
-    roles:
-    - thumbnail
 search_weight: 10
