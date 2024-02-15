@@ -9,9 +9,9 @@ bbox:
 - 179.6
 - 90.0
 properties:
-  dc:abstract: ECMWF's DestinE test climate forecasts dataset
+  dc:abstract: Test data for the digital twin on climate change adaptation
   dc:access_rights: free of charge
-  dc:title: ECMWF's DestinE high-resolution forecast (test)
+  dc:title: Test data for the digital twin on climate change adaptation
   dc:subject:
   - DestinE
   - ECMWF
