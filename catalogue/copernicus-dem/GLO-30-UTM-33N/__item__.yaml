@@ -1,0 +1,54 @@
+links:
+- title: Copernicus DEM Global 30m
+  rel: derived_from
+  href: https://doi.org/10.5270/ESA-c5d3d65
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- 12.0
+- 0.0
+- 18.0
+- 84.0
+properties:
+  start_datetime: '2022-01-01T12:00:00Z'
+  end_datetime: '2022-01-01T12:00:00Z'
+  dc:abstract: Copernicus DEM Global 30m resampled on a 10m grid on UTM 33N
+  dc:access_rights: free of charge
+  dc:title: Copernicus DEM Global 30m resampled on a 10m grid on UTM 33N
+  dc:subject:
+  - Copernicus
+  - DEM
+  cube:dimensions:
+    latitude:
+      type: spatial
+      axis: y
+      reference_system: 32633
+      step: 10
+    longitude:
+      type: spatial
+      axis: x
+      reference_system: 32633
+      step: 10
+  cube:variables:
+    dem:
+      dimensions:
+      - y
+      - x
+      type: data
+      description: height above geoid
+      unit: m
+  dc:extent: 320.0 GiB
+assets:
+  data:
+    href: s3://copernicus-dem/GLO-30-UTM-33N-v0.zarr
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+    xarray:storage_options:
+      endpoint_url: https://s3.gra.perf.cloud.ovh.net
+search_weight: 0

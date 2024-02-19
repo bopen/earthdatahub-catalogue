@@ -1,5 +1,8 @@
 steps:
-- robust_to_zarr_kwargs: {time_dim: lon, time_restart_block: 8}
+- xarray_datastore_class: dem_ecef
+  xarray_datastore_kwargs:
+    target_crs: 'EPSG:32633'
+  robust_to_zarr_kwargs: {time_dim: y, time_restart_block: 8}
   to_zarr_kwargs: {store: 's3://copernicus-dem/GLO-30-UTM-33N-v0.zarr', write_empty_chunks: false}
   xarray_open_kwargs:
     chunks: {}
