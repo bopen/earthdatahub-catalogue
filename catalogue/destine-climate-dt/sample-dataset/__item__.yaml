@@ -4,10 +4,10 @@ links:
   href: https://destination-earth.eu/
   type: text/html
 bbox:
-- -3.1
-- -1.6
-- 3.1
-- 1.6
+- -180.0
+- -90.0
+- 180.0
+- 90.0
 properties:
   dc:abstract: Test data for the digital twin on climate change adaptation
   dc:access_rights: free of charge
