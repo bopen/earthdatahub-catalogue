@@ -1,0 +1,43 @@
+title: Destination Earth digital twin on extreme events
+dc:abstract:
+  Destination Earth digital twin on extreme events
+
+links:
+- title: Destination Earth
+  rel: derived_from
+  href: https://destination-earth.eu/
+  type: text/html
+- title: Licence to use Copernicus products
+  rel: license
+  href: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+  type: application/pdf
+extent:
+  spatial:
+    bbox:
+    - - -180
+      - -90
+      - 180
+      - 90
+  temporal:
+    interval:
+    - - 
+      - 
+license: various
+keywords:
+- DestinE
+- digital twin
+- ECMWF
+- forecast
+- weather
+providers:
+- name: ECMWF
+  roles:
+  - producer
+  - licensor
+  url: https://www.ecmwf.int/
+- name: B-Open
+  roles:
+  - processor
+  - host
+  url: https://www.bopen.eu/
+search_weight: 100

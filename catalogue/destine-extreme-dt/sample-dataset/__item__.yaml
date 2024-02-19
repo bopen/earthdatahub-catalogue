@@ -9,9 +9,9 @@ bbox:
 - 180.0
 - 90.0
 properties:
-  dc:abstract: Test data for the digital twin on climate change adaptation
+  dc:abstract: Test data for the digital twin on extreme events
   dc:access_rights: free of charge
-  dc:title: Test data for the digital twin on climate change adaptation
+  dc:title: Test data for the digital twin on extreme events
   dc:subject:
   - DestinE
   - ECMWF
@@ -45,7 +45,7 @@ properties:
   dc:extent: 0.0 GiB
 assets:
   data:
-    href: s3://destine-climate-dt/destine-climate-dt-sample.zarr
+    href: s3://destine-climate-dt/destine-extreme-dt-sample.zarr
     roles:
     - data
     xarray:open_kwargs:
