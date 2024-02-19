@@ -45,7 +45,7 @@ properties:
   dc:extent: 0.0 GiB
 assets:
   data:
-    href: s3://destine-climate-dt/destine-extreme-dt-sample.zarr
+    href: s3://destine-extreme-dt/destine-extreme-dt-sample.zarr
     roles:
     - data
     xarray:open_kwargs:
