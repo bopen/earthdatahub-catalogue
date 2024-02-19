@@ -4,9 +4,9 @@ links:
   href: https://destination-earth.eu/
   type: text/html
 bbox:
-- -180.0
+- 0.0
 - -90.0
-- 180.0
+- 359.0
 - 90.0
 properties:
   dc:abstract: Test data for the digital twin on extreme events
