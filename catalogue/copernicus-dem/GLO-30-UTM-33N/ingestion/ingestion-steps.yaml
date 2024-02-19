@@ -1,0 +1,7 @@
+steps:
+- robust_to_zarr_kwargs: {time_dim: lon, time_restart_block: 8}
+  to_zarr_kwargs: {store: 's3://copernicus-dem/GLO-30-UTM-33N-v0.zarr', write_empty_chunks: false}
+  xarray_open_kwargs:
+    chunks: {}
+    engine: zarr
+    filename_or_obj: copernicus-dem/GLO-30-v0.zarr
