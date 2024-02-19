@@ -1,10 +1,18 @@
 steps:
-- xarray_datastore_class: dem_ecef
+- xarray_datastore_class: convert_dem_utm
   xarray_datastore_kwargs:
-    target_crs: 'EPSG:32633'
-  robust_to_zarr_kwargs: {time_dim: y, time_restart_block: 8}
-  to_zarr_kwargs: {store: 's3://copernicus-dem/GLO-30-UTM-33N-v0.zarr', write_empty_chunks: false}
+    xarray_open_kwargs:
+      chunks: {}
+      engine: zarr
+      filename_or_obj: s3://copernicus-dem/GLO-30-v0.zarr
+    utm_zone: 33N
+  robust_to_zarr_kwargs:
+    time_dim: y
+    time_restart_block: 8
+    time_range: [null, 8000000]
+  to_zarr_kwargs:
+    store: 's3://copernicus-dem/GLO-30-UTM-33N-v1.zarr'
+    write_empty_chunks: false
+  chunks: {y: 5000, x: 5000}
   xarray_open_kwargs:
     chunks: {}
-    engine: zarr
-    filename_or_obj: copernicus-dem/GLO-30-v0.zarr
