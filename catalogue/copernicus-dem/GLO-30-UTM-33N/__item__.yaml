@@ -40,7 +40,15 @@ properties:
       type: data
       description: height above geoid
       unit: m
-  dc:extent: 320.0 GiB
+    dem_ecef:
+      dimensions:
+      - y
+      - x
+      - axis
+      type: data
+      description: ECEF coordinates of surface model
+      unit: m
+  dc:extent: 1,280.0 GiB
 assets:
   data:
     href: s3://copernicus-dem/GLO-30-UTM-33N-v0.zarr
