@@ -1,8 +1,9 @@
 steps:
-- chunks: {latitude: 256, longitude: 256}
+- chunks: {latitude: 241, longitude: 256}
   robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 16}
-  to_zarr_kwargs: {store: 's3://nm-dev/intermediate/cams-global-ghg-reanalysis-egg4.zarr',
-                   write_empty_chunks: false}
+  to_zarr_kwargs:
+    store: s3://egg4/intermediate/cams-global-ghg-reanalysis-egg4.zarr
+    write_empty_chunks: false
   xarray_open_kwargs:
     cache_kwargs: {cache_file: true}
     cfgrib_kwargs:
@@ -15,8 +16,11 @@ steps:
       date: [2003-01-02/2020-12-31]
       step: ['0', '3', '6', '9', '12', '15', '18', '21']
       time: ['00:00', '03:00', '06:00', '09:00', '12:00', '15:00', '18:00', '21:00']
-      variable: [ch4_column_mean_molar_fraction,
-                 co2_column_mean_molar_fraction] #surface_solar_radiation_downwards
+      variable: [
+        ch4_column_mean_molar_fraction,
+        co2_column_mean_molar_fraction,
+        surface_solar_radiation_downwards
+      ]
     request_chunker_kwargs: {time_dim: valid_time}
     request_chunks: {day: 160}
     client_kwargs: {url: https://ads.atmosphere.copernicus.eu/api/v2, key: 17995:b2c007b4-c79e-45d9-b635-19aea609fa4f}
@@ -28,4 +32,4 @@ steps:
   xarray_open_kwargs:
     chunks: {valid_time: 2880}
     engine: zarr
-    filename_or_obj: s3://nm-dev/intermediate/cams-global-ghg-reanalysis-egg4.zarr
+    filename_or_obj: s3://egg4/intermediate/cams-global-ghg-reanalysis-egg4.zarr
