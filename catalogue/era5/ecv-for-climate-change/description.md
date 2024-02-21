@@ -21,7 +21,7 @@ The C3S monthly climate bulletin (https://climate.copernicus.eu/climate-bulletin
 an assessment of the monthly state of the climate with an emphasis on the European geographical domain. 
 This data record is used as the basis for these monthly bulletins.--->
 
-Here we propose a subset of the ECV world data on soil water, two metre temperature and total precipitation. The data are available from 1978 until the last closed month and updated monthly.
+Here we propose a subset of the ECV world data for anomalies on soil water, two metre temperature and total precipitation. The data are available from 1978 until the last closed month and updated monthly.
 
 They are presented as a zarr archive optimised for time analysis.
 
