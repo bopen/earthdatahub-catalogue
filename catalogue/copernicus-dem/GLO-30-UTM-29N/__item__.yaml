@@ -8,9 +8,9 @@ links:
   href: https://destination-earth.eu/
   type: text/html
 bbox:
-- 18.0
+- -12.0
 - 0.0
-- 24.0
+- -6.0
 - 84.0
 properties:
   start_datetime: '2022-01-01T12:00:00Z'
@@ -18,7 +18,8 @@ properties:
   dc:abstract: Copernicus DEM Global 30m resampled on a 10m grid on UTM 29N
   dc:access_rights: free of charge
   dc:title: Copernicus DEM Global 30m resampled on a 10m grid on UTM 29N
-  dc:description: Copernicus Digital Elevation Global 30m resampled on a 10m grid on UTM 29N
+  dc:description: Copernicus Digital Elevation Global 30m resampled on a 10m grid
+    on UTM 29N
   dc:subject:
   - Copernicus
   - DEM

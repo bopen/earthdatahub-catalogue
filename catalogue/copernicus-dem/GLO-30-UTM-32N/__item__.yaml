@@ -42,9 +42,9 @@ properties:
       unit: m
     dem_ecef:
       dimensions:
-      - axis
       - y
       - x
+      - axis
       type: data
       description: ECEF coordinates of surface model
       unit: m
