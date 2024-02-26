@@ -5,13 +5,13 @@ steps:
       chunks: {}
       engine: zarr
       filename_or_obj: s3://copernicus-dem/GLO-30-v0.zarr
-    utm_zone: {{ utm_zone }}
+    utm_zone: {{ cookiecutter.utm_zone }}
   robust_to_zarr_kwargs:
     time_dim: y
     time_restart_block: 24
     time_range: [null, 8000000]
   to_zarr_kwargs:
-    store: 's3://copernicus-dem/GLO-30-UTM-{{ utm_zone }}-v0.zarr'
+    store: 's3://copernicus-dem/GLO-30-UTM-{{ cookiecutter.utm_zone }}-v0.zarr'
     write_empty_chunks: false
   chunks: {y: 5000, x: 5000}
   xarray_open_kwargs:
@@ -22,14 +22,14 @@ steps:
     xarray_open_kwargs:
       chunks: {}
       engine: zarr
-      filename_or_obj: s3://copernicus-dem/GLO-30-UTM-{{ utm_zone }}-v0.zarr
+      filename_or_obj: s3://copernicus-dem/GLO-30-UTM-{{ cookiecutter.utm_zone }}-v0.zarr
       drop_variables: dem_ecef
   robust_to_zarr_kwargs:
     time_dim: y
     time_restart_block: 24
     time_range: [null, 8000000]
   to_zarr_kwargs:
-    store: 's3://copernicus-dem/GLO-30-UTM-{{ utm_zone }}-v0.zarr'
+    store: 's3://copernicus-dem/GLO-30-UTM-{{ cookiecutter.utm_zone }}-v0.zarr'
     write_empty_chunks: false
   chunks: {y: 2500, x: 2500}
   xarray_open_kwargs:

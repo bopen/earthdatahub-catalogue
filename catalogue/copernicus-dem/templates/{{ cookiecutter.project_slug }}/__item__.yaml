@@ -8,18 +8,18 @@ links:
   href: https://destination-earth.eu/
   type: text/html
 bbox:
-- {{ (int(utm_zone[:-1]) - 1) * 6.0 - 180  }}
+- {{ (int(cookiecutter.utm_zone[:-1]) - 1) * 6.0 - 180  }}
 - 0.0
-- {{ int(utm_zone[:-1]) * 6.0 - 180  }}
+- {{ int(cookiecutter.utm_zone[:-1]) * 6.0 - 180  }}
 - 84.0
 properties:
   start_datetime: '2022-01-01T12:00:00Z'
   end_datetime: '2022-01-01T12:00:00Z'
-  dc:abstract: Copernicus DEM Global 30m resampled on a 10m grid on UTM {{ utm_zone }}
+  dc:abstract: Copernicus DEM Global 30m resampled on a 10m grid on UTM {{ cookiecutter.utm_zone }}
   dc:access_rights: free of charge
-  dc:title: Copernicus DEM Global 30m resampled on a 10m grid on UTM {{ utm_zone }}
+  dc:title: Copernicus DEM Global 30m resampled on a 10m grid on UTM {{ cookiecutter.utm_zone }}
   dc:description: Copernicus Digital Elevation Global 30m resampled on a 10m grid
-    on UTM {{ utm_zone }}
+    on UTM {{ cookiecutter.utm_zone }}
   dc:subject:
   - Copernicus
   - DEM
@@ -27,12 +27,12 @@ properties:
     latitude:
       type: spatial
       axis: y
-      reference_system: 326{{ int(utm_zone[:-1]) }}
+      reference_system: 326{{ int(cookiecutter.utm_zone[:-1]) }}
       step: 10
     longitude:
       type: spatial
       axis: x
-      reference_system: 326{{ int(utm_zone[:-1]) }}
+      reference_system: 326{{ int(cookiecutter.utm_zone[:-1]) }}
       step: 10
   cube:variables:
     dem:
@@ -53,7 +53,7 @@ properties:
   dc:extent: 1,280.0 GiB
 assets:
   data:
-    href: s3://copernicus-dem/GLO-30-UTM-{{ utm_zone }}-v0.zarr
+    href: s3://copernicus-dem/GLO-30-UTM-{{ cookiecutter.utm_zone }}-v0.zarr
     roles:
     - data
     xarray:open_kwargs:

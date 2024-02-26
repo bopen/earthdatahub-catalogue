@@ -1,0 +1,5 @@
+{
+    "project_name": "35N",
+    "project_slug": "GLO-30-UTM-{{ cookiecutter.project_name }}",
+    "utm_zone": "{{ cookiecutter.project_name }}"
+}
