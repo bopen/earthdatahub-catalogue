@@ -27,12 +27,12 @@ properties:
     latitude:
       type: spatial
       axis: y
-      reference_system: 32633
+      reference_system: 32630
       step: 10
     longitude:
       type: spatial
       axis: x
-      reference_system: 32633
+      reference_system: 32630
       step: 10
   cube:variables:
     dem:

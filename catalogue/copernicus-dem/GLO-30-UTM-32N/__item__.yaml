@@ -18,6 +18,8 @@ properties:
   dc:abstract: Copernicus DEM Global 30m resampled on a 10m grid on UTM 32N
   dc:access_rights: free of charge
   dc:title: Copernicus DEM Global 30m resampled on a 10m grid on UTM 32N
+  dc:description: Copernicus Digital Elevation Global 30m resampled on a 10m grid
+    on UTM 32N
   dc:subject:
   - Copernicus
   - DEM
@@ -25,12 +27,12 @@ properties:
     latitude:
       type: spatial
       axis: y
-      reference_system: 32633
+      reference_system: 32632
       step: 10
     longitude:
       type: spatial
       axis: x
-      reference_system: 32633
+      reference_system: 32632
       step: 10
   cube:variables:
     dem:

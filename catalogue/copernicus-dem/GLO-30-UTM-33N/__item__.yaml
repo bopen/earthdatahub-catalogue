@@ -18,6 +18,8 @@ properties:
   dc:abstract: Copernicus DEM Global 30m resampled on a 10m grid on UTM 33N
   dc:access_rights: free of charge
   dc:title: Copernicus DEM Global 30m resampled on a 10m grid on UTM 33N
+  dc:description: Copernicus Digital Elevation Global 30m resampled on a 10m grid
+    on UTM 33N
   dc:subject:
   - Copernicus
   - DEM
