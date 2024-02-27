@@ -8,9 +8,9 @@ links:
   href: https://destination-earth.eu/
   type: text/html
 bbox:
-- {{ (int(cookiecutter.utm_zone[:-1]) - 1) * 6.0 - 180  }}
+- {{ (cookiecutter.utm_zone[:-1]|int - 1) * 6.0 - 180  }}
 - 0.0
-- {{ int(cookiecutter.utm_zone[:-1]) * 6.0 - 180  }}
+- {{ cookiecutter.utm_zone[:-1]|int * 6.0 - 180  }}
 - 84.0
 properties:
   start_datetime: '2022-01-01T12:00:00Z'
@@ -27,12 +27,12 @@ properties:
     latitude:
       type: spatial
       axis: y
-      reference_system: 326{{ int(cookiecutter.utm_zone[:-1]) }}
+      reference_system: 326{{ cookiecutter.utm_zone[:-1]|int }}
       step: 10
     longitude:
       type: spatial
       axis: x
-      reference_system: 326{{ int(cookiecutter.utm_zone[:-1]) }}
+      reference_system: 326{{ cookiecutter.utm_zone[:-1]|int }}
       step: 10
   cube:variables:
     dem:
