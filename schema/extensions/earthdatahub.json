@@ -1,0 +1,90 @@
+{
+    "$defs": {
+        "EarthDataHubExtensionCollection": {
+            "properties": {
+                "stac_extensions": {
+                    "items": {},
+                    "title": "Stac Extensions",
+                    "type": "array"
+                },
+                "type": {
+                    "const": "Collection",
+                    "title": "Type"
+                },
+                "edh:maturity": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/Maturity"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null
+                }
+            },
+            "required": [
+                "stac_extensions",
+                "type"
+            ],
+            "title": "EarthDataHubExtensionCollection",
+            "type": "object"
+        },
+        "EarthDataHubExtensionItem": {
+            "properties": {
+                "stac_extensions": {
+                    "items": {},
+                    "title": "Stac Extensions",
+                    "type": "array"
+                },
+                "type": {
+                    "const": "Feature",
+                    "title": "Type"
+                },
+                "properties": {
+                    "$ref": "#/$defs/Properties"
+                }
+            },
+            "required": [
+                "stac_extensions",
+                "type",
+                "properties"
+            ],
+            "title": "EarthDataHubExtensionItem",
+            "type": "object"
+        },
+        "Maturity": {
+            "title": "Maturity",
+            "type": "string"
+        },
+        "Properties": {
+            "properties": {
+                "edh:maturity": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/Maturity"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null
+                }
+            },
+            "title": "Properties",
+            "type": "object"
+        }
+    },
+    "anyOf": [
+        {
+            "$ref": "#/$defs/EarthDataHubExtensionItem"
+        },
+        {
+            "$ref": "#/$defs/EarthDataHubExtensionCollection"
+        }
+    ],
+    "title": "Earth Data Hub",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/earthdatahub.json",
+    "type": "object"
+}

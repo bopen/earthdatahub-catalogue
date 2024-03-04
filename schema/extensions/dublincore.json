@@ -1,0 +1,157 @@
+{
+    "$defs": {
+        "Abstract": {
+            "title": "Abstract",
+            "type": "string"
+        },
+        "AccessRights": {
+            "title": "AccessRights",
+            "type": "string"
+        },
+        "Description": {
+            "title": "Description",
+            "type": "string"
+        },
+        "DublinCoreExtensionCollection": {
+            "properties": {
+                "stac_extensions": {
+                    "items": {},
+                    "title": "Stac Extensions",
+                    "type": "array"
+                },
+                "type": {
+                    "const": "Collection",
+                    "title": "Type"
+                },
+                "dc:abstract": {
+                    "$ref": "#/$defs/Abstract"
+                }
+            },
+            "required": [
+                "stac_extensions",
+                "type",
+                "dc:abstract"
+            ],
+            "title": "DublinCoreExtensionCollection",
+            "type": "object"
+        },
+        "DublinCoreExtensionItem": {
+            "properties": {
+                "stac_extensions": {
+                    "items": {},
+                    "title": "Stac Extensions",
+                    "type": "array"
+                },
+                "type": {
+                    "const": "Feature",
+                    "title": "Type"
+                },
+                "properties": {
+                    "$ref": "#/$defs/Properties"
+                }
+            },
+            "required": [
+                "stac_extensions",
+                "type",
+                "properties"
+            ],
+            "title": "DublinCoreExtensionItem",
+            "type": "object"
+        },
+        "Extent": {
+            "title": "Extent",
+            "type": "string"
+        },
+        "Properties": {
+            "properties": {
+                "dc:title": {
+                    "$ref": "#/$defs/Title"
+                },
+                "dc:abstract": {
+                    "$ref": "#/$defs/Abstract"
+                },
+                "dc:access_rights": {
+                    "$ref": "#/$defs/AccessRights"
+                },
+                "dc:subject": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/Subject"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null
+                },
+                "dc:description": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/Description"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null
+                },
+                "dc:accrual_periodicity": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/accrualPeriodicity"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null
+                },
+                "dc:extent": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/Extent"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null
+                }
+            },
+            "required": [
+                "dc:title",
+                "dc:abstract",
+                "dc:access_rights"
+            ],
+            "title": "Properties",
+            "type": "object"
+        },
+        "Subject": {
+            "items": {
+                "type": "string"
+            },
+            "title": "Subject",
+            "type": "array"
+        },
+        "Title": {
+            "title": "Title",
+            "type": "string"
+        },
+        "accrualPeriodicity": {
+            "title": "accrualPeriodicity",
+            "type": "string"
+        }
+    },
+    "anyOf": [
+        {
+            "$ref": "#/$defs/DublinCoreExtensionItem"
+        },
+        {
+            "$ref": "#/$defs/DublinCoreExtensionCollection"
+        }
+    ],
+    "title": "Dublin core",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/dublincore.json",
+    "type": "object"
+}
