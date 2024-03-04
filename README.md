@@ -18,7 +18,8 @@ The data in this repository needs to respect the following assumptions:
 
 The STAC extensions adopted in the catalogue are listed below:
 
-- Dublin Core
+- [Earth Data Hub](https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/earthdatahub.json) (`schema/extensions/earthdatahub.json`)
+- [Dublin Core](https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/dublincore.json) (`schema/extensions/dublincore.json`)
 - [Datacube](https://github.com/stac-extensions/datacube)
 - [xarray Assets](https://github.com/stac-extensions/xarray-assets)
 
