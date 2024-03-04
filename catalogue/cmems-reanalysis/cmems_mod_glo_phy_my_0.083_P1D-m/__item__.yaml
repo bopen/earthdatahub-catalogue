@@ -100,16 +100,13 @@ properties:
   dc:extent: 2,525.0 GiB
 assets:
   data:
-    href: s3://cmems-reanalysis/cmems_mod_glo_phy_my_0.083_P1D-m.zarr
+    href: https://earthdatahub.com/stores/cmems-reanalysis/cmems_mod_glo_phy_my_0.083_P1D-m.zarr
     roles:
     - data
     xarray:open_kwargs:
       engine: zarr
       chunks: {}
     xarray:storage_options:
-      endpoint_url: https://s3.gra.perf.cloud.ovh.net
-  thumbnail:
-    href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/era5/items/reanalysis-era5-land/thumbnail_994eb8e45caae30939495bcf2ae61b50417f484b8e0af0524d629094b4f8ee99.png
-    roles:
-    - thumbnail
+      client_kwargs:
+        trust_env: true
 search_weight: 10
