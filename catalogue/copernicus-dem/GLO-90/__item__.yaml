@@ -43,12 +43,13 @@ properties:
   dc:extent: 373.0 GiB
 assets:
   data:
-    href: s3://copernicus-dem/GLO-90-v0.zarr
+    href: https://earthdatahub.com/stores/copernicus-dem/GLO-90-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
       engine: zarr
       chunks: {}
     xarray:storage_options:
-      endpoint_url: https://s3.gra.perf.cloud.ovh.net
+      client_kwargs:
+        trust_env: true
 search_weight: 50

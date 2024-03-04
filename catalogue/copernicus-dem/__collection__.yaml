@@ -22,7 +22,7 @@ extent:
   temporal:
     interval:
     - - 2022-01-01T00:00:00Z
-      - 
+      - null
 license: various
 keywords:
 - Copernicus
@@ -39,3 +39,4 @@ providers:
   - host
   url: https://www.bopen.eu/
 search_weight: 50
+published: 2024-01-15T00:00:00Z
