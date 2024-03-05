@@ -9,6 +9,7 @@ bbox:
 - 179.6
 - 90.0
 properties:
+  edh:maturity: published
   dc:abstract: The high-resolution forecast is a single forecast included in the ECMWF
     medium-range forecasts. The forecast has a horizontal resolution of around 9 km
     and provides a description of a possible evolution of the weather out to 10 days

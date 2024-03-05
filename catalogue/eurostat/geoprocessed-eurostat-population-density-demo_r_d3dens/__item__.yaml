@@ -15,6 +15,7 @@ bbox:
 properties:
   start_datetime: '1990-01-01T00:00:00Z'
   end_datetime: '2022-01-01T00:00:00Z'
+  edh:maturity: published
   dc:abstract: Europe Eurostat population density data from 1990 to 2022
   dc:access_rights: charges apply
   dc:title: Eurostat population density data over Europe

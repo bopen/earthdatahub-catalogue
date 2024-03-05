@@ -9,6 +9,7 @@ bbox:
 - 180.0
 - 90.0
 properties:
+  edh:maturity: published
   dc:abstract: Test data for the digital twin on climate change adaptation
   dc:access_rights: free of charge
   dc:title: Test data for the digital twin on climate change adaptation

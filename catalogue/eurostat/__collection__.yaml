@@ -52,3 +52,4 @@ providers:
 assets:
   thumbnail:
     href: https://apps.mundialis.de/thumbnails/1/thumbnail.png
+edh:maturity: published

@@ -15,6 +15,7 @@ bbox:
 properties:
   start_datetime: '2003-01-02T00:00:00Z'
   end_datetime: '2020-12-31T21:00:00Z'
+  edh:maturity: published
   dc:abstract: 'This dataset is part of the ECMWF Atmospheric Composition Reanalysis
     focusing on long-lived greenhouse gases: carbon dioxide (CO2) and methane (CH4)'
   dc:access_rights: free of charge

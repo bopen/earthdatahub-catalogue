@@ -9,6 +9,7 @@ bbox:
 - 359.0
 - 90.0
 properties:
+  edh:maturity: published
   dc:abstract: Test data for the digital twin on extreme events
   dc:access_rights: free of charge
   dc:title: Test data for the digital twin on extreme events

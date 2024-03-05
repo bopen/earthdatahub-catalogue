@@ -47,3 +47,4 @@ assets:
     roles:
     - thumbnail
 search_weight: 20
+edh:maturity: published

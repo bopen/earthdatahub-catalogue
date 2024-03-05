@@ -15,6 +15,7 @@ bbox:
 properties:
   start_datetime: '1995-01-01T00:00:00Z'
   end_datetime: '2022-01-01T00:00:00Z'
+  edh:maturity: published
   dc:abstract: Europe Eurostat Regional Labour Market Employment Rates by sex, age,
     educational attainment level, citizenship and degree of urbanisation
   dc:access_rights: charges apply
