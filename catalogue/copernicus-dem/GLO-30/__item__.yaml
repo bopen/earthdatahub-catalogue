@@ -18,6 +18,7 @@ properties:
   dc:abstract: Copernicus DEM Global 30m
   dc:access_rights: free of charge
   dc:title: Copernicus DEM Global 30m
+  edh:maturity: published
   dc:subject:
   - Copernicus
   - DEM

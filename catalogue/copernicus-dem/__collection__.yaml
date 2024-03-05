@@ -39,3 +39,4 @@ providers:
   - host
   url: https://www.bopen.eu/
 search_weight: 50
+edh:maturity: published
