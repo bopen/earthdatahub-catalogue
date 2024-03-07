@@ -5,7 +5,7 @@ steps:
   to_zarr_kwargs: {store: 's3://ecmwf-era5-land/intermediate/reanalysis-era5-land-no-antartica.zarr', write_empty_chunks: false}
   xarray_open_kwargs:
     cache_kwargs: {cache_file: false}
-    cfgrib_kwargs:
+    open_dataset_kwargs:
       time_dims: [valid_time]
     chunks: {}
     engine: ecmwf

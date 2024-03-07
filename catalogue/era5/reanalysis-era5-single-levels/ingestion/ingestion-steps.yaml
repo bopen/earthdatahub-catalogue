@@ -12,7 +12,7 @@ steps:
     write_empty_chunks: false}
   xarray_open_kwargs:
     cache_kwargs: {cache_file: false}
-    cfgrib_kwargs:
+    open_dataset_kwargs:
       time_dims: [valid_time]
     chunks: {}
     engine: ecmwf
