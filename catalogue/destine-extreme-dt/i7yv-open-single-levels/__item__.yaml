@@ -6,7 +6,7 @@ links:
 bbox:
 - 0.0
 - -90.0
-- 359.0
+- 360.0
 - 90.0
 properties:
   edh:maturity: draft
@@ -36,14 +36,39 @@ properties:
       reference_system: 4326
       step: 0.035
   cube:variables:
-    sp:
+    d2m:
       dimensions:
+      - step
       - latitude
       - longitude
       type: data
-      description: Surface pressure
-      unit: Pa
-  dc:extent: 0.0 GiB
+      description: 2 metre dewpoint temperature
+      unit: K
+    t2m:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre temperature
+      unit: K
+    u10:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre U wind component
+      unit: m s**-1
+    v10:
+      dimensions:
+      - step
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre V wind component
+      unit: m s**-1
+  dc:extent: 52.0 GiB
 assets:
   data:
     href: https://earthdatahub.com/stores/destine-extreme-dt/2024-03-08-i7yv-oper-sfc-v0.zarr
