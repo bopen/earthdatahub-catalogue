@@ -21,8 +21,8 @@ extent:
       - 90
   temporal:
     interval:
-    - - 
-      - 
+    - - null
+      - null
 license: various
 keywords:
 - Open data
