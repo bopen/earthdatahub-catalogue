@@ -8,25 +8,30 @@ steps:
       activity: ScenarioMIP
       class: d1
       dataset: climate-dt
-      date: [ 2021-01-01/2023-12-31 ]
+      date: [ 2020-01-01/to/2023-12-31 ]
       experiment: SSP3-7.0
       expver: '0001'
       generation: 1
       levtype: sfc
       model: IFS-NEMO
-      param: ['167']
+      param: ['134', '165', '166', '167', '168', '260048', ]
       realization: 1
       resolution: standard
       stream: clte
       time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
       type: fc
-    request_chunks: { day: 2 }
+    request_chunks: { day: 24 }
+    request_chunker_kwargs:
+      time_sep: /to/
     client_kwargs:
         address: polytope.apps.lumi.ewctest.link
-        user_email: n.masotti@bopen.eu
-        user_key: aa4bc7bb17fceb495cfba4c61cf7f523
+        quiet: true
+  chunks: {latitude: 256, longitude: 256, time: 576}
   open_dataset_name: open_healpix_dataset
-  robust_to_zarr_kwargs: {time_dim: time, time_restart_block: 1}
+  robust_to_zarr_kwargs: {time_dim: time, time_restart_block: 8}
   to_zarr_kwargs:
-    store: s3://destine-climate-dt/SSP3-7.0-IFS-NEMO-single-levels-v0.zarr
+    store: s3://destine-climate-dt/SSP3-7.0-IFS-NEMO-sfc-standard-v0.zarr
     write_empty_chunks: false
+  to_zarr_encoding:
+    t2m:
+      compressor: {id: blosc, cname: zstd, clevel: 5}
