@@ -22,7 +22,7 @@ properties:
   - forecast
   - weather
   cube:dimensions:
-    valid_time:
+    time:
       type: temporal
       extent:
       - null
@@ -39,14 +39,6 @@ properties:
       reference_system: 4326
       step: 0.35
   cube:variables:
-    t2m:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: 2 metre temperature
-      unit: K
     d2m:
       dimensions:
       - time
@@ -63,6 +55,14 @@ properties:
       type: data
       description: Surface pressure
       unit: Pa
+    t2m:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre temperature
+      unit: K
     tprate:
       dimensions:
       - time
