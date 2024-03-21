@@ -1,7 +1,7 @@
 title: Destination Earth digital twin on climate change adaptation
 dc:abstract:
   Destination Earth digital twin on climate change adaptation
-
+edh:maturity: published
 links:
 - title: Destination Earth
   rel: derived_from
@@ -42,9 +42,8 @@ providers:
   roles:
   - processor
   url: https://www.bopen.eu
-- name: Destination Earth Service Platform
+- name: DestinE Platform
   roles:
   - host
   url: https://destination-earth.eu
 search_weight: 10
-edh:maturity: published

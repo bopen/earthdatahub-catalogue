@@ -28,7 +28,7 @@ steps:
         quiet: true
   chunks: {latitude: 256, longitude: 256, time: 576}
   open_dataset_name: open_healpix_dataset
-  robust_to_zarr_kwargs: {time_dim: time, time_restart_block: 8}
+  robust_to_zarr_kwargs: {time_dim: time, time_restart_block: 24}
   to_zarr_kwargs:
     store: s3://destine-climate-dt/SSP3-7.0-IFS-NEMO-sfc-standard-v0.zarr
     write_empty_chunks: false

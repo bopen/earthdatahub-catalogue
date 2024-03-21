@@ -3,6 +3,7 @@ dc:abstract:
   ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather.
   Data is available from 1940 onwards.
   we propose a selection of the original data based on the most popular datasets and variables within
+edh:maturity: published
 links:
 - title: ERA5 documentation
   rel: derived_from
@@ -30,20 +31,20 @@ keywords:
 - reanalysis
 - weather
 providers:
+- name: European Union
+  roles:
+  - licensor
+  url: https://european-union.europa.eu
 - name: ECMWF
   roles:
   - producer
-  - licensor
-  url: https://www.ecmwf.int/
+  url: https://www.ecmwf.int
 - name: B-Open
   roles:
   - processor
+  url: https://www.bopen.eu
+- name: DestinE Platform
+  roles:
   - host
-  url: https://www.bopen.eu/
-assets:
-  thumbnail:
-    href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/era5/thumbnail_bd126ec0726b50cf50767a44a0b90fafe7757d0b7b97ddef6d723afc1203b472.png
-    roles:
-    - thumbnail
+  url: https://destination-earth.eu
 search_weight: 80
-edh:maturity: published

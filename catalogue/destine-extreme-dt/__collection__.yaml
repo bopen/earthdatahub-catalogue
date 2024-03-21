@@ -1,7 +1,7 @@
 title: Destination Earth digital twin on extreme events
 dc:abstract:
   Destination Earth digital twin on extreme events
-
+edh:maturity: published
 links:
 - title: Destination Earth
   rel: derived_from
@@ -30,15 +30,19 @@ keywords:
 - forecast
 - weather
 providers:
+- name: European Union
+  roles:
+  - licensor
+  url: https://european-union.europa.eu
 - name: ECMWF
   roles:
   - producer
-  - licensor
-  url: https://www.ecmwf.int/
+  url: https://www.ecmwf.int
 - name: B-Open
   roles:
   - processor
+  url: https://www.bopen.eu
+- name: DestinE Platform
+  roles:
   - host
-  url: https://www.bopen.eu/
-search_weight: 10
-edh:maturity: published
+  url: https://destination-earth.eu

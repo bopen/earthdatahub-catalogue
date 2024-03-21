@@ -24,8 +24,8 @@ extent:
       - 74
   temporal:
     interval:
-    - -
-      -
+    - - null
+      - null
 license: various
 keywords:
 - eurostat
