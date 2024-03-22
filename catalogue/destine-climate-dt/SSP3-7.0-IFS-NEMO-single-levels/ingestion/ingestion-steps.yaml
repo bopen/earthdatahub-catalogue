@@ -14,7 +14,7 @@ steps:
       generation: 1
       levtype: sfc
       model: IFS-NEMO
-      param: ['134', '165', '166', '167', '168', '260048', ]
+      param: ['134', '165', '166', '167', '168', '260048']
       realization: 1
       resolution: standard
       stream: clte
@@ -28,10 +28,7 @@ steps:
         quiet: true
   chunks: {latitude: 256, longitude: 256, time: 576}
   open_dataset_name: open_healpix_dataset
-  robust_to_zarr_kwargs: {time_dim: time, time_restart_block: 24}
+  robust_to_zarr_kwargs: {time_dim: time, time_restart_block: 6}
   to_zarr_kwargs:
     store: s3://destine-climate-dt/SSP3-7.0-IFS-NEMO-sfc-standard-v0.zarr
     write_empty_chunks: false
-  to_zarr_encoding:
-    t2m:
-      compressor: {id: blosc, cname: zstd, clevel: 5}
