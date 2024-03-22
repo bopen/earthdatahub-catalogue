@@ -16,7 +16,7 @@ steps:
       variable: [temperature] #total_precipitation, 10m_u_component_of_wind, 10m_v_component_of_wind, 2m_dewpoint_temperature]
       # mean_sea_level_pressure, mean_wave_direction, mean_wave_period, sea_surface_temperature, significant_height_of_combined_wind_waves_and_swell, surface_pressure]
     request_chunker_kwargs: {time_dim: valid_time}
-    request_chunks: {day: 2, pressure_level: 1}
+    request_chunks: {day: 10, pressure_level: 1}
 
   chunks: {latitude: 256, longitude: 256}
   robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 12, time_range: [null, '1949-12-31']}
@@ -27,11 +27,11 @@ steps:
 
 
 - xarray_open_kwargs:
-    chunks: {valid_time: 240} #{valid_time: 4320}
+    chunks: {valid_time: 4320}
     engine: zarr
     filename_or_obj: s3://ecmwf-era5-pressure-levels-tmp/reanalysis-era5-pressure-levels-v0.zarr
 
-  chunks: {latitude: 64, longitude: 64, valid_time: 240}
+  chunks: {latitude: 64, longitude: 64, valid_time: 4320}
   robust_to_zarr_kwargs:
     time_dim: valid_time
     time_restart_block: 12
