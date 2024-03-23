@@ -14,7 +14,7 @@ steps:
       generation: 1
       levtype: sfc
       model: IFS-NEMO
-      param: ['78', '134', '151', '165', '166', '167', '168', '260048']
+      param: ['78', '134', '137', '151', '165', '166', '167', '168', '260048']
       realization: 1
       resolution: standard
       stream: clte

@@ -103,7 +103,15 @@ properties:
       type: data
       description: Total column cloud liquid water
       unit: kg m**-2
-  dc:extent: 589.0 GiB
+    tcwv:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total column vertically-integrated water vapour
+      unit: kg m**-2
+  dc:extent: 662.0 GiB
 assets:
   data:
     href: https://earthdatahub.com/stores/destine-climate-dt/SSP3-7.0-IFS-NEMO-sfc-standard-v0.zarr
