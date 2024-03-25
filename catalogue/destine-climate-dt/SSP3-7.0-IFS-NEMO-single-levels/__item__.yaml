@@ -9,7 +9,7 @@ bbox:
 - 180.0
 - 90.0
 properties:
-  edh:maturity: production
+  edh:maturity: published
   dc:abstract: Climate DT SSP3-7.0 IFS-NEMO on single-levels
   dc:access_rights: free of charge
   dc:title: Climate DT SSP3-7.0 IFS-NEMO on single-levels
