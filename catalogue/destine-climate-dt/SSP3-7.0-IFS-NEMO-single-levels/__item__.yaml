@@ -9,7 +9,7 @@ bbox:
 - 180.0
 - 90.0
 properties:
-  edh:maturity: draft
+  edh:maturity: production
   dc:abstract: Climate DT SSP3-7.0 IFS-NEMO on single-levels
   dc:access_rights: free of charge
   dc:title: Climate DT SSP3-7.0 IFS-NEMO on single-levels
@@ -114,7 +114,7 @@ properties:
   dc:extent: 662.0 GiB
 assets:
   data:
-    href: https://destine-climate.earthdatahub.com/SSP3-7.0-IFS-NEMO-sfc-standard-v0.zarr
+    href: https://climate-dt.earthdatahub.com/SSP3-7.0-IFS-NEMO-sfc-standard-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
