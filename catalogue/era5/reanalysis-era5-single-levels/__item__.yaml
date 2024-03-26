@@ -89,7 +89,7 @@ properties:
   dc:extent: 15,290.0 GiB
 assets:
   data:
-    href: https://data.earthdatahub.com/ear5/reanalysis-era5-single-levels-v0.zarr
+    href: https://data.earthdatahub.com/era5/reanalysis-era5-single-levels-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
