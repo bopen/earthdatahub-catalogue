@@ -39,6 +39,22 @@ properties:
       reference_system: 4326
       step: 0.35
   cube:variables:
+    blh:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Boundary layer height
+      unit: m
+    chnk:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Charnock
+      unit: Numeric
     d2m:
       dimensions:
       - time
@@ -46,6 +62,54 @@ properties:
       - longitude
       type: data
       description: 2 metre dewpoint temperature
+      unit: K
+    hcc:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: High cloud cover
+      unit: (0 - 1)
+    lcc:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Low cloud cover
+      unit: (0 - 1)
+    mcc:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Medium cloud cover
+      unit: (0 - 1)
+    msl:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Mean sea level pressure
+      unit: Pa
+    sd:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Snow depth
+      unit: m of water equivalent
+    skt:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Skin temperature
       unit: K
     sp:
       dimensions:
@@ -63,6 +127,38 @@ properties:
       type: data
       description: 2 metre temperature
       unit: K
+    tcc:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total cloud cover
+      unit: (0 - 1)
+    tciw:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total column cloud ice water
+      unit: kg m**-2
+    tclw:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total column cloud liquid water
+      unit: kg m**-2
+    tcwv:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total column vertically-integrated water vapour
+      unit: kg m**-2
     tprate:
       dimensions:
       - time
@@ -87,31 +183,7 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-    msl:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Mean sea level pressure
-      unit: Pa
-    tclw:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Total column cloud liquid water
-      unit: kg m**-2
-    tcwv:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Total column vertically-integrated water vapour
-      unit: kg m**-2
-  dc:extent: 1,822.0 GiB
+  dc:extent: 3,644.0 GiB
 assets:
   data:
     href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-sfc-standard-v0.zarr

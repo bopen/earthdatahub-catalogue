@@ -14,7 +14,7 @@ steps:
       generation: 1
       levtype: sfc
       model: IFS-NEMO
-      param: ['78', '134', '137', '151', '165', '166', '167', '168', '260048']
+      param: ['78', '79', '134', '137', '141', '148', '151', '159', '164', '165', '166', '167', '168', '186', '187', '188', '235', '260048']
       realization: 1
       resolution: standard
       stream: clte
@@ -33,5 +33,5 @@ steps:
     time_restart_block: 6
     retries: 1
   to_zarr_kwargs:
-    store: s3://destine-climate/SSP3-7.0-IFS-NEMO-sfc-standard-v0.zarr
+    store: s3://edh-climate-dt/SSP3-7.0-IFS-NEMO-sfc-standard-v0.zarr
     write_empty_chunks: false
