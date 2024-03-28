@@ -8,7 +8,7 @@ steps:
       activity: ScenarioMIP
       class: d1
       dataset: climate-dt
-      date: [ 2020-01-01/to/2030-12-31 ]
+      date: [ 2020-01-01/to/2029-09-08 ]
       experiment: SSP3-7.0
       expver: '0001'
       generation: 1
@@ -26,12 +26,12 @@ steps:
     client_kwargs:
         address: polytope.apps.lumi.ewctest.link
         quiet: true
-  chunks: {latitude: 256, longitude: 256, time: 576}
+  chunks: {latitude: 128, longitude: 128, time: 576}
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs:
     time_dim: time
-    time_restart_block: 6
+    time_restart_block: 2
     retries: 1
   to_zarr_kwargs:
-    store: s3://edh-climate-dt/SSP3-7.0-IFS-NEMO-sfc-standard-v0.zarr
+    store: s3://edh-climate-dt/SSP3-7.0-IFS-NEMO-0001-standard-sfc-v0.zarr
     write_empty_chunks: false

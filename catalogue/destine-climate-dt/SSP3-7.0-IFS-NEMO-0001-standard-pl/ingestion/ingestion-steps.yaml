@@ -1,0 +1,38 @@
+steps:
+- xarray_open_kwargs:
+    cache_kwargs: { cache_file: false }
+    chunks: {}
+    engine: ecmwf
+    client: polytope
+    filename_or_obj:
+      activity: ScenarioMIP
+      class: d1
+      dataset: climate-dt
+      date: [ 2020-01-01/to/2024-12-31 ]
+      experiment: SSP3-7.0
+      expver: '0001'
+      generation: 1
+      levtype: pl
+      levelist: [1000, 850, 700, 500, 300]
+      model: IFS-NEMO
+      param: ['130', '131', '132']
+      realization: 1
+      resolution: standard
+      stream: clte
+      time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
+      type: fc
+    request_chunks: { day: 24, levelist: 1 }
+    request_chunker_kwargs:
+      time_sep: /to/
+    client_kwargs:
+        address: polytope.apps.lumi.ewctest.link
+        quiet: false
+  chunks: {latitude: 256, longitude: 256, time: 576, isobaricInhPa: 1}
+  open_dataset_name: open_healpix_dataset
+  robust_to_zarr_kwargs:
+    time_dim: time
+    time_restart_block: 20
+    retries: 1
+  to_zarr_kwargs:
+    store: s3://edh-climate-dt/SSP3-7.0-pl-standard-v0.zarr
+    write_empty_chunks: false

@@ -15,7 +15,7 @@ properties:
   dc:title: Climate DT SSP3-7.0 IFS-NEMO on single-levels
   dc:description: Climate DT SSP3-7.0 IFS-NEMO on single-levels
   start_datetime: '2020-01-01T00:00:00Z'
-  end_datetime: '2030-12-31T23:00:00Z'
+  end_datetime: '2029-09-08T23:00:00Z'
   dc:subject:
   - DestinE
   - ECMWF
@@ -183,10 +183,10 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-  dc:extent: 3,644.0 GiB
+  dc:extent: 3,209.0 GiB
 assets:
   data:
-    href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-sfc-standard-v0.zarr
+    href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-0001-standard-sfc-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
