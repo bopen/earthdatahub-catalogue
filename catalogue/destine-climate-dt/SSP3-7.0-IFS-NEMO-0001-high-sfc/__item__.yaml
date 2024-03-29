@@ -1,0 +1,62 @@
+links:
+- title: Destination Earth
+  rel: derived_from
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- -180.0
+- -90.0
+- 180.0
+- 90.0
+properties:
+  edh:maturity: draft
+  dc:abstract: Climate DT SSP3-7.0 IFS-NEMO on single-levels
+  dc:access_rights: free of charge
+  dc:title: Climate DT SSP3-7.0 IFS-NEMO on single-levels
+  dc:description: Climate DT SSP3-7.0 IFS-NEMO on single-levels
+  start_datetime: '2020-01-01T00:00:00Z'
+  end_datetime: '2021-01-01T23:00:00Z'
+  dc:subject:
+  - DestinE
+  - ECMWF
+  - forecast
+  - weather
+  cube:dimensions:
+    time:
+      type: temporal
+      extent:
+      - null
+      - null
+      step: PT1H
+    latitude:
+      type: spatial
+      axis: y
+      reference_system: 4326
+      step: 0.044
+    longitude:
+      type: spatial
+      axis: x
+      reference_system: 4326
+      step: 0.044
+  cube:variables:
+    t2m:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre temperature
+      unit: K
+  dc:extent: 1,182.0 GiB
+assets:
+  data:
+    href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
+search_weight: 70
