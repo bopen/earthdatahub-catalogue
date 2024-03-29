@@ -15,7 +15,7 @@ properties:
   dc:title: High resolution Climate DT on single levels - SSP3-7.0 - IFS-NEMO
   dc:description: High resolution Climate DT on single levels - SSP3-7.0 - IFS-NEMO
   start_datetime: '2020-01-01T00:00:00Z'
-  end_datetime: '2021-01-01T23:00:00Z'
+  end_datetime: '2024-12-31T23:00:00Z'
   dc:subject:
   - DestinE
   - ECMWF
@@ -47,7 +47,7 @@ properties:
       type: data
       description: 2 metre temperature
       unit: K
-  dc:extent: 1,182.0 GiB
+  dc:extent: 5,886.0 GiB
 assets:
   data:
     href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr

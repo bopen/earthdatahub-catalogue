@@ -8,7 +8,7 @@ steps:
       activity: ScenarioMIP
       class: d1
       dataset: climate-dt
-      date: [ 2020-01-01/to/2021-01-01 ]
+      date: [ 2020-01-01/to/2024-12-31 ]
       experiment: SSP3-7.0
       expver: '0001'
       generation: 1
@@ -31,7 +31,7 @@ steps:
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs:
     time_dim: time
-    time_restart_block: 4
+    time_restart_block: 8
     retries: 1
   to_zarr_kwargs:
     store: s3://edh-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr
