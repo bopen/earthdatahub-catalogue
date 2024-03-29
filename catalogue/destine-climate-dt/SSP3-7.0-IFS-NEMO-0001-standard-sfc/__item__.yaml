@@ -10,10 +10,10 @@ bbox:
 - 90.0
 properties:
   edh:maturity: published
-  dc:abstract: Climate DT SSP3-7.0 IFS-NEMO on single-levels
+  dc:abstract: Standard resolution Climate DT on single levels - SSP3-7.0 - IFS-NEMO
   dc:access_rights: free of charge
-  dc:title: Climate DT SSP3-7.0 IFS-NEMO on single-levels
-  dc:description: Climate DT SSP3-7.0 IFS-NEMO on single-levels
+  dc:title: Standard resolution Climate DT on single levels - SSP3-7.0 - IFS-NEMO
+  dc:description: Standard resolution Climate DT on single levels - SSP3-7.0 - IFS-NEMO
   start_datetime: '2020-01-01T00:00:00Z'
   end_datetime: '2029-09-08T23:00:00Z'
   dc:subject:
