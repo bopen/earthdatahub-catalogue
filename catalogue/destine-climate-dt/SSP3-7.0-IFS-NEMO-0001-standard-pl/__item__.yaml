@@ -9,7 +9,7 @@ bbox:
 - 180.0
 - 90.0
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   dc:abstract: Climate DT SSP3-7.0 standard resolutions on pressure levels
   dc:access_rights: free of charge
   dc:title: Climate DT SSP3-7.0 standard resolutions on pressure levels
