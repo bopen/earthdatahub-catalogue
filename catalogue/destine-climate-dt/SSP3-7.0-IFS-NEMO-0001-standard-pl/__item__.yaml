@@ -9,7 +9,7 @@ bbox:
 - 180.0
 - 90.0
 properties:
-  edh:maturity: published
+  edh:maturity: draft
   dc:abstract: Standard resolution Climate DT on pressure levels - SSP3-7.0 - IFS-NEMO
   dc:access_rights: free of charge
   dc:title: Standard resolution Climate DT on pressure levels - SSP3-7.0 - IFS-NEMO
