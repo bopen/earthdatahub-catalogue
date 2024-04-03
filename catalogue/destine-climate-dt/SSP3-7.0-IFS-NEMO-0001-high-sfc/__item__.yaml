@@ -55,7 +55,23 @@ properties:
       type: data
       description: Total precipitation rate
       unit: kg m**-2 s**-1
-  dc:extent: 11,772.0 GiB
+    u10:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre U wind component
+      unit: m s**-1
+    v10:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre V wind component
+      unit: m s**-1
+  dc:extent: 23,544.0 GiB
 assets:
   data:
     href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr

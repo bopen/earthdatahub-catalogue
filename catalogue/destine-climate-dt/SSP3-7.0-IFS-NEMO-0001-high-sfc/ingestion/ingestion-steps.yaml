@@ -15,7 +15,7 @@ steps:
       levtype: sfc
       model: IFS-NEMO
       # param: ['78', '79', '134', '137', '141', '148', '151', '159', '164', '165', '166', '167', '168', '186', '187', '188', '235', '260048']
-      param: ['167', '260048']
+      param: ['165', '166', '167', '260048']
       realization: 1
       resolution: high
       stream: clte
@@ -32,7 +32,6 @@ steps:
   robust_to_zarr_kwargs:
     time_dim: time
     time_restart_block: 8
-    retries: 1
   to_zarr_kwargs:
     store: s3://edh-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr
     write_empty_chunks: false
