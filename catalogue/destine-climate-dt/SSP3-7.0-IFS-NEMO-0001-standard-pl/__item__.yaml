@@ -66,7 +66,7 @@ properties:
       type: data
       description: V component of wind
       unit: m s**-1
-  dc:extent: 48.0 GiB
+  dc:extent: 0.0 TB
 assets:
   data:
     href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-0001-standard-pl-v0.zarr

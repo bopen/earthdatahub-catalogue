@@ -41,7 +41,7 @@ properties:
       type: data
       description: altitude over the geoid
       unit: m
-  dc:extent: 3,359.0 GiB
+  dc:extent: 3.4 TB
 assets:
   data:
     href: https://data.earthdatahub.com/copernicus-dem/GLO-30-v0.zarr

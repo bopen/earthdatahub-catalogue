@@ -86,7 +86,7 @@ properties:
       type: data
       description: 2 metre dewpoint temperature
       unit: K
-  dc:extent: 15,290.0 GiB
+  dc:extent: 15.3 TB
 assets:
   data:
     href: https://data.earthdatahub.com/era5/reanalysis-era5-single-levels-v0.zarr
