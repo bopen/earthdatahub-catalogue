@@ -8,14 +8,14 @@ steps:
       activity: ScenarioMIP
       class: d1
       dataset: climate-dt
-      date: [ 2020-01-01/to/2024-12-31 ]
+      date: [ 2020-01-01/to/2029-12-31 ]
       experiment: SSP3-7.0
       expver: '0001'
       generation: 1
       levtype: sfc
       model: IFS-NEMO
       # param: ['78', '79', '134', '137', '141', '148', '151', '159', '164', '165', '166', '167', '168', '186', '187', '188', '235', '260048']
-      param: ['165', '166', '167', '260048']
+      param: ['165', '166', '167', '168', '260048']
       realization: 1
       resolution: high
       stream: clte
