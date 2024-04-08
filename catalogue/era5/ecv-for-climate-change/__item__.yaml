@@ -74,7 +74,7 @@ properties:
   dc:extent: 7.0 GiB
 assets:
   data:
-    href: https://earthdatahub.com/stores/hedp/era5/ecv-for-climate-change-1979-2023.zarr
+    href: https://data.earthdatahub.com/era5/ecv-for-climate-change-1981-2010-anomaly-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
