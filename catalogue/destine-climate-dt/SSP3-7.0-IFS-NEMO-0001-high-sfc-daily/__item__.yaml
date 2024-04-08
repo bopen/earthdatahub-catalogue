@@ -1,0 +1,70 @@
+links:
+- title: Destination Earth
+  rel: derived_from
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- -180.0
+- -90.0
+- 180.0
+- 90.0
+properties:
+  edh:maturity: published
+  dc:abstract: High resolution Climate DT on single levels - SSP3-7.0 - IFS-NEMO
+  dc:access_rights: free of charge
+  dc:title: High resolution Climate DT on single levels - SSP3-7.0 - IFS-NEMO
+  dc:description: High resolution Climate DT on single levels - SSP3-7.0 - IFS-NEMO
+  start_datetime: '2020-01-01T00:00:00Z'
+  end_datetime: '2029-09-08T00:00:00Z'
+  dc:subject:
+  - DestinE
+  - ECMWF
+  - forecast
+  - weather
+  cube:dimensions:
+    time:
+      type: temporal
+      extent:
+      - null
+      - null
+      step: PT1D
+    latitude:
+      type: spatial
+      axis: y
+      reference_system: 4326
+      step: 0.044
+    longitude:
+      type: spatial
+      axis: x
+      reference_system: 4326
+      step: 0.044
+  cube:variables:
+    avg_sithick:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean sea ice thickness
+      unit: m
+    avg_tos:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean sea surface temperature
+      unit: K
+  dc:extent: 1.0 TB
+assets:
+  data:
+    href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-sfc-daily-v0.zarr
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
+search_weight: 85
