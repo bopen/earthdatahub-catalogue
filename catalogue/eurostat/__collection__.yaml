@@ -6,6 +6,7 @@ dc:abstract:
 
   Here we propose geoprocessed statistics on various climate-related variables.
 
+edh:maturity: draft
 links:
 - title: Eurostat documentation
   rel: derived_from
@@ -52,4 +53,3 @@ providers:
 assets:
   thumbnail:
     href: https://apps.mundialis.de/thumbnails/1/thumbnail.png
-edh:maturity: published

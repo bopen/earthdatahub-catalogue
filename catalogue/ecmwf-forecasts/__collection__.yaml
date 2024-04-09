@@ -2,7 +2,7 @@ title: ECMWF medium-range forecasts
 dc:abstract:
   Medium-range forecasts consist of a single forecast plus an ensemble of forecasts for statistical comparison which together give detailed 
   information about the evolution of weather up to 15 days ahead
-
+edh:maturity: draft
 links:
 - title: Medium-range forecasts
   rel: derived_from
@@ -47,4 +47,3 @@ assets:
     roles:
     - thumbnail
 search_weight: 10
-edh:maturity: published

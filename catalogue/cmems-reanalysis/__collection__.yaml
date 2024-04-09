@@ -1,6 +1,6 @@
 title: Global Ocean Physics Reanalysis
 dc:abstract: The GLORYS12V1 product is the CMEMS global ocean eddy-resolving (1/12° horizontal resolution, 50 vertical levels) reanalysis covering the altimetry (1993 onward).
-
+edh:maturity: draft
 links:
 - title: Global Ocean Reanalysis
   rel: derived_from
@@ -43,4 +43,3 @@ assets:
     roles:
     - thumbnail
 search_weight: 30
-edh:maturity: published
