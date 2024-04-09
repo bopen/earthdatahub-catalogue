@@ -1,7 +1,7 @@
 steps:
 - xarray_open_kwargs:
     cache_kwargs: { cache_file: false }
-    chunks: { time: 96 }
+    chunks: {}
     engine: ecmwf
     client: polytope
     filename_or_obj:
