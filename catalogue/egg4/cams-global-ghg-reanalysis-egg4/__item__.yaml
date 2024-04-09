@@ -70,7 +70,7 @@ properties:
       type: data
       description: CO2 column-mean molar fraction
       unit: ppm
-  dc:extent: 73.0 GiB
+  dc:extent: 0.1 TB
 assets:
   data:
     href: https://data.earthdatahub.com/egg4/cams-global-ghg-reanalysis-egg4.zarr
