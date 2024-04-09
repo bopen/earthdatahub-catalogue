@@ -55,7 +55,7 @@ properties:
       type: data
       description: Time-mean sea surface temperature
       unit: K
-  dc:extent: 1.0 TB
+  dc:extent: 950 GB
 assets:
   data:
     href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-sfc-daily-v0.zarr
