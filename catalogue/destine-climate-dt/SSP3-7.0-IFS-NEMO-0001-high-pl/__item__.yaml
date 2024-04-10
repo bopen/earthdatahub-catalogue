@@ -9,7 +9,7 @@ bbox:
 - 180.0
 - 90.0
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   dc:abstract: High resolution Climate DT on pressure levels - SSP3-7.0 - IFS-NEMO
   dc:access_rights: free of charge
   dc:title: High resolution Climate DT on pressure levels - SSP3-7.0 - IFS-NEMO
@@ -60,4 +60,4 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 80
+search_weight: 70
