@@ -24,7 +24,7 @@ steps:
     request_chunker_kwargs:
       time_sep: /to/
     client_kwargs:
-        address: polytope.apps.lumi.ewctest.link
+        address: polytope.lumi.apps.dte.destination-earth.eu
         quiet: true
   chunks: {latitude: 128, longitude: 128, time: 576}
   open_dataset_name: open_healpix_dataset
