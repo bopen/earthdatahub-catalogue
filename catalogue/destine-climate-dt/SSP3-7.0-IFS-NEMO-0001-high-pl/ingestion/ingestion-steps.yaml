@@ -15,7 +15,7 @@ steps:
       levtype: pl
       levelist: [1000, 850, 700, 500, 300]
       model: IFS-NEMO
-      param: ['130']
+      param: ['130', '157']
       realization: 1
       resolution: high
       stream: clte
@@ -25,14 +25,14 @@ steps:
     request_chunker_kwargs:
       time_sep: /to/
     client_kwargs:
-        address: polytope.apps.lumi.ewctest.link
+        address: polytope.lumi.apps.dte.destination-earth.eu
         quiet: true
   chunks: {latitude: 512, longitude: 512, time: 96, isobaricInhPa: 1}
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs:
     time_dim: time
-    time_restart_block: 1
-    retries: 1
+    time_restart_block: 24
+    retries: 2
   to_zarr_kwargs:
     store: s3://edh-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-pl-v0.zarr
     write_empty_chunks: false

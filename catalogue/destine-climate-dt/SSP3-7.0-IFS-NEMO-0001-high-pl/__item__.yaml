@@ -48,7 +48,16 @@ properties:
       type: data
       description: Temperature
       unit: K
-  dc:extent: 29.4 TB
+    r:
+      dimensions:
+      - time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Relative humidity
+      unit: '%'
+  dc:extent: 58.9 TB
 assets:
   data:
     href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-pl-v0.zarr
