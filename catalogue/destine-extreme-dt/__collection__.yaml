@@ -1,11 +1,11 @@
-title: Destination Earth digital twin on extreme events
+title: Weather-Induced Extremes Digital Twin
 dc:abstract:
-  Destination Earth digital twin on extreme events
+  DestinE Digital Twin for Weather-Induced Extremes (Extremes DT) supports rapid decision-making in response to meteorological, hydrological and air quality extremes. It currently comprises a global component, producing simulations at resolutions of a few kilometres up to four days ahead.
 edh:maturity: draft
 links:
-- title: Destination Earth
+- title: Weather-Induced Extremes Digital Twin
   rel: derived_from
-  href: https://destination-earth.eu/
+  href: https://confluence.ecmwf.int/pages/viewpage.action?pageId=414583259
   type: text/html
 - title: Licence to use Copernicus products
   rel: license
