@@ -87,7 +87,7 @@ properties:
   dc:extent: 34.3 TB
 assets:
   data:
-    href: https://earthdatahub.com/stores/ecmwf-era5-land/reanalysis-era5-land-no-antartica-v0.zarr
+    href: https://earthdatahub.com/stores/ecmwf-era5-land/reanalysis-era5-land-no-antartica-v1.zarr
     roles:
     - data
     xarray:open_kwargs:

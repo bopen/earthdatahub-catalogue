@@ -98,7 +98,7 @@ properties:
       type: data
       description: Sea surface height
       unit: m
-  dc:extent: 2.5 TB
+  dc:extent: 5.0 TB
 assets:
   data:
     href: https://data.earthdatahub.com/cmems-reanalysis/cmems_mod_glo_phy_my_0.083_P1D-m.zarr
