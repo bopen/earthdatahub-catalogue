@@ -44,14 +44,6 @@ properties:
       reference_system: 4326
       step: 0.1
   cube:variables:
-    ssr:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Surface net short-wave (solar) radiation
-      unit: J m**-2
     u10:
       dimensions:
       - valid_time
@@ -84,10 +76,10 @@ properties:
       type: data
       description: Total precipitation
       unit: m
-  dc:extent: 34.3 TB
+  dc:extent: 54.9 TB
 assets:
   data:
-    href: https://earthdatahub.com/stores/ecmwf-era5-land/reanalysis-era5-land-no-antartica-v1.zarr
+    href: https://data.earthdatahub.com/era5/reanalysis-era5-land-no-antartica-v1.zarr
     roles:
     - data
     xarray:open_kwargs:

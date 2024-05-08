@@ -50,10 +50,10 @@ properties:
       type: data
       description: ECEF coordinates of surface model
       unit: m
-  dc:extent: 1,280.0 GiB
+  dc:extent: 1.3 TB
 assets:
   data:
-    href: https://earthdatahub.com/stores/copernicus-dem/GLO-30-UTM-33N-v0.zarr
+    href: https://data.earthdatahub.com/copernicus-dem/GLO-30-UTM-33N-v0.zarr
     roles:
     - data
     xarray:open_kwargs:

@@ -68,10 +68,10 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-  dc:extent: 52.0 GiB
+  dc:extent: 52 GB
 assets:
   data:
-    href: https://earthdatahub.com/stores/destine-extreme-dt/2024-03-08-i7yv-oper-sfc-v0.zarr
+    href: https://data.earthdatahub.com/destine-extreme-dt/2024-03-08-i7yv-oper-sfc-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
