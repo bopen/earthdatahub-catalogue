@@ -8,14 +8,14 @@ steps:
       activity: ScenarioMIP
       class: d1
       dataset: climate-dt
-      date: [ 2020-01-01/to/2029-09-08 ]
+      date: [ 2020-01-01/to/2029-12-31 ]
       experiment: SSP3-7.0
       expver: '0001'
       generation: 1
       levtype: sfc
       model: IFS-NEMO
       # param: ['78', '79', '134', '137', '141', '148', '151', '159', '164', '165', '166', '167', '168', '176', '177', '186', '187', '188', '235', '260048']
-      param: ['166', '176', '177']
+      param: ['165', '166', '167', '168', '176', '177', '260048']
       realization: 1
       resolution: high
       stream: clte
@@ -25,13 +25,14 @@ steps:
     request_chunker_kwargs:
       time_sep: /to/
     client_kwargs:
-        address: polytope.apps.lumi.ewctest.link
+        address: polytope.lumi.apps.dte.destination-earth.eu
         quiet: true
   chunks: {latitude: 512, longitude: 512, time: 48}
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs:
     time_dim: time
     time_restart_block: 4
+    retries: 2
   to_zarr_kwargs:
     store: s3://edh-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr
     write_empty_chunks: false

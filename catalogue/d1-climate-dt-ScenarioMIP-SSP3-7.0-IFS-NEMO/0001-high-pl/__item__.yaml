@@ -79,3 +79,4 @@ assets:
       client_kwargs:
         trust_env: true
 search_weight: 70
+# href: https://data.earthdatahub.com/d1-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-pl-v0.zarr
