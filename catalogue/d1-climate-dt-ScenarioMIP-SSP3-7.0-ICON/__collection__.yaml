@@ -1,9 +1,9 @@
-title: Destination Earth digital twin for climate change adaptation
+title: DestinE Climate Adaptation DT, ScenarioMIP, SSP3-7.0, ICON
 dc:abstract:
   The DestinE Digital Twin for Climate Change Adaptation (Climate DT) supports adaptation activities through the provision of innovative climate information on multi-decadal timescales, at scales at which the impacts of climate change are observed. This initiative presents the first ever attempt to operationalise the production of global multi-decadal climate projections at km-scale resolutions of 5 to 10km.
 edh:maturity: draft
 links:
-- title: DestinE Climate Adaptation DT, ScenarioMIP, SSP3-7.0, ICON
+- title: DestinE Digital Twin for Climate Change Adaptation
   rel: derived_from
   href: https://confluence.ecmwf.int/pages/viewpage.action?pageId=414254710
   type: text/html
