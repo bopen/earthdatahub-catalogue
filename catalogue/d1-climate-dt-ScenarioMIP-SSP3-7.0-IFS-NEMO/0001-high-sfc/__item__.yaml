@@ -95,7 +95,15 @@ properties:
       type: data
       description: Surface net long-wave (thermal) radiation
       unit: J m**-2
-  dc:extent: 82.4 TB
+    sd:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Snow depth
+      unit: m of water equivalent
+  dc:extent: 94.1 TB
 assets:
   data:
     href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr
