@@ -27,5 +27,3 @@ surface) or a dedicated pressure level in the atmosphere.--->
 Here we propose a subset of ERA5 data for world atmospheric, ocean-wave and land surface quantities called [ERA5 hourly data on single levels](https://doi.org/10.24381/cds.adbb2d47). Focus is on temperature (2 metres and dewpoint), total precipitation and 10 metres wind speed. The data are available from 1940 until the last closed month and updated monthly and are regridded to a regular lat-lon grid of 0.25 degrees.
 
 They are presented as a zarr archive optimised for time analysis.
-
-Data are free for access for DestinE Service Platform registered users.

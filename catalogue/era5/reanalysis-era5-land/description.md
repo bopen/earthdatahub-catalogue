@@ -21,5 +21,3 @@ businesses and individuals to access and use more accurate information on land s
 Here we propose a subset of ERA5 data for world land surface quantities called [ERA5-Land hourly data from 1950 to present](https://doi.org/10.24381/cds.e2161bac). Focus is on temperature (2 metres and dewpoint), total precipitation, solar radiation and 10 metres wind speed. The data are available from 1950 until the last closed month and updated monthly.
 
 They are presented as a zarr archive optimised for time analysis.
-
-Data are free for access for DestinE Service Platform registered users.

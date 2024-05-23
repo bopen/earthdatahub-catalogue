@@ -25,4 +25,3 @@ Here we propose a subset of the ECV world data for anomalies on soil water, two 
 
 They are presented as a zarr archive optimised for time analysis.
 
-Data are free for access for DestinE Service Platform registered users.
