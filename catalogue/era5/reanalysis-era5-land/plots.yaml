@@ -1,8 +1,8 @@
 plots:
-- var: "tp"
+- var: "t2m"
   selection: {'valid_time':1}
   plot_kwargs: {
     'vmax':320,
-    'vmin':233,
-    'cmap':"Blues"
+    'vmin':230,
+    'cmap':"RdBu_r"
   }
