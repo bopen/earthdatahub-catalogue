@@ -1,6 +1,6 @@
 plots:
 - var: "t2m"
-  selection: {'valid_time':1}
+  selection: {'valid_time': 258606}
   plot_kwargs: {
     'vmax':320,
     'vmin':230,
