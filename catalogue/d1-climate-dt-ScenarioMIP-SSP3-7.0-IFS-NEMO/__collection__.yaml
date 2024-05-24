@@ -45,5 +45,5 @@ providers:
 - name: DestinE Platform
   roles:
   - host
-  url: https://destination-earth.eu
+  url: https://platform.destine.eu
 search_weight: 90
