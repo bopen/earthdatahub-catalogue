@@ -1,0 +1,8 @@
+plots:
+- var: "d2m"
+  selection: {'valid_time':1}
+  plot_kwargs: {
+    'vmax':320,
+    'vmin':233,
+    'cmap':"coolwarm"
+  }
