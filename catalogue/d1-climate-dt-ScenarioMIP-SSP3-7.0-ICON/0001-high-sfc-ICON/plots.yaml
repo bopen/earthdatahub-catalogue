@@ -1,8 +1,10 @@
 plots:
 - var: "t2m"
-  selection: {'time':0}
+  selection: {"time": 2515}
+  coarsen: {latitude: 16, longitude: 16}
   plot_kwargs: {
-    'vmax':320,
-    'vmin':230,
+    'vmax':318,
+    'vmin':228,
     'cmap':"RdBu_r"
   }
+  
