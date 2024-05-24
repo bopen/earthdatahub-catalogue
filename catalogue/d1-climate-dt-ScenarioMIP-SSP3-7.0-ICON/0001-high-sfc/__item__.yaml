@@ -1,0 +1,71 @@
+links:
+- title: Destination Earth
+  rel: derived_from
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- -180.0
+- -90.0
+- 180.0
+- 90.0
+properties:
+  edh:maturity: draft
+  dc:abstract: High resolution Climate DT hourly on single levels - SSP3-7.0 - ICON
+  dc:access_rights: free of charge
+  dc:title: High resolution Climate DT hourly on single levels - SSP3-7.0 - ICON
+  dc:description: High resolution Climate DT hourly on single levels - SSP3-7.0 -
+    ICON
+  start_datetime: '2021-01-01T00:00:00Z'
+  end_datetime: '2029-12-31T23:00:00Z'
+  dc:subject:
+  - DestinE
+  - ECMWF
+  - forecast
+  - weather
+  cube:dimensions:
+    time:
+      type: temporal
+      extent:
+      - null
+      - null
+      step: PT1H
+    latitude:
+      type: spatial
+      axis: y
+      reference_system: 4326
+      step: 0.044
+    longitude:
+      type: spatial
+      axis: x
+      reference_system: 4326
+      step: 0.044
+  cube:variables:
+    t2m:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre temperature
+      unit: K
+    tprate:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total precipitation rate
+      unit: kg m**-2 s**-1
+  dc:extent: 21.2 TB
+assets:
+  data:
+    href: https://data.earthdatahub.com/destine-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
+search_weight: 85
