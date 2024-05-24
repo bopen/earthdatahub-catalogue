@@ -3,7 +3,7 @@ plots:
   selection: {"time": 720, "isobaricInhPa": 1}
   coarsen: {latitude: 16, longitude: 16}
   plot_kwargs: {
-    'vmax': 120,
+    'vmax': 110,
     'vmin': -20,
-    'cmap': "BrBG"
+    'cmap': "Blues_r",
   }
