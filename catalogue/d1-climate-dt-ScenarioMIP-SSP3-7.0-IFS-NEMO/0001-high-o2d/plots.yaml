@@ -3,6 +3,6 @@ plots:
   selection: {'time':0}
   plot_kwargs: {
     'vmax':320,
-    'vmin':233,
+    'vmin':130,
     'cmap':"RdBu_r"
   }
