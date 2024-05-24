@@ -1,8 +1,8 @@
 plots:
-- var: "d2m"
-  selection: {'time':1}
+- var: "t2m"
+  selection: {'time':0}
   plot_kwargs: {
-    'vmax':300,
-    'vmin':200,
-    'cmap':"BrBG"
+    'vmax':320,
+    'vmin':230,
+    'cmap':"RdBu_r"
   }
