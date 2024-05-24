@@ -1,6 +1,7 @@
 plots:
 - var: "t"
   selection: {'time':0, 'isobaricInhPa':0}
+  coarsen: {latitude: 16, longitude: 16}
   plot_kwargs: {
     'vmax':320,
     'vmin':230,
