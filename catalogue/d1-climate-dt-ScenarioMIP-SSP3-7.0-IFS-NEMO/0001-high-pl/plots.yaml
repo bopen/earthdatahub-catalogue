@@ -1,6 +1,6 @@
 plots:
 - var: "t"
-  selection: {'time':0, 'isobaricInhPa':4}
+  selection: {'time':0, 'isobaricInhPa':0}
   plot_kwargs: {
     'vmax':320,
     'vmin':230,
