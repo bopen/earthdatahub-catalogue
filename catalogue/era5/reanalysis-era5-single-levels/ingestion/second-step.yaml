@@ -1,0 +1,18 @@
+steps:
+- chunks: {latitude: 64, longitude: 64, valid_time: 4320}
+  robust_to_zarr_kwargs:
+    time_dim: valid_time
+    time_restart_block: 6
+    time_range: [null, '1949-12-31']
+  to_zarr_kwargs: {store: s3://ecmwf-era5-single-levels/reanalysis-era5-single-levels-v0.zarr,
+    write_empty_chunks: false}
+  to_zarr_encoding:
+    d2m: {dtype: float32}
+    t2m: {dtype: float32}
+    tp: {dtype: float32}
+    u10: {dtype: float32}
+    v10: {dtype: float32}
+  xarray_open_kwargs:
+    chunks: {valid_time: 4320}
+    engine: zarr
+    filename_or_obj: s3://ecmwf-era5-single-levels-tmp/reanalysis-era5-single-levels.zarr

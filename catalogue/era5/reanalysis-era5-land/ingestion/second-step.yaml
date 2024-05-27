@@ -1,0 +1,18 @@
+steps:
+- xarray_open_kwargs:
+    engine: zarr
+    filename_or_obj: s3://ecmwf-era5-land/intermediate/reanalysis-era5-land-no-antartica.zarr
+    consolidated: false
+    chunks: { }
+    #drop_variables: [ssrd, ssr, lai_lv, lai_hv, snowc, sde, d2m]
+  chunks: {latitude: 64, longitude: 64, valid_time: 2880}
+  robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 5} #time_range: [null, '1951-12-31']
+  to_zarr_kwargs:
+    store: 's3://edh-temp/reanalysis-era5-land-no-antartica-v2.zarr'
+    write_empty_chunks: false
+    consolidated: true
+    storage_options: {client_kwargs: {
+      endpoint_url: "https://s3.gra.io.cloud.ovh.net"},
+      key: 10a1594b51fa47c7b93fc1d8e073a1b8,
+      secret: 32b254ff3a834dcbaff6b2cfff788cb2
+    }
