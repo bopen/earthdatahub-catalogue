@@ -1,5 +1,6 @@
 plots:
 - var: "d2m"
+  time_dim: "time"
   selection: {'time':1}
   plot_kwargs: {
     'vmax':300,
