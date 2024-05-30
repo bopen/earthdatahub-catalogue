@@ -57,7 +57,55 @@ properties:
       type: data
       description: Time-mean sea surface temperature
       unit: K
-  dc:extent: 981 GB
+    avg_siconc:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean sea ice area fraction
+      unit: Fraction
+    avg_siue:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean eastward sea ice velocity
+      unit: m s**-1
+    avg_sivn:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean northward sea ice velocity
+      unit: m s**-1
+    avg_sivol:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean sea ice volume per unit area
+      unit: m**3 m**-2
+    avg_sos:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean sea surface practical salinity
+      unit: g kg**-1
+    avg_zos:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean sea surface height
+      unit: m
+  dc:extent: 3.9 TB
 assets:
   data:
     href: https://data.earthdatahub.com/destine-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-o2d-v0.zarr
