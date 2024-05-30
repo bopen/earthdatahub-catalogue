@@ -13,9 +13,10 @@ properties:
   dc:abstract: High resolution Climate DT hourly on single levels - SSP3-7.0 - IFS-NEMO
   dc:access_rights: free of charge
   dc:title: High resolution Climate DT hourly on single levels - SSP3-7.0 - IFS-NEMO
-  dc:description: High resolution Climate DT hourly on single levels - SSP3-7.0 - IFS-NEMO
+  dc:description: High resolution Climate DT hourly on single levels - SSP3-7.0 -
+    IFS-NEMO
   start_datetime: '2020-01-01T00:00:00Z'
-  end_datetime: '2029-12-31T23:00:00Z'
+  end_datetime: '2034-12-31T23:00:00Z'
   dc:subject:
   - DestinE
   - ECMWF
@@ -103,7 +104,7 @@ properties:
       type: data
       description: Snow depth
       unit: m of water equivalent
-  dc:extent: 94.1 TB
+  dc:extent: 141.2 TB
 assets:
   data:
     href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr
