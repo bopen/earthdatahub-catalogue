@@ -10,10 +10,10 @@ bbox:
 - 90.0
 properties:
   edh:maturity: published
+  dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, daily on ocean and sea-ice
   dc:abstract: High resolution Climate DT daily on ocean single levels - SSP3-7.0
     - IFS-NEMO
   dc:access_rights: free of charge
-  dc:title: High resolution Climate DT daily on ocean single levels - SSP3-7.0 - IFS-NEMO
   dc:description: High resolution Climate DT daily on ocean single levels - SSP3-7.0
     - IFS-NEMO
   start_datetime: '2020-01-01T00:00:00Z'
