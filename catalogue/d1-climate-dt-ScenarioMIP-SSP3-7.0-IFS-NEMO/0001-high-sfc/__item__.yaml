@@ -10,7 +10,7 @@ bbox:
 - 90.0
 properties:
   edh:maturity: published
-  dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, hourly on single levels
+  dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, hourly data on single levels, HR
   dc:abstract: High resolution Climate DT hourly on single levels - SSP3-7.0 - IFS-NEMO
   dc:access_rights: free of charge
   dc:description: High resolution Climate DT hourly on single levels - SSP3-7.0 -
