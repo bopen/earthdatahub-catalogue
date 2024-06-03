@@ -10,8 +10,9 @@ bbox:
 - 90.0
 properties:
   edh:maturity: published
-  dc:abstract: High resolution Climate DT hourly on single levels - SSP3-7.0 - ICON
-  dc:access_rights: free of charge
+  dc:abstract: This dataset contains a selection of the variables available from the 
+  DestinE Climate DT future projection simulation (activity `ScenarioMIP`, experiment `SSP3-7.0`) 
+  from the ICON model at high resolution on surface levels
   dc:title: High resolution Climate DT hourly on single levels - SSP3-7.0 - ICON
   dc:description: High resolution Climate DT hourly on single levels - SSP3-7.0 -
     ICON
