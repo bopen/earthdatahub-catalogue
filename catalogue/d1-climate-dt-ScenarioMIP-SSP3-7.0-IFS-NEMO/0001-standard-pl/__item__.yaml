@@ -14,7 +14,7 @@ properties:
   DestinE Climate DT future projection simulation (activity `ScenarioMIP`, experiment `SSP3-7.0`) 
   from the IFS-NEMO model at standard resolution on pressure levels
   dc:access_rights: free of charge
-  dc:title: Standard resolution Climate DT on pressure levels - SSP3-7.0 - IFS-NEMO
+  dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, hourly data on pressure-levels
   dc:description: Standard resolution Climate DT on pressure levels - SSP3-7.0 - IFS-NEMO
   start_datetime: '2020-01-01T00:00:00Z'
   end_datetime: '2020-03-04T23:00:00Z'
