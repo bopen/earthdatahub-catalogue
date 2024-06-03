@@ -1,1 +1,1 @@
-In this dataset we propose a selection of the data available from the DestinE Climate DT future projection simulation (activity `ScenarioMIP`, experiment `SSP3-7.0`) from the IFS-NEMO model from standard resolution on pressure levels.
+This dataset contains a selection of the variables available from the DestinE Climate DT future projection simulation (activity `ScenarioMIP`, experiment `SSP3-7.0`) from the IFS-NEMO model at standard resolution on pressure levels. Chunking of the dataset is optimised for time analysis.

@@ -10,7 +10,9 @@ bbox:
 - 90.0
 properties:
   edh:maturity: published
-  dc:abstract: Standard resolution Climate DT on single levels - SSP3-7.0 - IFS-NEMO
+  dc:abstract: This dataset contains a selection of the variables available from the 
+  DestinE Climate DT future projection simulation (activity `ScenarioMIP`, experiment `SSP3-7.0`) 
+  from the IFS-NEMO model at standard resolution on surface levels
   dc:access_rights: free of charge
   dc:title: Standard resolution Climate DT on single levels - SSP3-7.0 - IFS-NEMO
   dc:description: Standard resolution Climate DT on single levels - SSP3-7.0 - IFS-NEMO
