@@ -104,30 +104,6 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-    d2m:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: 2 metre dewpoint temperature
-      unit: K
-    ssr:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Surface net short-wave (solar) radiation
-      unit: J m**-2
-    str:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Surface net long-wave (thermal) radiation
-      unit: J m**-2
   dc:extent: 82.4 TB
 assets:
   data:

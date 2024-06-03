@@ -31,8 +31,8 @@ steps:
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs:
     time_dim: time
-    time_restart_block: 10
+    time_restart_block: 4
     retries: 2
   to_zarr_kwargs:
-    store: s3://edh-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr
+    store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr
     write_empty_chunks: false
