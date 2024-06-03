@@ -14,10 +14,11 @@ bbox:
 - 90.0
 properties:
   edh:maturity: published
+  dc:abstract: ERA5-Land is a reanalysis dataset providing a consistent view of the evolution of land variables
+over several decades at an enhanced resolution compared to ERA5.
   dc:title: ERA5-Land hourly data
   start_datetime: '1950-01-01T00:00:00Z'
   end_datetime: '2023-12-31T23:00:00Z'
-  dc:abstract: Europe ERA5-Land hourly data from 1950 to 2023
   dc:access_rights: free of charge
   dc:subject:
   - ERA5
