@@ -10,9 +10,9 @@ bbox:
 - 90.0
 properties:
   edh:maturity: published
-  dc:abstract: This dataset contains a selection of the variables available from the 
-    DestinE Climate DT future projection simulation (activity `ScenarioMIP`, experiment `SSP3-7.0`) 
-    from the IFS-NEMO model at standard resolution on surface levels
+  dc:abstract: This dataset contains a selection of the variables available from the
+    DestinE Climate DT future projection simulation (activity `ScenarioMIP`, experiment
+    `SSP3-7.0`) from the IFS-NEMO model at standard resolution on surface levels
   dc:access_rights: free of charge
   dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, hourly data on single-levels
   dc:description: Standard resolution Climate DT on single levels - SSP3-7.0 - IFS-NEMO
@@ -188,7 +188,7 @@ properties:
   dc:extent: 3.2 TB
 assets:
   data:
-    href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-0001-standard-sfc-v0.zarr
+    href: https://data.earthdatahub.com/d1-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-standard-sfc-v0.zarr
     roles:
     - data
     xarray:open_kwargs:

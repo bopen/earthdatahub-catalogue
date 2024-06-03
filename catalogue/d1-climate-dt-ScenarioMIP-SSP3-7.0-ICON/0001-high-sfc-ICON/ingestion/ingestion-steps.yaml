@@ -35,5 +35,5 @@ steps:
     time_restart_block: 6
     retries: 2
   to_zarr_kwargs:
-    store: s3://edh-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
+    store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
     write_empty_chunks: false
