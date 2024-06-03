@@ -15,8 +15,7 @@ properties:
     from the IFS-NEMO model at high resolution on ocean variables
   dc:access_rights: free of charge
   dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, daily data on ocean and sea-ice, HR
-  dc:description: High resolution Climate DT daily on ocean single levels - SSP3-7.0
-    - IFS-NEMO
+  dc:description: High resolution Climate DT daily on ocean single levels - SSP3-7.0 - IFS-NEMO
   start_datetime: '2020-01-01T00:00:00Z'
   end_datetime: '2029-12-31T00:00:00Z'
   dc:subject:
