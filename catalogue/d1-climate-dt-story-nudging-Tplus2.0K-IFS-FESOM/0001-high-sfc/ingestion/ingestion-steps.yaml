@@ -8,13 +8,15 @@ steps:
       activity: story-nudging
       class: d1
       dataset: climate-dt
+      date: [ 2017-01-01/to/2018-12-31 ]
       experiment: Tplus2.0K
       expver: 0001
+      generation: 1
       levtype: sfc
       model: IFS-FESOM
-      param': ["167"]
+      # param: ['78', '79', '134', '137', '141', '148', '151', '159', '164', '165', '166', '167', '168', '176', '177', '186', '187', '188', '235', '260048']
+      param: ["167"]
       realization: 1
-      generation': 1
       resolution: high
       stream: clte
       time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
@@ -29,7 +31,7 @@ steps:
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs:
     time_dim: time
-    time_restart_block: 4
+    time_restart_block: 6
   to_zarr_kwargs:
     store: s3://edc-climate-dt/story-nudging-Tplus2.0K-IFS-FESOM-0001-high-sfc-v0.zarr
     write_empty_chunks: false
