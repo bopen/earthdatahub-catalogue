@@ -1,0 +1,10 @@
+plots:
+- var: "t2m"
+  time_dim: "time"
+  selection: {"time": 2515}
+  plot_kwargs: {
+    'vmax':318,
+    'vmin':228,
+    'cmap':"RdBu_r"
+  }
+  
