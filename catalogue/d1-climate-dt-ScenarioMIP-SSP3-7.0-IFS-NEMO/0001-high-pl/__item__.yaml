@@ -60,7 +60,7 @@ properties:
       type: data
       description: Relative humidity
       unit: '%'
-  dc:extent: 120 TB
+  dc:extent: 117.7 TB
 assets:
   data:
     href: https://data.earthdatahub.com/d1-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-pl-v0.zarr
