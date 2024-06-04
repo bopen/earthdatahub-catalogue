@@ -5,20 +5,20 @@ steps:
     engine: ecmwf
     client: polytope
     filename_or_obj:
-      'activity': 'story-nudging',
-      'class': 'd1',
-      'dataset': 'climate-dt',
-      'experiment': 'Tplus2.0K',
-      'expver': '0001',
-      'levtype': 'sfc',
-      'model': 'IFS-FESOM',
-      'param': ['167'],
-      'realization': '1',
-      'generation': 1,
-      'resolution': 'high',
-      'stream': 'clte',
-      'time': ['00:00'],
-      'type': 'fc'
+      activity: story-nudging
+      class: d1
+      dataset: climate-dt
+      experiment: Tplus2.0K
+      expver: 0001
+      levtype: sfc
+      model: IFS-FESOM
+      param': ["167"]
+      realization: 1
+      generation': 1
+      resolution: high
+      stream: clte
+      time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
+      type: fc
     request_chunks: { day: 2 }
     request_chunker_kwargs:
       time_sep: /to/
@@ -31,5 +31,5 @@ steps:
     time_dim: time
     time_restart_block: 4
   to_zarr_kwargs:
-    store: s3://edh-climate-dt/Tplus2.0K-IFS-FESOM-0001-high-sfc.zarr
+    store: s3://edc-climate-dt/story-nudging-Tplus2.0K-IFS-FESOM-0001-high-sfc-v0.zarr
     write_empty_chunks: false
