@@ -60,16 +60,7 @@ properties:
       type: data
       description: Relative humidity
       unit: '%'
-    z:
-      dimensions:
-      - time
-      - isobaricInhPa
-      - latitude
-      - longitude
-      type: data
-      description: Geopotential
-      unit: m**2 s**-2
-  dc:extent: 176.5 TB
+  dc:extent: 120 TB
 assets:
   data:
     href: https://data.earthdatahub.com/d1-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-pl-v0.zarr
