@@ -2,6 +2,7 @@ plots:
 - var: "avg_tos"
   time_dim: "time"
   selection: {'time': 1000}
+  coarsen: {latitude: 2, longitude: 2}
   plot_kwargs: {
     'vmax':308,
     'vmin':268,
