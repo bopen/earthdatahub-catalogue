@@ -1,8 +1,9 @@
 plots:
 - var: "avg_tos"
-  selection: {'time':0}
+  time_dim: "time"
+  selection: {'time': 1000}
   plot_kwargs: {
-    'vmax':320,
-    'vmin':130,
+    'vmax':308,
+    'vmin':268,
     'cmap':"RdBu_r"
   }
