@@ -1,8 +1,11 @@
 plots:
-- var: "t"
-  selection: {'time':0, 'isobaricInhPa':0}
+- var: "r"
+  time_dim: "time"
+  selection: {"time": 720, "isobaricInhPa": 1}
+  coarsen: {latitude: 8, longitude: 8}
   plot_kwargs: {
-    'vmax':320,
-    'vmin':230,
-    'cmap':"RdBu_r"
+    'vmax': 110,
+    'vmin': -20,
+    'cmap': "Blues_r",
   }
+  

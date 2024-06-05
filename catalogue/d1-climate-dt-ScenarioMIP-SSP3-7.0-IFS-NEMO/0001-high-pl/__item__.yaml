@@ -10,12 +10,15 @@ bbox:
 - 90.0
 properties:
   edh:maturity: published
-  dc:abstract: High resolution Climate DT on pressure levels - SSP3-7.0 - IFS-NEMO
+  dc:abstract: This dataset contains a selection of the variables available from the  DestinE
+    Climate DT future projection simulation (activity `ScenarioMIP`, experiment `SSP3-7.0`)
+    from the IFS-NEMO model at high resolution on pressure levels
   dc:access_rights: free of charge
-  dc:title: High resolution Climate DT on pressure levels - SSP3-7.0 - IFS-NEMO
+  dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, hourly data on pressure-levels,
+    HR
   dc:description: High resolution Climate DT on pressure levels - SSP3-7.0 - IFS-NEMO
   start_datetime: '2020-01-01T00:00:00Z'
-  end_datetime: '2024-12-31T23:00:00Z'
+  end_datetime: '2029-12-31T23:00:00Z'
   dc:subject:
   - DestinE
   - ECMWF
@@ -57,19 +60,10 @@ properties:
       type: data
       description: Relative humidity
       unit: '%'
-    z:
-      dimensions:
-      - time
-      - isobaricInhPa
-      - latitude
-      - longitude
-      type: data
-      description: Geopotential
-      unit: m**2 s**-2
-  dc:extent: 88.3 TB
+  dc:extent: 117.7 TB
 assets:
   data:
-    href: https://data.earthdatahub.com/destine-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-pl-v0.zarr
+    href: https://data.earthdatahub.com/d1-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-pl-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
@@ -79,4 +73,3 @@ assets:
       client_kwargs:
         trust_env: true
 search_weight: 70
-# href: https://data.earthdatahub.com/d1-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-pl-v0.zarr

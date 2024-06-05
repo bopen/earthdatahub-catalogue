@@ -8,13 +8,13 @@ steps:
       activity: ScenarioMIP
       class: d1
       dataset: climate-dt
-      date: [ 2020-01-01/to/2029-08-15 ]
+      date: [ 2020-01-01/to/2029-12-31 ]
       experiment: SSP3-7.0
       expver: '0001'
       generation: 1
       levtype: o2d
       model: IFS-NEMO
-      param: ['263000', '263101']
+      param: ['263000', '263001', '263003', '263004', '263008', '263100', '263101', '263124']
       realization: 1
       resolution: high
       stream: clte
@@ -30,7 +30,7 @@ steps:
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs:
     time_dim: time
-    time_restart_block: 1
+    time_restart_block: 16
   to_zarr_kwargs:
-    store: s3://edh-climate-dt/SSP3-7.0-IFS-NEMO-0001-high-sfc-daily-v0.zarr
+    store: s3://edh-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-o2d-v0.zarr
     write_empty_chunks: false

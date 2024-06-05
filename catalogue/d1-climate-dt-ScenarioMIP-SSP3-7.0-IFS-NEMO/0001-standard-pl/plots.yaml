@@ -1,5 +1,6 @@
 plots:
 - var: "t"
+  time_dim: "time"
   selection: {'time':0, 'isobaricInhPa':2}
   plot_kwargs: {
     'vmax':320,

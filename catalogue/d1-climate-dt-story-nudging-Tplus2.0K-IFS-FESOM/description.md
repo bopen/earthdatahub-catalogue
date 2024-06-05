@@ -2,3 +2,6 @@ The DestinE Digital Twin for Climate Change Adaptation (Climate DT) supports ada
 
 Here we propose a selection of the data available from the future projection simulation (activity `story-nudging`, experiment `Tplus2.0K`) from the IFS-FESOM model both in high and standard resolution and on surface and pressure levels.
 
+Datasets are presented as zarr archives optimised specifically for time analysis and covering the whole available geographical and temporal extent of the original data. Also, data are regridded from HEALPix to lat-lon.
+
+Please refer to the specific datasets for detailed information about extent, resolution, updates and access rights.

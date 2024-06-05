@@ -1,8 +1,9 @@
 plots:
 - var: "t2m"
-  selection: {'valid_time':1}
+  time_dim: "valid_time"
+  sel: {"valid_time": "1972-07-03T06:00"}
   plot_kwargs: {
-    'vmax':320,
-    'vmin':230,
-    'cmap':"RdBu_r"
+    "vmax": 320,
+    "vmin": 230,
+    "cmap": "RdBu_r"
   }
