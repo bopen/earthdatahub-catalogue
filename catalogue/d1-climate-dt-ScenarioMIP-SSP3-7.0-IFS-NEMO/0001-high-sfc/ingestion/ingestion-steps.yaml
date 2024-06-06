@@ -8,7 +8,7 @@ steps:
       activity: ScenarioMIP
       class: d1
       dataset: climate-dt
-      date: [ 2020-01-01/to/2035-12-31 ]
+      date: [ 2020-01-01/to/2037-12-31 ]
       experiment: SSP3-7.0
       expver: '0001'
       generation: 1
