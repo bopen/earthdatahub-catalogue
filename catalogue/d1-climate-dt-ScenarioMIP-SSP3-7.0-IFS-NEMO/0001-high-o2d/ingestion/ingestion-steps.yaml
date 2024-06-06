@@ -32,5 +32,5 @@ steps:
     time_dim: time
     time_restart_block: 16
   to_zarr_kwargs:
-    store: s3://edh-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-o2d-v0.zarr
+    store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-o2d-v0.zarr
     write_empty_chunks: false
