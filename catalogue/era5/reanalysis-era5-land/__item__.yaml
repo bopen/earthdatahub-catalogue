@@ -169,7 +169,7 @@ properties:
   dc:extent: 206.2 TB
 assets:
   data:
-    href: https://data.earthdatahub.com/era5/reanalysis-era5-land-no-antartica-v0.zarr
+    href: https://data.earthdatahub.destine.eu/era5/reanalysis-era5-land-no-antartica-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
