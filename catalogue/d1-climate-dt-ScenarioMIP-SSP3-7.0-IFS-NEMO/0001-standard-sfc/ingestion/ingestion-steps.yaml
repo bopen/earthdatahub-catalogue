@@ -33,5 +33,5 @@ steps:
     time_restart_block: 2
     retries: 1
   to_zarr_kwargs:
-    store: s3://edh-climate-dt/SSP3-7.0-IFS-NEMO-0001-standard-sfc-v0.zarr
+    store: s3://edc-climate-dt//ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-standard-sfc-v0.zarr
     write_empty_chunks: false

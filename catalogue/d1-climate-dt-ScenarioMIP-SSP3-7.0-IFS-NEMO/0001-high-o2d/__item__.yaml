@@ -110,7 +110,7 @@ properties:
   dc:extent: 3.9 TB
 assets:
   data:
-    href: https://data.earthdatahub.com/d1-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-o2d-v0.zarr
+    href: https://data.earthdatahub.destine.eu/d1-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-o2d-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
