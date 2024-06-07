@@ -19,7 +19,7 @@ properties:
   dc:description: High resolution Climate DT hourly on single levels - SSP3-7.0 -
     IFS-NEMO
   start_datetime: '2020-01-01T00:00:00Z'
-  end_datetime: '2038-12-31T23:00:00Z'
+  end_datetime: '2039-12-31T23:00:00Z'
   dc:subject:
   - DestinE
   - ECMWF
@@ -107,7 +107,7 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-  dc:extent: 178.9 TB
+  dc:extent: 188.3 TB
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/d1-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr
