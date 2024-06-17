@@ -6,11 +6,13 @@ steps:
       key: JLVJZ2W4MLMV9PWOIGLV
       secret: Z5IOxjSPAPob0jJMBCPzSdXjShVoK1sZAwZcN67U
       endpoint_url: https://eodata.dataspace.copernicus.eu
-  robust_to_zarr_kwargs: {time_dim: lon, time_restart_block: 8}
-  to_zarr_kwargs:
-    store: s3://edh-data/copernicus-dem/GLO-30-v0.zarr
-    write_empty_chunks: false
   xarray_open_kwargs:
-    chunks:
-      dsm:
-        filters: [{"id": "bitround", "keepbits": 14}]
+    chunks: {}
+  robust_to_zarr_kwargs: {time_dim: lon, time_restart_block: 4}
+  to_zarr_kwargs:
+    store: s3://edc-temp/copernicus-dem/GLO-30-v0.zarr
+    write_empty_chunks: false
+  to_zarr_encoding:
+    dsm:
+      filters: [{"id": "bitround", "keepbits": 14}]
+      _FillValue: 0.0
