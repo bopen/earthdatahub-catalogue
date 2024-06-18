@@ -8,7 +8,10 @@ steps:
       endpoint_url: https://eodata.dataspace.copernicus.eu
   xarray_open_kwargs:
     chunks: {}
-  robust_to_zarr_kwargs: {time_dim: lon, time_restart_block: 1}
+  robust_to_zarr_kwargs:
+    time_dim: lon
+    time_restart_block: 2
+    retries: 1
   to_zarr_kwargs:
     store: s3://edh-data/copernicus-dem/GLO-30-v0.zarr
     write_empty_chunks: false

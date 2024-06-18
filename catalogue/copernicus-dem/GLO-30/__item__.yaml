@@ -51,6 +51,7 @@ assets:
       engine: zarr
       chunks: {}
       mask_and_scale: false
+      decode_coords: all
     xarray:storage_options:
       client_kwargs:
         trust_env: true
