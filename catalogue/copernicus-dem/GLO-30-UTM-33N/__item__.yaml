@@ -59,6 +59,7 @@ assets:
     xarray:open_kwargs:
       engine: zarr
       chunks: {}
+      decode_coords: all
     xarray:storage_options:
       client_kwargs:
         trust_env: true
