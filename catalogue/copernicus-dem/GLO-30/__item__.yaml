@@ -23,12 +23,12 @@ properties:
   - Copernicus
   - DEM
   cube:dimensions:
-    latitude:
+    lat:
       type: spatial
       axis: y
       reference_system: 4326
       step: 2.8e-05
-    longitude:
+    lon:
       type: spatial
       axis: x
       reference_system: 4326
@@ -44,12 +44,13 @@ properties:
   dc:extent: 3.4 TB
 assets:
   data:
-    href: https://data.earthdatahub.com/copernicus-dem/GLO-30-v0.zarr
+    href: https://data.earthdatahub.destine.eu/copernicus-dem/GLO-30-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
       engine: zarr
       chunks: {}
+      mask_and_scale: false
     xarray:storage_options:
       client_kwargs:
         trust_env: true
