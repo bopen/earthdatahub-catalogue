@@ -16,27 +16,7 @@ steps:
   to_zarr_kwargs:
     store: 's3://edh-data/copernicus-dem/GLO-30-UTM-32N-v0.zarr'
     write_empty_chunks: false
-  chunks: {y: 5000, x: 5000}
-
   xarray_open_kwargs:
     chunks: {}
     decode_coords: all
     mask_and_scale: false
-# - xarray_datastore_class: convert_dem_ecef
-#   xarray_datastore_kwargs:
-#     xarray_open_kwargs:
-#       chunks: {}
-#       engine: zarr
-#       filename_or_obj: s3://copernicus-dem/GLO-30-UTM-32N-v0.zarr
-#       drop_variables: dem_ecef
-#   robust_to_zarr_kwargs:
-#     time_dim: y
-#     time_restart_block: 24
-#     time_range: [null, 8000000]
-#   to_zarr_kwargs:
-#     store: 's3://copernicus-dem/GLO-30-UTM-32N-v0.zarr'
-#     write_empty_chunks: false
-#   chunks: {y: 2500, x: 2500}
-#   xarray_open_kwargs:
-#     chunks: {}
-#     decode_coords: all
