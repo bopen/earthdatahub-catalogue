@@ -29,11 +29,17 @@ properties:
       axis: y
       reference_system: 326{{ cookiecutter.utm_zone[:-1]|int }}
       step: 20.0
+      extent:
+      - 10.0
+      - 9999990.0
     x:
       type: spatial
       axis: x
       reference_system: 326{{ cookiecutter.utm_zone[:-1]|int }}
       step: 20.0
+      extent:
+      - 10.0
+      - 999990.0
   cube:variables:
     dem:
       dimensions:
@@ -41,14 +47,6 @@ properties:
       - x
       type: data
       description: height above geoid
-      unit: m
-    dem_ecef:
-      dimensions:
-      - y
-      - x
-      - axis
-      type: data
-      description: ECEF coordinates of surface model
       unit: m
   dc:extent: 100 GB
 assets:
