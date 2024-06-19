@@ -29,11 +29,17 @@ properties:
       axis: y
       reference_system: 32632
       step: 20.0
+      extent:
+      - 10.0
+      - 9999990.0
     x:
       type: spatial
       axis: x
       reference_system: 32632
       step: 20.0
+      extent:
+      - 10.0
+      - 999990.0
   cube:variables:
     dem:
       dimensions:
