@@ -22,7 +22,7 @@ extent:
       - 90
   temporal:
     interval:
-    - - 1940-01-01T00:00:00Z
+    - - "1940-01-01T00:00:00Z"
       - 
 license: various
 keywords:
