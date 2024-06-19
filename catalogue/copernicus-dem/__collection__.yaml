@@ -29,14 +29,21 @@ keywords:
 - Copernicus
 - DEM
 providers:
-- name: Copernicus
+providers:
+- name: European Union
+  roles:
+  - licensor
+  url: https://european-union.europa.eu
+- name: ESA
   roles:
   - producer
-  - licensor
-  url: https://www.copernicus.eu
+  url: https://www.esa.int
 - name: B-Open
   roles:
   - processor
+  url: https://www.bopen.eu
+- name: DestinE Platform
+  roles:
   - host
-  url: https://www.bopen.eu/
+  url: https://platform.destine.eu
 search_weight: 50
