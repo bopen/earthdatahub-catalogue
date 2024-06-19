@@ -8,7 +8,7 @@ steps:
       activity: story-nudging
       class: d1
       dataset: climate-dt
-      date: [ "2017-01-01/to/2018-12-31" ]
+      date: [ 2017-01-01/to/2018-12-31 ]
       experiment: Tplus2.0K
       expver: 0001
       generation: 1
