@@ -21,8 +21,8 @@ extent:
       - 90
   temporal:
     interval:
-    - - 2003-01-01T00:00:00Z
-      - 2020-01-01T00:00:00Z
+    - - "2003-01-01T00:00:00Z"
+      - "2020-01-01T00:00:00Z"
 license: various
 keywords:
 - CAMS
