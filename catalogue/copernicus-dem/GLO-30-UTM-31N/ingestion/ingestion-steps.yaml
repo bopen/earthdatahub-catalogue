@@ -12,7 +12,7 @@ steps:
     my_chunks: [2500, 2500]
   robust_to_zarr_kwargs:
     time_dim: y
-    time_restart_block: 1
+    time_restart_block: 5
   to_zarr_kwargs:
     store: 's3://edh-data/copernicus-dem/GLO-30-UTM-31N-v0.zarr'
     write_empty_chunks: false

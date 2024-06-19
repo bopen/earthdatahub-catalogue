@@ -24,16 +24,16 @@ properties:
   - Copernicus
   - DEM
   cube:dimensions:
-    latitude:
+    y:
       type: spatial
       axis: y
       reference_system: 32629
-      step: 10
-    longitude:
+      step: 20.0
+    x:
       type: spatial
       axis: x
       reference_system: 32629
-      step: 10
+      step: 20.0
   cube:variables:
     dem:
       dimensions:
@@ -42,15 +42,7 @@ properties:
       type: data
       description: height above geoid
       unit: m
-    dem_ecef:
-      dimensions:
-      - y
-      - x
-      - axis
-      type: data
-      description: ECEF coordinates of surface model
-      unit: m
-  dc:extent: 1.3 TB
+  dc:extent: 100 GB
 assets:
   data:
     href: https://data.earthdatahub.com/copernicus-dem/GLO-30-UTM-29N-v0.zarr
