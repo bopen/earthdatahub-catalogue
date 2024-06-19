@@ -22,7 +22,7 @@ extent:
       - 90
   temporal:
     interval:
-    - - 2022-01-01T00:00:00Z
+    - - "2022-01-01T00:00:00Z"
       - null
 license: various
 keywords:
