@@ -9,7 +9,7 @@ steps:
     utm_zone: 33N
     spacing: [20, 20]
     keepbits: 14
-    my_chunks: [5000, 5000]
+    my_chunks: [2500, 2500]
   robust_to_zarr_kwargs:
     time_dim: y
     time_restart_block: 5
