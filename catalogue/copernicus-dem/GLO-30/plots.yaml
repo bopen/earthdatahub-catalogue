@@ -2,7 +2,8 @@ plots:
 - var: "dsm"
   coarsen: {"lat": 720, "lon": 720}
   plot_kwargs: {
-    "vmax": -1000,
-    "vmin": 4000,
-    "cmap": "terrain"
+    "vmax": 5000,
+    "vmin": -1200,
+    "cmap": "terrain",
+    "tickers_numbers": [30, 60]
   }
