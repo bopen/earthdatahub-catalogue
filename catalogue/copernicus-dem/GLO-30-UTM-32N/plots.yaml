@@ -1,0 +1,9 @@
+plots:
+- var: "dem"
+  coarsen: {"x": 500, "y": 500}
+  plot_kwargs: {
+    "vmax": 5000,
+    "vmin": -1500,
+    "cmap": "terrain",
+    "tickers_numbers": [30, 60]
+  }
