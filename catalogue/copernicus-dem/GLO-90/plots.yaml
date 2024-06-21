@@ -6,6 +6,6 @@ plots:
   plot_kwargs: {
     "vmax": 5000,
     "vmin": -1285,
-    "cmap": "terrain",
+    "cmap": "terrain"
   }
  
