@@ -51,7 +51,7 @@ properties:
   dc:extent: 100 GB
 assets:
   data:
-    href: https://data.earthdatahub.com/copernicus-dem/GLO-30-UTM-32N-v0.zarr
+    href: https://data.earthdatahub.destine.eu/copernicus-dem/GLO-30-UTM-32N-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
