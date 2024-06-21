@@ -50,7 +50,7 @@ properties:
   dc:extent: 373 GB
 assets:
   data:
-    href: https://data.earthdatahub.com/copernicus-dem/GLO-90-v0.zarr
+    href: https://data.earthdatahub.destine.eu/copernicus-dem/GLO-90-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
