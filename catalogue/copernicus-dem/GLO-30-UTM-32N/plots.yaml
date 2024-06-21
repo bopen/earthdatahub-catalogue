@@ -1,9 +1,10 @@
 plots:
 - var: "dem"
-  coarsen: {"x": 500, "y": 500}
+  isel: {"x": [125, null, 250], "y": [125, null, 250]}
+  # coarsen: {"x": 500, "y": 500}
   plot_kwargs: {
     "vmax": 5000,
-    "vmin": -1200,
+    "vmin": -1285,
     "cmap": "terrain",
     "tickers_numbers": [30, 60]
   }
