@@ -12,7 +12,7 @@ steps:
       date: [ 1940-01-01/2023-12-31 ]
       time: [ '00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00' ]
       product_type: reanalysis
-      param: [
+      variable: [
         'boundary_layer_height',
         'total_precipitation',
         '10m_u_component_of_wind',
@@ -22,18 +22,39 @@ steps:
         'mean_sea_level_pressure',
         'sea_surface_temperature',
         'surface_pressure',
-        '2m_dewpoint_temperature',
-        '2m_temperature',
         'ice_temperature_layer_1',
         'ice_temperature_layer_2',
         'ice_temperature_layer_3',
         'ice_temperature_layer_4',
         'maximum_2m_temperature_since_previous_post_processing',
-        'mean_sea_level_pressure',
         'minimum_2m_temperature_since_previous_post_processing',
-        'sea_surface_temperature',
         'skin_temperature',
-        'surface_pressure'
+
+        'clear_sky_direct_solar_radiation_at_surface',
+        'downward_uv_radiation_at_the_surface',
+        'forecast_logarithm_of_surface_roughness_for_heat',
+        'instantaneous_surface_sensible_heat_flux',
+        'near_ir_albedo_for_diffuse_radiation',
+        'near_ir_albedo_for_direct_radiation',
+        'surface_latent_heat_flux',
+        'surface_net_solar_radiation',
+        'surface_net_solar_radiation_clear_sky',
+        'surface_net_thermal_radiation',
+        'surface_net_thermal_radiation_clear_sky',
+        'surface_sensible_heat_flux',
+        'surface_solar_radiation_downward_clear_sky',
+        'surface_solar_radiation_downwards',
+        'surface_thermal_radiation_downward_clear_sky',
+        'surface_thermal_radiation_downwards',
+
+        'toa_incident_solar_radiation',
+        'top_net_solar_radiation',
+        'top_net_solar_radiation_clear_sky',
+        'top_net_thermal_radiation',
+        'top_net_thermal_radiation_clear_sky',
+        'total_sky_direct_solar_radiation_at_surface',
+        'uv_visible_albedo_for_diffuse_radiation',
+        'uv_visible_albedo_for_direct_radiation'
       ]
     request_chunker_kwargs: { time_dim: valid_time }
     request_chunks: { day: 20 }
