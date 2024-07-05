@@ -14,7 +14,7 @@ steps:
     time_dim: y
     time_restart_block: 5
   to_zarr_kwargs:
-    store: 's3://edh-data/copernicus-dem/GLO-30-UTM-31N-v0.zarr'
+    store: 's3://edh-data/copernicus-dem-utm/GLO-30-UTM-31N-v0.zarr'
     write_empty_chunks: false
   xarray_open_kwargs:
     chunks: {}
