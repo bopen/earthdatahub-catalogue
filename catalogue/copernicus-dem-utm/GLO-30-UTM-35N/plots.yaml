@@ -1,0 +1,9 @@
+plots:
+- var: "dem"
+  isel: {"x": [125, null, 250], "y": [125, null, 250]}
+  plot_kwargs: {
+    "vmax": 5000,
+    "vmin": -1285,
+    "cmap": "terrain",
+    "tickers_numbers": [30, 60]
+  }
