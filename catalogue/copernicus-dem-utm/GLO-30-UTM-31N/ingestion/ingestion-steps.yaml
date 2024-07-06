@@ -12,9 +12,9 @@ steps:
     my_chunks: [2500, 2500]
   robust_to_zarr_kwargs:
     time_dim: y
-    time_restart_block: 5
+    time_restart_block: 20
   to_zarr_kwargs:
-    store: 's3://edh-data/copernicus-dem-utm/GLO-30-UTM-31N-v0.zarr'
+    store: s3://edh-data/copernicus-dem-utm/GLO-30-UTM-v0/31N
     write_empty_chunks: false
   xarray_open_kwargs:
     chunks: {}
