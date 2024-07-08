@@ -51,11 +51,14 @@ properties:
   dc:extent: 100 GB
 assets:
   data:
-    href: s3://edh-data/copernicus-dem-utm/GLO-30-UTM-v0/61N
+    href: https://data.earthdatahub.destine.eu/copernicus-dem-utm/GLO-30-UTM-v0/61N
     roles:
     - data
     xarray:open_kwargs:
       engine: zarr
       chunks: {}
       decode_coords: all
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
 search_weight: 0
