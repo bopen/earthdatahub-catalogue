@@ -5,5 +5,6 @@ plots:
     "vmax": 5000,
     "vmin": -1285,
     "cmap": "terrain",
+    "central_longitude": {{ (cookiecutter.utm_zone[:-1]|int + 7) // 15 * 90 - 180 }},
     "tickers_numbers": [30, 60]
   }
