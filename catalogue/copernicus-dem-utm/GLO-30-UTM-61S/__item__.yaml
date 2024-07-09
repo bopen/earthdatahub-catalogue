@@ -8,10 +8,10 @@ links:
   href: https://destination-earth.eu/
   type: text/html
 bbox:
+- -180.0
+- -90.0
 - 180.0
-- 0.0
-- 186.0
-- 84.0
+- -80.0
 properties:
   start_datetime: '2022-01-01T12:00:00Z'
   end_datetime: '2022-01-01T12:00:00Z'
