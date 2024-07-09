@@ -5,5 +5,6 @@ plots:
     "vmax": 5000,
     "vmin": -1285,
     "cmap": "terrain",
+    "projection": "NorthPolarStereo",
     "tickers_numbers": [30, 60]
   }
