@@ -24,8 +24,8 @@ extent:
       - 90
   temporal:
     interval:
-    - - 2021-01-01
-      - 2030-01-01
+    - - "2021-01-01"
+      - "2030-01-01"
 license: various
 keywords:
 - DestinE

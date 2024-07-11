@@ -10,7 +10,7 @@ links:
 bbox:
 - -180.0
 - -80.0
-- 179.89999389648438
+- 179.9
 - 90.0
 properties:
   start_datetime: '1993-01-01T12:00:00Z'
@@ -36,11 +36,17 @@ properties:
       axis: y
       reference_system: 4326
       step: 0.083
+      extent:
+      - -80.0
+      - 90.0
     longitude:
       type: spatial
       axis: x
       reference_system: 4326
       step: 0.083
+      extent:
+      - -180.0
+      - 179.9
   cube:variables:
     mlotst:
       dimensions:

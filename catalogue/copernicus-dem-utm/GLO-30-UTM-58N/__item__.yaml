@@ -1,0 +1,64 @@
+links:
+- title: Copernicus DEM Global 30m
+  rel: derived_from
+  href: https://doi.org/10.5270/ESA-c5d3d65
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- 162.0
+- 0.0
+- 168.0
+- 84.0
+properties:
+  start_datetime: '2022-01-01T12:00:00Z'
+  end_datetime: '2022-01-01T12:00:00Z'
+  dc:abstract: Copernicus DEM Global 30m resampled on a 20m grid on UTM 58N
+  dc:access_rights: free of charge
+  dc:title: Copernicus DEM Global 30m resampled on a 20m grid on UTM 58N
+  dc:description: Copernicus Digital Elevation Global 30m resampled on a 20m grid
+    on UTM 58N
+  dc:subject:
+  - Copernicus
+  - DEM
+  cube:dimensions:
+    y:
+      type: spatial
+      axis: y
+      reference_system: 32658
+      step: 20.0
+      extent:
+      - 10.0
+      - 9999990.0
+    x:
+      type: spatial
+      axis: x
+      reference_system: 32658
+      step: 20.0
+      extent:
+      - 10.0
+      - 999990.0
+  cube:variables:
+    dem:
+      dimensions:
+      - y
+      - x
+      type: data
+      description: height above geoid
+      unit: m
+  dc:extent: 100 GB
+assets:
+  data:
+    href: https://data.earthdatahub.destine.eu/copernicus-dem-utm/GLO-30-UTM-v0/58N
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+      decode_coords: all
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
+search_weight: 0

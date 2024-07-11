@@ -4,9 +4,18 @@ steps:
     url_template: s3://EODATA/auxdata/CopDEM_COG/copernicus-dem-30m/Copernicus_DSM_COG_10_{ns_latitude}_00_{ew_longitude}_00_DEM/Copernicus_DSM_COG_10_{ns_latitude}_00_{ew_longitude}_00_DEM.tif
     s3fs_kwargs:
       key: JLVJZ2W4MLMV9PWOIGLV
-      secret: AYWMDTH577QZy9YiGlNzejqqiqds69I40MCD5jei
+      secret: Z5IOxjSPAPob0jJMBCPzSdXjShVoK1sZAwZcN67U
       endpoint_url: https://eodata.dataspace.copernicus.eu
-  robust_to_zarr_kwargs: {time_dim: lon, time_restart_block: 8}
-  to_zarr_kwargs: {store: 's3://copernicus-dem/GLO-30-v0.zarr', write_empty_chunks: false}
   xarray_open_kwargs:
     chunks: {}
+  robust_to_zarr_kwargs:
+    time_dim: lon
+    time_restart_block: 2
+    retries: 1
+  to_zarr_kwargs:
+    store: s3://edh-data/copernicus-dem/GLO-30-v0.zarr
+    write_empty_chunks: false
+  to_zarr_encoding:
+    dsm:
+      filters: [{"id": "bitround", "keepbits": 14}]
+      _FillValue: 0.0

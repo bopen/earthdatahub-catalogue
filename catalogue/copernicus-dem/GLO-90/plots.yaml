@@ -1,0 +1,11 @@
+
+plots:
+- var: "dsm"
+  isel: {"lat": [120, null, 240], "lon": [120, null, 240]}
+  # coarsen: {"lat": 240, "lon": 240}
+  plot_kwargs: {
+    "vmax": 5000,
+    "vmin": -1285,
+    "cmap": "terrain"
+  }
+ 
