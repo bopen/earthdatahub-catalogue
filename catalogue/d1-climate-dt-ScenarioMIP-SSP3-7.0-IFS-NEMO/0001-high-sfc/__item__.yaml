@@ -13,7 +13,7 @@ properties:
   dc:abstract: This dataset contains a selection of the variables available from the
     DestinE Climate DT future projection simulation (activity `ScenarioMIP`, experiment
     `SSP3-7.0`) from the IFS-NEMO model at high resolution on surface levels
-  dc:access_rights: free of charge
+  dc:access_rights: restricted
   dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, hourly data on single-levels,
     HR
   dc:description: High resolution Climate DT hourly on single levels - SSP3-7.0 -

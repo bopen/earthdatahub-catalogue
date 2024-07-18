@@ -14,7 +14,7 @@ properties:
     DestinE Climate DT future projection simulation (activity `story-nudging`, experiment
     `Tplus2.0K`) from the IFS-FESOM model at high resolution on surface levels
   dc:title: Climate DT, story-nudging, Tplus2.0K, IFS-FESOM, hourly data on single-levels
-  dc:access_rights: free of charge
+  dc:access_rights: restricted
   dc:description: High resolution Climate DT hourly on single levels - Tplus2.0K -
     IFS-FESOM
   start_datetime: '2017-01-01T00:00:00Z'
