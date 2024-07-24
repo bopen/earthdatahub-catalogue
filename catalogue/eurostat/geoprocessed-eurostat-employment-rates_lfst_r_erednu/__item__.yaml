@@ -40,11 +40,17 @@ properties:
       axis: y
       reference_system: 4326
       step: 0.1
+      extent:
+      - 26.0
+      - 73.9
     lon:
       type: spatial
       axis: x
       reference_system: 4326
       step: 0.1
+      extent:
+      - -27.0
+      - 44.9
   cube:variables:
     L0_DEG1_TOTAL_ED0_2_Y15_64_T_PC:
       dimensions:
@@ -1122,14 +1128,14 @@ properties:
         International Standard Classification of Education (ISCED 2011): All ISCED
         2011 levels; Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
       unit: Percentage
-  dc:extent: 8.0 GiB
+  dc:extent: 8 GB
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/lfst_r_erednu-19950101-20220101.png
     roles:
     - thumbnail
   data:
-    href: https://earthdatahub.com/stores/eurostat/lfst_r_erednu-19950101-20220101.zarr
+    href: https://data.earthdatahub.destine.eu/eurostat/lfst_r_erednu-19950101-20220101.zarr
     roles:
     - data
     xarray:open_kwargs:

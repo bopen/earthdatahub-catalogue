@@ -38,11 +38,17 @@ properties:
       axis: y
       reference_system: 4326
       step: 0.1
+      extent:
+      - 26.0
+      - 73.9
     lon:
       type: spatial
       axis: x
       reference_system: 4326
       step: 0.1
+      extent:
+      - -27.0
+      - 44.9
   cube:variables:
     L0_NR_T_Y65_69:
       dimensions:
@@ -172,14 +178,14 @@ properties:
       type: data
       description: 'NUTS_Level: L3; Sex: Total; Age class: From 80 to 84 years'
       unit: Number
-  dc:extent: 55.0 GiB
+  dc:extent: 55 GB
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/demo_r_mweek3-20000103-20231030.png
     roles:
     - thumbnail
   data:
-    href: https://earthdatahub.com/stores/eurostat/demo_r_mweek3-20000103-20231030.zarr
+    href: https://data.earthdatahub.destine.eu/eurostat/demo_r_mweek3-20000103-20231030.zarr
     roles:
     - data
     xarray:open_kwargs:

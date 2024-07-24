@@ -39,11 +39,17 @@ properties:
       axis: y
       reference_system: 4326
       step: 0.1
+      extent:
+      - 26.0
+      - 73.9
     lon:
       type: spatial
       axis: x
       reference_system: 4326
       step: 0.1
+      extent:
+      - -27.0
+      - 44.9
   cube:variables:
     L0_PER_KM2:
       dimensions:
@@ -77,14 +83,14 @@ properties:
       type: data
       description: 'NUTS_Level: L3'
       unit: Persons per square kilometre
-  dc:extent: 0.0 GiB
+  dc:extent: 0 GB
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/demo_r_d3dens-19900101-20220101.png
     roles:
     - thumbnail
   data:
-    href: https://earthdatahub.com/stores/eurostat/demo_r_d3dens-19900101-20220101.zarr
+    href: https://data.earthdatahub.destine.eu/eurostat/demo_r_d3dens-19900101-20220101.zarr
     roles:
     - data
     xarray:open_kwargs:
