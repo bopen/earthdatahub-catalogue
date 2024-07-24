@@ -14,7 +14,7 @@ properties:
     medium-range forecasts. The forecast has a horizontal resolution of around 9 km
     and provides a description of a possible evolution of the weather out to 10 days
     ahead
-  dc:access_rights: free of charge
+  dc:access_rights: unrestricted
   dc:title: ECMWF high-resolution forecast
   dc:subject:
   - Open data

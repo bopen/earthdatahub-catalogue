@@ -18,7 +18,7 @@ properties:
   edh:maturity: published
   dc:abstract: 'This dataset is part of the ECMWF Atmospheric Composition Reanalysis
     focusing on long-lived greenhouse gases: carbon dioxide (CO2) and methane (CH4)'
-  dc:access_rights: free of charge
+  dc:access_rights: unrestricted
   dc:title: CAMS global greenhouse gas reanalysis (EGG4)
   dc:subject:
   - CAMS

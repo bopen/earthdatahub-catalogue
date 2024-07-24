@@ -11,7 +11,7 @@ bbox:
 properties:
   edh:maturity: draft
   dc:abstract: This dataset contains a selection of the variables available from the  DestinE Climate DT future projection simulation (activity `ScenarioMIP`, experiment `SSP3-7.0`)  from the IFS-NEMO model at standard resolution on pressure levels
-  dc:access_rights: free of charge
+  dc:access_rights: restricted
   dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, hourly data on pressure-levels
   dc:description: Standard resolution Climate DT on pressure levels - SSP3-7.0 - IFS-NEMO
   start_datetime: '2020-01-01T00:00:00Z'

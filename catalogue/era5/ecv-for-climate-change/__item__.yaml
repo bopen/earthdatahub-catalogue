@@ -20,7 +20,7 @@ properties:
   dc:abstract: The Essential Climate Variables from 1979 to present dataset contains
     a selection of climatologies, monthly anomalies and monthly mean fields for monitoring
     and assessment of climate variability and change
-  dc:access_rights: free of charge
+  dc:access_rights: unrestricted
   dc:title: Essential climate variables from 1979 to present
   dc:subject:
   - ERA5

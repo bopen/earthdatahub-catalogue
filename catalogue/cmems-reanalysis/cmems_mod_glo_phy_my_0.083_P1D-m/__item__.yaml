@@ -17,7 +17,7 @@ properties:
   end_datetime: '2020-12-31T12:00:00Z'
   edh:maturity: published
   dc:abstract: Global Ocean Physics Reanalysis
-  dc:access_rights: free of charge
+  dc:access_rights: unrestricted
   dc:title: Global Ocean Physics Reanalysis
   dc:subject:
   - Ocean
