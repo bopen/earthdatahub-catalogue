@@ -64,7 +64,7 @@ properties:
   dc:extent: 2 GB
 assets:
   data:
-    href: https://data.earthdatahub.com/era5-edh/ecv-for-climate-change-1981-2010-anomaly-v0.zarr
+    href: https://data.earthdatahub.destine.eu/era5-edh/ecv-for-climate-change-1981-2010-anomaly-v0.zarr
     roles:
     - data
     xarray:open_kwargs:

@@ -107,7 +107,7 @@ properties:
   dc:extent: 5.0 TB
 assets:
   data:
-    href: https://data.earthdatahub.com/cmems-reanalysis/cmems_mod_glo_phy_my_0.083_P1D-m.zarr
+    href: https://data.earthdatahub.destine.eu/cmems-reanalysis/cmems_mod_glo_phy_my_0.083_P1D-m.zarr
     roles:
     - data
     xarray:open_kwargs:

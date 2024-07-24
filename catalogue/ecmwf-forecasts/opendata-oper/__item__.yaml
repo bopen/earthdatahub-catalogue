@@ -183,15 +183,4 @@ properties:
       description: Vorticity (relative)
       unit: s**-1
   dc:extent: 8 GB
-assets:
-  data:
-    href: https://data.earthdatahub.com/ecmwf-forecasts/opendata-oper-20231016T00.zarr
-    roles:
-    - data
-    xarray:open_kwargs:
-      engine: zarr
-      chunks: {}
-    xarray:storage_options:
-      client_kwargs:
-        trust_env: true
 search_weight: 50

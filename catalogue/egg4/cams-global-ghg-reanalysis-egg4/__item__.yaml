@@ -79,7 +79,7 @@ properties:
   dc:extent: 73 GB
 assets:
   data:
-    href: https://data.earthdatahub.com/egg4/cams-global-ghg-reanalysis-egg4.zarr
+    href: https://data.earthdatahub.destine.eu/egg4/cams-global-ghg-reanalysis-egg4.zarr
     roles:
     - data
     xarray:open_kwargs:
