@@ -15,7 +15,7 @@ properties:
     `SSP3-7.0`) from the ICON model at high resolution on surface levels
   dc:title: Climate DT, ScenarioMIP, SSP3-7.0, ICON, hourly data on single-levels,
     HR
-  dc:access_rights: free of charge
+  dc:access_rights: restricted
   dc:description: High resolution Climate DT hourly on single levels - SSP3-7.0 -
     ICON
   start_datetime: '2021-01-01T00:00:00Z'
@@ -68,7 +68,7 @@ properties:
   dc:extent: 23.5 TB
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/d1-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
+    href: https://cacheb.dcms.destine.eu/d1-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
     roles:
     - data
     xarray:open_kwargs:

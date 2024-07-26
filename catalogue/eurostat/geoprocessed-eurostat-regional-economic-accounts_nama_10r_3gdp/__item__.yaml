@@ -40,11 +40,17 @@ properties:
       axis: y
       reference_system: 4326
       step: 0.1
+      extent:
+      - 26.0
+      - 73.9
     lon:
       type: spatial
       axis: x
       reference_system: 4326
       step: 0.1
+      extent:
+      - -27.0
+      - 44.9
   cube:variables:
     L0_EUR_HAB:
       dimensions:
@@ -274,14 +280,14 @@ properties:
       description: 'NUTS_Level: L3'
       unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage
         of the EU27 (from 2020) average
-  dc:extent: 2.0 GiB
+  dc:extent: 2 GB
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/nama_10r_3gdp-20000101-20210101.png
     roles:
     - thumbnail
   data:
-    href: https://earthdatahub.com/stores/eurostat/nama_10r_3gdp-20000101-20210101.zarr
+    href: https://data.earthdatahub.destine.eu/eurostat/nama_10r_3gdp-20000101-20210101.zarr
     roles:
     - data
     xarray:open_kwargs:

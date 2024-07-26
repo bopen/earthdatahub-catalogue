@@ -15,7 +15,7 @@ properties:
   dc:abstract:
     An ensemble (ENS) of 51 forecasts with a horizontal resolution of around 9 km. 
     It comprises one control forecast (CNTL) plus 50 forecasts each with slightly altered initial conditions and slightly altered model physics.
-  dc:access_rights: free of charge
+  dc:access_rights: unrestricted
   dc:title: ECMWF ensemble forecasts
   dc:subject:
   - Open data

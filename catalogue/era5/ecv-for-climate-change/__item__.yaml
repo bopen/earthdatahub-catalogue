@@ -20,7 +20,7 @@ properties:
   dc:abstract: The Essential Climate Variables from 1979 to present dataset contains
     a selection of climatologies, monthly anomalies and monthly mean fields for monitoring
     and assessment of climate variability and change
-  dc:access_rights: free of charge
+  dc:access_rights: unrestricted
   dc:title: Essential climate variables from 1979 to present
   dc:subject:
   - ERA5
@@ -64,7 +64,7 @@ properties:
   dc:extent: 2 GB
 assets:
   data:
-    href: https://data.earthdatahub.com/era5-edh/ecv-for-climate-change-1981-2010-anomaly-v0.zarr
+    href: https://data.earthdatahub.destine.eu/era5-edh/ecv-for-climate-change-1981-2010-anomaly-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
