@@ -74,13 +74,23 @@ steps:
         'vertical_integral_of_eastward_cloud_frozen_water_flux',
         'vertical_integral_of_eastward_cloud_liquid_water_flux',
         'vertical_integral_of_northward_cloud_frozen_water_flux',
-        'vertical_integral_of_northward_cloud_liquid_water_flux'
+        'vertical_integral_of_northward_cloud_liquid_water_flux',
+
+        'evaporation',
+        'potential_evaporation',
+        'runoff',
+        'sub_surface_runoff',
+        'surface_runoff',
+
+        'geopotential',
       ]
     request_chunker_kwargs: { time_dim: valid_time }
     request_chunks: { day: 20 }
+
   chunks: {latitude: 256, longitude: 256}
+
   robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 1}
   to_zarr_kwargs: {
-    store: s3://ecmwf-era5-single-levels-tmp/reanalysis-era5-single-levels.zarr,
+    store: s3://edc-intermediate/reanalysis-era5-single-levels-v0.zarr,
     write_empty_chunks: false
   }

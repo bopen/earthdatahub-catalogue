@@ -6,6 +6,14 @@ steps:
       'secret': '1bb82cd1878d47759576060884a3406e'
     }
     drop_variables: [
+      'depthBelowLandLayer',
+      'latitude',
+      'longitude',
+      'valid_time',
+      'number',
+      'surface',
+      'entireAtmosphere',
+
       'p79.162',
       'p80.162',
       'p88.162',
@@ -18,60 +26,12 @@ steps:
       'lcc',
       'mcc',
       'tcc',
-
-      'alnid',
-      'alnip',
-      'aluvd',
-      'aluvp',
-      'blh',
-      'cdir',
-      'd2m',
-      'fdir',
-      'flsr',
-      'ie',
-      'inss',
-      'ishf',
-      'istl1',
-      'istl2',
-      'istl3',
-      'istl4',
-      'mn2t',
-      'msl',
-      'mx2t',
-
-      'skt',
-      'slhf',
-      'sp',
-      'sshf',
-      'ssr',
-      'ssrc',
-      'ssrd',
-      'ssrdc',
-      'sst',
-      'str',
-      'strc',
-      'strd',
-      'strdc',
-      't2m',
-      'tisr',
-      'tp',
-      'tsr',
-      'tsrc',
-      'ttr',
-      'ttrc',
-      'u10',
-      'u100',
-      'u10n',
-      'uvb',
-      'v10',
-      'v100',
-      'v10n'
     ]
     engine: zarr
     filename_or_obj: s3://ecmwf-era5-single-levels-tmp/reanalysis-era5-single-levels.zarr
   chunks: {latitude: 64, longitude: 64, valid_time: 4320}
   robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 8} #time_range: [null, '1949-12-31']
   to_zarr_kwargs: {
-    store: s3://edc-era5//reanalysis-era5-single-levels-v0.zarr,
+    store: s3://edc-era5/reanalysis-era5-single-levels-v0.zarr,
     write_empty_chunks: false
   }
