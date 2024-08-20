@@ -15,7 +15,7 @@ bbox:
 - 90.0
 properties:
   start_datetime: '1979-01-01T00:00:00Z'
-  end_datetime: '2024-03-01T00:00:00Z'
+  end_datetime: '2024-07-01T00:00:00Z'
   edh:maturity: draft
   dc:abstract: The Essential Climate Variables from 1979 to present dataset contains
     a selection of climatologies, monthly anomalies and monthly mean fields for monitoring
