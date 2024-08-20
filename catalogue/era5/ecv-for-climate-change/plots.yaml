@@ -1,0 +1,9 @@
+plots:
+- var: "t2m"
+  time_dim: "time"
+  sel: {"time": "2024-01"}
+  plot_kwargs: {
+    "vmax": 8,
+    "vmin": -8,
+    "cmap": "RdBu_r"
+  }
