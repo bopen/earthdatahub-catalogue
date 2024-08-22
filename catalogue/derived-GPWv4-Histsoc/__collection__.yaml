@@ -1,0 +1,35 @@
+edh:maturity: draft
+title: Hybrid gridded demographic data for the world
+dc:abstract:
+  This is a hybrid gridded dataset of demographic data for the world, given as 5-year population bands at a 0.25 degree grid resolution.
+extent:
+  spatial:
+    bbox:
+    - - -180
+      - -90
+      - 180
+      - 90
+  temporal:
+    interval:
+    - - 1950-01-01T00:00:00Z
+      - 2020-01-01T00:00:00Z
+license: CC-BY-4.0
+keywords:
+- Zenodo
+- population
+providers:
+- name: Jonathan Chambers
+  roles:
+  - licensor
+- name: Jonathan Chambers
+  roles:
+  - producer
+- name: B-Open
+  roles:
+  - processor
+  url: https://www.bopen.eu
+- name: DestinE Platform
+  roles:
+  - host
+  url: https://platform.destine.eu
+search_weight: 20
