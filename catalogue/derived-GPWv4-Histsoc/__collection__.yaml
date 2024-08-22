@@ -11,8 +11,8 @@ extent:
       - 90
   temporal:
     interval:
-    - - 1950-01-01T00:00:00Z
-      - 2020-01-01T00:00:00Z
+    - - "1950-01-01T00:00:00Z"
+      - "2020-01-01T00:00:00Z"
 license: CC-BY-4.0
 keywords:
 - Zenodo
