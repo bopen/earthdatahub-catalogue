@@ -5,9 +5,9 @@ dc:abstract:
 extent:
   spatial:
     bbox:
-    - - -180
+    - - 0
       - -90
-      - 180
+      - 360
       - 90
   temporal:
     interval:
