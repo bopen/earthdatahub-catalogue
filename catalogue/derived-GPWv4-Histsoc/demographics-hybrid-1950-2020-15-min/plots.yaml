@@ -1,0 +1,9 @@
+plots:
+- var: "demographic_totals"
+  sel: {"year": 2020},
+  coarsen: {"age_band_lower_bound": 100},
+  plot_kwargs: {
+    "vmax": 500_000,
+    "vmin": 0,
+    "cmap": "Browns"
+  }

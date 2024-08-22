@@ -1,0 +1,57 @@
+links:
+- title: Hybrid gridded demographic data for the world, 1950-2020 0.25˚ resolution
+  rel: derived_from
+  href: https://doi.org/10.5281/zenodo.6011021
+  type: text/html
+- title: Destination Earth
+  rel: funded_by
+  href: https://destination-earth.eu/
+  type: text/html
+bbox:
+- 0.0
+- -57.1
+- 359.9
+- 90.0
+properties:
+  edh:maturity: draft
+  dc:abstract: This is a hybrid gridded dataset of demographic data for the world, given as 5-year population bands at a 0.25 degree grid resolution.
+  dc:title: Hybrid gridded demographic data for the world, 1950-2020 0.25˚ resolution
+  start_datetime: '1950-01-01T00:00:00Z'
+  end_datetime: '2020-01-01T00:00:00Z'
+  dc:access_rights: unrestricted
+  dc:subject:
+  - Zenodo
+  - population
+  cube:dimensions:
+    valid_time:
+      type: temporal
+      extent:
+      - '1950-01-01T00:00:00Z'
+      - '2023-09-30T00:00:00Z'
+      step: PT1H
+    latitude:
+      type: spatial
+      axis: y
+      reference_system: 4326
+      step: 0.1
+      extent:
+      - 90.0
+      - -57.1
+    longitude:
+      type: spatial
+      axis: x
+      reference_system: 4326
+      step: 0.1
+      extent:
+      - 0.0
+      - 359.9
+  dc:extent: 687.5 TB
+assets:
+  data:
+    href: https://data.earthdatahub.destine.eu/public/derived-GPWv4-Histsoc/demographics-hybrid-1950-2020-15-min-v0
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+search_weight: 20
