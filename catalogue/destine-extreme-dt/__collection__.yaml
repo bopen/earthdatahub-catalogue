@@ -46,4 +46,4 @@ providers:
   roles:
   - host
   url: https://destination-earth.eu
-search_weight: 50
+search_weight: 10
