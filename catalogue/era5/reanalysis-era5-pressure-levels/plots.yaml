@@ -1,0 +1,10 @@
+plots:
+- var: "t"
+  time_dim: "time"
+  selection: {"time": 720, "isobaricInhPa": 500}
+  plot_kwargs: {
+    'vmax': 300,
+    'vmin': 0,
+    'cmap': "Blues_r",
+  }
+  
