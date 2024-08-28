@@ -14,6 +14,8 @@ steps:
       product_type: reanalysis
       pressure_level: [1000, 925, 850, 700, 600, 500, 400, 300, 250, 200, 150, 100, 70, 50, 30, 20, 10, 5, 1]
       variable: [
+        'temperature',
+
         'divergence',
         'fraction_of_cloud_cover',
         'geopotential',
@@ -25,7 +27,6 @@ steps:
         'specific_humidity',
         'specific_rain_water_content',
         'specific_snow_water_content',
-        'temperature',
         'u_component_of_wind',
         'v_component_of_wind',
         'vertical_velocity',
@@ -37,6 +38,6 @@ steps:
   chunks: {latitude: 256, longitude: 256}
   robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 1} #time_range: [null, '1942-12-31']
   to_zarr_kwargs: {
-    store: s3://edc-intermediate/reanalysis-era5-pressure-levels-v0.zarr,
+    store: s3://edc-era5/reanalysis-era5-pressure-levels-v0.zarr,
     write_empty_chunks: false
   }
