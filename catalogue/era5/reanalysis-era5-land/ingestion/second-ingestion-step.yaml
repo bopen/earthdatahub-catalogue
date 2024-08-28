@@ -15,7 +15,7 @@ steps:
   chunks: {latitude: 64, longitude: 64, valid_time: 2880}
   robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 8}
   to_zarr_kwargs:
-    store: 's3://edc-era5/reanalysis-era5-land-no-antartica-v0.zarr'
+    store: ''
     write_empty_chunks: false
     consolidated: true
 

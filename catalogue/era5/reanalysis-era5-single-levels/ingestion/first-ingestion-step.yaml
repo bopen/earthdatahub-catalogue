@@ -76,11 +76,16 @@ steps:
         'vertical_integral_of_northward_cloud_frozen_water_flux',
         'vertical_integral_of_northward_cloud_liquid_water_flux',
 
-        'evaporation',
-        'potential_evaporation',
-        'runoff',
-        'sub_surface_runoff',
-        'surface_runoff',
+        'convective_precipitation',
+        'convective_rain_rate',
+        'instantaneous_large_scale_surface_precipitation_fraction',
+        'large_scale_rain_rate',
+        'large_scale_precipitation',
+        'large_scale_precipitation_fraction',
+        'maximum_total_precipitation_rate_since_previous_post_processing',
+        'minimum_total_precipitation_rate_since_previous_post_processing',
+        'precipitation_type',
+        'total_column_rain_water',
 
         'geopotential',
       ]

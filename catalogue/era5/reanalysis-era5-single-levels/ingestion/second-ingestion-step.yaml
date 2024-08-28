@@ -1,10 +1,10 @@
 steps:
 - xarray_open_kwargs:
     chunks: {valid_time: 4320}
-    storage_options: {
-      'key': '2b3c28f354a54fc9a79ec00dcc44f62b',
-      'secret': '1bb82cd1878d47759576060884a3406e'
-    }
+    #storage_options: {
+      #'key': '2b3c28f354a54fc9a79ec00dcc44f62b',
+      #'secret': '1bb82cd1878d47759576060884a3406e'
+    #}
     drop_variables: [
       'depthBelowLandLayer',
       'latitude',
@@ -14,21 +14,10 @@ steps:
       'surface',
       'entireAtmosphere',
 
-      'p79.162',
-      'p80.162',
-      'p88.162',
-      'p89.162',
-      'p90.162',
-      'p91.162',
-      'tciw',
-      'tclw',
-      'hcc',
-      'lcc',
-      'mcc',
-      'tcc',
+      'z'
     ]
     engine: zarr
-    filename_or_obj: s3://ecmwf-era5-single-levels-tmp/reanalysis-era5-single-levels.zarr
+    filename_or_obj: s3://edc-intermediate/reanalysis-era5-single-levels-v0.zarr
   chunks: {latitude: 64, longitude: 64, valid_time: 4320}
   robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 8} #time_range: [null, '1949-12-31']
   to_zarr_kwargs: {
