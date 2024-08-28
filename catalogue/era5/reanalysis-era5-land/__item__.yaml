@@ -68,6 +68,62 @@ properties:
       type: data
       description: 2 metre dewpoint temperature
       unit: K
+    e:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Evaporation
+      unit: m of water equivalent
+    es:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Snow evaporation
+      unit: m of water equivalent
+    evabs:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Evaporation from bare soil
+      unit: m of water equivalent
+    evaow:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Evaporation from open water surfaces excluding oceans
+      unit: m of water equivalent
+    evatc:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Evaporation from the top of canopy
+      unit: m of water equivalent
+    evavt:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Evaporation from vegetation transpiration
+      unit: m of water equivalent
+    fal:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Forecast albedo
+      unit: (0 - 1)
     lai_hv:
       dimensions:
       - valid_time
@@ -84,6 +140,78 @@ properties:
       type: data
       description: Leaf area index, low vegetation
       unit: m**2 m**-2
+    lblt:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake bottom temperature
+      unit: K
+    licd:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake ice total depth
+      unit: m
+    lict:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake ice surface temperature
+      unit: K
+    lmld:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake mix-layer depth
+      unit: m
+    lmlt:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake mix-layer temperature
+      unit: K
+    lshf:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake shape factor
+      unit: dimensionless
+    ltlt:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake total layer temperature
+      unit: K
+    pev:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Potential evaporation
+      unit: m
+    ro:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Runoff
+      unit: m
     rsn:
       dimensions:
       - valid_time
@@ -92,6 +220,14 @@ properties:
       type: data
       description: Snow density
       unit: kg m**-3
+    sd:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Snow depth
+      unit: m of water equivalent
     sde:
       dimensions:
       - valid_time
@@ -108,6 +244,22 @@ properties:
       type: data
       description: Snowfall
       unit: m of water equivalent
+    skt:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Skin temperature
+      unit: K
+    slhf:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface latent heat flux
+      unit: J m**-2
     smlt:
       dimensions:
       - valid_time
@@ -124,6 +276,46 @@ properties:
       type: data
       description: Snow cover
       unit: '%'
+    sp:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface pressure
+      unit: Pa
+    src:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Skin reservoir content
+      unit: m of water equivalent
+    sro:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface runoff
+      unit: m
+    sshf:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface sensible heat flux
+      unit: J m**-2
+    ssr:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface net short-wave (solar) radiation
+      unit: J m**-2
     ssrd:
       dimensions:
       - valid_time
@@ -132,6 +324,94 @@ properties:
       type: data
       description: Surface short-wave (solar) radiation downwards
       unit: J m**-2
+    ssro:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Sub-surface runoff
+      unit: m
+    stl1:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Soil temperature level 1
+      unit: K
+    stl2:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Soil temperature level 2
+      unit: K
+    stl3:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Soil temperature level 3
+      unit: K
+    stl4:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Soil temperature level 4
+      unit: K
+    str:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface net long-wave (thermal) radiation
+      unit: J m**-2
+    strd:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface long-wave (thermal) radiation downwards
+      unit: J m**-2
+    swvl1:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Volumetric soil water layer 1
+      unit: m**3 m**-3
+    swvl2:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Volumetric soil water layer 2
+      unit: m**3 m**-3
+    swvl3:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Volumetric soil water layer 3
+      unit: m**3 m**-3
+    swvl4:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Volumetric soil water layer 4
+      unit: m**3 m**-3
     t2m:
       dimensions:
       - valid_time
@@ -172,7 +452,7 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-  dc:extent: 206.2 TB
+  dc:extent: 687.5 TB
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/era5/reanalysis-era5-land-no-antartica-v0.zarr
