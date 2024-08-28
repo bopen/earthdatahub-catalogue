@@ -1,74 +1,21 @@
 steps:
 - xarray_open_kwargs:
     engine: zarr
-    filename_or_obj: s3://ecmwf-era5-land/intermediate/reanalysis-era5-land-no-antartica.zarr
+    filename_or_obj: s3://edc-intermediate/reanalysis-era5-land-no-antartica-v0.zarr
     consolidated: false
     chunks: { }
-    storage_options: {
-      'key': '2b3c28f354a54fc9a79ec00dcc44f62b',
-      'secret': '1bb82cd1878d47759576060884a3406e'
-    }
     drop_variables: [
       'depthBelowLandLayer',
       'latitude',
       'longitude',
       'valid_time',
-
-      'asn',
-      'd2m',
-      'e',
-      'es',
-      'evabs',
-      'evaow',
-      'evatc',
-      'evavt',
-      'fal',
-      'lai_hv',
-      'lai_lv',
-      'lblt',
-      'licd',
-      'lict',
-      'lmld',
-      'lmlt',
-      'lshf',
-      'ltlt',
-      'pev',
-      'ro',
-      'rsn',
-      'sd',
-      'sde',
-      'sf',
-      'skt',
-      'slhf',
-      'smlt',
-      'snowc',
-      'sp',
-      'src',
-      'sro',
-      'sshf',
-      'ssr',
-      'ssrd',
-      'ssro',
-      'stl1',
-      'stl2',
-      'stl3',
-      'stl4',
-      'str',
-      'strd',
-      'swvl1',
-      'swvl2',
-      'swvl3',
-      'swvl4',
-      't2m',
-      'tp',
-      'tsn',
-      'u10',
-      'v10'
+      'number',
+      'surface',
     ]
   chunks: {latitude: 64, longitude: 64, valid_time: 2880}
-  robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 96}
+  robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 8}
   to_zarr_kwargs:
-    store: 's3://edc-era5/reanalysis-era5-land-no-antartica-v0.zarr'
+    store: ''
     write_empty_chunks: false
     consolidated: true
 

@@ -1,0 +1,43 @@
+steps:
+- request_client_class_name: cads-api-client
+  xarray_open_kwargs:
+    cache_kwargs: {cache_file: false}
+    open_dataset_kwargs:
+      time_dims: [valid_time]
+    chunks: {}
+    engine: ecmwf
+    filename_or_obj:
+      area: ['90', '0', '-90', '360']
+      collection_id: reanalysis-era5-pressure-levels
+      date: [1940-01-01/2023-12-31]
+      time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
+      product_type: reanalysis
+      pressure_level: [1000, 925, 850, 700, 600, 500, 400, 300, 250, 200, 150, 100, 70, 50, 30, 20, 10, 5, 1]
+      variable: [
+        'temperature',
+
+        'divergence',
+        'fraction_of_cloud_cover',
+        'geopotential',
+        'ozone_mass_mixing_ratio',
+        'potential_vorticity',
+        'relative_humidity',
+        'specific_cloud_ice_water_content',
+        'specific_cloud_liquid_water_content',
+        'specific_humidity',
+        'specific_rain_water_content',
+        'specific_snow_water_content',
+        'u_component_of_wind',
+        'v_component_of_wind',
+        'vertical_velocity',
+        'vorticity'
+      ]
+    request_chunker_kwargs: {time_dim: valid_time}
+    request_chunks: {day: 5, pressure_level: 1}
+
+  chunks: {latitude: 256, longitude: 256}
+  robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 1} #time_range: [null, '1942-12-31']
+  to_zarr_kwargs: {
+    store: s3://edc-era5/reanalysis-era5-pressure-levels-v0.zarr,
+    write_empty_chunks: false
+  }
