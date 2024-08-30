@@ -63,7 +63,7 @@ properties:
       - 359.8
       reference_system: 4326
       step: 0.25
-  dc:extent: 58.1 TB
+  dc:extent: 116.2 TB
   cube:variables:
     t:
       dimensions:
@@ -74,3 +74,12 @@ properties:
       type: data
       description: Temperature
       unit: K
+    z:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Geopotential
+      unit: m**2 s**-2
