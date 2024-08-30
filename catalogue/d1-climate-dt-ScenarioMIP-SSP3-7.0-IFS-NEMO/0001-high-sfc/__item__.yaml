@@ -114,15 +114,4 @@ properties:
       description: 10 metre V wind component
       unit: m s**-1
   dc:extent: 188.3 TB
-assets:
-  data:
-    href: https://cacheb.dcms.destine.eu/d1-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr
-    roles:
-    - data
-    xarray:open_kwargs:
-      engine: zarr
-      chunks: {}
-    xarray:storage_options:
-      client_kwargs:
-        trust_env: true
 search_weight: 90
