@@ -13,8 +13,6 @@ steps:
       'number',
       'surface',
       'entireAtmosphere',
-
-      'z'
     ]
     engine: zarr
     filename_or_obj: s3://edc-intermediate/reanalysis-era5-single-levels-v0.zarr
