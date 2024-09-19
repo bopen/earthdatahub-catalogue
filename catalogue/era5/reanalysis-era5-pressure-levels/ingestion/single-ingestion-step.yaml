@@ -15,16 +15,16 @@ steps:
       pressure_level: [1000, 925, 850, 700, 600, 500, 400, 300, 250, 200, 150, 100, 70, 50, 30, 20, 10, 5, 1]
       variable: [
         'temperature',
+        'geopotential',
+        'specific_humidity',
 
         'divergence',
         'fraction_of_cloud_cover',
-        'geopotential',
         'ozone_mass_mixing_ratio',
         'potential_vorticity',
         'relative_humidity',
         'specific_cloud_ice_water_content',
         'specific_cloud_liquid_water_content',
-        'specific_humidity',
         'specific_rain_water_content',
         'specific_snow_water_content',
         'u_component_of_wind',
