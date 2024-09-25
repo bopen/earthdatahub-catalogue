@@ -1,6 +1,5 @@
 steps:
-- request_client_class_name: cads-api-client
-  xarray_open_kwargs:
+- xarray_open_kwargs:
     cache_kwargs: { cache_file: false }
     open_dataset_kwargs:
       time_dims: [ valid_time ]
@@ -92,6 +91,7 @@ steps:
     request_chunker_kwargs: { time_dim: valid_time }
     request_chunks: { day: 20 }
 
+  open_dataset_name: open_dataset_fix_era5_single_levels_names
   chunks: {latitude: 256, longitude: 256}
 
   robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 1}
