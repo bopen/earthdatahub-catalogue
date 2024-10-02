@@ -9,7 +9,7 @@ steps:
     filename_or_obj:
       area: ['90', '0', '-57.1', '360']
       collection_id: reanalysis-era5-land
-      date: [1950-01-01/2024-01-31]
+      date: [1950-01-01/2024-08-31]
       time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
       variable: [
         '2m_dewpoint_temperature',
@@ -67,7 +67,8 @@ steps:
     request_chunks: {day: 5}
 
   chunks: { latitude: 256, longitude: 256 }
-  robust_to_zarr_kwargs: { time_dim: valid_time, time_restart_block: 1, retries: 10 }
+  robust_to_zarr_kwargs: { time_dim: valid_time, time_restart_block: 6, retries: 10 }
   to_zarr_kwargs: {
     store: 's3://edc-intermediate/reanalysis-era5-land-no-antartica-v0.zarr',
+    write_empty_chunks: false
   }

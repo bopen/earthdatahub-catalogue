@@ -8,12 +8,16 @@ steps:
     filename_or_obj:
       area: [ '90', '0', '-90', '360' ]
       collection_id: reanalysis-era5-single-levels
-      date: [ 1940-01-01/2023-12-31 ]
+      date: [ 1940-01-01/2024-08-31 ]
       time: [ '00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00' ]
       product_type: reanalysis
       variable: [
         'boundary_layer_height',
         'total_precipitation',
+        "instantaneous_moisture_flux",
+        "instantaneous_northward_turbulent_surface_stress",
+        'geopotential',
+
 
         '2m_dewpoint_temperature',
         '2m_temperature',
@@ -58,9 +62,7 @@ steps:
         '100m_u_component_of_wind',
         '100m_v_component_of_wind',
         '10m_u_component_of_neutral_wind',
-        '10m_u_component_of_wind',
         '10m_v_component_of_neutral_wind',
-        '10m_v_component_of_wind',
 
         'high_cloud_cover',
         'low_cloud_cover',
@@ -86,7 +88,21 @@ steps:
         'precipitation_type',
         'total_column_rain_water',
 
-        'geopotential',
+        "lake_bottom_temperature",
+        "lake_cover",
+        "lake_depth",
+        "lake_ice_depth",
+        "lake_ice_temperature",
+        "lake_mix_layer_depth",
+        "lake_mix_layer_temperature",
+        "lake_shape_factor",
+        "lake_total_layer_temperature",
+
+        "evaporation",
+        "potential_evaporation",
+        "runoff",
+        "sub_surface_runoff",
+        "surface_runoff",
       ]
     request_chunker_kwargs: { time_dim: valid_time }
     request_chunks: { day: 20 }
@@ -94,7 +110,7 @@ steps:
   open_dataset_name: open_dataset_fix_era5_single_levels_names
   chunks: {latitude: 256, longitude: 256}
 
-  robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 1}
+  robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 6}
   to_zarr_kwargs: {
     store: s3://edc-intermediate/reanalysis-era5-single-levels-v0.zarr,
     write_empty_chunks: false

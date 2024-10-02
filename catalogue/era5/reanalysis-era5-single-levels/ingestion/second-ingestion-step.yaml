@@ -1,10 +1,6 @@
 steps:
 - xarray_open_kwargs:
     chunks: {valid_time: 4320}
-    #storage_options: {
-      #'key': '2b3c28f354a54fc9a79ec00dcc44f62b',
-      #'secret': '1bb82cd1878d47759576060884a3406e'
-    #}
     drop_variables: [
       'depthBelowLandLayer',
       'latitude',
