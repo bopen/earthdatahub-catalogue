@@ -19,7 +19,7 @@ properties:
     to ERA5.
   dc:title: ERA5-Land hourly data
   start_datetime: '1950-01-01T00:00:00Z'
-  end_datetime: '2023-12-31T23:00:00Z'
+  end_datetime: '2024-08-31T23:00:00Z'
   dc:access_rights: unrestricted
   dc:subject:
   - ERA5
@@ -452,7 +452,7 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-  dc:extent: 687.5 TB
+  dc:extent: 693.7 TB
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/era5/reanalysis-era5-land-no-antartica-v0.zarr

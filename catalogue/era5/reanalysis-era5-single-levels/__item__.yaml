@@ -708,7 +708,15 @@ properties:
       type: data
       description: Vertical integral of northward cloud liquid water flux
       unit: kg m**-1 s**-1
-  dc:extent: 250.8 TB
+    z:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Geopotential
+      unit: m**2 s**-2
+  dc:extent: 253.8 TB
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/era5/reanalysis-era5-single-levels-v0.zarr
