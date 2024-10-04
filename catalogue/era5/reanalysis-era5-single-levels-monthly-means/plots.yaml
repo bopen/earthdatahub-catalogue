@@ -2,9 +2,8 @@ plots:
 - var: "tp"
   time_dim: "valid_time"
   sel: {"valid_time": "1972-07"}
-  coarsen: {"valid_time": 24}
   plot_kwargs: {
-    'vmax': 0.002,
+    'vmax': 0.025,
     'vmin': 0,
     'cmap': "Blues"
   }
