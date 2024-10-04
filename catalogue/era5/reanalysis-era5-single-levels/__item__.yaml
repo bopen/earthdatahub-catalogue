@@ -18,7 +18,7 @@ properties:
     ocean-wave and land surface quantities
   dc:title: ERA5 hourly data on single levels
   start_datetime: '1940-01-01T00:00:00Z'
-  end_datetime: '2023-12-31T23:00:00Z'
+  end_datetime: '2024-09-26T23:00:00Z'
   dc:access_rights: unrestricted
   dc:subject:
   - ERA5
@@ -716,7 +716,7 @@ properties:
       type: data
       description: Geopotential
       unit: m**2 s**-2
-  dc:extent: 253.8 TB
+  dc:extent: 256.0 TB
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/era5/reanalysis-era5-single-levels-v0.zarr
