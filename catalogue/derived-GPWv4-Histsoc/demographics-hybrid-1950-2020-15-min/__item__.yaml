@@ -13,7 +13,7 @@ bbox:
 - 359.8
 - 90.0
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   dc:abstract: This is a hybrid gridded dataset of demographic data for the world,
     given as 5-year population bands at a 0.25 degree grid resolution.
   dc:title: "Hybrid gridded demographic data for the world, 1950-2020 0.25\u02DA resolution"
