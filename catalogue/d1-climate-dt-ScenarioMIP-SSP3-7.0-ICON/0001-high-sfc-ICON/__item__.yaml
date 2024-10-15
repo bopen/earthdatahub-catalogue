@@ -66,15 +66,4 @@ properties:
       description: Total precipitation rate
       unit: kg m**-2 s**-1
   dc:extent: 23.5 TB
-assets:
-  data:
-    href: https://cacheb.dcms.destine.eu/d1-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
-    roles:
-    - data
-    xarray:open_kwargs:
-      engine: zarr
-      chunks: {}
-    xarray:storage_options:
-      client_kwargs:
-        trust_env: true
-search_weight: 80
+search_weight: 30

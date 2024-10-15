@@ -67,15 +67,4 @@ properties:
       description: Relative humidity
       unit: '%'
   dc:extent: 117.7 TB
-assets:
-  data:
-    href: https://cacheb.dcms.destine.eu/d1-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-pl-v0.zarr
-    roles:
-    - data
-    xarray:open_kwargs:
-      engine: zarr
-      chunks: {}
-    xarray:storage_options:
-      client_kwargs:
-        trust_env: true
-search_weight: 70
+search_weight: 30
