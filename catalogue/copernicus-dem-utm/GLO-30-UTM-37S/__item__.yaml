@@ -13,6 +13,7 @@ bbox:
 - 42.0
 - 0.0
 properties:
+  edh:maturity: published
   start_datetime: '2022-01-01T12:00:00Z'
   end_datetime: '2022-01-01T12:00:00Z'
   dc:abstract: Copernicus DEM Global 30m resampled on a 20m grid on UTM 37S
