@@ -63,4 +63,4 @@ assets:
     xarray:open_kwargs:
       engine: zarr
       chunks: {}
-search_weight: 20
+search_weight: 55

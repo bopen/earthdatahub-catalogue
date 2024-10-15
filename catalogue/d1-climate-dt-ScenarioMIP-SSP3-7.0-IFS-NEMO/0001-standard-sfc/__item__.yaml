@@ -192,4 +192,4 @@ properties:
       description: 10 metre V wind component
       unit: m s**-1
   dc:extent: 3.2 TB
-search_weight: 20
+search_weight: 31

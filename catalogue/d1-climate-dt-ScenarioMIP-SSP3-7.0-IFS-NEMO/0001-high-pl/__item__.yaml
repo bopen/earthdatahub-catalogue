@@ -67,4 +67,4 @@ properties:
       description: Relative humidity
       unit: '%'
   dc:extent: 117.7 TB
-search_weight: 30
+search_weight: 60

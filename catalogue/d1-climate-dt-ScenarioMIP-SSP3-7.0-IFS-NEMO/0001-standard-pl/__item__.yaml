@@ -67,4 +67,4 @@ properties:
       description: V component of wind
       unit: m s**-1
   dc:extent: 48 GB
-search_weight: 20
+search_weight: 30

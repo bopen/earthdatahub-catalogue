@@ -66,4 +66,4 @@ properties:
       description: Total precipitation rate
       unit: kg m**-2 s**-1
   dc:extent: 23.5 TB
-search_weight: 30
+search_weight: 63
