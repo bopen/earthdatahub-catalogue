@@ -57,7 +57,7 @@ properties:
       type: data
 assets:
   data:
-    href: https://data.eartdatahub.destine.eu/derived-GPWv4-Histsoc/demographics-hybrid-1950-2020-15-min-v0
+    href: https://data.earthdatahub.destine.eu/derived-GPWv4-Histsoc/demographics-hybrid-1950-2020-15-min-v0
     roles:
     - data
     xarray:open_kwargs:
