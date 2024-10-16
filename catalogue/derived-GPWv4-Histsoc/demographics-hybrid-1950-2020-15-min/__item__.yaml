@@ -57,10 +57,13 @@ properties:
       type: data
 assets:
   data:
-    href: https://hedp-data.bopen.eu/public/derived-GPWv4-Histsoc/demographics-hybrid-1950-2020-15-min-v0
+    href: https://data.eartdatahub.destine.eu/derived-GPWv4-Histsoc/demographics-hybrid-1950-2020-15-min-v0
     roles:
     - data
     xarray:open_kwargs:
       engine: zarr
       chunks: {}
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
 search_weight: 55
