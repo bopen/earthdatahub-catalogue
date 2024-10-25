@@ -9,7 +9,7 @@ bbox:
 - 180.0
 - 90.0
 properties:
-  edh:maturity: published
+  edh:maturity: draft
   dc:abstract: This dataset contains a selection of the variables available from the
     DestinE Climate DT future projection simulation (activity `ScenarioMIP`, experiment
     `SSP3-7.0`) from the IFS-NEMO model at standard resolution on surface levels
