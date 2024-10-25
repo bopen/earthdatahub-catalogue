@@ -14,8 +14,7 @@ properties:
     Climate DT future projection simulation (activity `ScenarioMIP`, experiment `SSP3-7.0`)  from
     the IFS-NEMO model at high resolution on ocean variables
   dc:access_rights: restricted
-  dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, daily data on ocean and sea-ice,
-    HR
+  dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, daily data on ocean and sea-ice
   dc:description: High resolution Climate DT daily on ocean single levels - SSP3-7.0
     - IFS-NEMO
   start_datetime: '2020-01-01T00:00:00Z'

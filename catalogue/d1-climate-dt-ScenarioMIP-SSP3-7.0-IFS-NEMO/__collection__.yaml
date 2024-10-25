@@ -1,6 +1,8 @@
 title: DestinE Climate Adaptation DT, activity ScenarioMIP, experiment SSP3-7.0, model IFS-NEMO
 dc:abstract:
-  The DestinE Digital Twin for Climate Change Adaptation (Climate DT) supports adaptation activities through the provision of innovative climate information on multi-decadal timescales, at scales at which the impacts of climate change are observed. This initiative presents the first ever attempt to operationalise the production of global multi-decadal climate projections at km-scale resolutions of 5 to 10km.
+  The DestinE Digital Twin for Climate Change Adaptation (Climate DT) supports 
+  adaptation activities through the provision of innovative climate information on multi-decadal 
+  timescales, at km-scale resolutions of 5 to 10km.
 dc:access_rights: restricted
 edh:maturity: published
 links:

@@ -14,8 +14,7 @@ properties:
     DestinE Climate DT future projection simulation (activity `ScenarioMIP`, experiment
     `SSP3-7.0`) from the IFS-NEMO model at high resolution on surface levels
   dc:access_rights: restricted
-  dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, hourly data on single-levels,
-    HR
+  dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, hourly data on single-levels
   dc:description: High resolution Climate DT hourly on single levels - SSP3-7.0 -
     IFS-NEMO
   start_datetime: '2020-01-01T00:00:00Z'
