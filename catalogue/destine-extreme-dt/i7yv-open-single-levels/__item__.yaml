@@ -9,7 +9,7 @@ bbox:
 - 360.0
 - 90.0
 properties:
-  edh:maturity: published
+  edh:maturity: draft
   dc:abstract: Digital twin on extreme events - 2024-03-08
   dc:access_rights: unrestricted
   dc:title: Digital twin on extreme events - 2024-03-08

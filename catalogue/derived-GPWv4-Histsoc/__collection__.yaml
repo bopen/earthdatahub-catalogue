@@ -1,7 +1,8 @@
 edh:maturity: published
 title: Hybrid gridded demographic data for the world
 dc:abstract:
-  This is a hybrid gridded dataset of demographic data for the world, given as 5-year population bands at a 0.25 degree grid resolution.
+  This is a hybrid gridded dataset of demographic data for the world, given as 5-year population 
+  bands at a 0.25 degree grid resolution.
 extent:
   spatial:
     bbox:
@@ -13,8 +14,16 @@ extent:
     interval:
     - - "1950-01-01T00:00:00Z"
       - "2020-01-01T00:00:00Z"
-links: []
-license: CC-BY-4.0
+links: 
+- title: Hybrid gridded demographic data for the world, 1950-2020n
+  rel: derived_from
+  href: https://zenodo.org/records/3768003
+  type: text/html
+- title: Creative Commons Attribution 4.0 International
+  rel: license
+  href: https://creativecommons.org/licenses/by/4.0/legalcode
+  type: text/html
+license: 
 keywords:
 - Zenodo
 - population
