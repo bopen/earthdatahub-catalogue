@@ -4,10 +4,6 @@ links:
   rel: derived_from
   href: https://ec.europa.eu/eurostat/cache/metadata/en/aei_pr_soiler_esms.htm
   type: text/html
-- title: Destination Earth
-  rel: funded_by
-  href: https://destination-earth.eu/
-  type: text/html
 bbox:
 - -27.0
 - 26.0

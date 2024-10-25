@@ -3,10 +3,6 @@ links:
   rel: derived_from
   href: https://doi.org/10.5270/ESA-c5d3d65
   type: text/html
-- title: Destination Earth
-  rel: funded_by
-  href: https://destination-earth.eu/
-  type: text/html
 bbox:
 - -162.0
 - -80.0
