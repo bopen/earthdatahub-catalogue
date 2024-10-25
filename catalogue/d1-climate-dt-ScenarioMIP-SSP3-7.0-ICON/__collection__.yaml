@@ -24,7 +24,7 @@ extent:
     interval:
     - - "2021-01-01"
       - "2030-01-01"
-license: various
+license: other
 keywords:
 - DestinE
 - digital twin

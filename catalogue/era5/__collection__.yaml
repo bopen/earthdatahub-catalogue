@@ -24,7 +24,7 @@ extent:
     interval:
     - - "1940-01-01T00:00:00Z"
       - 
-license: various
+license: other
 keywords:
 - ERA5
 - ECMWF
