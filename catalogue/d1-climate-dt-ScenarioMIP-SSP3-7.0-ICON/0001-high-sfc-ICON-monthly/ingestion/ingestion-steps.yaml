@@ -1,0 +1,17 @@
+steps:
+- xarray_open_kwargs:
+    chunks: {}
+    engine: zarr
+    filename_or_obj: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
+  chunks: {latitude: 256, longitude: 256, time: 120}
+  robust_to_zarr_kwargs:
+    restart_dim: time
+    restart_block_size: 6
+  to_zarr_kwargs:
+    store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-monthly-v0.zarr
+    write_empty_chunks: false
+  transform_kwargs:
+    resample_kwargs:
+      indexer:
+        time: MS
+    data_vars: [t2m]
