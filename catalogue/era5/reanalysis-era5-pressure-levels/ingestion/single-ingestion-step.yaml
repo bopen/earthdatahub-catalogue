@@ -35,7 +35,7 @@ steps:
     request_chunks: {day: 5, pressure_level: 1}
 
   chunks: {latitude: 256, longitude: 256}
-  robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 1} #time_range: [null, '1942-12-31']
+  robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 1} #time_range: [null, '1942-12-31']
   to_zarr_kwargs: {
     store: s3://edc-intermediate/reanalysis-era5-pressure-levels-v0.zarr,
     write_empty_chunks: false
