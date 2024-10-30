@@ -77,17 +77,6 @@ steps:
         'vertical_integral_of_northward_cloud_frozen_water_flux',
         'vertical_integral_of_northward_cloud_liquid_water_flux',
 
-        'convective_precipitation',
-        'convective_rain_rate',
-        'instantaneous_large_scale_surface_precipitation_fraction',
-        'large_scale_rain_rate',
-        'large_scale_precipitation',
-        'large_scale_precipitation_fraction',
-        'maximum_total_precipitation_rate_since_previous_post_processing',
-        'minimum_total_precipitation_rate_since_previous_post_processing',
-        'precipitation_type',
-        'total_column_rain_water',
-
         "lake_bottom_temperature",
         "lake_cover",
         "lake_depth",
@@ -98,11 +87,16 @@ steps:
         "lake_shape_factor",
         "lake_total_layer_temperature",
 
-        "evaporation",
-        "potential_evaporation",
-        "runoff",
-        "sub_surface_runoff",
-        "surface_runoff",
+        "convective_precipitation",
+        "convective_rain_rate",
+        "instantaneous_large_scale_surface_precipitation_fraction",
+        "large_scale_rain_rate",
+        "large_scale_precipitation",
+        "large_scale_precipitation_fraction",
+        "maximum_total_precipitation_rate_since_previous_post_processing",
+        "minimum_total_precipitation_rate_since_previous_post_processing",
+        "precipitation_type",
+        "total_column_rain_water"
       ]
     request_chunker_kwargs: { time_dim: valid_time }
     request_chunks: { day: 20 }
@@ -110,7 +104,7 @@ steps:
   open_dataset_name: open_dataset_fix_era5_single_levels_names
   chunks: {latitude: 256, longitude: 256}
 
-  robust_to_zarr_kwargs: {restart_dim: valid_time, time_restart_block: 6}
+  robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 6, retries: 10}
   to_zarr_kwargs: {
     store: s3://edc-intermediate/reanalysis-era5-single-levels-v0.zarr,
     write_empty_chunks: false

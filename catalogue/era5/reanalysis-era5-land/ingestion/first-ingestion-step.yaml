@@ -67,7 +67,7 @@ steps:
     request_chunks: {day: 5}
 
   chunks: { latitude: 256, longitude: 256 }
-  robust_to_zarr_kwargs: { restart_dim: valid_time, time_restart_block: 6, retries: 10 }
+  robust_to_zarr_kwargs: { restart_dim: valid_time, restart_block_size: 6, retries: 10 }
   to_zarr_kwargs: {
     store: 's3://edc-intermediate/reanalysis-era5-land-no-antartica-v0.zarr',
     write_empty_chunks: false

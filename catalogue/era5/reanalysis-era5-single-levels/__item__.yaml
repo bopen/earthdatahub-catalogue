@@ -448,14 +448,6 @@ properties:
       type: data
       description: Lake total depth
       unit: m
-    e:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Evaporation
-      unit: m of water equivalent
     hcc:
       dimensions:
       - valid_time
@@ -584,14 +576,6 @@ properties:
       type: data
       description: Maximum total precipitation rate since previous post-processing
       unit: kg m**-2 s**-1
-    pev:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Potential evaporation
-      unit: m
     ptype:
       dimensions:
       - valid_time
@@ -600,30 +584,6 @@ properties:
       type: data
       description: Precipitation type
       unit: (Code table 4.201)
-    ro:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Runoff
-      unit: m
-    sro:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Surface runoff
-      unit: m
-    ssro:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Sub-surface runoff
-      unit: m
     tcc:
       dimensions:
       - valid_time
