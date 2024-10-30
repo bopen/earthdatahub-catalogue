@@ -48,7 +48,7 @@ steps:
       time: [ '00:00' ]
       product_type: monthly_averaged_reanalysis
       variable: [
-        # not the last one (has 06:00å)
+        # not the last one (has 06:00)
         "total_precipitation",
 
         "10m_u_component_of_wind",
@@ -64,6 +64,6 @@ steps:
   open_dataset_name: open_dataset_fix_era5_single_levels_names
   chunks: {valid_time: 120, latitude: 256, longitude: 256}
 
-  robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 6}
+  robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 6}
   to_zarr_kwargs:
     store: s3://edc-era5/reanalysis-era5-single-levels-monthly-means-v0
