@@ -17,6 +17,7 @@ properties:
   dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, hourly data on single-levels
   dc:description: High resolution Climate DT hourly on single levels - SSP3-7.0 -
     IFS-NEMO
+  datetime: null
   start_datetime: '2020-01-01T00:00:00Z'
   end_datetime: '2039-12-31T23:00:00Z'
   dc:subject:
