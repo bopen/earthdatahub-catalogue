@@ -22,8 +22,8 @@ extent:
       - 90
   temporal:
     interval:
-    - - "2021-01-01"
-      - "2030-01-01"
+    - - '2020-01-01T00:00:00Z'
+      - '2029-12-31T23:00:00Z'
 license: other
 keywords:
 - DestinE
