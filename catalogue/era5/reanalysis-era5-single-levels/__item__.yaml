@@ -13,7 +13,7 @@ properties:
   dc:abstract: Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric,
     ocean-wave and land surface quantities
   dc:title: ERA5 hourly data on single levels
-  datetime: '1940-01-01T00:00:00Z'
+  datetime: '2024-09-26T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
   end_datetime: '2024-09-26T23:00:00Z'
   dc:access_rights: unrestricted
