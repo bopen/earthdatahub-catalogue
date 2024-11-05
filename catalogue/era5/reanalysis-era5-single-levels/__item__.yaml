@@ -28,6 +28,7 @@ properties:
   cube:dimensions:
     valid_time:
       type: temporal
+      axis: t
       extent:
       - '1940-01-01T00:00:00Z'
       - '2023-11-30T23:00:00Z'
@@ -48,6 +49,7 @@ properties:
       - 359.8
       reference_system: 4326
       step: 0.25
+  dc:extent: 256.0 TB
   cube:variables:
     alnid:
       dimensions:
@@ -97,6 +99,30 @@ properties:
       type: data
       description: Surface direct short-wave radiation, clear sky
       unit: J m**-2
+    cl:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake cover
+      unit: (0 - 1)
+    cp:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Convective precipitation
+      unit: m
+    crr:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Convective rain rate
+      unit: kg m**-2 s**-1
     d2m:
       dimensions:
       - valid_time
@@ -105,6 +131,22 @@ properties:
       type: data
       description: 2 metre dewpoint temperature
       unit: K
+    dl:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake total depth
+      unit: m
+    e:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Evaporation
+      unit: m of water equivalent
     fdir:
       dimensions:
       - valid_time
@@ -121,6 +163,14 @@ properties:
       type: data
       description: Forecast logarithm of surface roughness for heat
       unit: Numeric
+    hcc:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: High cloud cover
+      unit: (0 - 1)
     ie:
       dimensions:
       - valid_time
@@ -129,6 +179,14 @@ properties:
       type: data
       description: Instantaneous moisture flux
       unit: kg m**-2 s**-1
+    ilspf:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Instantaneous large-scale surface precipitation fraction
+      unit: (0 - 1)
     inss:
       dimensions:
       - valid_time
@@ -177,6 +235,102 @@ properties:
       type: data
       description: Ice temperature layer 4
       unit: K
+    lblt:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake bottom temperature
+      unit: K
+    lcc:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Low cloud cover
+      unit: (0 - 1)
+    licd:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake ice total depth
+      unit: m
+    lict:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake ice surface temperature
+      unit: K
+    lmld:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake mix-layer depth
+      unit: m
+    lmlt:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake mix-layer temperature
+      unit: K
+    lshf:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake shape factor
+      unit: dimensionless
+    lsp:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Large-scale precipitation
+      unit: m
+    lspf:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Large-scale precipitation fraction
+      unit: s
+    lsrr:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Large scale rain rate
+      unit: kg m**-2 s**-1
+    ltlt:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Lake total layer temperature
+      unit: K
+    mcc:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Medium cloud cover
+      unit: (0 - 1)
     mn2t:
       dimensions:
       - valid_time
@@ -185,6 +339,14 @@ properties:
       type: data
       description: Minimum temperature at 2 metres since previous post-processing
       unit: K
+    mntpr:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Minimum total precipitation rate since previous post-processing
+      unit: kg m**-2 s**-1
     msl:
       dimensions:
       - valid_time
@@ -201,6 +363,38 @@ properties:
       type: data
       description: Maximum temperature at 2 metres since previous post-processing
       unit: K
+    mxtpr:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Maximum total precipitation rate since previous post-processing
+      unit: kg m**-2 s**-1
+    pev:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Potential evaporation
+      unit: m
+    ptype:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Precipitation type
+      unit: (Code table 4.201)
+    ro:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Runoff
+      unit: m
     skt:
       dimensions:
       - valid_time
@@ -225,6 +419,14 @@ properties:
       type: data
       description: Surface pressure
       unit: Pa
+    sro:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface runoff
+      unit: m
     sshf:
       dimensions:
       - valid_time
@@ -265,6 +467,14 @@ properties:
       type: data
       description: Surface short-wave (solar) radiation downward clear-sky
       unit: J m**-2
+    ssro:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Sub-surface runoff
+      unit: m
     sst:
       dimensions:
       - valid_time
@@ -313,6 +523,38 @@ properties:
       type: data
       description: 2 metre temperature
       unit: K
+    tcc:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Total cloud cover
+      unit: (0 - 1)
+    tciw:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Total column cloud ice water
+      unit: kg m**-2
+    tclw:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Total column cloud liquid water
+      unit: kg m**-2
+    tcrw:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Total column rain water
+      unit: kg m**-2
     tisr:
       dimensions:
       - valid_time
@@ -417,206 +659,6 @@ properties:
       type: data
       description: 10 metre v-component of neutral wind
       unit: m s**-1
-    cl:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Lake cover
-      unit: (0 - 1)
-    cp:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Convective precipitation
-      unit: m
-    crr:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Convective rain rate
-      unit: kg m**-2 s**-1
-    dl:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Lake total depth
-      unit: m
-    hcc:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: High cloud cover
-      unit: (0 - 1)
-    ilspf:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Instantaneous large-scale surface precipitation fraction
-      unit: (0 - 1)
-    lblt:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Lake bottom temperature
-      unit: K
-    lcc:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Low cloud cover
-      unit: (0 - 1)
-    licd:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Lake ice total depth
-      unit: m
-    lict:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Lake ice surface temperature
-      unit: K
-    lmld:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Lake mix-layer depth
-      unit: m
-    lmlt:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Lake mix-layer temperature
-      unit: K
-    lshf:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Lake shape factor
-      unit: dimensionless
-    lsp:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Large-scale precipitation
-      unit: m
-    lspf:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Large-scale precipitation fraction
-      unit: s
-    lsrr:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Large scale rain rate
-      unit: kg m**-2 s**-1
-    ltlt:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Lake total layer temperature
-      unit: K
-    mcc:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Medium cloud cover
-      unit: (0 - 1)
-    mntpr:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Minimum total precipitation rate since previous post-processing
-      unit: kg m**-2 s**-1
-    mxtpr:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Maximum total precipitation rate since previous post-processing
-      unit: kg m**-2 s**-1
-    ptype:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Precipitation type
-      unit: (Code table 4.201)
-    tcc:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Total cloud cover
-      unit: (0 - 1)
-    tciw:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Total column cloud ice water
-      unit: kg m**-2
-    tclw:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Total column cloud liquid water
-      unit: kg m**-2
-    tcrw:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Total column rain water
-      unit: kg m**-2
     viiwd:
       dimensions:
       - valid_time
@@ -673,7 +715,6 @@ properties:
       type: data
       description: Geopotential
       unit: m**2 s**-2
-  dc:extent: 256.0 TB
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/era5/reanalysis-era5-single-levels-v0.zarr
