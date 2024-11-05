@@ -10,6 +10,7 @@ bbox:
 - 359.8
 - 90.0
 properties:
+  datetime: '1979-01-01T00:00:00Z'
   start_datetime: '1979-01-01T00:00:00Z'
   end_datetime: '2024-08-01T00:00:00Z'
   edh:maturity: published
