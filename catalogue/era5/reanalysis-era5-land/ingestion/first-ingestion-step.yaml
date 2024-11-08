@@ -64,11 +64,13 @@ steps:
         'leaf_area_index_low_vegetation'
       ]
     request_chunker_kwargs: {time_dim: valid_time}
-    request_chunks: {day: 5}
+    request_chunks: { day: 5 }
+    client_kwargs: { key: 00112233-4455-6677-c899-aabbccddeeff, url: https://cds-stable-bopen.copernicus-climate.eu/api }
 
   chunks: { latitude: 256, longitude: 256 }
-  robust_to_zarr_kwargs: { restart_dim: valid_time, restart_block_size: 6, retries: 10 }
+  robust_to_zarr_kwargs: { restart_dim: valid_time, restart_block_size: 5, retries: 3 }
   to_zarr_kwargs: {
     store: 's3://edc-intermediate/reanalysis-era5-land-no-antartica-v0.zarr',
-    write_empty_chunks: false
+    #write_empty_chunks: false
+    #safe_chunks: false
   }
