@@ -14,9 +14,33 @@ steps:
       generation: 1
       levtype: sfc
       model: ICON
-      # param: ['78', '79', '134', '137', '141', '148', '151', '159', '164', '165', '166', '167', '168', '176', '177', '186', '187', '188', '235', '260048']
       # param: ['141', '165', '166', '167', '168', '176', '177', '260048']
-      param: ['167', '260048']
+      param: [
+        '134',
+        '78',
+        '79',
+        '130',
+        '137',
+        '151',
+        '165',
+        '166',
+        #'167',
+        #########'168', there is a problem with d2m
+        '235',
+        '228164',
+        #'260048',
+
+        '146',
+        '147',
+        '169',
+        '175',
+        '176',
+        '177',
+        '178',
+        '179',
+        '260654',
+        '260655',
+      ]
       realization: 1
       resolution: high
       stream: clte
@@ -31,9 +55,10 @@ steps:
   chunks: {latitude: 512, longitude: 512, time: 48}
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs:
-    time_dim: time
-    time_restart_block: 6
-    retries: 2
+    restart_dim: time
+    restart_block_size: 10
+    retries: 10
   to_zarr_kwargs:
-    store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
+    store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0-dev.zarr
+    #chunk_store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
     write_empty_chunks: false
