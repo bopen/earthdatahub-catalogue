@@ -16,7 +16,6 @@ steps:
       model: ICON
       # param: ['141', '165', '166', '167', '168', '176', '177', '260048']
       param: [
-        '134',
         '78',
         '79',
         '130',
@@ -40,6 +39,7 @@ steps:
         '179',
         '260654',
         '260655',
+        #'134',
       ]
       realization: 1
       resolution: high
@@ -60,5 +60,5 @@ steps:
     retries: 10
   to_zarr_kwargs:
     store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0-dev.zarr
-    #chunk_store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
+    chunk_store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
     write_empty_chunks: false
