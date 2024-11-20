@@ -33,11 +33,12 @@ steps:
       ]
     request_chunker_kwargs: {time_dim: valid_time}
     request_chunks: {day: 5, pressure_level: 1}
-    client_kwargs: {key: 00112233-4455-6677-c899-aabbccddeeff, url: https://cds-stable-bopen.copernicus-climate.eu/api}
+    client_kwargs: {key: 93062765-e3e9-4e44-9a21-a901c5b0a6f1, url: https://cds-beta.climate.copernicus.eu/api}
 
   chunks: {latitude: 256, longitude: 256}
   robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 64, retries: 3}
   to_zarr_kwargs: {
-    store: s3://edc-intermediate/reanalysis-era5-pressure-levels-v0.zarr,
+    store: s3://edc-era5/reanalysis-era5-pressure-levels-v0-dev.zarr,
+    chunk_store: s3://edc-era5/reanalysis-era5-pressure-levels-v0.zarr,
     write_empty_chunks: false
   }

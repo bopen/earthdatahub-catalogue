@@ -104,6 +104,36 @@ steps:
         '100m_u_component_of_wind',
         '100m_v_component_of_wind',
 
+        "convective_snowfall",
+        "convective_snowfall_rate_water_equivalent",
+        "large_scale_snowfall_rate_water_equivalent",
+        "large_scale_snowfall",
+        "snow_albedo",
+        "snow_density",
+        "snow_depth",
+        "snow_evaporation",
+        "snowfall",
+        "snowmelt",
+        "temperature_of_snow_layer",
+        "total_column_snow_water",
+
+        "soil_temperature_level_1",
+        "soil_temperature_level_2",
+        "soil_temperature_level_3",
+        "soil_temperature_level_4",
+        "soil_type",
+        "volumetric_soil_water_layer_1",
+        "volumetric_soil_water_layer_2",
+        "volumetric_soil_water_layer_3",
+        "volumetric_soil_water_layer_4",
+
+        "high_vegetation_cover",
+        "leaf_area_index_high_vegetation",
+        "leaf_area_index_low_vegetation",
+        "low_vegetation_cover",
+        "type_of_high_vegetation",
+        "type_of_low_vegetation",
+
       ]
     request_chunker_kwargs: { time_dim: valid_time }
     request_chunks: { day: 20 }

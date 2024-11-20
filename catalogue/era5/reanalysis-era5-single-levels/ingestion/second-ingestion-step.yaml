@@ -14,6 +14,7 @@ steps:
   chunks: {latitude: 64, longitude: 64, valid_time: 4320}
   robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 32, retries: 3}
   to_zarr_kwargs: {
-    store: s3://edc-era5/reanalysis-era5-single-levels-v0.zarr,
+    store: s3://edc-era5/reanalysis-era5-single-levels-v0-dev.zarr,
+    chunk_store: s3://edc-era5/reanalysis-era5-single-levels-v0.zarr,
     write_empty_chunks: false
   }
