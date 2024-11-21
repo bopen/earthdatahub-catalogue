@@ -60,8 +60,98 @@ properties:
       - 359.8
       reference_system: 4326
       step: 0.25
-  dc:extent: 116.2 TB
+  dc:extent: 929.6 TB
   cube:variables:
+    cc:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Fraction of cloud cover
+      unit: (0 - 1)
+    ciwc:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Specific cloud ice water content
+      unit: kg kg**-1
+    clwc:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Specific cloud liquid water content
+      unit: kg kg**-1
+    crwc:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Specific rain water content
+      unit: kg kg**-1
+    cswc:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Specific snow water content
+      unit: kg kg**-1
+    d:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Divergence
+      unit: s**-1
+    o3:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Ozone mass mixing ratio
+      unit: kg kg**-1
+    pv:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Potential vorticity
+      unit: K m**2 kg**-1 s**-1
+    q:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Specific humidity
+      unit: kg kg**-1
+    r:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Relative humidity
+      unit: '%'
     t:
       dimensions:
       - valid_time
@@ -71,6 +161,42 @@ properties:
       type: data
       description: Temperature
       unit: K
+    u:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: U component of wind
+      unit: m s**-1
+    v:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: V component of wind
+      unit: m s**-1
+    vo:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Vorticity (relative)
+      unit: s**-1
+    w:
+      dimensions:
+      - valid_time
+      - isobaricInhPa
+      - latitude
+      - longitude
+      type: data
+      description: Vertical velocity
+      unit: Pa s**-1
     z:
       dimensions:
       - valid_time
