@@ -137,13 +137,12 @@ steps:
       ]
     request_chunker_kwargs: { time_dim: valid_time }
     request_chunks: { day: 20 }
-    client_kwargs: { key: 00112233-4455-6677-c899-aabbccddeeff, url: https://cds-stable-bopen.copernicus-climate.eu/api }
+    client_kwargs: { key: 93062765-e3e9-4e44-9a21-a901c5b0a6f1, url: https://cds.climate.copernicus.eu/api }
 
   open_dataset_name: open_dataset_fix_era5_single_levels_names
   chunks: {latitude: 256, longitude: 256}
 
-  robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 16, retries: 3}
+  robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 2, retries: 3}
   to_zarr_kwargs: {
     store: s3://edc-intermediate/reanalysis-era5-single-levels-v0.zarr,
-    write_empty_chunks: false
   }
