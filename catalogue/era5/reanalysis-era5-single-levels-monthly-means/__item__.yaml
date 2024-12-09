@@ -9,7 +9,7 @@ bbox:
 - 359.8
 - 90.0
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   dc:abstract: Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric,
     ocean-wave and land surface quantities
   dc:title: ERA5 monthly data on single levels

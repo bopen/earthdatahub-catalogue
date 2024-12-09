@@ -21,7 +21,7 @@ assets:
         trust_env: true
 search_weight: 50
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   dc:abstract: Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric,
     ocean-wave and land surface quantities
   dc:title: ERA5 hourly data on pressure levels
