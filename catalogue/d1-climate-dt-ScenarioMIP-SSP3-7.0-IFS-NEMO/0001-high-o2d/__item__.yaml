@@ -61,22 +61,6 @@ properties:
       - -180.0
       - 180.0
   cube:variables:
-    avg_sithick:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Time-mean sea ice thickness
-      unit: m
-    avg_tos:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Time-mean sea surface temperature
-      unit: K
     avg_siconc:
       dimensions:
       - time
@@ -85,6 +69,14 @@ properties:
       type: data
       description: Time-mean sea ice area fraction
       unit: Fraction
+    avg_sithick:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean sea ice thickness
+      unit: m
     avg_siue:
       dimensions:
       - time
@@ -117,6 +109,14 @@ properties:
       type: data
       description: Time-mean sea surface practical salinity
       unit: g kg**-1
+    avg_tos:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean sea surface temperature
+      unit: K
     avg_zos:
       dimensions:
       - time
