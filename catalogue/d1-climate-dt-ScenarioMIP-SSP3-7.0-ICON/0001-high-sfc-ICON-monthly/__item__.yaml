@@ -21,7 +21,7 @@ assets:
         trust_env: true
 search_weight: 63
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   dc:abstract: This dataset contains a selection of the variables available from the
     DestinE Climate DT future projection simulation (activity `ScenarioMIP`, experiment
     `SSP3-7.0`) from the ICON model at high resolution on surface levels
