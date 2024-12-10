@@ -61,6 +61,22 @@ properties:
       - -180.0
       - 180.0
   cube:variables:
+    avg_hc300m:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean vertically-integrated heat content in the upper 300 m
+      unit: J m**-2
+    avg_hc700m:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean vertically-integrated heat content in the upper 700 m
+      unit: J m**-2
     avg_siconc:
       dimensions:
       - time
@@ -101,6 +117,30 @@ properties:
       type: data
       description: Time-mean sea ice volume per unit area
       unit: m**3 m**-2
+    avg_six:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean X-component of sea ice velocity
+      unit: m s**-1
+    avg_siy:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean Y-component of sea ice velocity
+      unit: m s**-1
+    avg_snvol:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean snow volume over sea ice per unit area
+      unit: m**3 m**-2
     avg_sos:
       dimensions:
       - time
@@ -125,4 +165,4 @@ properties:
       type: data
       description: Time-mean sea surface height
       unit: m
-  dc:extent: 3.9 TB
+  dc:extent: 6.4 TB
