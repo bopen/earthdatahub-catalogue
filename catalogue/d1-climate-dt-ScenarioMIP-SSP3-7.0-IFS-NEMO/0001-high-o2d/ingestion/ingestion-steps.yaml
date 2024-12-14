@@ -8,7 +8,7 @@ steps:
       activity: ScenarioMIP
       class: d1
       dataset: climate-dt
-      date: [ 2020-01-01/to/2029-12-31 ]
+      date: [ 2020-01-01/to/2029-07-11 ]
       experiment: SSP3-7.0
       expver: '0001'
       generation: 1
@@ -21,14 +21,14 @@ steps:
         '263003',
         '263004',
         '263008',
-        '263009',
-        '263021',
-        '263022',
+        # '263009',
+        # '263021',
+        # '263022',
         '263100',
         '263101',
         ###########'263114', there is a problem with avg_mlotst030 setup
-        '263121',
-        '263122',
+        # '263121',
+        # 263122',
         '263124',
       ]
       realization: 1
@@ -46,7 +46,7 @@ steps:
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs:
     restart_dim: time
-    restart_block_size: 36
+    restart_block_size: 1
   to_zarr_kwargs:
     store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-o2d-v0-dev.zarr
     chunk_store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-o2d-v0.zarr
