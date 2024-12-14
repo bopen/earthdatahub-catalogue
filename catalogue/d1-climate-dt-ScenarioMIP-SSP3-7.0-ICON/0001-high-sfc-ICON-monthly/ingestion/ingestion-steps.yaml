@@ -12,9 +12,6 @@ steps:
     store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-monthly-v0.zarr
     write_empty_chunks: false
   transform_kwargs:
-    # data_vars:
-    #   - u10
-    #   - v10
     resample_kwargs:
       indexer:
         time: MS
