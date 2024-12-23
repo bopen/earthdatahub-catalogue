@@ -24,7 +24,7 @@ extent:
   temporal:
     interval:
     - - '2020-01-01T00:00:00Z'
-      - '2039-12-31T23:00:00Z'
+      - '2040-01-01T00:00:00Z'
 license: other
 keywords:
 - DestinE
@@ -49,4 +49,4 @@ providers:
   roles:
   - host
   url: https://platform.destine.eu
-search_weight: 90
+search_weight: 85

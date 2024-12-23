@@ -8,6 +8,18 @@ bbox:
 - -90.0
 - 180.0
 - 90.0
+# assets:
+#   data:
+#     href: https://cacheb.dcms.destine.eu/d1-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr
+#     roles:
+#     - data
+#     xarray:open_kwargs:
+#       engine: zarr
+#       chunks: {}
+#     xarray:storage_options:
+#       client_kwargs:
+#         trust_env: true
+search_weight: 65
 properties:
   edh:maturity: published
   dc:abstract: This dataset contains a selection of the variables available from the
@@ -49,6 +61,22 @@ properties:
       reference_system: 4326
       step: 0.044
   cube:variables:
+    blh:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Boundary layer height
+      unit: m
+    chnk:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Charnock
+      unit: Numeric
     d2m:
       dimensions:
       - time
@@ -57,6 +85,62 @@ properties:
       type: data
       description: 2 metre dewpoint temperature
       unit: K
+    e:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Evaporation
+      unit: m of water equivalent
+    ewss:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated eastward turbulent surface stress
+      unit: N m**-2 s
+    hcc:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: High cloud cover
+      unit: (0 - 1)
+    lcc:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Low cloud cover
+      unit: (0 - 1)
+    mcc:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Medium cloud cover
+      unit: (0 - 1)
+    msl:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Mean sea level pressure
+      unit: Pa
+    nsss:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated northward turbulent surface stress
+      unit: N m**-2 s
     sd:
       dimensions:
       - time
@@ -65,6 +149,54 @@ properties:
       type: data
       description: Snow depth
       unit: m of water equivalent
+    sf:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Snowfall
+      unit: m of water equivalent
+    skt:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Skin temperature
+      unit: K
+    slhf:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated surface latent heat net flux
+      unit: J m**-2
+    sp:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Surface pressure
+      unit: Pa
+    sro:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Surface runoff
+      unit: m
+    sshf:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated surface sensible heat net flux
+      unit: J m**-2
     ssr:
       dimensions:
       - time
@@ -73,6 +205,22 @@ properties:
       type: data
       description: Surface net short-wave (solar) radiation
       unit: J m**-2
+    ssrd:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Surface short-wave (solar) radiation downwards
+      unit: J m**-2
+    ssro:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Sub-surface runoff
+      unit: m
     str:
       dimensions:
       - time
@@ -80,6 +228,14 @@ properties:
       - longitude
       type: data
       description: Surface net long-wave (thermal) radiation
+      unit: J m**-2
+    strd:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Surface long-wave (thermal) radiation downwards
       unit: J m**-2
     t2m:
       dimensions:
@@ -89,6 +245,54 @@ properties:
       type: data
       description: 2 metre temperature
       unit: K
+    tcc:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total cloud cover
+      unit: (0 - 1)
+    tciw:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total column cloud ice water
+      unit: kg m**-2
+    tclw:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total column cloud liquid water
+      unit: kg m**-2
+    tcwv:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total column vertically-integrated water vapour
+      unit: kg m**-2
+    tisr:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: TOA incident short-wave (solar) radiation
+      unit: J m**-2
+    tp:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total precipitation
+      unit: m
     tprate:
       dimensions:
       - time
@@ -97,6 +301,22 @@ properties:
       type: data
       description: Total precipitation rate
       unit: kg m**-2 s**-1
+    tsr:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Top net short-wave (solar) radiation
+      unit: J m**-2
+    ttr:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Top net long-wave (thermal) radiation
+      unit: J m**-2
     u10:
       dimensions:
       - time
@@ -113,5 +333,4 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-  dc:extent: 188.3 TB
-search_weight: 65
+  dc:extent: 800.2 TB

@@ -23,11 +23,11 @@ steps:
         '151',
         '165',
         '166',
-        #'167',
+        '167',
         #########'168', there is a problem with d2m setup
         '235',
         '228164',
-        #'260048',
+        '260048',
 
         '146',
         '147',
@@ -60,5 +60,5 @@ steps:
     retries: 10
   to_zarr_kwargs:
     store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0-dev.zarr
-    chunk_store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
+    # chunk_store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
     write_empty_chunks: false

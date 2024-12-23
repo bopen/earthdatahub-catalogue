@@ -8,6 +8,18 @@ bbox:
 - -90.0
 - 180.0
 - 90.0
+# assets:
+#   data:
+#     href: https://cacheb.dcms.destine.eu/d1-climate-dt/ScenarioMIP-SSP3-7.0-ICON-0001-high-sfc-v0.zarr
+#     roles:
+#     - data
+#     xarray:open_kwargs:
+#       engine: zarr
+#       chunks: {}
+#     xarray:storage_options:
+#       client_kwargs:
+#         trust_env: true
+search_weight: 63
 properties:
   edh:maturity: published
   dc:abstract: This dataset contains a selection of the variables available from the
@@ -49,6 +61,96 @@ properties:
       - -180.0
       - 180.0
   cube:variables:
+    etsssr:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated eastward turbulent surface stress due to surface
+        roughness
+      unit: N m**-2 s
+    msl:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Mean sea level pressure
+      unit: Pa
+    ntsssr:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated northward turbulent surface stress due to surface
+        roughness
+      unit: N m**-2 s
+    skt:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Skin temperature
+      unit: K
+    slhf:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated surface latent heat net flux
+      unit: J m**-2
+    sshf:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated surface sensible heat net flux
+      unit: J m**-2
+    ssr:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Surface net short-wave (solar) radiation
+      unit: J m**-2
+    ssrd:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Surface short-wave (solar) radiation downwards
+      unit: J m**-2
+    str:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Surface net long-wave (thermal) radiation
+      unit: J m**-2
+    strd:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Surface long-wave (thermal) radiation downwards
+      unit: J m**-2
+    t:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Temperature
+      unit: K
     t2m:
       dimensions:
       - time
@@ -57,6 +159,38 @@ properties:
       type: data
       description: 2 metre temperature
       unit: K
+    tcc:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total Cloud Cover
+      unit: '%'
+    tciw:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total column cloud ice water
+      unit: kg m**-2
+    tclw:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total column cloud liquid water
+      unit: kg m**-2
+    tcwv:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total column vertically-integrated water vapour
+      unit: kg m**-2
     tprate:
       dimensions:
       - time
@@ -65,5 +199,36 @@ properties:
       type: data
       description: Total precipitation rate
       unit: kg m**-2 s**-1
-  dc:extent: 23.5 TB
-search_weight: 63
+    tsr:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Top net short-wave (solar) radiation
+      unit: J m**-2
+    ttr:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Top net long-wave (thermal) radiation
+      unit: J m**-2
+    u10:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre U wind component
+      unit: m s**-1
+    v10:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre V wind component
+      unit: m s**-1
+  dc:extent: 247.1 TB
