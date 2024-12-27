@@ -1,0 +1,61 @@
+links:
+- title: Copernicus DEM Global 30m
+  rel: derived_from
+  href: https://doi.org/10.5270/ESA-c5d3d65
+  type: text/html
+bbox:
+- 12.0
+- 0.0
+- 18.0
+- 84.0
+properties:
+  edh:maturity: draft
+  datetime: '2022-01-01T12:00:00Z'
+  dc:abstract: Copernicus DEM Global 30m resampled on a 20m grid on UTM 32N - ECEF italy
+  dc:access_rights: unrestricted
+  dc:title: Copernicus DEM Global 30m resampled on a 20m grid on UTM 32N - ECEF italy
+  dc:description: Copernicus Digital Elevation Global 30m resampled on a 20m grid
+    on UTM 32N in ECEF xyz coordinates over Italy
+  dc:subject:
+  - Copernicus
+  - DEM
+  cube:dimensions:
+    y:
+      type: spatial
+      axis: y
+      reference_system: 32633
+      step: 20.0
+      extent:
+      - 10.0
+      - 9999990.0
+    x:
+      type: spatial
+      axis: x
+      reference_system: 32633
+      step: 20.0
+      extent:
+      - 10.0
+      - 999990.0
+  cube:variables:
+    dem_ecef:
+      dimensions:
+      - y
+      - x
+      - axis
+      type: data
+      description: height above geoid
+      unit: m
+  dc:extent: 100 GB
+assets:
+  data:
+    href: https://data.earthdatahub.destine.eu/Sentinel-1-RTC/GLO-30-ECEF-UTM-italy-v0/32N
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+      decode_coords: all
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
+search_weight: 0
