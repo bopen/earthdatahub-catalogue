@@ -13,7 +13,7 @@ steps:
     restart_dim: y
     restart_block_size: 1
   to_zarr_kwargs:
-    store: s3://edh-root/Sentinel-1-RTC/GLO-30-ECEF-UTM-italy-v0/32N
+    store: s3://edh-root/sentinel-1-rtc/GLO-30-ECEF-UTM-italy-v0/32N
     write_empty_chunks: false
     storage_options:
       key: 3c3d8fe87ec04e9b9c3a07e10ecc8daa

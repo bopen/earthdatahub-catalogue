@@ -48,7 +48,7 @@ properties:
   dc:extent: 100 GB
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/Sentinel-1-RTC/GLO-30-ECEF-UTM-italy-v0/33N
+    href: https://data.earthdatahub.destine.eu/sentinel-1-rtc/GLO-30-ECEF-UTM-italy-v0/33N
     roles:
     - data
     xarray:open_kwargs:
