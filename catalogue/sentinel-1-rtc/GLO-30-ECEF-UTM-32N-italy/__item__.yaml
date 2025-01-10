@@ -4,9 +4,9 @@ links:
   href: https://doi.org/10.5270/ESA-c5d3d65
   type: text/html
 bbox:
-- 12.0
+- 6.0
 - 0.0
-- 18.0
+- 12.0
 - 84.0
 properties:
   edh:maturity: draft
@@ -23,19 +23,19 @@ properties:
     y:
       type: spatial
       axis: y
-      reference_system: 32633
+      reference_system: 32632
       step: 20.0
       extent:
-      - 10.0
-      - 9999990.0
+      - 4000010.0
+      - 5299990.0
     x:
       type: spatial
       axis: x
-      reference_system: 32633
+      reference_system: 32632
       step: 20.0
       extent:
-      - 10.0
-      - 999990.0
+      - 200010.0
+      - 799990.0
   cube:variables:
     dem_ecef:
       dimensions:
@@ -45,7 +45,7 @@ properties:
       type: data
       description: height above geoid
       unit: m
-  dc:extent: 100 GB
+  dc:extent: 47 GB
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/sentinel-1-rtc/GLO-30-ECEF-UTM-italy-v0/32N

@@ -26,16 +26,16 @@ properties:
       reference_system: 32633
       step: 20.0
       extent:
-      - 10.0
-      - 9999990.0
+      - 4000010.0
+      - 5299990.0
     x:
       type: spatial
       axis: x
       reference_system: 32633
       step: 20.0
       extent:
-      - 10.0
-      - 999990.0
+      - 200010.0
+      - 799990.0
   cube:variables:
     dem_ecef:
       dimensions:
@@ -45,7 +45,7 @@ properties:
       type: data
       description: height above geoid
       unit: m
-  dc:extent: 100 GB
+  dc:extent: 47 GB
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/sentinel-1-rtc/GLO-30-ECEF-UTM-italy-v0/33N
