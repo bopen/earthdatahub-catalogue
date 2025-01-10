@@ -40,4 +40,4 @@ providers:
   roles:
   - host
   url: https://platform.destine.eu
-search_weight: 25
+search_weight: 20
