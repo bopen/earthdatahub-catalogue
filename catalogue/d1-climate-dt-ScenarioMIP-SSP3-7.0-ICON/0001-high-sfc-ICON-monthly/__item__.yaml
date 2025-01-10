@@ -40,9 +40,10 @@ properties:
   cube:dimensions:
     time:
       type: temporal
+      axis: t
       extent:
-      - null
-      - null
+      - '2021-01-01T00:00:00Z'
+      - '2030-12-01T00:00:00Z'
       step: PT1H
     latitude:
       type: spatial
