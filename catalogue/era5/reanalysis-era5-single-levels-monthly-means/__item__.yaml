@@ -10,7 +10,7 @@ bbox:
 - 90.0
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/era5/reanalysis-era5-single-levels-monthly-means-v0
+    href: https://data.earthdatahub.destine.eu/era5/reanalysis-era5-single-levels-monthly-means-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
@@ -42,7 +42,7 @@ properties:
       type: temporal
       extent:
       - '1940-01-01T00:00:00Z'
-      - '2024-08-01T00:00:00Z'
+      - '2024-09-01T00:00:00Z'
       step: P1M
     latitude:
       type: spatial
