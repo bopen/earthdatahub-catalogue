@@ -41,6 +41,7 @@ properties:
   cube:dimensions:
     valid_time:
       type: temporal
+      axis: t
       extent:
       - '1979-01-01T00:00:00Z'
       - '2024-12-01T00:00:00Z'
