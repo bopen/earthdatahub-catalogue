@@ -1,3 +1,8 @@
+links:
+- title: Copernicus Sentinel-1 GRD
+  rel: derived_from
+  href: https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel1.html#sentinel-1-level-1-ground-range-detected-grd
+  type: text/html
 bbox:
 - 12.0
 - 36.0
