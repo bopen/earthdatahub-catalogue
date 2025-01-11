@@ -1,0 +1,7 @@
+contexts:
+- utm_zone: 32N
+  relatove_orbit: 15
+- utm_zone: 32N
+  relatove_orbit: 117
+- utm_zone: 33N
+  relatove_orbit: 117
