@@ -1,0 +1,54 @@
+bbox:
+- 6.0
+- 36.0
+- 12.0
+- 48.0
+properties:
+  edh:maturity: draft
+  datetime: '2022-01-01T12:00:00Z'
+  dc:abstract: Sentinel-1 RTC on relative orbit 117 on UTM 32N
+  dc:access_rights: unrestricted
+  dc:title: Sentinel-1 RTC on relative orbit 117 on UTM 32N
+  dc:description: Sentinel-1 RTC on relative orbit 117 on UTM 32N
+  dc:subject:
+  - Copernicus
+  - Sentinel-1
+  cube:dimensions:
+    y:
+      type: spatial
+      axis: y
+      reference_system: 32632
+      step: 10.0
+      extent:
+      - 4000005.0
+      - 5299995.0
+    x:
+      type: spatial
+      axis: x
+      reference_system: 32632
+      step: 10.0
+      extent:
+      - 200005.0
+      - 799995.0
+  cube:variables:
+    gtc:
+      dimensions:
+      - y
+      - x
+      type: data
+      description: beta nought
+      unit: m2 m-2
+  dc:extent: 100 GB
+assets:
+  data:
+    href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/32N/117
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+      decode_coords: all
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
+search_weight: 0
