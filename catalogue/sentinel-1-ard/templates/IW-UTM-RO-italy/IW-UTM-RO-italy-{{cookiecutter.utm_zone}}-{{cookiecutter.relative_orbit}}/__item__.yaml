@@ -11,10 +11,10 @@ bbox:
 properties:
   edh:maturity: draft
   datetime: '2022-01-01T12:00:00Z'
-  dc:abstract: Sentinel-1 RTC on relative orbit {{ cookiecutter.relative_orbit }} on UTM {{ cookiecutter.utm_zone }}
+  dc:abstract: Sentinel-1 ARD for relative orbit {{ cookiecutter.relative_orbit }} on UTM {{ cookiecutter.utm_zone }}
   dc:access_rights: unrestricted
-  dc:title: Sentinel-1 RTC on relative orbit {{ cookiecutter.relative_orbit }} on UTM {{ cookiecutter.utm_zone }}
-  dc:description: Sentinel-1 RTC on relative orbit {{ cookiecutter.relative_orbit }} on UTM {{ cookiecutter.utm_zone }}
+  dc:title: Sentinel-1 ARD for relative orbit {{ cookiecutter.relative_orbit }} on UTM {{ cookiecutter.utm_zone }}
+  dc:description: Sentinel-1 ARD for relative orbit {{ cookiecutter.relative_orbit }} on UTM {{ cookiecutter.utm_zone }}
   dc:subject:
   - Copernicus
   - Sentinel-1

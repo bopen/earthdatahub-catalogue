@@ -1,10 +1,10 @@
 plots:
-- var: "dem"
-  isel: {"x": [125, null, 250], "y": [125, null, 250]}
+- var: "gtc"
+  time_dim: "date"
+  coarsen: {"x": 50, "y": 50}
   plot_kwargs: {
-    "vmax": 5000,
-    "vmin": -1285,
-    "cmap": "terrain",
-    "central_longitude": {{ (cookiecutter.utm_zone[:-1]|int + 7) // 15 * 90 - 180 }},
-    "tickers_numbers": [30, 60]
+    "vmax": 1,
+    "vmin": 0,
+    "cmap": "greys",
+    "central_longitude": {{ (cookiecutter.utm_zone[:-1]|int + 7) // 15 * 90 - 180 }}
   }
