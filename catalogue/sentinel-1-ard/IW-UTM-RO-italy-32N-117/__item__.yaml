@@ -11,6 +11,8 @@ bbox:
 properties:
   edh:maturity: draft
   datetime: '2024-12-31T00:00:00Z'
+  start_datetime: '2024-01-06T00:00:00Z'
+  end_datetime: '2024-12-31T00:00:00Z'
   dc:abstract: Sentinel-1 ARD for relative orbit 117 on UTM 32N
   dc:access_rights: unrestricted
   dc:title: Sentinel-1 ARD for relative orbit 117 on UTM 32N
@@ -19,6 +21,12 @@ properties:
   - Copernicus
   - Sentinel-1
   cube:dimensions:
+    date:
+      type: temporal
+      axis: t
+      extent:
+      - '2024-01-06T00:00:00Z'
+      - '2024-12-31T00:00:00Z'
     y:
       type: spatial
       axis: y
@@ -35,12 +43,6 @@ properties:
       extent:
       - 200005.0
       - 799995.0
-    date:
-      type: temporal
-      axis: t
-      extent:
-      - '2024-01-06T00:00:00Z'
-      - '2024-12-31T00:00:00Z'
   cube:variables:
     gtc:
       dimensions:
@@ -52,8 +54,6 @@ properties:
       description: beta nought
       unit: m2 m-2
   dc:extent: 1.9 TB
-  start_datetime: '2024-01-06T00:00:00Z'
-  end_datetime: '2024-12-31T00:00:00Z'
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/32N/117
