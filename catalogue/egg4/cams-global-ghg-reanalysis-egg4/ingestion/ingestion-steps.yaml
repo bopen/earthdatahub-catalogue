@@ -23,7 +23,7 @@ steps:
       ]
     request_chunker_kwargs: {time_dim: valid_time}
     request_chunks: {day: 160}
-    client_kwargs: {url: https://ads.atmosphere.copernicus.eu/api/v2, key: 17995:b2c007b4-c79e-45d9-b635-19aea609fa4f}
+    client_kwargs: {url: "https://ads.atmosphere.copernicus.eu/api/v2", key: "17995:b2c007b4-c79e-45d9-b635-19aea609fa4f" }
 - chunks: {latitude: 64, longitude: 64, valid_time: 2880}
   robust_to_zarr_kwargs: {time_dim: valid_time, time_restart_block: 8}
   to_zarr_kwargs:
