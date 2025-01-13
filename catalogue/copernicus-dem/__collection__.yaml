@@ -30,7 +30,6 @@ keywords:
 - Copernicus
 - DEM
 providers:
-providers:
 - name: European Union
   roles:
   - licensor

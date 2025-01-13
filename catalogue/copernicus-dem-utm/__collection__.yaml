@@ -30,7 +30,6 @@ keywords:
 - DEM
 - geobrowser
 providers:
-providers:
 - name: European Union
   roles:
   - licensor
