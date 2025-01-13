@@ -29,5 +29,3 @@ steps:
     store: s3://ecmwf-forecasts-enfo/opendata-enfo.zarr
     write_empty_chunks: false
   #copy_to_url: s3://ecmwf-forecasts-enfo/opendata-enfo.zarr
-
-

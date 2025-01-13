@@ -3,7 +3,7 @@ dc:abstract:
   Sentinel-1 RTC IW in UTM / UPS
 edh:maturity: draft
 links:
-- title: Sentinel-1 GRD 
+- title: Sentinel-1 GRD
   rel: derived_from
   href: https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S1GRD.html
   type: text/html

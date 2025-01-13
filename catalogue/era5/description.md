@@ -1,4 +1,4 @@
-ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 8 decades. 
+ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 8 decades.
 Data is available from 1940 onwards on ECWMF [Copernicus Data Store](https://cds.climate.copernicus.eu/).
 
 ERA5 provides hourly estimates of a large number of atmospheric, land and oceanic climate variables. The data cover the Earth on a 30km grid and resolve the atmosphere using 137 levels from the surface up to a height of 80km. ERA5 includes information about uncertainties for all variables at reduced spatial and temporal resolutions.

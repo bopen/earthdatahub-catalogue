@@ -1,6 +1,6 @@
-Data on soil erosion are published under agreement with data provider - 
-Joint Research Centre of the European Commission (JRC – Ispra), 
-one of the partners of the Memorandum of Understanding for cooperation 
+Data on soil erosion are published under agreement with data provider -
+Joint Research Centre of the European Commission (JRC – Ispra),
+one of the partners of the Memorandum of Understanding for cooperation
 on the development of Agri-environmental indicators.
 For a detailed description of the original EUROSTAT dataset see
 [EUROSTAT metadata](https://ec.europa.eu/eurostat/cache/metadata/en/aei_pr_soiler_esms.htm).

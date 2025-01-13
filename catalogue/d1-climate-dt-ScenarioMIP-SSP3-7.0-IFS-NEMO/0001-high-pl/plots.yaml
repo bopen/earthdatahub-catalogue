@@ -8,4 +8,3 @@ plots:
     'vmin': -20,
     'cmap': "Blues_r",
   }
-  

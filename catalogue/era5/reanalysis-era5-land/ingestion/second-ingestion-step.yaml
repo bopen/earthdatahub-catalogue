@@ -15,4 +15,3 @@ steps:
   robust_to_zarr_kwargs: { restart_dim: valid_time, restart_block_size: 32, retries: 3 }
   to_zarr_kwargs:
     store: s3://edc-era5/reanalysis-era5-land-no-antartica-v0-dev.zarr
-

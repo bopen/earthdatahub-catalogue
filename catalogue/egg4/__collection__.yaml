@@ -1,7 +1,7 @@
 title: CAMS global greenhouse gas reanalysis (EGG4)
 dc:abstract:
-  The CAMS reanalysis is the latest global reanalysis data set of atmospheric composition (AC) 
-  produced by the Copernicus Atmosphere Monitoring Service, consisting of 3-dimensional time-consistent 
+  The CAMS reanalysis is the latest global reanalysis data set of atmospheric composition (AC)
+  produced by the Copernicus Atmosphere Monitoring Service, consisting of 3-dimensional time-consistent
   AC fields, including aerosols, chemical species and greenhouse gases
 edh:maturity: draft
 links:
