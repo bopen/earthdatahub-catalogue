@@ -27,6 +27,11 @@ properties:
       extent:
       - '2024-01-07T00:00:00Z'
       - '2024-12-20T00:00:00Z'
+    polarization:
+      type: polarization
+      values:
+      - VV
+      - VH
     y:
       type: spatial
       axis: y

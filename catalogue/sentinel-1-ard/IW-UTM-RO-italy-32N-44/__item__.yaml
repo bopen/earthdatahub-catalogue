@@ -4,10 +4,10 @@ links:
   href: https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel1.html#sentinel-1-level-1-ground-range-detected-grd
   type: text/html
 bbox:
-- 200005.0
-- 4000005.0
-- 799995.0
-- 5299995.0
+- 6.0
+- 36.0
+- 12.0
+- 48.0
 properties:
   edh:maturity: draft
   datetime: '2024-12-26T00:00:00Z'
@@ -27,6 +27,11 @@ properties:
       extent:
       - '2024-01-01T00:00:00Z'
       - '2024-12-26T00:00:00Z'
+    polarization:
+      type: polarization
+      values:
+      - VV
+      - VH
     y:
       type: spatial
       axis: y
