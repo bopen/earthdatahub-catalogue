@@ -9,6 +9,7 @@ bbox:
 - 179.9
 - 90.0
 properties:
+  datetime: '2020-12-31T12:00:00Z'
   start_datetime: '1993-01-01T12:00:00Z'
   end_datetime: '2020-12-31T12:00:00Z'
   edh:maturity: published
@@ -21,12 +22,6 @@ properties:
   - reanalysis
   dc:accrual_periodicity: freq:monthly
   cube:dimensions:
-    valid_time:
-      type: temporal
-      extent:
-      - '1993-01-01T00:00:00Z'
-      - '2020-12-31T00:00:00Z'
-      step: P1D
     latitude:
       type: spatial
       axis: y
@@ -43,6 +38,13 @@ properties:
       extent:
       - -180.0
       - 179.9
+    time:
+      type: temporal
+      axis: t
+      extent:
+      - '1993-01-01T12:00:00Z'
+      - '2020-12-31T12:00:00Z'
+      step: P1D
   cube:variables:
     mlotst:
       dimensions:
