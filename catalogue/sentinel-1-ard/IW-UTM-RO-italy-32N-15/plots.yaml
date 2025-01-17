@@ -1,10 +1,13 @@
 plots:
-- var: "gtc"
+- var: gtc
   time_dim: "date"
-  coarsen: {"x": 50, "y": 50}
+  isel:
+    date: 0
+    polarization: 0
+  coarsen: {x: 50, y: 50}
   plot_kwargs: {
     "vmax": 1,
     "vmin": 0,
-    "cmap": "greys",
-    "central_longitude": 0
+    "cmap": "Greys_r",
+    "tickers_numbers": [10, 10]
   }
