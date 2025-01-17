@@ -8,6 +8,6 @@ plots:
   plot_kwargs: {
     "vmax": 1,
     "vmin": 0,
-    "cmap": "Greys_r",
-    "tickers_numbers": [10, 10]
+    "extent": [0., 24., 36., 48.],
+    "cmap": "Greys_r"
   }
