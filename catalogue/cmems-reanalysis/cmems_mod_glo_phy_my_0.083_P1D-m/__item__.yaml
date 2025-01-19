@@ -8,12 +8,26 @@ bbox:
 - -80.0
 - 179.9
 - 90.0
+assets:
+  data:
+    href: https://data.earthdatahub.destine.eu/cmems-reanalysis/cmems_mod_glo_phy_my_0.083_P1D-m.zarr
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
+search_weight: 10
 properties:
   datetime: '2020-12-31T12:00:00Z'
   start_datetime: '1993-01-01T12:00:00Z'
   end_datetime: '2020-12-31T12:00:00Z'
   edh:maturity: published
-  dc:abstract: Global Ocean Physics Reanalysis
+  dc:abstract: 
+    Global Ocean Physics Reanalysis daily mean files for world sea bottom temperature, sea level, 
+    mixed layer depth and ice parameters from 1993 t0 2020.
   dc:access_rights: unrestricted
   dc:title: Global Ocean Physics Reanalysis
   dc:subject:
@@ -103,15 +117,3 @@ properties:
       description: Sea surface height
       unit: m
   dc:extent: 5.0 TB
-assets:
-  data:
-    href: https://data.earthdatahub.destine.eu/cmems-reanalysis/cmems_mod_glo_phy_my_0.083_P1D-m.zarr
-    roles:
-    - data
-    xarray:open_kwargs:
-      engine: zarr
-      chunks: {}
-    xarray:storage_options:
-      client_kwargs:
-        trust_env: true
-search_weight: 10

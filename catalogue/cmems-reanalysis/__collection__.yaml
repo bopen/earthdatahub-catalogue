@@ -1,14 +1,16 @@
 title: Global Ocean Physics Reanalysis
-dc:abstract: The GLORYS12V1 product is the CMEMS global ocean eddy-resolving (1/12° horizontal resolution, 50 vertical levels) reanalysis covering the altimetry (1993 onward).
+dc:abstract: The Global Ocean Physics Reanalysis (GLORYS12V1) product is 
+  the CMEMS global ocean eddy-resolving (1/12° horizontal resolution, 50 vertical levels) 
+  reanalysis covering the altimetry (1993 onward).
 edh:maturity: draft
 links:
 - title: Global Ocean Reanalysis
   rel: derived_from
   href: https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/description
   type: text/html
-- title: Licence to use Copernicus products
+- title: Licence to use Copernicus Marine Services products
   rel: license
-  href: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+  href: https://marine.copernicus.eu/user-corner/service-commitments-and-licence
   type: application/pdf
 extent:
   spatial:
@@ -27,19 +29,20 @@ keywords:
 - reanalysis
 - ocean
 providers:
+- name: European Union
+  roles:
+  - licensor
+  url: https://european-union.europa.eu
 - name: CMEMS
   roles:
   - producer
-  - licensor
   url: https://marine.copernicus.eu/
 - name: B-Open
   roles:
   - processor
+  url: https://www.bopen.eu
+- name: DestinE Platform
+  roles:
   - host
-  url: https://www.bopen.eu/
-assets:
-  thumbnail:
-    href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/era5/thumbnail_bd126ec0726b50cf50767a44a0b90fafe7757d0b7b97ddef6d723afc1203b472.png
-    roles:
-    - thumbnail
+  url: https://platform.destine.eu
 search_weight: 10

@@ -5,4 +5,3 @@ We propose daily mean files for world sea bottom temperature, sea level, mixed l
 
 The  output data are displayed on a standard regular grid at 1/12° (approximatively 8 km) as zarr archives.
 
-Data are free for access for DestinE Service Platform registered users.

@@ -1,12 +1,18 @@
-title: Sentinel-1 RTC IW in UTM / UPS
+title: Sentinel-1 ARD
 dc:abstract:
-  Sentinel-1 RTC IW in UTM / UPS
+  The Sentinel-1 Radiometrically Terrain Corrected (RTC) data 
+  are Analisys Ready Data (ARD) derived from the Ground Range Detected (GRD) Level-1 
+  products produced by the European Space Agency.
 edh:maturity: draft
 links:
-- title: Sentinel-1 GRD
+- title: Sentinel-1 ARD
   rel: derived_from
   href: https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S1GRD.html
   type: text/html
+- title: Licence to use Copernicus products
+  rel: license
+  href: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+  type: application/pdf
 extent:
   spatial:
     bbox:
