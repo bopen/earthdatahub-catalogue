@@ -13,7 +13,7 @@ properties:
   datetime: '2024-12-29T00:00:00Z'
   start_datetime: '2024-01-04T00:00:00Z'
   end_datetime: '2024-12-29T00:00:00Z'
-  dc:abstract: Sentinel-1 ARD for relative orbit 88 on UTM 32N
+  ds:abstract: Sentinel-1 Radiometrically Terrain Corrected data derived from IW GRD products for relative orbit 88 on UTM 32N
   dc:access_rights: unrestricted
   dc:title: Sentinel-1 ARD for relative orbit 88 on UTM 32N
   dc:description: Sentinel-1 ARD for relative orbit 88 on UTM 32N
