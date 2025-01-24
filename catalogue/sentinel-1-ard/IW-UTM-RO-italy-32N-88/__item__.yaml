@@ -48,17 +48,8 @@ properties:
       step: 10.0
       extent:
       - 200005.0
-      - 799995.0
+      - 749995.0
   cube:variables:
-    gtc:
-      dimensions:
-      - date
-      - polarization
-      - y
-      - x
-      type: data
-      description: beta nought
-      unit: m2 m-2
     simulation:
       dimensions:
       - y
@@ -66,10 +57,19 @@ properties:
       type: data
       description: simulated beta nought
       unit: m2 m-2
-  dc:extent: 2.0 TB
+    nrb:
+      dimensions:
+      - date
+      - polarization
+      - y
+      - x
+      type: data
+      description: normalised radar backscatter
+      unit: m2 m-2
+  dc:extent: 1.8 TB
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/32N/88
+    href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/Z32N/O88
     roles:
     - data
     xarray:open_kwargs:
