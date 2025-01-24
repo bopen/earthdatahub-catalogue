@@ -61,7 +61,7 @@ properties:
       - 359.8
       reference_system: 4326
       step: 0.25
-  dc:extent: 340.4 TB
+  dc:extent: 343.5 TB
   cube:variables:
     alnid:
       dimensions:
@@ -943,3 +943,11 @@ properties:
       type: data
       description: Type of low vegetation
       unit: (Code table 4.234)
+    iews:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Instantaneous eastward turbulent surface stress
+      unit: N m**-2
