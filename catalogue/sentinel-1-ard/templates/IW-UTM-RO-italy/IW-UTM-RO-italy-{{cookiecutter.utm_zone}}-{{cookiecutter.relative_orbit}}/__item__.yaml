@@ -61,7 +61,7 @@ properties:
   dc:extent: 1.9 TB
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/{{ cookiecutter.utm_zone }}/{{ cookiecutter.relative_orbit }}
+    href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/Z{{ cookiecutter.utm_zone }}/O{{ cookiecutter.relative_orbit }}
     roles:
     - data
     xarray:open_kwargs:
