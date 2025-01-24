@@ -13,7 +13,8 @@ properties:
   datetime: '2024-12-31T00:00:00Z'
   start_datetime: '2024-01-06T00:00:00Z'
   end_datetime: '2024-12-31T00:00:00Z'
-  ds:abstract: Sentinel-1 Radiometrically Terrain Corrected data derived from IW GRD products for relative orbit 117 on UTM 33N
+  ds:abstract: Sentinel-1 Radiometrically Terrain Corrected data derived from IW GRD
+    products for relative orbit 117 on UTM 33N
   dc:access_rights: unrestricted
   dc:title: Sentinel-1 ARD for relative orbit 117 on UTM 33N
   dc:description: Sentinel-1 ARD for relative orbit 117 on UTM 33N
@@ -47,21 +48,28 @@ properties:
       step: 10.0
       extent:
       - 200005.0
-      - 799995.0
+      - 549995.0
   cube:variables:
-    gtc:
+    nrb:
       dimensions:
       - date
       - polarization
       - y
       - x
       type: data
-      description: beta nought
+      description: normalised radar backscatter
       unit: m2 m-2
-  dc:extent: 1.9 TB
+    simulation:
+      dimensions:
+      - y
+      - x
+      type: data
+      description: simulated beta nought
+      unit: m2 m-2
+  dc:extent: 1.1 TB
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/33N/117
+    href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/Z33N/O117
     roles:
     - data
     xarray:open_kwargs:
