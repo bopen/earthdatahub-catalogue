@@ -38,13 +38,6 @@ properties:
   - weather
   dc:accrual_periodicity: freq:monthly
   cube:dimensions:
-    valid_time:
-      type: temporal
-      axis: t
-      extent:
-      - '1940-01-01T00:00:00Z'
-      - '2024-12-31T23:00:00Z'
-      step: PT1H
     latitude:
       type: spatial
       axis: y
@@ -61,6 +54,12 @@ properties:
       - 359.8
       reference_system: 4326
       step: 0.25
+    valid_time:
+      type: temporal
+      axis: t
+      extent:
+      - '1940-01-01T00:00:00Z'
+      - '2024-12-31T23:00:00Z'
   dc:extent: 343.5 TB
   cube:variables:
     alnid:
@@ -94,6 +93,14 @@ properties:
       - longitude
       type: data
       description: UV visible albedo for direct radiation (climatological)
+      unit: (0 - 1)
+    asn:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Snow albedo
       unit: (0 - 1)
     blh:
       dimensions:
@@ -135,6 +142,38 @@ properties:
       type: data
       description: Convective rain rate
       unit: kg m**-2 s**-1
+    csf:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Convective snowfall
+      unit: m of water equivalent
+    csfr:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Convective snowfall rate water equivalent
+      unit: kg m**-2 s**-1
+    cvh:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: High vegetation cover
+      unit: (0 - 1)
+    cvl:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Low vegetation cover
+      unit: (0 - 1)
     d2m:
       dimensions:
       - valid_time
@@ -158,6 +197,14 @@ properties:
       - longitude
       type: data
       description: Evaporation
+      unit: m of water equivalent
+    es:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Snow evaporation
       unit: m of water equivalent
     fdir:
       dimensions:
@@ -191,6 +238,14 @@ properties:
       type: data
       description: Instantaneous moisture flux
       unit: kg m**-2 s**-1
+    iews:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Instantaneous eastward turbulent surface stress
+      unit: N m**-2
     ilspf:
       dimensions:
       - valid_time
@@ -247,6 +302,22 @@ properties:
       type: data
       description: Ice temperature layer 4
       unit: K
+    lai_hv:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Leaf area index, high vegetation
+      unit: m**2 m**-2
+    lai_lv:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Leaf area index, low vegetation
+      unit: m**2 m**-2
     lblt:
       dimensions:
       - valid_time
@@ -295,6 +366,14 @@ properties:
       type: data
       description: Lake mix-layer temperature
       unit: K
+    lsf:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Large-scale snowfall
+      unit: m of water equivalent
     lshf:
       dimensions:
       - valid_time
@@ -326,6 +405,14 @@ properties:
       - longitude
       type: data
       description: Large scale rain rate
+      unit: kg m**-2 s**-1
+    lssfr:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Large scale snowfall rate water equivalent
       unit: kg m**-2 s**-1
     ltlt:
       dimensions:
@@ -407,6 +494,30 @@ properties:
       type: data
       description: Runoff
       unit: m
+    rsn:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Snow density
+      unit: kg m**-3
+    sd:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Snow depth
+      unit: m of water equivalent
+    sf:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Snowfall
+      unit: m of water equivalent
     skt:
       dimensions:
       - valid_time
@@ -423,6 +534,22 @@ properties:
       type: data
       description: Surface latent heat flux
       unit: J m**-2
+    slt:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Soil type
+      unit: (Code table 4.213)
+    smlt:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Snowmelt
+      unit: m of water equivalent
     sp:
       dimensions:
       - valid_time
@@ -495,6 +622,38 @@ properties:
       type: data
       description: Sea surface temperature
       unit: K
+    stl1:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Soil temperature level 1
+      unit: K
+    stl2:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Soil temperature level 2
+      unit: K
+    stl3:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Soil temperature level 3
+      unit: K
+    stl4:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Soil temperature level 4
+      unit: K
     str:
       dimensions:
       - valid_time
@@ -527,6 +686,38 @@ properties:
       type: data
       description: Surface long-wave (thermal) radiation downward clear-sky
       unit: J m**-2
+    swvl1:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Volumetric soil water layer 1
+      unit: m**3 m**-3
+    swvl2:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Volumetric soil water layer 2
+      unit: m**3 m**-3
+    swvl3:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Volumetric soil water layer 3
+      unit: m**3 m**-3
+    swvl4:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Volumetric soil water layer 4
+      unit: m**3 m**-3
     t2m:
       dimensions:
       - valid_time
@@ -567,6 +758,14 @@ properties:
       type: data
       description: Total column rain water
       unit: kg m**-2
+    tcsw:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Total column snow water
+      unit: kg m**-2
     tisr:
       dimensions:
       - valid_time
@@ -583,6 +782,14 @@ properties:
       type: data
       description: Total precipitation
       unit: m
+    tsn:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Temperature of snow layer
+      unit: K
     tsr:
       dimensions:
       - valid_time
@@ -615,6 +822,22 @@ properties:
       type: data
       description: Top net long-wave (thermal) radiation, clear sky
       unit: J m**-2
+    tvh:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Type of high vegetation
+      unit: (Code table 4.234)
+    tvl:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Type of low vegetation
+      unit: (Code table 4.234)
     u10:
       dimensions:
       - valid_time
@@ -727,227 +950,3 @@ properties:
       type: data
       description: Geopotential
       unit: m**2 s**-2
-    asn:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Snow albedo
-      unit: (0 - 1)
-    csf:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Convective snowfall
-      unit: m of water equivalent
-    csfr:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Convective snowfall rate water equivalent
-      unit: kg m**-2 s**-1
-    cvh:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: High vegetation cover
-      unit: (0 - 1)
-    cvl:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Low vegetation cover
-      unit: (0 - 1)
-    es:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Snow evaporation
-      unit: m of water equivalent
-    lai_hv:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Leaf area index, high vegetation
-      unit: m**2 m**-2
-    lai_lv:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Leaf area index, low vegetation
-      unit: m**2 m**-2
-    lsf:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Large-scale snowfall
-      unit: m of water equivalent
-    lssfr:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Large scale snowfall rate water equivalent
-      unit: kg m**-2 s**-1
-    rsn:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Snow density
-      unit: kg m**-3
-    sd:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Snow depth
-      unit: m of water equivalent
-    sf:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Snowfall
-      unit: m of water equivalent
-    slt:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Soil type
-      unit: (Code table 4.213)
-    smlt:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Snowmelt
-      unit: m of water equivalent
-    stl1:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Soil temperature level 1
-      unit: K
-    stl2:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Soil temperature level 2
-      unit: K
-    stl3:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Soil temperature level 3
-      unit: K
-    stl4:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Soil temperature level 4
-      unit: K
-    swvl1:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Volumetric soil water layer 1
-      unit: m**3 m**-3
-    swvl2:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Volumetric soil water layer 2
-      unit: m**3 m**-3
-    swvl3:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Volumetric soil water layer 3
-      unit: m**3 m**-3
-    swvl4:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Volumetric soil water layer 4
-      unit: m**3 m**-3
-    tcsw:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Total column snow water
-      unit: kg m**-2
-    tsn:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Temperature of snow layer
-      unit: K
-    tvh:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Type of high vegetation
-      unit: (Code table 4.234)
-    tvl:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Type of low vegetation
-      unit: (Code table 4.234)
-    iews:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Instantaneous eastward turbulent surface stress
-      unit: N m**-2
