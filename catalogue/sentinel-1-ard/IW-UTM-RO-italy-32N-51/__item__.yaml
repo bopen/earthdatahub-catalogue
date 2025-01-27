@@ -10,14 +10,14 @@ bbox:
 - 48.0
 properties:
   edh:maturity: draft
-  datetime: '2024-12-29T00:00:00Z'
-  start_datetime: '2024-01-04T00:00:00Z'
-  end_datetime: '2024-12-29T00:00:00Z'
+  datetime: '2022-01-01T12:00:00Z'
+  start_datetime: '2024-01-11T00:00:00Z'
+  end_datetime: '2024-12-24T00:00:00Z'
   dc:abstract: Sentinel-1 Radiometrically Terrain Corrected data derived from IW GRD
-    products for relative orbit 88 on UTM 32N
+    products for relative orbit 51 on UTM 32N
   dc:access_rights: unrestricted
-  dc:title: Sentinel-1 ARD for relative orbit 88 on UTM 32N
-  dc:description: Sentinel-1 ARD for relative orbit 88 on UTM 32N
+  dc:title: Sentinel-1 ARD for relative orbit 51 on UTM 32N
+  dc:description: Sentinel-1 ARD for relative orbit 51 on UTM 32N
   dc:subject:
   - Copernicus
   - Sentinel-1
@@ -26,8 +26,8 @@ properties:
       type: temporal
       axis: t
       extent:
-      - '2024-01-04T00:00:00Z'
-      - '2024-12-29T00:00:00Z'
+      - '2024-01-11T00:00:00Z'
+      - '2024-12-24T00:00:00Z'
     polarization:
       type: polarization
       values:
@@ -48,7 +48,7 @@ properties:
       step: 10.0
       extent:
       - 200005.0
-      - 749995.0
+      - 499995.0
   cube:variables:
     nrb:
       dimensions:
@@ -66,10 +66,10 @@ properties:
       type: data
       description: simulated beta nought
       unit: m2 m-2
-  dc:extent: 1.8 TB
+  dc:extent: 16 GB
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/Z32N/O88
+    href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/Z32N/O51
     roles:
     - data
     xarray:open_kwargs:
