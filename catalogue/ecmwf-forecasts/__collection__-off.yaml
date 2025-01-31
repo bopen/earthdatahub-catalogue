@@ -1,0 +1,49 @@
+title: ECMWF medium-range forecasts
+dc:abstract:
+  Medium-range forecasts consist of a single forecast plus an ensemble of forecasts for statistical comparison which together give detailed
+  information about the evolution of weather up to 15 days ahead
+edh:maturity: draft
+links:
+- title: Medium-range forecasts
+  rel: derived_from
+  href: https://www.ecmwf.int/en/forecasts/documentation-and-support/medium-range-forecasts
+  type: text/html
+- title: Licence to use Copernicus products
+  rel: license
+  href: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+  type: application/pdf
+extent:
+  spatial:
+    bbox:
+    - - -180
+      - -90
+      - 180
+      - 90
+  temporal:
+    interval:
+    - - null
+      - null
+license: other
+keywords:
+- Open data
+- HRES
+- ECMWF
+- forecast
+- weather
+providers:
+- name: ECMWF
+  roles:
+  - producer
+  - licensor
+  url: https://www.ecmwf.int/
+- name: B-Open
+  roles:
+  - processor
+  - host
+  url: https://www.bopen.eu/
+assets:
+  thumbnail:
+    href: https://storage.gra.cloud.ovh.net/v1/AUTH_cd5fd5eb828b4e7c89f0880ea1d99126/earthdatahub-static/catalogue/collections/ecmwf-forecasts/thumbnail_be47c240ccf75f5e6f167520fb6ea1884d46b2ee3c1ce01e360a48b4c6a1f26a.png
+    roles:
+    - thumbnail
+search_weight: 10

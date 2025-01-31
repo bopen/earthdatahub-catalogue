@@ -1,0 +1,49 @@
+title: Weather-Induced Extremes Digital Twin
+dc:abstract:
+  DestinE Digital Twin for Weather-Induced Extremes (Extremes DT) supports rapid decision-making in response to meteorological, hydrological and air quality extremes. It currently comprises a global component, producing simulations at resolutions of a few kilometres up to four days ahead.
+edh:maturity: draft
+links:
+- title: Weather-Induced Extremes Digital Twin
+  rel: derived_from
+  href: https://confluence.ecmwf.int/pages/viewpage.action?pageId=414583259
+  type: text/html
+- title: Licence to use Copernicus products
+  rel: license
+  href: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+  type: application/pdf
+extent:
+  spatial:
+    bbox:
+    - - -180
+      - -90
+      - 180
+      - 90
+  temporal:
+    interval:
+    - - null
+      - null
+license: other
+keywords:
+- DestinE
+- digital twin
+- ECMWF
+- forecast
+- weather
+providers:
+- name: European Union
+  roles:
+  - licensor
+  url: https://european-union.europa.eu
+- name: ECMWF
+  roles:
+  - producer
+  url: https://www.ecmwf.int
+- name: B-Open
+  roles:
+  - processor
+  url: https://www.bopen.eu
+- name: DestinE Platform
+  roles:
+  - host
+  url: https://destination-earth.eu
+search_weight: 10

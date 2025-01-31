@@ -1,0 +1,55 @@
+title: Eurostat geospatial data collection
+dc:abstract:
+  Eurostat, the statistical office of the European Union
+  (EU), collects, compiles and publishes statistics for the
+  EU and euro area.
+
+  Here we propose geoprocessed statistics on various climate-related variables.
+
+edh:maturity: draft
+links:
+- title: Eurostat documentation
+  rel: derived_from
+  href: https://ec.europa.eu/eurostat/en/web/main/publications/manuals-and-guidelines
+  type: text/html
+- title: CC-BY-4.0 - Contains modified Eurostat data – created by mundialis
+  rel: license
+  href: https://creativecommons.org/licenses/by/4.0/
+  type: text/html
+extent:
+  spatial:
+    bbox:
+    - - -27
+      - 26
+      - 45
+      - 74
+  temporal:
+    interval:
+    - - null
+      - null
+license: other
+keywords:
+- eurostat
+- statistics
+- energy
+- population
+- heating
+- cooling
+- mortality
+providers:
+- name: EUROSTAT
+  roles:
+  - producer
+  - licensor
+  url: https://ec.europa.eu/eurostat/web/main/home
+- name: B-Open
+  roles:
+  - host
+  url: https://www.bopen.eu/
+- name: mundialis GmbH & Co. KG
+  roles:
+  - processor
+  url: https://www.mundialis.de/
+assets:
+  thumbnail:
+    href: https://apps.mundialis.de/thumbnails/1/thumbnail.png
