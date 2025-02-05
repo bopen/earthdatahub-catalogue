@@ -4,8 +4,6 @@ contexts:
 - utm_zone: 32N
   relative_orbit: 44
 - utm_zone: 32N
-  relative_orbit: 51
-- utm_zone: 32N
   relative_orbit: 88
 - utm_zone: 32N
   relative_orbit: 95
@@ -17,6 +15,8 @@ contexts:
   relative_orbit: 22
 - utm_zone: 33N
   relative_orbit: 44
+- utm_zone: 33N
+  relative_orbit: 51
 - utm_zone: 33N
   relative_orbit: 95
 - utm_zone: 33N

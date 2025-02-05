@@ -4,20 +4,19 @@ links:
   href: https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel1.html#sentinel-1-level-1-ground-range-detected-grd
   type: text/html
 bbox:
-- 6.0
-- 36.0
 - 12.0
+- 36.0
+- 18.0
 - 48.0
 properties:
   edh:maturity: draft
   datetime: '2022-01-01T12:00:00Z'
   start_datetime: '2024-01-11T00:00:00Z'
   end_datetime: '2024-12-24T00:00:00Z'
-  dc:abstract: Sentinel-1 Radiometrically Terrain Corrected data derived from IW GRD
-    products for relative orbit 51 on UTM 32N
+  dc:abstract: Sentinel-1 Radiometrically Terrain Corrected data derived from IW GRD products for relative orbit 51 on UTM 33N
   dc:access_rights: unrestricted
-  dc:title: Sentinel-1 ARD for relative orbit 51 on UTM 32N
-  dc:description: Sentinel-1 ARD for relative orbit 51 on UTM 32N
+  dc:title: Sentinel-1 ARD for relative orbit 51 on UTM 33N
+  dc:description: Sentinel-1 ARD for relative orbit 51 on UTM 33N
   dc:subject:
   - Copernicus
   - Sentinel-1
@@ -36,7 +35,7 @@ properties:
     y:
       type: spatial
       axis: y
-      reference_system: 32632
+      reference_system: 32633
       step: 10.0
       extent:
       - 4000005.0
@@ -44,11 +43,11 @@ properties:
     x:
       type: spatial
       axis: x
-      reference_system: 32632
+      reference_system: 32633
       step: 10.0
       extent:
       - 200005.0
-      - 499995.0
+      - 799995.0
   cube:variables:
     nrb:
       dimensions:
@@ -66,10 +65,10 @@ properties:
       type: data
       description: simulated beta nought
       unit: m2 m-2
-  dc:extent: 16 GB
+  dc:extent: 1.2 TB
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/Z32N/O51
+    href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/Z33N/O51
     roles:
     - data
     xarray:open_kwargs:
