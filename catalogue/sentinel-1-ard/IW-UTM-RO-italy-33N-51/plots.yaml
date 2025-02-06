@@ -1,10 +1,10 @@
 plots:
-- var: gtc
+- var: nrb
   time_dim: "date"
   isel:
     date: 0
     polarization: 0
-  coarsen: {x: 50, y: 50}
+  coarsen: {x: 25, y: 25}
   plot_kwargs: {
     "vmax": 1,
     "vmin": 0,
