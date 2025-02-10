@@ -38,6 +38,16 @@ properties:
   - weather
   dc:accrual_periodicity: freq:monthly
   cube:dimensions:
+<<<<<<< HEAD
+=======
+    valid_time:
+      type: temporal
+      axis: t
+      extent:
+      - '1940-01-01T00:00:00Z'
+      - '2025-01-31T23:00:00Z'
+      step: PT1H
+>>>>>>> 9e31e8c (January update era5-land and era5-single-levels)
     latitude:
       type: spatial
       axis: y
@@ -54,13 +64,17 @@ properties:
       - 359.8
       reference_system: 4326
       step: 0.25
+<<<<<<< HEAD
     valid_time:
       type: temporal
       axis: t
       extent:
       - '1940-01-01T00:00:00Z'
-      - '2025-01-31T23:00:00Z'
+      - '2024-12-31T23:00:00Z'
+  dc:extent: 343.5 TB
+=======
   dc:extent: 343.8 TB
+>>>>>>> 9e31e8c (January update era5-land and era5-single-levels)
   cube:variables:
     alnid:
       dimensions:
