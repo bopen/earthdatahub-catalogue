@@ -71,5 +71,5 @@ steps:
     scheduler: synchronous
   to_zarr_kwargs:
     store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-sfc-v0-dev.zarr
-    # chunk_store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr
+    chunk_store: s3://edc-climate-dt/ScenarioMIP-SSP3-7.0-IFS-NEMO-0001-high-sfc-v0.zarr
     # write_empty_chunks: false
