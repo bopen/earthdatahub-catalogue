@@ -23,7 +23,7 @@ extent:
   temporal:
     interval:
     - - "1940-01-01T00:00:00Z"
-      - "2024-11-01T00:00:00Z"
+      - "2025-01-01T00:00:00Z"
 license: other
 keywords:
 - ERA5
