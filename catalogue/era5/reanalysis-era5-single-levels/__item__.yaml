@@ -25,9 +25,9 @@ properties:
   dc:abstract: Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric,
     ocean-wave and land surface quantities
   dc:title: ERA5 hourly data on single levels
-  datetime: '2025-01-31T23:00:00Z'
+  datetime: '2025-02-28T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
-  end_datetime: '2025-01-31T23:00:00Z'
+  end_datetime: '2025-02-28T23:00:00Z'
   dc:access_rights: unrestricted
   dc:subject:
   - ERA5
@@ -59,8 +59,8 @@ properties:
       axis: t
       extent:
       - '1940-01-01T00:00:00Z'
-      - '2025-01-31T23:00:00Z'
-  dc:extent: 343.8 TB
+      - '2025-02-28T23:00:00Z'
+  dc:extent: 421.6 TB
   cube:variables:
     alnid:
       dimensions:
@@ -950,3 +950,203 @@ properties:
       type: data
       description: Geopotential
       unit: m**2 s**-2
+    anor:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Angle of sub-gridscale orography
+      unit: radians
+    bld:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated boundary layer dissipation
+      unit: J m**-2
+    cape:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Convective available potential energy
+      unit: J kg**-1
+    chnk:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Charnock
+      unit: Numeric
+    cin:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Convective inhibition
+      unit: J kg**-1
+    dctb:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Duct base height
+      unit: m
+    dndza:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean vertical gradient of refractivity inside trapping layer
+      unit: m**-1
+    dndzn:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Minimum vertical gradient of refractivity inside trapping layer
+      unit: m**-1
+    ewss:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated eastward turbulent surface stress
+      unit: N m**-2 s
+    fal:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Forecast albedo
+      unit: (0 - 1)
+    fsr:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Forecast surface roughness
+      unit: m
+    gwd:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Gravity wave dissipation
+      unit: J m**-2
+    isor:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Anisotropy of sub-gridscale orography
+      unit: Numeric
+    kx:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: K index
+      unit: K
+    lgws:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Eastward gravity wave surface stress
+      unit: N m**-2 s
+    lsm:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Land-sea mask
+      unit: (0 - 1)
+    mgws:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Northward gravity wave surface stress
+      unit: N m**-2 s
+    nsss:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated northward turbulent surface stress
+      unit: N m**-2 s
+    sdfor:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Standard deviation of filtered subgrid orography (climatological)
+      unit: m
+    sdor:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Standard deviation of sub-gridscale orography
+      unit: m
+    siconc:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Sea ice area fraction
+      unit: (0 - 1)
+    slor:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Slope of sub-gridscale orography
+      unit: Numeric
+    src:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Skin reservoir content
+      unit: m of water equivalent
+    tco3:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Total column ozone
+      unit: kg m**-2
+    zust:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Friction velocity
+      unit: m s**-1

@@ -10,7 +10,7 @@ steps:
       download_format: unarchived
       dataset: reanalysis-era5-land
       area: [ '90', '0', '-57.1', '360' ]
-      date: [1950-01-01/2025-01-31]
+      date: [1950-01-01/2025-02-28]
       time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
       variable: [
         '2m_dewpoint_temperature',
@@ -21,7 +21,6 @@ steps:
         'soil_temperature_level_3',
         'soil_temperature_level_4',
         'lake_bottom_temperature',
-
         'lake_ice_depth',
         'lake_ice_temperature',
         'lake_mix_layer_depth',
@@ -67,10 +66,10 @@ steps:
       ]
     request_chunker_kwargs: {time_dim: valid_time}
     request_chunks: { day: 5 }
-    client_kwargs: { key: d9d3dcf2-52bc-4410-8224-8b7592777c34, url: https://cds.climate.copernicus.eu/api}
+    client_kwargs: { key: c3fc6d28-1fc3-4004-aa93-efb0b22f0cf2, url: https://cds.climate.copernicus.eu/api}
 
   chunks: {latitude: 64, longitude: 64, valid_time: 2880}
-  robust_to_zarr_kwargs: { restart_dim: valid_time, restart_block_size: 3, retries: 3 }
+  robust_to_zarr_kwargs: { restart_dim: valid_time, restart_block_size: 1, retries: 3 }
   to_zarr_kwargs: {
     store: s3://edc-era5/reanalysis-era5-land-no-antartica-v0-dev.zarr,
     chunk_store: s3://edc-era5/reanalysis-era5-land-no-antartica-v0.zarr
