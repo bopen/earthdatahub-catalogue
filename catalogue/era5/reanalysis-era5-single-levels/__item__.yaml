@@ -25,9 +25,9 @@ properties:
   dc:abstract: Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric,
     ocean-wave and land surface quantities
   dc:title: ERA5 hourly data on single levels
-  datetime: '2025-01-31T23:00:00Z'
+  datetime: '2025-02-28T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
-  end_datetime: '2025-01-31T23:00:00Z'
+  end_datetime: '2025-02-28T23:00:00Z'
   dc:access_rights: unrestricted
   dc:subject:
   - ERA5
@@ -59,8 +59,8 @@ properties:
       axis: t
       extent:
       - '1940-01-01T00:00:00Z'
-      - '2025-01-31T23:00:00Z'
-  dc:extent: 343.8 TB
+      - '2025-02-28T23:00:00Z'
+  dc:extent: 421.6 TB
   cube:variables:
     alnid:
       dimensions:
@@ -94,6 +94,14 @@ properties:
       type: data
       description: UV visible albedo for direct radiation (climatological)
       unit: (0 - 1)
+    anor:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Angle of sub-gridscale orography
+      unit: radians
     asn:
       dimensions:
       - valid_time
@@ -102,6 +110,14 @@ properties:
       type: data
       description: Snow albedo
       unit: (0 - 1)
+    bld:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated boundary layer dissipation
+      unit: J m**-2
     blh:
       dimensions:
       - valid_time
@@ -110,6 +126,14 @@ properties:
       type: data
       description: Boundary layer height
       unit: m
+    cape:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Convective available potential energy
+      unit: J kg**-1
     cdir:
       dimensions:
       - valid_time
@@ -118,6 +142,22 @@ properties:
       type: data
       description: Surface direct short-wave radiation, clear sky
       unit: J m**-2
+    chnk:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Charnock
+      unit: Numeric
+    cin:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Convective inhibition
+      unit: J kg**-1
     cl:
       dimensions:
       - valid_time
@@ -182,6 +222,14 @@ properties:
       type: data
       description: 2 metre dewpoint temperature
       unit: K
+    dctb:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Duct base height
+      unit: m
     dl:
       dimensions:
       - valid_time
@@ -190,6 +238,22 @@ properties:
       type: data
       description: Lake total depth
       unit: m
+    dndza:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean vertical gradient of refractivity inside trapping layer
+      unit: m**-1
+    dndzn:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Minimum vertical gradient of refractivity inside trapping layer
+      unit: m**-1
     e:
       dimensions:
       - valid_time
@@ -206,6 +270,22 @@ properties:
       type: data
       description: Snow evaporation
       unit: m of water equivalent
+    ewss:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated eastward turbulent surface stress
+      unit: N m**-2 s
+    fal:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Forecast albedo
+      unit: (0 - 1)
     fdir:
       dimensions:
       - valid_time
@@ -222,6 +302,22 @@ properties:
       type: data
       description: Forecast logarithm of surface roughness for heat
       unit: Numeric
+    fsr:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Forecast surface roughness
+      unit: m
+    gwd:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Gravity wave dissipation
+      unit: J m**-2
     hcc:
       dimensions:
       - valid_time
@@ -270,6 +366,14 @@ properties:
       type: data
       description: Instantaneous surface sensible heat flux
       unit: W m**-2
+    isor:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Anisotropy of sub-gridscale orography
+      unit: Numeric
     istl1:
       dimensions:
       - valid_time
@@ -301,6 +405,14 @@ properties:
       - longitude
       type: data
       description: Ice temperature layer 4
+      unit: K
+    kx:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: K index
       unit: K
     lai_hv:
       dimensions:
@@ -334,6 +446,14 @@ properties:
       type: data
       description: Low cloud cover
       unit: (0 - 1)
+    lgws:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Eastward gravity wave surface stress
+      unit: N m**-2 s
     licd:
       dimensions:
       - valid_time
@@ -382,6 +502,14 @@ properties:
       type: data
       description: Lake shape factor
       unit: dimensionless
+    lsm:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Land-sea mask
+      unit: (0 - 1)
     lsp:
       dimensions:
       - valid_time
@@ -430,6 +558,14 @@ properties:
       type: data
       description: Medium cloud cover
       unit: (0 - 1)
+    mgws:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Northward gravity wave surface stress
+      unit: N m**-2 s
     mn2t:
       dimensions:
       - valid_time
@@ -470,6 +606,14 @@ properties:
       type: data
       description: Maximum total precipitation rate since previous post-processing
       unit: kg m**-2 s**-1
+    nsss:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Time-integrated northward turbulent surface stress
+      unit: N m**-2 s
     pev:
       dimensions:
       - valid_time
@@ -510,6 +654,22 @@ properties:
       type: data
       description: Snow depth
       unit: m of water equivalent
+    sdfor:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Standard deviation of filtered subgrid orography (climatological)
+      unit: m
+    sdor:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Standard deviation of sub-gridscale orography
+      unit: m
     sf:
       dimensions:
       - valid_time
@@ -518,6 +678,14 @@ properties:
       type: data
       description: Snowfall
       unit: m of water equivalent
+    siconc:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Sea ice area fraction
+      unit: (0 - 1)
     skt:
       dimensions:
       - valid_time
@@ -534,6 +702,14 @@ properties:
       type: data
       description: Surface latent heat flux
       unit: J m**-2
+    slor:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Slope of sub-gridscale orography
+      unit: Numeric
     slt:
       dimensions:
       - valid_time
@@ -558,6 +734,14 @@ properties:
       type: data
       description: Surface pressure
       unit: Pa
+    src:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Skin reservoir content
+      unit: m of water equivalent
     sro:
       dimensions:
       - valid_time
@@ -749,6 +933,14 @@ properties:
       - longitude
       type: data
       description: Total column cloud liquid water
+      unit: kg m**-2
+    tco3:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Total column ozone
       unit: kg m**-2
     tcrw:
       dimensions:
@@ -950,3 +1142,11 @@ properties:
       type: data
       description: Geopotential
       unit: m**2 s**-2
+    zust:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Friction velocity
+      unit: m s**-1
