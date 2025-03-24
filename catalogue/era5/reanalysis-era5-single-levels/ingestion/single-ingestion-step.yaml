@@ -8,14 +8,13 @@ steps:
     filename_or_obj:
       area: ['90', '0', '-90', '360']
       dataset: reanalysis-era5-single-levels
-      date: [1940-01-01/2025-01-31]
+      date: [1940-01-01/2025-02-28]
       time: [ '00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00' ]
       product_type: reanalysis
       variable: [
         'boundary_layer_height',
         'total_precipitation',
         'geopotential',
-
         '2m_dewpoint_temperature',
         '2m_temperature',
         'mean_sea_level_pressure',
@@ -24,7 +23,6 @@ steps:
         'maximum_2m_temperature_since_previous_post_processing',
         'minimum_2m_temperature_since_previous_post_processing',
         'skin_temperature',
-
         'clear_sky_direct_solar_radiation_at_surface',
         'downward_uv_radiation_at_the_surface',
         'forecast_logarithm_of_surface_roughness_for_heat',
@@ -49,10 +47,8 @@ steps:
         'total_sky_direct_solar_radiation_at_surface',
         'uv_visible_albedo_for_diffuse_radiation',
         'uv_visible_albedo_for_direct_radiation',
-
         '10m_u_component_of_wind',
         '10m_v_component_of_wind',
-
         'high_cloud_cover',
         'low_cloud_cover',
         'medium_cloud_cover',
@@ -65,7 +61,6 @@ steps:
         'vertical_integral_of_eastward_cloud_liquid_water_flux',
         'vertical_integral_of_northward_cloud_frozen_water_flux',
         'vertical_integral_of_northward_cloud_liquid_water_flux',
-
         "lake_bottom_temperature",
         "lake_cover",
         "lake_depth",
@@ -75,7 +70,6 @@ steps:
         "lake_mix_layer_temperature",
         "lake_shape_factor",
         "lake_total_layer_temperature",
-
         "convective_precipitation",
         "convective_rain_rate",
         "instantaneous_large_scale_surface_precipitation_fraction",
@@ -86,13 +80,11 @@ steps:
         "minimum_total_precipitation_rate_since_previous_post_processing",
         "precipitation_type",
         "total_column_rain_water",
-
         "evaporation",
         "potential_evaporation",
         "runoff",
         "sub_surface_runoff",
         "surface_runoff",
-
         "instantaneous_northward_turbulent_surface_stress",
         "instantaneous_moisture_flux",
         'ice_temperature_layer_1',
@@ -103,7 +95,6 @@ steps:
         '10m_v_component_of_neutral_wind',
         '100m_u_component_of_wind',
         '100m_v_component_of_wind',
-
         "convective_snowfall",
         "convective_snowfall_rate_water_equivalent",
         "large_scale_snowfall_rate_water_equivalent",
@@ -116,7 +107,6 @@ steps:
         "snowmelt",
         "temperature_of_snow_layer",
         "total_column_snow_water",
-
         "soil_temperature_level_1",
         "soil_temperature_level_2",
         "soil_temperature_level_3",
@@ -126,22 +116,21 @@ steps:
         "volumetric_soil_water_layer_2",
         "volumetric_soil_water_layer_3",
         "volumetric_soil_water_layer_4",
-
         "high_vegetation_cover",
         "leaf_area_index_high_vegetation",
         "leaf_area_index_low_vegetation",
         "low_vegetation_cover",
         "type_of_high_vegetation",
         "type_of_low_vegetation",
-
         "instantaneous_eastward_turbulent_surface_stress",
 
         "charnock",
         "angle_of_sub_gridscale_orography",
+        "convective_available_potential_energy",
         "anisotropy_of_sub_gridscale_orography",
         "boundary_layer_dissipation",
-        "convective_available_potential_energy",
         "convective_inhibition",
+
         "duct_base_height",
         "eastward_gravity_wave_surface_stress",
         "eastward_turbulent_surface_stress",
@@ -164,12 +153,12 @@ steps:
       ]
     request_chunker_kwargs: { time_dim: valid_time }
     request_chunks: { day: 20 }
-    client_kwargs: { key: 93062765-e3e9-4e44-9a21-a901c5b0a6f1, url: https://cds.climate.copernicus.eu/api }
+    client_kwargs: { key: de78b923-87ee-4bbe-9400-60d7e864208e, url: https://cds.climate.copernicus.eu/api }
 
   open_dataset_name: open_dataset_fix_era5_single_levels_names
   chunks: {latitude: 64, longitude: 64, valid_time: 4320}
 
-  robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 18, retries: 3}
+  robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 1, retries: 3}
   to_zarr_kwargs: {
     store: s3://edc-era5/reanalysis-era5-single-levels-v0-dev.zarr,
     chunk_store: s3://edc-era5/reanalysis-era5-single-levels-v0.zarr,

@@ -26,7 +26,9 @@ properties:
     ocean-wave and land surface quantities
   dc:title: ERA5 hourly data on single levels
   datetime: '2025-02-28T23:00:00Z'
+  datetime: '2025-02-28T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
+  end_datetime: '2025-02-28T23:00:00Z'
   end_datetime: '2025-02-28T23:00:00Z'
   dc:access_rights: unrestricted
   dc:subject:
