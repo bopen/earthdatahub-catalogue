@@ -19,9 +19,9 @@ steps:
         "ocean_surface_stress_equivalent_10m_neutral_wind_direction",
         "ocean_surface_stress_equivalent_10m_neutral_wind_speed",
         "peak_wave_period",
-
         "air_density_over_the_oceans",
         "coefficient_of_drag_with_waves",
+
         "free_convective_velocity_over_the_oceans",
         "maximum_individual_wave_height",
         "mean_direction_of_total_swell",
@@ -33,29 +33,29 @@ steps:
         "mean_wave_direction_of_second_swell_partition",
         "mean_wave_direction_of_third_swell_partition",
         "mean_wave_period_based_on_first_moment",
-        "mean_wave_period_based_on_first_moment_for_swell",
-        "mean_wave_period_based_on_first_moment_for_wind_waves",
-        "mean_wave_period_based_on_second_moment_for_swell",
-        "mean_wave_period_based_on_second_moment_for_wind_waves",
-        "mean_wave_period_of_first_swell_partition",
-        "mean_wave_period_of_second_swell_partition",
-        "mean_wave_period_of_third_swell_partition",
-        "model_bathymetry",
-        "normalized_energy_flux_into_ocean",
-        "normalized_energy_flux_into_waves",
-        "normalized_stress_into_ocean",
-        "period_corresponding_to_maximum_individual_wave_height",
-        "significant_height_of_total_swell",
-        "significant_height_of_wind_waves",
-        "significant_wave_height_of_first_swell_partition",
-        "significant_wave_height_of_second_swell_partition",
-        "significant_wave_height_of_third_swell_partition",
-        "wave_spectral_directional_width",
-        "wave_spectral_directional_width_for_swell",
-        "wave_spectral_directional_width_for_wind_waves",
-        "wave_spectral_kurtosis",
-        "wave_spectral_peakedness",
-        "wave_spectral_skewness"
+        #"mean_wave_period_based_on_first_moment_for_swell",
+        #"mean_wave_period_based_on_first_moment_for_wind_waves",
+        #"mean_wave_period_based_on_second_moment_for_swell",
+        #"mean_wave_period_based_on_second_moment_for_wind_waves",
+        #"mean_wave_period_of_first_swell_partition",
+        #"mean_wave_period_of_second_swell_partition",
+        #"mean_wave_period_of_third_swell_partition",
+        #"model_bathymetry",
+        #"normalized_energy_flux_into_ocean",
+        #"normalized_energy_flux_into_waves",
+        #"normalized_stress_into_ocean",
+        #"period_corresponding_to_maximum_individual_wave_height",
+        #"significant_height_of_total_swell",
+        #"significant_height_of_wind_waves",
+        #"significant_wave_height_of_first_swell_partition",
+        #"significant_wave_height_of_second_swell_partition",
+        #"significant_wave_height_of_third_swell_partition",
+        #"wave_spectral_directional_width",
+        #"wave_spectral_directional_width_for_swell",
+        #"wave_spectral_directional_width_for_wind_waves",
+        #"wave_spectral_kurtosis",
+        #"wave_spectral_peakedness",
+        #"wave_spectral_skewness"
       ]
     request_chunker_kwargs: { time_dim: valid_time }
     request_chunks: { day: 20 }
@@ -66,6 +66,7 @@ steps:
 
   robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 1, retries: 3}
   to_zarr_kwargs: {
-    store: s3://edc-era5/reanalysis-era5-single-levels-ocean-v0-dev.zarr,
-    chunk_store: s3://edc-era5/reanalysis-era5-single-levels-ocean-v0.zarr,
+    store: s3://edc-era5/reanalysis-era5-single-levels-ocean-v0.zarr,
+    #store: s3://edc-era5/reanalysis-era5-single-levels-ocean-v0-dev.zarr,
+    #chunk_store: s3://edc-era5/reanalysis-era5-single-levels-ocean-v0.zarr,
   }

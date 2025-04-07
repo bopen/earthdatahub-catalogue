@@ -6,7 +6,7 @@ links:
 bbox:
 - 0.0
 - -90.0
-- 359.8
+- 359.5
 - 90.0
 assets:
   data:
@@ -23,10 +23,10 @@ search_weight: 80
 properties:
   edh:maturity: published
   dc:abstract: Subset of ERA5 reanalysis single-levels for ocean-wave quantities
-  dc:title: ERA5 hourly data on single levels - ocean-wave fields
-  datetime: '2025-02-28T23:00:00Z'
+  dc:title: ERA5 hourly data on single levels, ocean-wave fields
+  datetime: '2025-01-31T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
-  end_datetime: '2025-02-28T23:00:00Z'
+  end_datetime: '2025-01-31T23:00:00Z'
   dc:access_rights: unrestricted
   dc:subject:
   - ERA5
@@ -44,20 +44,92 @@ properties:
       - 90.0
       - -90.0
       reference_system: 4326
-      step: 0.5
+      step: 0.499
     longitude:
       type: spatial
       axis: x
       extent:
       - 0.0
-      - 359.8
+      - 359.5
       reference_system: 4326
-      step: 0.5
+      step: 0.499
     valid_time:
       type: temporal
       axis: t
       extent:
       - '1940-01-01T00:00:00Z'
-      - '2025-02-28T23:00:00Z'
-  dc:extent:
+      - '2025-01-31T23:00:00Z'
+  dc:extent: 7.0 TB
   cube:variables:
+    cdww:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Coefficient of drag with waves
+      unit: dimensionless
+    dwi:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre wind direction
+      unit: degrees
+    mp2:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean zero-crossing wave period
+      unit: s
+    mwd:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean wave direction
+      unit: Degree true
+    mwp:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean wave period
+      unit: s
+    pp1d:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Peak wave period
+      unit: s
+    rhoao:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Air density over the oceans
+      unit: kg m**-3
+    swh:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Significant height of combined wind waves and swell
+      unit: m
+    wind:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre wind speed
+      unit: m s**-1

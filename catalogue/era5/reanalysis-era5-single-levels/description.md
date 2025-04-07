@@ -15,8 +15,7 @@ so there is more time to collect observations, and when going further back in ti
 to allow for the ingestion of improved versions of the original observations,
 which all benefit the quality of the reanalysis product.
 
-ERA5 provides hourly estimates for a large number of atmospheric,
-ocean-wave and land-surface quantities. An uncertainty estimate is sampled by an underlying
+ERA5 provides hourly estimates for a large number of atmospheric and land-surface quantities. An uncertainty estimate is sampled by an underlying
 10-member ensemble at three-hourly intervals. Ensemble mean and spread have been pre-computed for convenience.
 Such uncertainty estimates are closely related to the information content of the available observing system
 which has evolved considerably over time. They also indicate flow-dependent sensitive areas.
@@ -24,6 +23,6 @@ Single levels variables are computed at one vertical level which can be surface 
 surface) or a dedicated pressure level in the atmosphere.--->
 
 
-Here we propose a subset of ERA5 data for world atmospheric, ocean-wave and land surface quantities called [ERA5 hourly data on single levels](https://doi.org/10.24381/cds.adbb2d47). The data are available from 1940 until the last closed month and updated monthly and are regridded to a regular lat-lon grid of 0.25 degrees.
+Here we propose a subset of ERA5 data for world atmospheric and land surface quantities called [ERA5 hourly data on single levels](https://doi.org/10.24381/cds.adbb2d47). The data are available from 1940 until the last closed month and updated monthly and are regridded to a regular lat-lon grid of 0.25 degrees.
 
 They are presented as a zarr archive optimised for time analysis.
