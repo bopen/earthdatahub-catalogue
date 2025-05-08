@@ -8,7 +8,7 @@ steps:
     filename_or_obj:
       area: ['90', '0', '-90', '360']
       dataset: reanalysis-era5-single-levels
-      date: [1940-01-01/2025-02-28]
+      date: [1940-01-01/2025-04-30]
       time: [ '00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00' ]
       product_type: reanalysis
       variable: [
@@ -123,33 +123,32 @@ steps:
         "type_of_high_vegetation",
         "type_of_low_vegetation",
         "instantaneous_eastward_turbulent_surface_stress",
-
         "charnock",
         "angle_of_sub_gridscale_orography",
         "convective_available_potential_energy",
         "anisotropy_of_sub_gridscale_orography",
         "boundary_layer_dissipation",
         "convective_inhibition",
-
         "duct_base_height",
         "eastward_gravity_wave_surface_stress",
         "eastward_turbulent_surface_stress",
         "forecast_albedo",
         "forecast_surface_roughness",
         "friction_velocity",
-        "gravity_wave_dissipation",
-        "k_index",
-        "land_sea_mask",
-        "mean_vertical_gradient_of_refractivity_inside_trapping_layer",
-        "minimum_vertical_gradient_of_refractivity_inside_trapping_layer",
-        "northward_gravity_wave_surface_stress",
-        "northward_turbulent_surface_stress",
-        "sea_ice_cover",
-        "skin_reservoir_content",
-        "slope_of_sub_gridscale_orography",
-        "standard_deviation_of_filtered_subgrid_orography",
-        "standard_deviation_of_orography",
-        "total_column_ozone",
+
+        #"gravity_wave_dissipation",
+        #"k_index",
+        #"land_sea_mask",
+        #"mean_vertical_gradient_of_refractivity_inside_trapping_layer",
+        #"minimum_vertical_gradient_of_refractivity_inside_trapping_layer",
+        #"northward_gravity_wave_surface_stress",
+        #"northward_turbulent_surface_stress",
+        #"sea_ice_cover",
+        #"skin_reservoir_content",
+        #"slope_of_sub_gridscale_orography",
+        #"standard_deviation_of_filtered_subgrid_orography",
+        #"standard_deviation_of_orography",
+        #"total_column_ozone",
       ]
     request_chunker_kwargs: { time_dim: valid_time }
     request_chunks: { day: 20 }
