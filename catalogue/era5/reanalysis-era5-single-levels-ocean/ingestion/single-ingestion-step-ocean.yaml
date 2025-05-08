@@ -41,21 +41,21 @@ steps:
         "mean_wave_period_of_third_swell_partition",
         "model_bathymetry",
 
-        #"normalized_energy_flux_into_ocean",
-        #"normalized_energy_flux_into_waves",
-        #"normalized_stress_into_ocean",
-        #"period_corresponding_to_maximum_individual_wave_height",
-        #"significant_height_of_total_swell",
-        #"significant_height_of_wind_waves",
-        #"significant_wave_height_of_first_swell_partition",
-        #"significant_wave_height_of_second_swell_partition",
-        #"significant_wave_height_of_third_swell_partition",
-        #"wave_spectral_directional_width",
-        #"wave_spectral_directional_width_for_swell",
-        #"wave_spectral_directional_width_for_wind_waves",
-        #"wave_spectral_kurtosis",
-        #"wave_spectral_peakedness",
-        #"wave_spectral_skewness"
+        "normalized_energy_flux_into_ocean",
+        "normalized_energy_flux_into_waves",
+        "normalized_stress_into_ocean",
+        "period_corresponding_to_maximum_individual_wave_height",
+        "significant_height_of_total_swell",
+        "significant_height_of_wind_waves",
+        "significant_wave_height_of_first_swell_partition",
+        "significant_wave_height_of_second_swell_partition",
+        "significant_wave_height_of_third_swell_partition",
+        "wave_spectral_directional_width",
+        "wave_spectral_directional_width_for_swell",
+        "wave_spectral_directional_width_for_wind_waves",
+        "wave_spectral_kurtosis",
+        "wave_spectral_peakedness",
+        "wave_spectral_skewness"
       ]
     request_chunker_kwargs: { time_dim: valid_time }
     request_chunks: { day: 20 }
