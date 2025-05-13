@@ -24,9 +24,9 @@ properties:
   edh:maturity: published
   dc:abstract: Subset of ERA5 reanalysis single-levels for ocean-wave quantities
   dc:title: ERA5 hourly data on single levels, ocean-wave fields
-  datetime: '2025-01-31T23:00:00Z'
+  datetime: '2025-04-30T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
-  end_datetime: '2025-01-31T23:00:00Z'
+  end_datetime: '2025-04-30T23:00:00Z'
   dc:access_rights: unrestricted
   dc:subject:
   - ERA5
@@ -58,8 +58,8 @@ properties:
       axis: t
       extent:
       - '1940-01-01T00:00:00Z'
-      - '2025-01-31T23:00:00Z'
-  dc:extent: 7.0 TB
+      - '2025-04-30T23:00:00Z'
+  dc:extent: 24.1 TB
   cube:variables:
     cdww:
       dimensions:
@@ -132,4 +132,180 @@ properties:
       - longitude
       type: data
       description: 10 metre wind speed
+      unit: m s**-1
+    hmax:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Envelop-maximum individual wave height
+      unit: m
+    mdts:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean direction of total swell
+      unit: degrees
+    mdww:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean direction of wind waves
+      unit: degrees
+    mp1:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean wave period based on first moment
+      unit: s
+    mpts:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean period of total swell
+      unit: s
+    mpww:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean period of wind waves
+      unit: s
+    msqs:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean square slope of waves
+      unit: dimensionless
+    mwd1:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean wave direction of first swell partition
+      unit: degrees
+    mwd2:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean wave direction of second swell partition
+      unit: degrees
+    mwd3:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean wave direction of third swell partition
+      unit: degrees
+    mwp1:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean wave period of first swell partition
+      unit: s
+    mwp2:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean wave period of second swell partition
+      unit: s
+    mwp3:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean wave period of third swell partition
+      unit: s
+    p1ps:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean wave period based on first moment for swell
+      unit: s
+    p1ww:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean wave period based on first moment for wind waves
+      unit: s
+    p2ps:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean wave period based on second moment for swell
+      unit: s
+    p2ww:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Mean wave period based on second moment for wind waves
+      unit: s
+    phiaw:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Normalized energy flux into waves
+      unit: Numeric
+    phioc:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Normalized energy flux into ocean
+      unit: Numeric
+    tauoc:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Normalized stress into ocean
+      unit: Numeric
+    wmb:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Model bathymetry
+      unit: m
+    wstar:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Free convective velocity over the oceans
       unit: m s**-1

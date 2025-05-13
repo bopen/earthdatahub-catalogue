@@ -40,10 +40,10 @@ steps:
         "mean_wave_period_of_second_swell_partition",
         "mean_wave_period_of_third_swell_partition",
         "model_bathymetry",
-
         "normalized_energy_flux_into_ocean",
         "normalized_energy_flux_into_waves",
         "normalized_stress_into_ocean",
+
         "period_corresponding_to_maximum_individual_wave_height",
         "significant_height_of_total_swell",
         "significant_height_of_wind_waves",
@@ -61,7 +61,6 @@ steps:
     request_chunks: { day: 20 }
     client_kwargs: { key: a398dae5-7bda-461f-9ac9-85e96cbeb628, url: https://cds.climate.copernicus.eu/api }
 
-  #open_dataset_name: open_dataset_fix_era5_single_levels_names
   chunks: {latitude: 64, longitude: 64, valid_time: 4320}
 
   robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 1, retries: 3}
