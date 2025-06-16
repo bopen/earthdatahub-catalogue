@@ -24,9 +24,9 @@ properties:
   edh:maturity: published
   dc:abstract: Subset of ERA5 reanalysis single-levels for ocean-wave quantities
   dc:title: ERA5 hourly data on single levels, ocean-wave fields
-  datetime: '2025-04-30T23:00:00Z'
+  datetime: '2025-05-31T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
-  end_datetime: '2025-04-30T23:00:00Z'
+  end_datetime: '2025-05-31T23:00:00Z'
   dc:access_rights: unrestricted
   dc:subject:
   - ERA5
@@ -58,8 +58,8 @@ properties:
       axis: t
       extent:
       - '1940-01-01T00:00:00Z'
-      - '2025-04-30T23:00:00Z'
-  dc:extent: 24.1 TB
+      - '2025-05-31T23:00:00Z'
+  dc:extent: 33.5 TB
   cube:variables:
     cdww:
       dimensions:
@@ -309,3 +309,99 @@ properties:
       type: data
       description: Free convective velocity over the oceans
       unit: m s**-1
+    dwps:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Wave spectral directional width for swell
+      unit: radians
+    dwww:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Wave spectral directional width for wind waves
+      unit: radians
+    shts:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Significant height of total swell
+      unit: m
+    shww:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Significant height of wind waves
+      unit: m
+    swh1:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Significant wave height of first swell partition
+      unit: m
+    swh2:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Significant wave height of second swell partition
+      unit: m
+    swh3:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Significant wave height of third swell partition
+      unit: m
+    tmax:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Period corresponding to maximum individual wave height
+      unit: s
+    wdw:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Wave spectral directional width
+      unit: radians
+    wsk:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Wave spectral kurtosis
+      unit: dimensionless
+    wsp:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Wave spectral peakedness
+      unit: dimensionless
+    wss:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Wave Spectral Skewness
+      unit: Numeric
