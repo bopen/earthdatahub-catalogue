@@ -11,7 +11,7 @@ links:
   type: text/html
 - title: Licence to use Copernicus products
   rel: license
-  href: https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf
+  href: https://cds.climate.copernicus.eu/licences/licence-to-use-copernicus-products
   type: application/pdf
 extent:
   spatial:
