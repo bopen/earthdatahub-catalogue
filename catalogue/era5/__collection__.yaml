@@ -9,9 +9,9 @@ links:
   rel: derived_from
   href: https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation
   type: text/html
-- title: Licence to use Copernicus products
+- title: CC-BY licence
   rel: license
-  href: https://cds.climate.copernicus.eu/licences/licence-to-use-copernicus-products
+  href: https://creativecommons.org/licenses/by/4.0/legalcode
   type: application/pdf
 extent:
   spatial:
