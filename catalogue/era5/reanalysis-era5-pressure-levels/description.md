@@ -23,7 +23,6 @@ which has evolved considerably over time. They also indicate flow-dependent sens
 Single levels variables are computed at one vertical level which can be surface (or a level close to the
 surface) or a dedicated pressure level in the atmosphere.--->
 
-
 Here we propose a subset of ERA5 data for world atmospheric, ocean-wave and land surface quantities called [ERA5 hourly data on pressure levels](https://doi.org/10.24381/cds.bd0915c6). The data are available from 1940 until the last closed month and updated monthly and are regridded to a regular lat-lon grid of 0.25 degrees.
 
-They are presented as a zarr archive.
+They are presented as a NetCDF / Zarr archive.
