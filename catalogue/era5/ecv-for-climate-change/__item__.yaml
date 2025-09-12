@@ -22,9 +22,9 @@ assets:
         trust_env: true
 search_weight: 90
 properties:
-  datetime: '2025-06-01T00:00:00Z'
+  datetime: '2025-08-01T00:00:00Z'
   start_datetime: '1979-01-01T00:00:00Z'
-  end_datetime: '2025-06-01T00:00:00Z'
+  end_datetime: '2025-08-01T00:00:00Z'
   edh:maturity: published
   dc:abstract: The Essential Climate Variables from 1979 to present dataset contains
     a selection of climatologies, monthly anomalies and monthly mean fields for monitoring
@@ -44,7 +44,7 @@ properties:
       axis: t
       extent:
       - '1979-01-01T00:00:00Z'
-      - '2025-06-01T00:00:00Z'
+      - '2025-08-01T00:00:00Z'
       step: P1M
     latitude:
       type: spatial

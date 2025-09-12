@@ -25,9 +25,15 @@ properties:
   dc:abstract: Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric
     and land surface quantities
   dc:title: ERA5 hourly data on single levels
+<<<<<<< HEAD
   datetime: '2025-07-31T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
   end_datetime: '2025-07-31T23:00:00Z'
+=======
+  datetime: '2025-08-31T23:00:00Z'
+  start_datetime: '1940-01-01T00:00:00Z'
+  end_datetime: '2025-08-31T23:00:00Z'
+>>>>>>> prod
   dc:access_rights: unrestricted
   dc:subject:
   - ERA5
@@ -59,8 +65,13 @@ properties:
       axis: t
       extent:
       - '1940-01-01T00:00:00Z'
+<<<<<<< HEAD
       - '2025-07-31T23:00:00Z'
   dc:extent: 423.7 TB
+=======
+      - '2025-08-31T23:00:00Z'
+  dc:extent: 399.2 TB
+>>>>>>> prod
   cube:variables:
     alnid:
       dimensions:
@@ -349,7 +360,7 @@ properties:
       - longitude
       type: data
       description: Instantaneous large-scale surface precipitation fraction
-      unit: (0 - 1)
+      unit: Proportion
     inss:
       dimensions:
       - valid_time
@@ -558,14 +569,6 @@ properties:
       type: data
       description: Medium cloud cover
       unit: (0 - 1)
-    mgws:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Northward gravity wave surface stress
-      unit: N m**-2 s
     mn2t:
       dimensions:
       - valid_time
@@ -606,14 +609,6 @@ properties:
       type: data
       description: Maximum total precipitation rate since previous post-processing
       unit: kg m**-2 s**-1
-    nsss:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Time-integrated northward turbulent surface stress
-      unit: N m**-2 s
     pev:
       dimensions:
       - valid_time
@@ -654,22 +649,6 @@ properties:
       type: data
       description: Snow depth
       unit: m of water equivalent
-    sdfor:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Standard deviation of filtered subgrid orography (climatological)
-      unit: m
-    sdor:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Standard deviation of sub-gridscale orography
-      unit: m
     sf:
       dimensions:
       - valid_time
@@ -678,14 +657,6 @@ properties:
       type: data
       description: Snowfall
       unit: m of water equivalent
-    siconc:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Sea ice area fraction
-      unit: (0 - 1)
     skt:
       dimensions:
       - valid_time
@@ -702,14 +673,6 @@ properties:
       type: data
       description: Surface latent heat flux
       unit: J m**-2
-    slor:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Slope of sub-gridscale orography
-      unit: Numeric
     slt:
       dimensions:
       - valid_time
@@ -734,14 +697,6 @@ properties:
       type: data
       description: Surface pressure
       unit: Pa
-    src:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Skin reservoir content
-      unit: m of water equivalent
     sro:
       dimensions:
       - valid_time
@@ -933,14 +888,6 @@ properties:
       - longitude
       type: data
       description: Total column cloud liquid water
-      unit: kg m**-2
-    tco3:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Total column ozone
       unit: kg m**-2
     tcrw:
       dimensions:

@@ -25,9 +25,15 @@ properties:
   dc:abstract: Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric,
     ocean-wave and land surface quantities
   dc:title: ERA5 hourly data on pressure levels
+<<<<<<< HEAD
   datetime: '2025-07-31T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
   end_datetime: '2025-07-31T23:00:00Z'
+=======
+  datetime: '2025-08-31T23:00:00Z'
+  start_datetime: '1940-01-01T00:00:00Z'
+  end_datetime: '2025-08-31T23:00:00Z'
+>>>>>>> prod
   dc:access_rights: unrestricted
   dc:subject:
   - ERA5
@@ -42,7 +48,11 @@ properties:
       type: temporal
       extent:
       - '1940-01-01T00:00:00Z'
+<<<<<<< HEAD
       - '2025-07-31T23:00:00Z'
+=======
+      - '2025-08-31T23:00:00Z'
+>>>>>>> prod
       step: PT1H
       axis: t
     latitude:
@@ -61,7 +71,11 @@ properties:
       - 359.8
       reference_system: 4326
       step: 0.25
+<<<<<<< HEAD
   dc:extent: 947.1 TB
+=======
+  dc:extent: 948.1 TB
+>>>>>>> prod
   cube:variables:
     cc:
       dimensions:
