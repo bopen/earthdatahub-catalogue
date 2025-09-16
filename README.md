@@ -1,6 +1,6 @@
 # Earth Data Hub Catalogue
 
-Catalogue for the [Earth Data Hub][1] project within the EU [Destin Earth][2] initiative. This catalogue is aimed at producing a [STAC API][3] implementation and defines a simplified version of the [STAC][4] specification as a schema for its objects, written as [JSONSchema][5] in the `schema/` folder.
+Catalogue for the [Earth Data Hub][1] project within the EU [Destination Earth][2] initiative. This catalogue is aimed at producing a [STAC API][3] implementation and defines a simplified version of the [STAC][4] specification as a schema for its objects, written as [JSONSchema][5] in the `schema/` folder.
 
 ## Assumptions
 
@@ -23,7 +23,7 @@ The STAC extensions adopted in the catalogue are listed below:
 - [Datacube](https://github.com/stac-extensions/datacube)
 - [xarray Assets](https://github.com/stac-extensions/xarray-assets)
 
-[1]: https://earthdatahub.com/
+[1]: https://earthdatahub.destine.eu/
 [2]: https://destination-earth.eu/
 [3]: https://github.com/radiantearth/stac-api-spec
 [4]: https://github.com/radiantearth/stac-spec
