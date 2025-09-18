@@ -23,7 +23,7 @@ search_weight: 80
 properties:
   edh:maturity: published
   dc:abstract: Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric
-    and land surface quantities
+    and land surface quantities. The dataset is provided in a ARCO Zarr format ideal for time series analysis
   dc:title: ERA5 hourly data on single levels
 <<<<<<< HEAD
   datetime: '2025-07-31T23:00:00Z'

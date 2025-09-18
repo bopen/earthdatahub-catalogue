@@ -26,9 +26,8 @@ properties:
   start_datetime: '1979-01-01T00:00:00Z'
   end_datetime: '2025-08-01T00:00:00Z'
   edh:maturity: published
-  dc:abstract: The Essential Climate Variables from 1979 to present dataset contains
-    a selection of climatologies, monthly anomalies and monthly mean fields for monitoring
-    and assessment of climate variability and change
+  dc:abstract: The Essential Climate Variables contains
+    a selection of climatologies, monthly anomalies and monthly mean fields. The dataset is provided in a ARCO Zarr format ideal for time series analysis
   dc:access_rights: unrestricted
   dc:title: Essential climate variables from 1979 to present
   dc:subject:

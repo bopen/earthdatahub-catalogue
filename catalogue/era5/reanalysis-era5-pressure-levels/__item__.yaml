@@ -23,7 +23,7 @@ search_weight: 70
 properties:
   edh:maturity: published
   dc:abstract: Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric,
-    ocean-wave and land surface quantities
+    ocean-wave and land surface quantities. The dataset is provided in a ARCO Zarr format ideal for time series analysis
   dc:title: ERA5 hourly data on pressure levels
 <<<<<<< HEAD
   datetime: '2025-07-31T23:00:00Z'
