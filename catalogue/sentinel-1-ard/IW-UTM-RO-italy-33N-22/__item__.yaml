@@ -17,7 +17,8 @@ properties:
     products for relative orbit 22 on UTM 33N
   dc:access_rights: unrestricted
   dc:title: Sentinel-1 ARD for relative orbit 22 on UTM 33N
-  dc:description: Sentinel-1 ARD for relative orbit 22 on UTM 33N
+  dc:description: Sentinel-1 ARD for relative orbit 22 on UTM 33N.
+    The dataset is formatted as a NetCDF / Zarr archive optimised for time analysis.
   dc:subject:
   - Copernicus
   - Sentinel-1

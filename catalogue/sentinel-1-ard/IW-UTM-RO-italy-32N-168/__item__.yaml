@@ -17,7 +17,8 @@ properties:
     products for relative orbit 168 on UTM 32N
   dc:access_rights: unrestricted
   dc:title: Sentinel-1 ARD for relative orbit 168 on UTM 32N
-  dc:description: Sentinel-1 ARD for relative orbit 168 on UTM 32N
+  dc:description: Sentinel-1 ARD for relative orbit 168 on UTM 32N.
+    The dataset is formatted as a NetCDF / Zarr archive optimised for time analysis.
   dc:subject:
   - Copernicus
   - Sentinel-1
