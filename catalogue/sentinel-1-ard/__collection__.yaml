@@ -3,7 +3,7 @@ dc:abstract:
   The Sentinel-1 Radiometrically Terrain Corrected (RTC) data 
   are Analisys Ready Data (ARD) derived from the Ground Range Detected (GRD) Level-1 
   products produced by the European Space Agency.
-edh:maturity: draft
+edh:maturity: published
 links:
 - title: Sentinel-1 ARD
   rel: derived_from
