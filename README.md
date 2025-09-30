@@ -23,7 +23,7 @@ The STAC extensions adopted in the catalogue are listed below:
 - [Datacube](https://github.com/stac-extensions/datacube)
 - [xarray Assets](https://github.com/stac-extensions/xarray-assets)
 
-[1]: https://earthdatahub.com/
+[1]: https://earthdatahub.destine.eu/
 [2]: https://destination-earth.eu/
 [3]: https://github.com/radiantearth/stac-api-spec
 [4]: https://github.com/radiantearth/stac-spec
