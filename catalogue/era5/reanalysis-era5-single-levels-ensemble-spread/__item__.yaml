@@ -6,7 +6,7 @@ links:
 bbox:
 - 0.0
 - -90.0
-- 359.8
+- 359.5
 - 90.0
 assets:
   data:
@@ -22,11 +22,12 @@ assets:
 search_weight: 80
 properties:
   edh:maturity: draft
-  dc:abstract: Subset of ERA5 single-levels ensemble spreads. The dataset is provided in a ARCO Zarr format ideal for time series analysis
+  dc:abstract: Subset of ERA5 single-levels ensemble spreads. The dataset is provided
+    in a ARCO Zarr format ideal for time series analysis
   dc:title: Ensemble spread of ERA5 hourly data on single levels
-  datetime: '2025-09-30T23:00:00Z'
+  datetime: '2025-09-30T21:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
-  end_datetime: '2025-09-30T23:00:00Z'
+  end_datetime: '2025-09-30T21:00:00Z'
   dc:access_rights: unrestricted
   dc:subject:
   - ERA5
@@ -45,20 +46,116 @@ properties:
       - 90.0
       - -90.0
       reference_system: 4326
-      step: 0.25
+      step: 0.499
     longitude:
       type: spatial
       axis: x
       extent:
       - 0.0
-      - 359.8
+      - 359.5
       reference_system: 4326
-      step: 0.25
+      step: 0.499
     valid_time:
       type: temporal
       axis: t
       extent:
       - '1940-01-01T00:00:00Z'
-      - '2025-09-30T23:00:00Z'
-  dc:extent: 399.6 TB
+      - '2025-09-30T21:00:00Z'
+  dc:extent: 3.1 TB
   cube:variables:
+    d2m:
+      dimensions:
+      - valid_time
+      - longitude
+      - latitude
+      type: data
+      description: 2 metre dewpoint temperature
+      unit: K
+    sp:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface pressure
+      unit: Pa
+    sst:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Sea surface temperature
+      unit: K
+    t2m:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre temperature
+      unit: K
+    tp:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Total precipitation
+      unit: m
+    u10:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre U wind component
+      unit: m s**-1
+    u100:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 100 metre U wind component
+      unit: m s**-1
+    u10n:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre u-component of neutral wind
+      unit: m s**-1
+    v10:
+      dimensions:
+      - valid_time
+      - longitude
+      - latitude
+      type: data
+      description: 10 metre V wind component
+      unit: m s**-1
+    v100:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 100 metre V wind component
+      unit: m s**-1
+    v10n:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre v-component of neutral wind
+      unit: m s**-1
+    z:
+      dimensions:
+      - valid_time
+      - longitude
+      - latitude
+      type: data
+      description: Geopotential
+      unit: m**2 s**-2
