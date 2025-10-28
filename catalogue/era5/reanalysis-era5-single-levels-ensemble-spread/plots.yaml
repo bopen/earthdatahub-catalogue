@@ -1,10 +1,10 @@
 plots:
-- var: "tp"
+- var: "t2m"
   time_dim: "valid_time"
-  sel: {"valid_time": "1972-07-03"}
-  coarsen: {"valid_time": 24}
+  sel: {"valid_time": "1940-01-01"}
+  coarsen: {"valid_time": 8}
   plot_kwargs: {
-    'vmax': 0.002,
+    'vmax': 7,
     'vmin': 0,
-    'cmap': "Blues"
+    'cmap': "viridis"
   }
