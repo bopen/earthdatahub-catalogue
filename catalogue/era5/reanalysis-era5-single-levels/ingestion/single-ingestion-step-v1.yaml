@@ -133,7 +133,6 @@ steps:
          'zust'
       ]
   chunks: {latitude: 64, longitude: 64, valid_time: 360}
-  #shards: {latitude: 64, longitude: 64, valid_time: 4320}
 
   robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 1, retries: 3}
   to_zarr_kwargs: {
