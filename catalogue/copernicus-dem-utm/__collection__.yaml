@@ -28,7 +28,6 @@ license: other
 keywords:
 - Copernicus
 - DEM
-- geobrowser
 providers:
 - name: European Union
   roles:
