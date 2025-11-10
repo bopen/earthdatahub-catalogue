@@ -11,8 +11,8 @@ links:
   type: text/html
 - title: Licence to use Copernicus DEM
   rel: license
-  href: https://spacedata.copernicus.eu/documents/20123/121286/CSCDA_ESA_Mission-specific+Annex_31_Oct_22.pdf/fb109818-56ad-bbee-053c-d972aed25ce6
-  type: application/pdf
+  href: https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM
+  type: text/html
 extent:
   spatial:
     bbox:
