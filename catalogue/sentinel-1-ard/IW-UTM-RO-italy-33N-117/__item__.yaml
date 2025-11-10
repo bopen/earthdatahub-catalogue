@@ -80,4 +80,4 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 0
+search_weight: 1.117
