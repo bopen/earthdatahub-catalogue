@@ -9,7 +9,7 @@ bbox:
 - 18.0
 - 48.0
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   datetime: '2024-12-25T00:00:00Z'
   start_datetime: '2024-01-12T00:00:00Z'
   end_datetime: '2024-12-25T00:00:00Z'
