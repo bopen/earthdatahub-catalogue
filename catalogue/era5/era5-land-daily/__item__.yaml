@@ -61,7 +61,7 @@ properties:
       extent:
       - 0.0
       - 359.9
-  dc:extent: 3.5 TB
+  dc:extent: 4.1 TB
   cube:variables:
     d2m:
       dimensions:
@@ -79,6 +79,14 @@ properties:
       type: data
       description: Surface pressure
       unit: Pa
+    ssrd:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface short-wave (solar) radiation downwards
+      unit: J m**-2
     t2m:
       dimensions:
       - valid_time
