@@ -1,0 +1,81 @@
+links:
+- title: ERA5-Land daily data from 1950 to present
+  rel: derived_from
+  href: https://doi.org/10.24381/cds.e2161bac
+  type: text/html
+bbox:
+- 0.0
+- -57.1
+- 359.9
+- 90.0
+assets:
+  data:
+    href: https://data.earthdatahub.destine.eu/era5/reanalysis-era5-land-no-antartica-daily-utc-v0.zarr
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
+search_weight: 75
+properties:
+  edh:maturity: draft
+  dc:abstract: ERA5-Land provides land variables evolution over several decades at
+    an enhanced resolution compared to ERA5. The dataset is provided in a ARCO Zarr
+    format ideal for time series analysis
+  dc:title: ERA5-Land daily data
+  datetime: '2025-10-31T00:00:00Z'
+  start_datetime: '1950-01-01T00:00:00Z'
+  end_datetime: '2025-10-31T00:00:00Z'
+  dc:access_rights: unrestricted
+  dc:subject:
+  - ERA5
+  - Land
+  - ECMWF
+  - reanalysis
+  - weather
+  dc:accrual_periodicity: freq:monthly
+  cube:dimensions:
+    valid_time:
+      type: temporal
+      axis: t
+      extent:
+      - '1950-01-01T00:00:00Z'
+      - '2025-10-31T00:00:00Z'
+      step: PT1H
+    latitude:
+      type: spatial
+      axis: y
+      reference_system: 4326
+      step: 0.1
+      extent:
+      - 90.0
+      - -57.1
+    longitude:
+      type: spatial
+      axis: x
+      reference_system: 4326
+      step: 0.1
+      extent:
+      - 0.0
+      - 359.9
+  cube:variables:
+    d2m:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre dewpoint temperature
+      unit: K
+    t2m:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre temperature
+      unit: K
+  dc:extent: 1.2 TB
