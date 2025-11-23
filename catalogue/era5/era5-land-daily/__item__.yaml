@@ -44,7 +44,7 @@ properties:
       extent:
       - '1950-01-01T00:00:00Z'
       - '2025-10-31T00:00:00Z'
-      step: PT1D
+      step: P1D
     latitude:
       type: spatial
       axis: y
