@@ -10,7 +10,7 @@ bbox:
 - 90.0
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/era5/reanalysis-era5-land-no-antartica-daily-utc-v0.zarr
+    href: https://data.earthdatahub.destine.eu/era5/era5-land-daily-utc-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
@@ -61,6 +61,7 @@ properties:
       extent:
       - 0.0
       - 359.9
+  dc:extent: 3.5 TB
   cube:variables:
     d2m:
       dimensions:
@@ -70,6 +71,14 @@ properties:
       type: data
       description: 2 metre dewpoint temperature
       unit: K
+    sp:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface pressure
+      unit: Pa
     t2m:
       dimensions:
       - valid_time
@@ -78,6 +87,22 @@ properties:
       type: data
       description: 2 metre temperature
       unit: K
+    tp:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Total precipitation
+      unit: m
+    u10:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre U wind component
+      unit: m s**-1
     v10:
       dimensions:
       - valid_time
@@ -86,4 +111,3 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-  dc:extent: 1.8 TB
