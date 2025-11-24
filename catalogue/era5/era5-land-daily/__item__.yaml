@@ -61,7 +61,7 @@ properties:
       extent:
       - 0.0
       - 359.9
-  dc:extent: 4.1 TB
+  dc:extent: 4.7 TB
   cube:variables:
     d2m:
       dimensions:
@@ -71,6 +71,14 @@ properties:
       type: data
       description: 2 metre dewpoint temperature
       unit: K
+    pev:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Potential evaporation
+      unit: m
     sp:
       dimensions:
       - valid_time
