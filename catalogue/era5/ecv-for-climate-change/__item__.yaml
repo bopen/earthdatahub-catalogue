@@ -2,7 +2,7 @@ links:
 - title: Essential Climate Variables for assessment of climate variability from 1979
     to present
   rel: derived_from
-  href: https://confluence.ecmwf.int/display/CKB/Essential+Climate+Variables+for+assessment+of+climate+variability+from+1979+to+present%3A+Product+user+guide
+  href: https://doi.org/10.24381/7470b643
   type: text/html
 bbox:
 - 0.0
@@ -30,7 +30,7 @@ properties:
     monthly anomalies and monthly mean fields. The dataset is provided in a ARCO Zarr
     format ideal for time series analysis
   dc:access_rights: unrestricted
-  dc:title: Essential climate variables from 1979 to present
+  dc:title: ERA5 Essential Climate Variables monthly anomalies
   dc:subject:
   - ERA5
   - ECV
