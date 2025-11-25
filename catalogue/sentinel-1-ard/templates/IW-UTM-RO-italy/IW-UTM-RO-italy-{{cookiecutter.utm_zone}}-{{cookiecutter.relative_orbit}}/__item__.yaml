@@ -17,7 +17,7 @@ properties:
   dc:access_rights: unrestricted
   dc:title: Sentinel-1 ARD for relative orbit {{ cookiecutter.relative_orbit }} on UTM {{ cookiecutter.utm_zone }}
   dc:description: Sentinel-1 ARD for relative orbit {{ cookiecutter.relative_orbit }} on UTM {{ cookiecutter.utm_zone }}.
-    The dataset is formatted as a NetCDF / Zarr archive optimised for time analysis.
+    The dataset is formatted as a Zarr archive optimised for time analysis.
   dc:subject:
   - Copernicus
   - Sentinel-1

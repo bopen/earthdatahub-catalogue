@@ -5,6 +5,6 @@ ERA5 provides hourly estimates of a large number of atmospheric, land and oceani
 
 We propose a subset of the whole corpus of data based on the most popular datasets and variables. Specifically speaking ERA5 Land, ERA5 Single Levels, ERA5 pressure level and Essential Climate Variables (ECV) on selected variables. Furthermore ERA5 monthly data on single level have been added.
 
-Datasets are presented as as a NetCDF / Zarr archive optimised specifically for time analysis and covering the whole available geographical and temporal extent of the original data. Also, resolution is preserved and data are updated until the last closed month with monthly updates.
+Datasets are presented as as a Zarr archive optimised specifically for time analysis and covering the whole available geographical and temporal extent of the original data. Also, resolution is preserved and data are updated until the last closed month with monthly updates.
 
 Please refer to the specific datasets for detailed information about extent, resolution, updates and access rights.
