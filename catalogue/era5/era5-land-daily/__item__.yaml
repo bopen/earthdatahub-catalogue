@@ -21,7 +21,7 @@ assets:
         trust_env: true
 search_weight: 80
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   dc:abstract: ERA5-Land provides land variables evolution over several decades at
     an enhanced resolution compared to ERA5. The dataset is provided in a ARCO Zarr
     format ideal for time series analysis
