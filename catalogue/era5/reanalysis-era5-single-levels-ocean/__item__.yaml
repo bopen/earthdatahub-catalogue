@@ -1,5 +1,5 @@
 links:
-- title: ERA5 hourly data on single levels from 1940 to present, ocean-waves fields
+- title: ERA5 hourly data on single levels from 1940 to present
   rel: derived_from
   href: https://doi.org/10.24381/cds.adbb2d47
   type: text/html
@@ -24,7 +24,7 @@ properties:
   edh:maturity: published
   dc:abstract: Subset of ERA5 reanalysis single-levels for ocean-wave quantities.
     The dataset is provided in a ARCO Zarr format ideal for time series analysis
-  dc:title: ERA5 hourly data on single levels, ocean-wave fields
+  dc:title: ERA5 hourly data on single levels, ocean-wave variables
   datetime: '2025-10-31T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
   end_datetime: '2025-10-31T23:00:00Z'
