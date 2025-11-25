@@ -7,6 +7,6 @@ steps:
 
   robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 1, retries: 3}
   to_zarr_kwargs: {
-    store: s3://edc-era5/reanalysis-era5-single-levels-ocean-v1.0.zarr,
+    store: s3://edc-temp/reanalysis-era5-single-levels-ocean-v1.0.zarr,
     consolidated: None, #means attempt to read consolidated metadata on open, if not present fallback
   }
