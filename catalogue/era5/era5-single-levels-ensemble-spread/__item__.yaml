@@ -21,7 +21,7 @@ assets:
         trust_env: true
 search_weight: 60
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   dc:abstract: Subset of ERA5 single-levels ensemble spreads. The dataset is provided
     in a ARCO Zarr v3 format ideal for time series analysis
   dc:title: Ensemble spread of ERA5 hourly data on single levels
