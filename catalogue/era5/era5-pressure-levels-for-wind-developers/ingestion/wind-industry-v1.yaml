@@ -1,0 +1,15 @@
+steps:
+- xarray_open_kwargs:
+    chunks: {}
+    engine: zarr
+    filename_or_obj: s3://edc-era5/reanalysis-era5-pressure-levels-v1.0.zarr
+    #drop_variables: ['r', 'u', 'v', 'w', 'z']
+
+  transform_kwargs:
+    #transposed_dims_order: ['isobaricInhPa', 'valid_time', 'latitude', 'longitude']
+    #sel: {'valid_time': {slice : ['1940','1941']}}
+
+  chunks: {isobaricInhPa: 1, valid_time: 4320, latitude: 20, longitude: 20}
+
+  robust_to_zarr_kwargs: {processing_dim: valid_time, chunks_per_processing_batch: 40, retries: 3}
+  to_zarr_kwargs: {store: s3://edc-era5/era5-pressure-levels-for-wind-developers-v0.zarr}
