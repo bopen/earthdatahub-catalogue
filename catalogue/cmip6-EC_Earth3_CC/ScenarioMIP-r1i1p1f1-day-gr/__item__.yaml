@@ -1,45 +1,48 @@
 links:
-- title: 
+- title: null
   rel: derived_from
-  href: 
+  href: null
   type: text/html
 bbox:
-- -180.0
-- -90.0
-- 180.0
-- 90.0
+- 0.0
+- -89.5
+- 359.3
+- 89.5
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/era5/era5-land-daily-utc-v1.zarr
+    href: s3://edh-root/cmip6/ScenarioMIP-EC_Earth3_CC-r1i1p1f1-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
       engine: zarr
       chunks: {}
     xarray:storage_options:
+      key: 3c3d8fe87ec04e9b9c3a07e10ecc8daa
+      secret: f8d4d5713147465aafc9e7f3649223e7
       client_kwargs:
-        trust_env: true
+        endpoint_url: https://s3.gra.io.cloud.ovh.net
 search_weight: 70
 properties:
   edh:maturity: draft
-  dc:abstract: 
-  dc:title: 
+  dc:abstract: null
+  dc:title: null
   dc:access_rights: unrestricted
-  dc:description: 
-  datetime: '2030-12-31T23:00:00Z'
-  start_datetime: '2021-01-01T00:00:00Z'
-  end_datetime: '2030-12-31T23:00:00Z'
+  dc:description: null
+  datetime: '2100-12-31T12:00:00Z'
+  start_datetime: '2015-01-01T12:00:00Z'
+  end_datetime: '2100-12-31T12:00:00Z'
   dc:subject:
   - CMIP6
   - forecast
-  - weather
+  - projections
+  - climate
   cube:dimensions:
     time:
       type: temporal
       axis: t
       extent:
-      - '2021-01-01T00:00:00Z'
-      - '2030-12-31T23:00:00Z'
+      - '2015-01-01T12:00:00Z'
+      - '2100-12-31T12:00:00Z'
       step: PT1H
     latitude:
       type: spatial
@@ -57,175 +60,55 @@ properties:
       extent:
       - -180.0
       - 180.0
+    lat:
+      type: spatial
+      axis: y
+      step: 0.699
+      extent:
+      - -89.5
+      - 89.5
+    lon:
+      type: spatial
+      axis: x
+      step: 0.702
+      extent:
+      - 0.0
+      - 359.3
   cube:variables:
-    etsssr:
+    pr:
       dimensions:
+      - experiment_id
       - time
-      - latitude
-      - longitude
+      - lat
+      - lon
       type: data
-      description: Time-integrated eastward turbulent surface stress due to surface
-        roughness
-      unit: N m**-2 s
-    msl:
+      description: Precipitation
+      unit: kg m-2 s-1
+    tas:
       dimensions:
+      - experiment_id
       - time
-      - latitude
-      - longitude
+      - lat
+      - lon
       type: data
-      description: Mean sea level pressure
-      unit: Pa
-    ntsssr:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Time-integrated northward turbulent surface stress due to surface
-        roughness
-      unit: N m**-2 s
-    skt:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Skin temperature
+      description: Near-Surface Air Temperature
       unit: K
-    slhf:
+    uas:
       dimensions:
+      - experiment_id
       - time
-      - latitude
-      - longitude
+      - lat
+      - lon
       type: data
-      description: Time-integrated surface latent heat net flux
-      unit: J m**-2
-    sshf:
+      description: Eastward Near-Surface Wind
+      unit: m s-1
+    vas:
       dimensions:
+      - experiment_id
       - time
-      - latitude
-      - longitude
+      - lat
+      - lon
       type: data
-      description: Time-integrated surface sensible heat net flux
-      unit: J m**-2
-    ssr:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Surface net short-wave (solar) radiation
-      unit: J m**-2
-    ssrd:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Surface short-wave (solar) radiation downwards
-      unit: J m**-2
-    str:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Surface net long-wave (thermal) radiation
-      unit: J m**-2
-    strd:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Surface long-wave (thermal) radiation downwards
-      unit: J m**-2
-    t:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Temperature
-      unit: K
-    t2m:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: 2 metre temperature
-      unit: K
-    tcc:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Total Cloud Cover
-      unit: '%'
-    tciw:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Total column cloud ice water
-      unit: kg m**-2
-    tclw:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Total column cloud liquid water
-      unit: kg m**-2
-    tcwv:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Total column vertically-integrated water vapour
-      unit: kg m**-2
-    tprate:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Total precipitation rate
-      unit: kg m**-2 s**-1
-    tsr:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Top net short-wave (solar) radiation
-      unit: J m**-2
-    ttr:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Top net long-wave (thermal) radiation
-      unit: J m**-2
-    u10:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: 10 metre U wind component
-      unit: m s**-1
-    v10:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: 10 metre V wind component
-      unit: m s**-1
-  dc:extent: 247.1 TB
+      description: Northward Near-Surface Wind
+      unit: m s-1
+  dc:extent: 132 GB
