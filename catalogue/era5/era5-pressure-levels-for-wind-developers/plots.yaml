@@ -1,9 +1,9 @@
 plots:
-- var: "t"
+- var: "u10"
   time_dim: "valid_time"
-  sel: {"valid_time": "1972-07-03T15:00", "isobaricInhPa": 500}
+  sel: {"valid_time": "1972-07-03T15:00", "isobaricInhPa": 950}
   plot_kwargs: {
-    "vmax": 320,
-    "vmin": 230,
+    "vmax": -50,
+    "vmin": 50,
     "cmap": "RdBu_r"
   }
