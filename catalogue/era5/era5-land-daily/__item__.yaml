@@ -23,7 +23,7 @@ search_weight: 80
 properties:
   edh:maturity: published
   dc:abstract: ERA5-Land provides land variables evolution over several decades at
-    an enhanced resolution compared to ERA5. The dataset is provided in a ARCO Zarr
+    an enhanced resolution compared to ERA5. The dataset is provided in a ARCO Zarr v3
     format ideal for time series analysis
   dc:title: ERA5-Land daily averaged data
   datetime: '2025-10-31T00:00:00Z'
