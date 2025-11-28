@@ -1,5 +1,5 @@
 links:
-- title: Ensemble spread for ERA5 hourly data on single levels from 1940 to present
+- title: ERA5 hourly data on single levels from 1940 to present
   rel: derived_from
   href: https://doi.org/10.24381/cds.adbb2d47
   type: text/html
