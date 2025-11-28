@@ -19,7 +19,7 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 70
+search_weight: 65
 properties:
   edh:maturity: draft
   dc:abstract: Subset of ERA5 reanalysis on pressure levels for

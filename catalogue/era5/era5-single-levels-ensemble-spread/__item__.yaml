@@ -19,7 +19,7 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 80
+search_weight: 60
 properties:
   edh:maturity: draft
   dc:abstract: Subset of ERA5 single-levels ensemble spreads. The dataset is provided
