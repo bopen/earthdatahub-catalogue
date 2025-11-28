@@ -1,3 +1,3 @@
 This is a subset of the ensemble spread for ERA5 single levels quantities [ERA5 hourly data on single levels](https://doi.org/10.24381/cds.adbb2d47). The data are available from 1940 until the last closed month and updated monthly and are regridded to a regular lat-lon grid of 0.5 degrees.
 
-They are presented as a Zarr archive optimised for time analysis.
+They are presented as a Zarr v3 archive optimised for time analysis.
