@@ -61,7 +61,7 @@ properties:
       extent:
       - 0.0
       - 359.9
-  dc:extent: 4.7 TB
+  dc:extent: 7.0 TB
   cube:variables:
     d2m:
       dimensions:
@@ -71,6 +71,14 @@ properties:
       type: data
       description: 2 metre dewpoint temperature
       unit: K
+    e:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Evaporation
+      unit: m of water equivalent
     pev:
       dimensions:
       - valid_time
@@ -95,6 +103,30 @@ properties:
       type: data
       description: Surface short-wave (solar) radiation downwards
       unit: J m**-2
+    str:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface net long-wave (thermal) radiation
+      unit: J m**-2
+    swvl1:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Volumetric soil water layer 1
+      unit: m**3 m**-3
+    swvl2:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Volumetric soil water layer 2
+      unit: m**3 m**-3
     t2m:
       dimensions:
       - valid_time
