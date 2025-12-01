@@ -1,0 +1,43 @@
+title: 
+dc:abstract:
+  
+edh:maturity: draft
+links:
+- title: 
+  rel: derived_from
+  href: 
+  type: text/html
+- title: 
+  rel: license
+  href: 
+  type: application/pdf
+extent:
+  spatial:
+    bbox:
+    - - -180
+      - -90
+      - 180
+      - 90
+  temporal:
+    interval:
+    - - '2020-01-01T00:00:00Z'
+      - '2031-01-01T00:00:00Z'
+license: other
+keywords:
+- CMIP6
+- forecast
+- weather
+providers:
+- name: 
+  roles:
+  - producer
+  url: 
+- name: B-Open
+  roles:
+  - processor
+  url: https://www.bopen.eu
+- name: DestinE Platform
+  roles:
+  - host
+  url: https://platform.destine.eu
+search_weight: 80

@@ -1,5 +1,5 @@
 links:
-- title: Ensemble spread for ERA5 hourly data on single levels from 1940 to present
+- title: ERA5 hourly data on single levels from 1940 to present
   rel: derived_from
   href: https://doi.org/10.24381/cds.adbb2d47
   type: text/html
@@ -10,7 +10,7 @@ bbox:
 - 90.0
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/era5/reanalysis-era5-single-levels-ensemble-spread-v0.zarr
+    href: https://data.earthdatahub.destine.eu/era5/era5-single-levels-ensemble-spread-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
@@ -19,11 +19,11 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 80
+search_weight: 60
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   dc:abstract: Subset of ERA5 single-levels ensemble spreads. The dataset is provided
-    in a ARCO Zarr format ideal for time series analysis
+    in a ARCO Zarr v3 format ideal for time series analysis
   dc:title: Ensemble spread of ERA5 hourly data on single levels
   datetime: '2025-09-30T21:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
@@ -46,7 +46,7 @@ properties:
       - 90.0
       - -90.0
       reference_system: 4326
-      step: 0.499
+      step: 0.5
     longitude:
       type: spatial
       axis: x
@@ -54,7 +54,7 @@ properties:
       - 0.0
       - 359.5
       reference_system: 4326
-      step: 0.499
+      step: 0.5
     valid_time:
       type: temporal
       axis: t
