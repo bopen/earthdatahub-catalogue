@@ -22,8 +22,8 @@ assets:
 search_weight: 70
 properties:
   edh:maturity: published
-  dc:abstract: Subset of ERA5 reanalysis on the pressure-levels for atmospheric quantities.
-    The dataset is provided in a ARCO Zarr format ideal for time series analysis
+  dc:abstract: Subset of ERA5 reanalysis atmospheric quantities on pressure-levels.
+    The dataset is provided in a ARCO Zarr format ideal for spatial analysis
   dc:title: ERA5 hourly data on pressure levels
   datetime: '2025-10-31T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
