@@ -1,37 +1,38 @@
-title: 
+title: CMIP6, activity ScenarioMIP, model EC-Earth3-CC, experiment SSP2-4.5 and SSP5-8.5 
 dc:abstract:
-  
+  A subset of variables from the CIMP6,
+  EC-Earth3-CC model for the experiments SSP2-4.5 and SSP5-8.5. Data are in Zarr v3 format optimised for time-series analysis.
 edh:maturity: draft
 links:
-- title: 
+- title: Coupled Model Intercomparison Project Phase 6
   rel: derived_from
-  href: 
+  href: https://wcrp-cmip.org/cmip-model-and-experiment-documentation/
   type: text/html
-- title: 
+- title: CMIP Data Citation and Licenses
   rel: license
-  href: 
-  type: application/pdf
+  href: https://wcrp-cmip.org/cmip-data-citation-and-licenses/
+  type: text/html
 extent:
   spatial:
     bbox:
-    - - -180
-      - -90
-      - 180
-      - 90
+    - 0.0
+    - -89.5
+    - 359.3
+    - 89.5
   temporal:
     interval:
-    - - '2020-01-01T00:00:00Z'
-      - '2031-01-01T00:00:00Z'
+    - - '2015-01-01T12:00:00Z'
+      - '2100-12-31T12:00:00Z'
 license: other
 keywords:
 - CMIP6
 - forecast
 - weather
 providers:
-- name: 
+- name: WCRP
   roles:
   - producer
-  url: 
+  url: https://www.wcrp-climate.org/
 - name: B-Open
   roles:
   - processor

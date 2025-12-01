@@ -1,7 +1,7 @@
 links:
-- title: null
+- title: Coupled Model Intercomparison Project Phase 6
   rel: derived_from
-  href: null
+  href: https://wcrp-cmip.org/cmip-model-and-experiment-documentation/
   type: text/html
 bbox:
 - 0.0
@@ -24,10 +24,13 @@ assets:
 search_weight: 70
 properties:
   edh:maturity: draft
-  dc:abstract: null
-  dc:title: null
+  dc:abstract: This dataset contains a selection of variables derived from the 
+    the CMIP6 project, ScenarioMIP, EC-Earth3-CC model, experiment SSP2-4.5 and SSP5-8.5. 
+    Fields are distributed with 0.044° spatial resolution and daily temporal resolution 
+    in Zarr V3 format.
+  dc:title: CMIP6, ScenarioMIP, EC-Earth3-CC model, SSP2-4.5 and SSp 5-8.5
   dc:access_rights: unrestricted
-  dc:description: null
+  dc:description: CMIP6 project, ScenarioMIP, EC-Earth3-CC model, experiment SSP2-4.5 and SSP5-8.5
   datetime: '2100-12-31T12:00:00Z'
   start_datetime: '2015-01-01T12:00:00Z'
   end_datetime: '2100-12-31T12:00:00Z'
