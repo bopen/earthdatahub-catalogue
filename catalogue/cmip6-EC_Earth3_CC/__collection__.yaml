@@ -1,7 +1,7 @@
 title: CMIP6, activity ScenarioMIP, model EC-Earth3-CC, experiment SSP2-4.5 and SSP5-8.5 
 dc:abstract:
-  A subset of variables from the CIMP6,
-  EC-Earth3-CC model for the experiments SSP2-4.5 and SSP5-8.5. Data are in Zarr v3 format optimised for time-series analysis.
+  AThe Scenario Model Intercomparison Project (ScenarioMIP) is the primary activity within Phase 6 of the Coupled Model Intercomparison Project (CMIP6) that provides multi-model climate projections based on alternative scenarios of future emissions and land use changes produced with integrated assessment models. Here we propose datasets from the 
+  EC-Earth3-CC model.
 edh:maturity: draft
 links:
 - title: Coupled Model Intercomparison Project Phase 6
@@ -15,10 +15,10 @@ links:
 extent:
   spatial:
     bbox:
-    - 0.0
-    - -89.5
-    - 359.3
-    - 89.5
+    - - -180
+      - -89.5
+      - 359.3
+      - 89.5
   temporal:
     interval:
     - - '2015-01-01T12:00:00Z'
@@ -41,4 +41,4 @@ providers:
   roles:
   - host
   url: https://platform.destine.eu
-search_weight: 80
+search_weight: 70
