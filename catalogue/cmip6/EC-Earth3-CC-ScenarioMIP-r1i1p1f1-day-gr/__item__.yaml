@@ -10,7 +10,7 @@ bbox:
 - 89.5
 assets:
   data:
-    href: s3://edh-root/cmip6/ScenarioMIP-EC_Earth3_CC-r1i1p1f1-v0.zarr
+    href: s3://edh-root/cmip6/ScenarioMIP-EC-Earth3-CC-r1i1p1f1-gr-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
