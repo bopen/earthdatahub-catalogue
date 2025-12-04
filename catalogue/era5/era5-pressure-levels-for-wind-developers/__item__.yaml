@@ -1,7 +1,7 @@
 links:
 - title: ERA5 hourly data on pressure levels from 1940 to present
   rel: derived_from
-  href: https://doi.org/10.24381/cds.adbb2d47
+  href: https://doi.org/10.24381/cds.bd0915c6
   type: text/html
 bbox:
 - 0.0
