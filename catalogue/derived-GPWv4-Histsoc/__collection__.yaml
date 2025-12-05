@@ -1,5 +1,5 @@
 edh:maturity: published
-title: Hybrid gridded demographic data for the world
+title: Gridded demographic data
 dc:abstract:
   This is a hybrid gridded dataset of demographic data for the world, given as 5-year population
   bands at a 0.25 degree grid resolution.
