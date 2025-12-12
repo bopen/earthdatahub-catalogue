@@ -1,7 +1,7 @@
 links:
 - title: ERA5 hourly data on pressure levels from 1940 to present
   rel: derived_from
-  href: https://doi.org/10.24381/cds.adbb2d47
+  href: https://doi.org/10.24381/cds.bd0915c6
   type: text/html
 bbox:
 - 0.0
@@ -22,9 +22,13 @@ assets:
 search_weight: 65
 properties:
   edh:maturity: published
+<<<<<<< HEAD
   dc:abstract: Subset of ERA5 reanalysis on pressure levels for atmospheric quantities
     (low altitude pressure levels only). The dataset is provided in a ARCO Zarr v3
     format ideal for time series analysis
+=======
+  dc:abstract: Subset of ERA5 reanalysis on pressure levels for atmospheric quantities (low altitude pressure levels only). The dataset is provided in a ARCO Zarr v3 format ideal for time series analysis
+>>>>>>> prod
   dc:title: ERA5 hourly data on pressure levels for wind developers
   datetime: '2025-11-30T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
@@ -34,7 +38,6 @@ properties:
   - ERA5
   - ECMWF
   - pressure levels
-  - surface
   - reanalysis
   dc:accrual_periodicity: freq:monthly
   cube:dimensions:

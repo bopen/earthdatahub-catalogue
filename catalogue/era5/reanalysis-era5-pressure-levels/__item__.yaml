@@ -33,7 +33,6 @@ properties:
   - ERA5
   - ECMWF
   - pressure levels
-  - surface
   - reanalysis
   dc:accrual_periodicity: freq:monthly
   cube:dimensions:

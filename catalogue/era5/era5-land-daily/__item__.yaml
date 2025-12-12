@@ -87,6 +87,14 @@ properties:
       type: data
       description: Potential evaporation
       unit: m
+    ro:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Runoff
+      unit: m
     sp:
       dimensions:
       - valid_time
@@ -95,6 +103,14 @@ properties:
       type: data
       description: Surface pressure
       unit: Pa
+    ssr:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface net short-wave (solar) radiation
+      unit: J m**-2
     ssrd:
       dimensions:
       - valid_time
