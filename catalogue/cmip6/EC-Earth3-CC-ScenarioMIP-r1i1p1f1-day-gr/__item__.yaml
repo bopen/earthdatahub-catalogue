@@ -23,7 +23,7 @@ assets:
         endpoint_url: https://s3.gra.io.cloud.ovh.net
 search_weight: 70
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   dc:abstract: This dataset contains a selection of variables derived from the 
     the CMIP6 project, ScenarioMIP, EC-Earth3-CC model, experiment SSP2-4.5 and SSP5-8.5. 
     Fields are distributed with 0.044° spatial resolution and daily temporal resolution 
