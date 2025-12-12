@@ -61,7 +61,7 @@ properties:
       extent:
       - 0.0
       - 359.9
-  dc:extent: 7.0 TB
+  dc:extent: 8.2 TB
   cube:variables:
     d2m:
       dimensions:
@@ -159,3 +159,19 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
+    ro:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Runoff
+      unit: m
+    ssr:
+      dimensions:
+      - valid_time
+      - latitude
+      - longitude
+      type: data
+      description: Surface net short-wave (solar) radiation
+      unit: J m**-2
