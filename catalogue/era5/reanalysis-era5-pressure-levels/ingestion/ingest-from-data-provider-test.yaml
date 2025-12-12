@@ -1,0 +1,32 @@
+steps:
+- xarray_open_kwargs:
+    cache_kwargs: {cache_file: false}
+    open_dataset_kwargs:
+      time_dims: [valid_time]
+    chunks: {}
+    engine: ecmwf
+    filename_or_obj:
+      dataset: reanalysis-era5-pressure-levels
+      date: [1940-01-01/1940-01-05]
+      time: ['00:00', '12:00']
+      product_type: reanalysis
+      pressure_level: [1000, 975]
+      variable: [
+        "temperature",
+        "u_component_of_wind"
+      ]
+    request_chunker_kwargs: {time_dim: valid_time}
+    request_chunks: {day: 2, pressure_level: 1}
+    client_kwargs: {key: 82fa6fcb-88a4-42c5-9380-5a1035f8f432, url: https://cds.climate.copernicus.eu/api }
+
+  chunks: {latitude: 256, longitude: 256, valid_time: 2}
+  robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 2, retries: 3}
+  to_zarr_kwargs: {store: s3://edc-temp/nm/era5-pl-test-v9.zarr}
+  to_zarr_encoding:
+    t:
+      filters:
+        - {id: bitround, keepbits: 11}
+      compressors:
+        - {id: blosc, cname: zstd, clevel: 3, shuffle: shuffle}
+
+

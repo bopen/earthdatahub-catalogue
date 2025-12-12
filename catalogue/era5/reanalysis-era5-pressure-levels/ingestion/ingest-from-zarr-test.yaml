@@ -1,0 +1,17 @@
+steps:
+- xarray_open_kwargs:
+    chunks: {}
+    engine: zarr
+    filename_or_obj: s3://edc-temp/nm/era5-pl-test-v9.zarr
+  chunks: {latitude: 128, longitude: 128, valid_time: 4}
+  robust_to_zarr_kwargs: {processing_dim: valid_time, chunks_per_processing_batch: 3, retries: 3}
+  to_zarr_kwargs: {store: s3://edc-temp/nm/era5-pl-from-zarr-to-zarr-test-v9.zarr}
+  to_zarr_encoding:
+    t:
+      filters:
+        - {id: bitround, keepbits: 10}
+      compressors:
+        - {id: blosc, cname: zstd, clevel: 2, shuffle: shuffle}
+
+
+

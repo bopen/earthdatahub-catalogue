@@ -1,0 +1,49 @@
+steps:
+- xarray_open_kwargs:
+    cache_kwargs: {cache_file: false}
+    open_dataset_kwargs:
+      time_dims: [valid_time]
+    chunks: {}
+    engine: ecmwf
+    filename_or_obj:
+      dataset: reanalysis-era5-pressure-levels
+      date: [1940-01-01/2025-11-30]
+      time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
+      product_type: reanalysis
+      pressure_level: [1000, 975, 950]
+      variable: [
+        "geopotential",
+        "relative_humidity",
+        "temperature",
+        "u_component_of_wind",
+        "v_component_of_wind",
+        "vertical_velocity"
+      ]
+    request_chunker_kwargs: {time_dim: valid_time}
+    request_chunks: {day: 20, pressure_level: 1}
+    client_kwargs: {key: put-your-cds-key-here, url: https://cds.climate.copernicus.eu/api }
+
+  chunks: {latitude: 20, longitude: 20, valid_time: 4320}
+  robust_to_zarr_kwargs: {processing_dim: valid_time, chunks_per_processing_batch: 1, retries: 3}
+  to_zarr_kwargs: {store: s3://edc-era5/era5-pressure-levels-for-wind-developers-v0.zarr}
+  to_zarr_encoding:
+    r:
+      filters:
+        - {id: bitround, keepbits: 13}
+    t:
+      filters:
+        - {id: bitround, keepbits: 13}
+    u:
+      filters:
+        - {id: bitround, keepbits: 13}
+    v:
+      filters:
+        - {id: bitround, keepbits: 13}
+    w:
+      filters:
+        - {id: bitround, keepbits: 13}
+    z:
+      filters:
+        - {id: bitround, keepbits: 13}
+
+

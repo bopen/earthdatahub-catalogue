@@ -1,0 +1,26 @@
+steps:
+- xarray_open_kwargs:
+    chunks: {}
+    engine: esgf
+    download: true
+    retries: 3
+    filename_or_obj:
+      "project": CMIP6
+      "experiment_id": ssp*
+      "source_id": EC-Earth3-CC
+      "activity_id": ScenarioMIP
+      "frequency": ["day", "fx"]
+      "variable_id": ["tas", "areacella"]
+      "variant_label": r1i1p1f1
+      "grid_label": gr
+    concat_dims: experiment_id
+    esgpull_path: /tmp/esgpull
+    index_node: esgf.ceda.ac.uk
+  chunks: {experiment_id: 1, time: 2, lat: 128, lon: 128 }
+  to_zarr_kwargs: {store: s3://edc-temp/nm/cmip6/EC-Earth3-CC-debug-day-v2.zarr}
+  robust_to_zarr_kwargs: {
+    processing_dim: time,
+    chunks_per_processing_batch: 1,
+    retries: 3,
+    #processing_range: [ '2085', None ]
+  }

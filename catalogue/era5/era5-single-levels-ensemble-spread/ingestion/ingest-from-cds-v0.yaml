@@ -1,0 +1,37 @@
+steps:
+- xarray_open_kwargs:
+    cache_kwargs: { cache_file: false }
+    open_dataset_kwargs:
+      time_dims: [ valid_time ]
+    chunks: {}
+    engine: ecmwf
+    filename_or_obj:
+      dataset: reanalysis-era5-single-levels
+      date: [1940-01-01/2025-11-30]
+      time: ["00:00", "03:00", "06:00", "09:00", "12:00", "15:00", "18:00", "21:00"]
+      product_type: ensemble_spread
+      variable: [
+        "10m_u_component_of_wind",
+        "10m_v_component_of_wind",
+        "2m_dewpoint_temperature",
+        "2m_temperature",
+        "sea_surface_temperature",
+        "surface_pressure",
+        "total_precipitation",
+        "100m_u_component_of_wind",
+        "100m_v_component_of_wind",
+        "10m_u_component_of_neutral_wind",
+        "10m_v_component_of_neutral_wind",
+        "geopotential"
+      ]
+    request_chunker_kwargs: { time_dim: valid_time }
+    request_chunks: { day: 20 }
+    client_kwargs: { key: put-your-cds-key-here, url: https://cds.climate.copernicus.eu/api }
+
+  open_dataset_name: open_dataset_fix_era5_single_levels_names
+  chunks: {latitude: 40, longitude: 40, valid_time: 1440}
+
+  robust_to_zarr_kwargs: {processing_dim: valid_time, chunks_per_processing_batch: 1, retries: 3}
+  to_zarr_kwargs: {
+    store: s3://edc-era5/era5-single-levels-ensemble-spread-v0.zarr,
+  }

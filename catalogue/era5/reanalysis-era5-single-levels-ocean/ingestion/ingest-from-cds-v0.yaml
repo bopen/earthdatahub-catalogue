@@ -1,0 +1,70 @@
+steps:
+- xarray_open_kwargs:
+    cache_kwargs: { cache_file: false }
+    open_dataset_kwargs:
+      time_dims: [ valid_time ]
+    chunks: {}
+    engine: ecmwf
+    filename_or_obj:
+      #area: ['90', '0', '-90', '360']
+      dataset: reanalysis-era5-single-levels
+      date: [1940-01-01/2025-08-31]
+      time: [ '00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00' ]
+      product_type: reanalysis
+      variable: [
+        "mean_wave_direction",
+        "mean_wave_period",
+        "significant_height_of_combined_wind_waves_and_swell",
+        "mean_zero_crossing_wave_period",
+        "ocean_surface_stress_equivalent_10m_neutral_wind_direction",
+        "ocean_surface_stress_equivalent_10m_neutral_wind_speed",
+        "peak_wave_period",
+        "air_density_over_the_oceans",
+        "coefficient_of_drag_with_waves",
+        "free_convective_velocity_over_the_oceans",
+        "maximum_individual_wave_height",
+        "mean_direction_of_total_swell",
+        "mean_direction_of_wind_waves",
+        "mean_period_of_total_swell",
+        "mean_period_of_wind_waves",
+        "mean_square_slope_of_waves",
+        "mean_wave_direction_of_first_swell_partition",
+        "mean_wave_direction_of_second_swell_partition",
+        "mean_wave_direction_of_third_swell_partition",
+        "mean_wave_period_based_on_first_moment",
+        "mean_wave_period_based_on_first_moment_for_swell",
+        "mean_wave_period_based_on_first_moment_for_wind_waves",
+        "mean_wave_period_based_on_second_moment_for_swell",
+        "mean_wave_period_based_on_second_moment_for_wind_waves",
+        "mean_wave_period_of_first_swell_partition",
+        "mean_wave_period_of_second_swell_partition",
+        "mean_wave_period_of_third_swell_partition",
+        "model_bathymetry",
+        "normalized_energy_flux_into_ocean",
+        "normalized_energy_flux_into_waves",
+        "normalized_stress_into_ocean",
+
+        "period_corresponding_to_maximum_individual_wave_height",
+        "significant_height_of_total_swell",
+        "significant_height_of_wind_waves",
+        "significant_wave_height_of_first_swell_partition",
+        "significant_wave_height_of_second_swell_partition",
+        "significant_wave_height_of_third_swell_partition",
+        "wave_spectral_directional_width",
+        "wave_spectral_directional_width_for_swell",
+        "wave_spectral_directional_width_for_wind_waves",
+        "wave_spectral_kurtosis",
+        "wave_spectral_peakedness",
+        "wave_spectral_skewness"
+      ]
+    request_chunker_kwargs: { time_dim: valid_time }
+    request_chunks: { day: 20 }
+    client_kwargs: { key: put-your-cds-key-here, url: https://cds.climate.copernicus.eu/api }
+
+  chunks: {latitude: 64, longitude: 64, valid_time: 4320}
+
+  robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 1, retries: 3}
+  to_zarr_kwargs: {
+    store: s3://edc-era5/reanalysis-era5-single-levels-ocean-v0-dev.zarr,
+    chunk_store: s3://edc-era5/reanalysis-era5-single-levels-ocean-v0.zarr,
+  }
