@@ -1,7 +1,7 @@
 title: CMIP6 
 dc:abstract:
   The Scenario Model Intercomparison Project (ScenarioMIP) is the primary activity within Phase 6 of the Coupled Model Intercomparison Project (CMIP6) that provides multi-model climate projections based on alternative scenarios of future emissions and land use changes produced with integrated assessment models.
-edh:maturity: published
+edh:maturity: draft
 links:
 - title: Coupled Model Intercomparison Project Phase 6
   rel: derived_from
