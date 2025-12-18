@@ -5,8 +5,8 @@ steps:
     download: true
     retries: 3
     filename_or_obj:
-      "project": CMIP6
-      "experiment_id": ['ssp245', 'ssp585']
+      #"project": CMIP6
+      "experiment_id": historical
       "source_id": EC-Earth3-CC
       "frequency": ["day", "fx"]
       "variable_id": ["areacella", "pr", "tas", "hurs", "huss", "psl", "uas", "vas"]
@@ -18,7 +18,7 @@ steps:
     index_node: esgf.ceda.ac.uk
   chunks: {experiment_id: 1, time: 180, lat: 128, lon: 128 }
   to_zarr_kwargs: {
-    store: s3://edh-root/cmip6/EC-Earth3-CC-ScenarioMIP-r1i1p1f1-day-gr-v0.zarr,
+    store: s3://edh-root/cmip6/EC-Earth3-CC-historical-r1i1p1f1-day-gr-v0.zarr,
     storage_options: {
       key: 3c3d8fe87ec04e9b9c3a07e10ecc8daa,
       secret: f8d4d5713147465aafc9e7f3649223e7,
@@ -27,7 +27,7 @@ steps:
   }
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 1,
+    chunks_per_processing_batch: 28,
     retries: 3,
     #processing_range: [ '2085', None ]
   }

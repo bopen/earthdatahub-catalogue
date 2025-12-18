@@ -5,20 +5,20 @@ steps:
     download: true
     retries: 3
     filename_or_obj:
-      "project": CMIP6
-      "experiment_id": ['ssp245', 'ssp585']
-      "source_id": EC-Earth3-CC
+      #"project": CMIP6
+      "experiment_id": historical
+      "source_id": CMCC-CM2-SR5
       "frequency": ["day", "fx"]
-      "variable_id": ["areacella", "pr", "tas", "hurs", "huss", "psl", "uas", "vas"]
+      "variable_id": ["areacella", "pr", "tas", "hurs", "huss", "psl", "uas","vas"]
       #"variable_id": ["rsds", "rlut","rlus","rlds"]
       "variant_label": r1i1p1f1
-      "grid_label": gr
+      "grid_label": gn
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
-    index_node: esgf.ceda.ac.uk
+    index_node: esgf.nci.org.au
   chunks: {experiment_id: 1, time: 180, lat: 128, lon: 128 }
   to_zarr_kwargs: {
-    store: s3://edh-root/cmip6/EC-Earth3-CC-ScenarioMIP-r1i1p1f1-day-gr-v0.zarr,
+    store: s3://edh-root/cmip6/CMCC-CM2-HR4-historical-r1i1p1f1-day-gn-v0.zarr,
     storage_options: {
       key: 3c3d8fe87ec04e9b9c3a07e10ecc8daa,
       secret: f8d4d5713147465aafc9e7f3649223e7,
@@ -28,6 +28,5 @@ steps:
   robust_to_zarr_kwargs: {
     processing_dim: time,
     chunks_per_processing_batch: 1,
-    retries: 3,
-    #processing_range: [ '2085', None ]
+    retries: 3
   }
