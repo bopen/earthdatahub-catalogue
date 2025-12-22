@@ -10,18 +10,16 @@ bbox:
 - 90.0
 assets:
   data:
-    href: s3://edh-root/cmip6/CMCC-CM2-SR5-ScenarioMIP-r1i1p1f1-day-gn-v1.zarr
+    href: https://data.earthdatahub.destine.eu/cmip6/CMCC-CM2-SR5-ScenarioMIP-r1i1p1f1-day-gn-v1.zarr
     roles:
     - data
     xarray:open_kwargs:
       engine: zarr
-      chunks: {}
+      chunks: { }
     xarray:storage_options:
-      key: 3c3d8fe87ec04e9b9c3a07e10ecc8daa
-      secret: f8d4d5713147465aafc9e7f3649223e7
       client_kwargs:
-        endpoint_url: https://s3.gra.io.cloud.ovh.net
-search_weight: 70
+        trust_env: true
+search_weight: 80
 properties:
   edh:maturity: draft
   dc:abstract: "This dataset features a selection of future climate projections variables\
@@ -29,8 +27,7 @@ properties:
     \ Project Phase 6 (CMIP6). The dataset covers the future simulation period 2015\u2013\
     2100 and includes experiments for Shared Socioeconomic Pathways SSP1-2.6, SSP2-4.5,\
     \ SSP3-7.0 and SSP5-8.5."
-  dc:title: CMIP6, ScenarioMIP, CMCC-CM2-SR5, SSP1-2.6 SSP2-4.5 SSP3-7.0 SSP5-8.5,
-    r1i1p1f1
+  dc:title: CMIP6 Climate Projections model CMCC-CM2-SR5
   dc:access_rights: unrestricted
   dc:description: CMIP6 project, activity ScenarioMIP, model CMCC-CM2-SR5, experiments
     SSP1-2.6 SSP2-4.5 SSP3-7.0 SSP5-8.5, variant label r1i1p1f1
