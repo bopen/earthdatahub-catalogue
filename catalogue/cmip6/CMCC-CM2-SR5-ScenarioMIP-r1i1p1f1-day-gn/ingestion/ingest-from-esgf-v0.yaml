@@ -29,12 +29,10 @@ steps:
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
-  chunks: {experiment_id: 1, time: 180, lat: 128, lon: 128 }
+  chunks: {experiment_id: 1, time: 720, lat: 72, lon: 72 }
   to_zarr_kwargs: {
-    store: s3://edh-root/cmip6/CMCC-CM2-SR5-ScenarioMIP-r1i1p1f1-day-gn-v0.zarr,
+    store: s3://edh-root/cmip6/CMCC-CM2-SR5-ScenarioMIP-r1i1p1f1-day-gn-v1.zarr,
     storage_options: {
-      key: 3c3d8fe87ec04e9b9c3a07e10ecc8daa,
-      secret: f8d4d5713147465aafc9e7f3649223e7,
       client_kwargs: { endpoint_url: https://s3.gra.io.cloud.ovh.net }
     }
   }
