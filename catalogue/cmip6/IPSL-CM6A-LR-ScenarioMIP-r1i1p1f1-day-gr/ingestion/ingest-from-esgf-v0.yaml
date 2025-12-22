@@ -3,19 +3,33 @@ steps:
     chunks: {}
     engine: esgf
     download: true
+    check_files: false
     retries: 3
     filename_or_obj:
       "project": CMIP6
-      "experiment_id": ["ssp126", "ssp245", "ssp370", "ssp585"]
+      "experiment_id": [ "ssp126" ]
+      #"experiment_id": ["ssp126", "ssp245", "ssp370", "ssp585"]
       "source_id": IPSL-CM6A-LR
       "frequency": ["day", "fx"]
-      "variable_id": ["areacella", "pr", "tas"] # "hurs", "psl", "uas", "vas"
-      #"variable_id": ["rsds", "rlut","rlus","rlds"]
+      "variable_id": [
+        #"areacella",
+        #"uas",
+        #"vas",
+        #"pr",
+        "tas",
+        #"hurs",
+        #"psl",
+        #"rsds",
+        #"rlut",
+        #"rlus",
+        #"rlds"
+      ]
       "variant_label": r1i1p1f1
       "grid_label": gr
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
-    index_node: esgf.nci.org.au
+    #index_node: esgf-node.ornl.gov
+    index_node: eagle.alcf.anl.gov
   chunks: {experiment_id: 1, time: 180, lat: 128, lon: 128}
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/IPSL-CM6A-LR-ScenarioMIP-r1i1p1f1-day-gr-v0.zarr,
@@ -27,6 +41,6 @@ steps:
   }
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 8,
+    chunks_per_processing_batch: 1,
     retries: 3,
   }

@@ -3,14 +3,27 @@ steps:
     chunks: {}
     engine: esgf
     download: true
+    check_files: false
     retries: 3
     filename_or_obj:
-      #"project": CMIP6
+      "project": CMIP6
       "experiment_id": historical
       "source_id": CMCC-CM2-SR5
       "frequency": ["day", "fx"]
-      "variable_id": ["areacella", "pr", "tas", "hurs", "huss", "psl", "uas","vas"]
-      #"variable_id": ["rsds", "rlut","rlus","rlds"]
+      "variable_id": [
+        "areacella",
+        "pr",
+        "tas",
+        "hurs",
+        "huss",
+        "psl",
+        "uas",
+        "vas",
+        "rsds",
+        "rlut",
+        "rlus",
+        "rlds"
+      ]
       "variant_label": r1i1p1f1
       "grid_label": gn
     concat_dims: experiment_id
@@ -27,6 +40,6 @@ steps:
   }
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 8,
+    chunks_per_processing_batch: 12,
     retries: 3
   }

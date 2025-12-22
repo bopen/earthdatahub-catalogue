@@ -1,0 +1,24 @@
+steps:
+- xarray_open_kwargs:
+    storage_options: {
+      key: 3c3d8fe87ec04e9b9c3a07e10ecc8daa,
+      secret: f8d4d5713147465aafc9e7f3649223e7,
+      client_kwargs: { endpoint_url: https://s3.gra.io.cloud.ovh.net }
+    }
+    chunks: {}
+    engine: zarr
+    filename_or_obj: s3://edh-root/cmip6/CMCC-CM2-SR5-historical-r1i1p1f1-day-gn-v0.zarr
+  chunks: {experiment_id: 1, time: 720, lat: 72, lon: 72 }
+  to_zarr_kwargs: {
+    store: s3://edh-root/cmip6/CMCC-CM2-SR5-historical-r1i1p1f1-day-gn-v1.zarr,
+    storage_options: {
+      key: 3c3d8fe87ec04e9b9c3a07e10ecc8daa,
+      secret: f8d4d5713147465aafc9e7f3649223e7,
+      client_kwargs: { endpoint_url: https://s3.gra.io.cloud.ovh.net }
+    }
+  }
+  robust_to_zarr_kwargs: {
+    processing_dim: time,
+    chunks_per_processing_batch: 12,
+    retries: 3
+  }

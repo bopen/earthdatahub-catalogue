@@ -1,0 +1,9 @@
+plots:
+- var: "tas"
+  time_dim: "time"
+  sel: {"time": "1991-07-30"}
+  plot_kwargs: {
+    "vmax": 330,
+    "vmin": 230,
+    "cmap": "RdBu_r"
+  }
