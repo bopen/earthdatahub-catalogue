@@ -15,11 +15,10 @@ steps:
       ]
     request_chunker_kwargs: { time_dim: valid_time }
     request_chunks: { day: 1 }
-    client_kwargs: { key: 93062765-e3e9-4e44-9a21-a901c5b0a6f1, url: https://cds.climate.copernicus.eu/api }
+    client_kwargs: { key: put_you_cds_key_here, url: https://cds.climate.copernicus.eu/api }
 
   open_dataset_name: open_dataset_fix_era5_single_levels_names
   chunks: { latitude: 512, longitude: 512, valid_time: 24 }
-  #shards: {latitude: 64, longitude: 64, valid_time: 720 }
 
   robust_to_zarr_kwargs: {processing_dim: valid_time, chunks_per_processing_batch: 1, retries: 3}
   to_zarr_kwargs: {

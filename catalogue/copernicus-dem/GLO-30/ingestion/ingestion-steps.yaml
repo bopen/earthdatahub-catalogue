@@ -3,8 +3,8 @@ steps:
   xarray_datastore_kwargs:
     url_template: s3://EODATA/auxdata/CopDEM_COG/copernicus-dem-30m/Copernicus_DSM_COG_10_{ns_latitude}_00_{ew_longitude}_00_DEM/Copernicus_DSM_COG_10_{ns_latitude}_00_{ew_longitude}_00_DEM.tif
     s3fs_kwargs:
-      key: JLVJZ2W4MLMV9PWOIGLV
-      secret: Z5IOxjSPAPob0jJMBCPzSdXjShVoK1sZAwZcN67U
+      key: put_your_dataspace_key_here
+      secret: put_your_dataspace_secret_here
       endpoint_url: https://eodata.dataspace.copernicus.eu
   xarray_open_kwargs:
     chunks: {}
