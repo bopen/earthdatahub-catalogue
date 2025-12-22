@@ -26,7 +26,6 @@ steps:
       ]
       "variant_label": r1i1p1f1
       "grid_label": gr
-    concat_dims: experiment_id
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
   chunks: {experiment_id: 1, time: 720, lat: 64, lon: 64 }
@@ -38,6 +37,6 @@ steps:
   }
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 12,
+    chunks_per_processing_batch: 32,
     retries: 3,
   }
