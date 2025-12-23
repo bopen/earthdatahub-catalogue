@@ -22,7 +22,7 @@ steps:
         "rlut",
         "rlus",
         "rlds",
-        #"areacella",
+        "areacella",
       ]
       "variant_label": r1i1p1f1
       "grid_label": gr
