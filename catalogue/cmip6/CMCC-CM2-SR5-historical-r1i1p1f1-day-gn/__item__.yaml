@@ -82,7 +82,6 @@ properties:
   cube:variables:
     pr:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -91,7 +90,6 @@ properties:
       unit: kg m-2 s-1
     tas:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -100,7 +98,6 @@ properties:
       unit: K
     uas:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -109,7 +106,6 @@ properties:
       unit: m s-1
     vas:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -118,7 +114,6 @@ properties:
       unit: m s-1
     hurs:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -127,7 +122,6 @@ properties:
       unit: '%'
     huss:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -136,11 +130,42 @@ properties:
       unit: '1'
     psl:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
       type: data
       description: Sea Level Pressure
       unit: Pa
-  dc:extent: 93 GB
+    rlds:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Downwelling Longwave Radiation
+      unit: W m-2
+    rlus:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upwelling Longwave Radiation
+      unit: W m-2
+    rlut:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: TOA Outgoing Longwave Radiation
+      unit: W m-2
+    rsds:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Downwelling Shortwave Radiation
+      unit: W m-2
+  dc:extent: 147 GB

@@ -82,7 +82,6 @@ properties:
   cube:variables:
     pr:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -91,7 +90,6 @@ properties:
       unit: kg m-2 s-1
     tas:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -100,7 +98,6 @@ properties:
       unit: K
     uas:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -109,7 +106,6 @@ properties:
       unit: m s-1
     vas:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -118,7 +114,6 @@ properties:
       unit: m s-1
     hurs:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -127,7 +122,6 @@ properties:
       unit: '%'
     huss:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -136,7 +130,6 @@ properties:
       unit: '1'
     psl:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -145,7 +138,6 @@ properties:
       unit: Pa
     rlds:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -154,7 +146,6 @@ properties:
       unit: W m-2
     rlus:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -163,7 +154,6 @@ properties:
       unit: W m-2
     rlut:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
@@ -172,7 +162,6 @@ properties:
       unit: W m-2
     rsds:
       dimensions:
-      - experiment_id
       - time
       - lat
       - lon
