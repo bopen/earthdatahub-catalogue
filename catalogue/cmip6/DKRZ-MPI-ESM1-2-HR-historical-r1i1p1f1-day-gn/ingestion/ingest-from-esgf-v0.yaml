@@ -6,11 +6,20 @@ steps:
     check_files: false
     retries: 3
     filename_or_obj:
-      #"project": CMIP6
+      #"project": CMIP
       "experiment_id": historical
       "source_id": MPI-ESM1-2-HR
       "frequency": ["day", "fx"]
       "variable_id": [
+        #"hursmin",
+        #"hursmax",
+        "prc",
+        "hfls",
+        "rsus",
+        "rlus",
+        "rlds",
+        "clt",
+        "hfss",
         "vas",
         "uas",
         "tas",
@@ -25,7 +34,8 @@ steps:
         "pr",
         "hurs",
         "huss",
-        "areacella"
+        "areacella",
+        "sftlf"
       ]
       "variant_label": r1i1p1f1
       "grid_label": gn
@@ -33,7 +43,7 @@ steps:
     index_node: esgf.ceda.ac.uk
   chunks: {time: 720, lat: 72, lon: 72}
   to_zarr_kwargs: {
-    store: s3://edh-root/cmip6/DKRZ-MPI-ESM1-2-HR-ScenarioMIP-r1i1p1f1-day-gn-v0.zarr,
+    store: s3://edh-root/cmip6/DKRZ-MPI-ESM1-2-HR-historical-r1i1p1f1-day-gn-v0.zarr,
     storage_options: {
       client_kwargs: { endpoint_url: https://s3.gra.io.cloud.ovh.net }
     }

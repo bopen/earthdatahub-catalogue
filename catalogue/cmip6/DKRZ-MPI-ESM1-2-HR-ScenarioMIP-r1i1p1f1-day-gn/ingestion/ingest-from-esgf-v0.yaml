@@ -11,6 +11,15 @@ steps:
       "source_id": MPI-ESM1-2-HR
       "frequency": ["day", "fx"]
       "variable_id": [
+        "hursmin",
+        "prc",
+        "hfls",
+        "rsus",
+        "hursmax",
+        "rlus",
+        "rlds",
+        "clt",
+        "hfss",
         "vas",
         "uas",
         "tas",
@@ -25,7 +34,8 @@ steps:
         "pr",
         "hurs",
         "huss",
-        "areacella"
+        "areacella",
+        "sftlf"
       ]
       "variant_label": r1i1p1f1
       "grid_label": gn
