@@ -11,6 +11,21 @@ steps:
       "source_id": CMCC-CM2-SR5
       "frequency": ["day", "fx"]
       "variable_id": [
+        "sftlf",
+
+        "snc",
+        "sfcWindmax",
+        "sfcWind",
+        "rsus",
+        "prsn",
+        "prc",
+        "mrsos",
+        "mrso",
+        "mrro",
+        "hfss",
+        "hfls",
+        "clt",
+
         "areacella",
         "pr",
         "tas",
@@ -30,7 +45,7 @@ steps:
     index_node: esgf.nci.org.au
   chunks: {experiment_id: 1, time: 720, lat: 72, lon: 72 }
   to_zarr_kwargs: {
-    store: s3://edh-root/cmip6/CMCC-CM2-SR5-historical-r1i1p1f1-day-gn-v1.zarr,
+    store: s3://edh-root/cmip6/CMCC-CM2-SR5-historical-r1i1p1f1-day-gn-v0-test.zarr,
     storage_options: {
       client_kwargs: { endpoint_url: https://s3.gra.io.cloud.ovh.net }
     }

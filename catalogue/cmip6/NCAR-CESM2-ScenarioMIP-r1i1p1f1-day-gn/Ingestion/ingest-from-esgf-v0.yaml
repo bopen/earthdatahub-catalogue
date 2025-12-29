@@ -30,11 +30,12 @@ steps:
       ]
       "variant_label": r10i1p1f1
       "grid_label": gn
+    concat_dims: experiment_id
     esgpull_path: /data/esgpull
     index_node: esgf-node.ornl.gov
   chunks: {experiment_id: 1, time: 720, lat: 72, lon: 72 }
   to_zarr_kwargs: {
-    store: s3://edh-root/cmip6/CESM2-ScenarioMIP-r10i1p1f1-day-gn-v0.zarr,
+    store: s3://edh-root/cmip6/NCAR-CESM2-ScenarioMIP-r10i1p1f1-day-gn-v0.zarr,
     storage_options: {
       client_kwargs: { endpoint_url: https://s3.gra.io.cloud.ovh.net }
     }

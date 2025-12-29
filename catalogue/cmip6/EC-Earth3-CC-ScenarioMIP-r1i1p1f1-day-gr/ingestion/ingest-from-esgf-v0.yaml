@@ -31,7 +31,7 @@ steps:
     index_node: esgf.ceda.ac.uk
   chunks: {experiment_id: 1, time: 720, lat: 64, lon: 64 }
   to_zarr_kwargs: {
-    store: s3://edh-root/cmip6/EC-Earth3-CC-ScenarioMIP-r1i1p1f1-day-gr-v1.zarr,
+    store: s3://edh-root/cmip6/EC-Earth3-CC-ScenarioMIP-r1i1p1f1-day-gr-v0.zarr,
     storage_options: {
       client_kwargs: { endpoint_url: https://s3.gra.io.cloud.ovh.net }
     }

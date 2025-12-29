@@ -10,7 +10,7 @@ bbox:
 - 90.0
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/cmip6/CMCC-CM2-SR5-ScenarioMIP-r1i1p1f1-day-gn-v1.zarr
+    href: https://data.earthdatahub.destine.eu/cmip6/CMCC-CM2-SR5-ScenarioMIP-r1i1p1f1-day-gn-v0.zarr
     roles:
     - data
     xarray:open_kwargs:

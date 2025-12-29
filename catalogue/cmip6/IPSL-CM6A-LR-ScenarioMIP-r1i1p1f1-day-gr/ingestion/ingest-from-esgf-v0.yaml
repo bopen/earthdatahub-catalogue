@@ -7,30 +7,51 @@ steps:
     retries: 3
     filename_or_obj:
       "project": CMIP6
-      "experiment_id": [ "ssp126" ]
-      #"experiment_id": ["ssp126", "ssp245", "ssp370", "ssp585"]
+      "experiment_id": [
+        "ssp119",
+        "ssp126",
+        "ssp245",
+        "ssp370",
+        "ssp434",
+        "ssp460",
+        "ssp585"
+      ]
       "source_id": IPSL-CM6A-LR
       "frequency": ["day", "fx"]
       "variable_id": [
-        #"areacella",
-        #"uas",
-        #"vas",
-        #"pr",
+        "hursmin",
+        "hurs",
+        "vas",
+        "hfss",
+        "prsn",
+        "psl",
+        "rlut",
+        "sfcWind",
+        "rlus",
+        "rsus",
+        "rlds",
+        "rsds",
+        "sfcWindmax",
         "tas",
-        #"hurs",
-        #"psl",
-        #"rsds",
-        #"rlut",
-        #"rlus",
-        #"rlds"
+        "uas",
+        "tasmin",
+        "tasmax",
+        "pr",
+        "prc",
+        "hursmax",
+        "clt",
+        "hfls",
+        "areacella",
+        "orog",
+        "sftlf",
+        "zfull",
       ]
       "variant_label": r1i1p1f1
       "grid_label": gr
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
-    #index_node: esgf-node.ornl.gov
-    index_node: eagle.alcf.anl.gov
-  chunks: {experiment_id: 1, time: 180, lat: 128, lon: 128}
+    index_node: vesg.ipsl.upmc.fr
+  chunks: {experiment_id: 1, time: 720, lat: 72, lon: 72}
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/IPSL-CM6A-LR-ScenarioMIP-r1i1p1f1-day-gr-v0.zarr,
     storage_options: {
