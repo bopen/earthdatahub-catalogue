@@ -41,16 +41,16 @@ steps:
         "hursmax",
         "clt",
         "hfls",
-        "areacella",
-        "orog",
-        "sftlf",
-        "zfull",
+        #"orog",
+        #"zfull",
+        #"sftlf",
+        #"areacella",
       ]
       "variant_label": r1i1p1f1
       "grid_label": gr
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
-    index_node: vesg.ipsl.upmc.fr
+    index_node: esgf.ceda.ac.uk
   chunks: {experiment_id: 1, time: 720, lat: 72, lon: 72}
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/IPSL-CM6A-LR-ScenarioMIP-r1i1p1f1-day-gr-v0.zarr,

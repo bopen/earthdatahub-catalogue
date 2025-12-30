@@ -3,7 +3,7 @@ steps:
     chunks: {}
     engine: esgf
     download: true
-    check_files: true
+    check_files: false
     retries: 3
     filename_or_obj:
       #"project": CMIP6
@@ -26,12 +26,13 @@ steps:
         "huss",
         "hfls",
         "hfss",
-        "areacella"
+        "areacella",
+        "sftlf"
       ]
       "variant_label": r1i1p1f1
       "grid_label": gn
     esgpull_path: /data/esgpull
-    index_node: esgf-data.ucar.edu
+    index_node: esgf.ceda.ac.uk
   chunks: {time: 720, lat: 72, lon: 72}
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/NCAR-CESM2-historical-r1i1p1f1-day-gn-v0.zarr,

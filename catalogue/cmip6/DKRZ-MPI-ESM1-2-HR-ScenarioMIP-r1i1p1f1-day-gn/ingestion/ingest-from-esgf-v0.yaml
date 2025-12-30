@@ -34,8 +34,8 @@ steps:
         "pr",
         "hurs",
         "huss",
-        "areacella",
-        "sftlf"
+        #"areacella",
+        #"sftlf"
       ]
       "variant_label": r1i1p1f1
       "grid_label": gn
