@@ -1,0 +1,57 @@
+steps:
+- xarray_open_kwargs:
+    chunks: {}
+    engine: esgf
+    download: true
+    check_files: false
+    retries: 3
+    filename_or_obj:
+      "project": CMIP6
+      "activity_id": ScenarioMIP
+      "institution_id": NCAR
+      "source_id": CESM2
+      "experiment_id": [ "ssp126", "ssp245", "ssp370", "ssp585"]
+      "variant_label": r10i1p1f1
+      "frequency": [ "day", "fx"]
+      "grid_label": gn
+      #"data_node": esgf-node.ornl.gov
+      #"data_node": eagle.alcf.anl.gov
+      "variable_id": [
+        "tas",
+        #"pr",
+        #"prc",
+        #"psl",
+        #"clt",
+        #"sfcWind",
+        #"rlus",
+        #"rsus",
+        #"rlut",
+        #"rlds",
+        #"rsds",
+        #"hurs",
+        #"huss",
+        #"hfls",
+        #"hfss",
+        #"areacella",
+        #"orog",
+        #"sftlf",
+        #"sftgif",
+      ]
+    concat_dims: experiment_id
+    esgpull_path: /data/esgpull2
+    index_node: esgf-node.ornl.gov/esgf-1-5-bridge
+    #index_node: esgf.ceda.ac.uk
+  chunks: {experiment_id: 1, time: 720, lat: 72, lon: 72 }
+  to_zarr_kwargs: {
+    store: s3://edh-root/cmip6/NCAR-CESM2-ScenarioMIP-r10i1p1f1-day-gn-v0.zarr,
+    storage_options: {
+      client_kwargs: { endpoint_url: https://s3.gra.io.cloud.ovh.net }
+    }
+  }
+  robust_to_zarr_kwargs: {
+    processing_dim: time,
+    chunks_per_processing_batch: 32,
+    retries: 3,
+  }
+
+

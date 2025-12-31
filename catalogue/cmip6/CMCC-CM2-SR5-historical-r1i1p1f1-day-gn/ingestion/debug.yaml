@@ -3,22 +3,24 @@ steps:
     chunks: {}
     engine: esgf
     download: true
-    retries: 3
     check_files: false
+    retries: 3
     filename_or_obj:
-      "project": CMIP6
-      "experiment_id": ssp*
+      #"project": CMIP
+      "experiment_id": historical
       "source_id": CMCC-CM2-SR5
-      "activity_id": ScenarioMIP
-      "frequency": ["day", "fx"]
-      "variable_id": ["tas", "areacella"]
+      "frequency": ["mon", "fx"]
+      "variable_id": [
+        "tas",
+        "pr",
+        "areacella"
+      ]
       "variant_label": r1i1p1f1
       "grid_label": gn
-    concat_dims: experiment_id
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
-  chunks: {experiment_id: 1, time: 2, lat: 128, lon: 128 }
-  to_zarr_kwargs: {store: s3://edc-temp/nm/cmip6/CMCC-CM2-SR5-debug-day-v2.zarr}
+  chunks: {time: 720, lat: 72, lon: 72}
+  to_zarr_kwargs: {store: s3://edh-root/cmip6/CMCC-CM2-SR5-historical-r1i1p1f1-mon-gn-v0-test.zarr}
   robust_to_zarr_kwargs: {
     processing_dim: time,
     chunks_per_processing_batch: 1,
