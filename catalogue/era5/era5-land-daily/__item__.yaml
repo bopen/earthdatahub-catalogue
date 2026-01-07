@@ -175,19 +175,3 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-    ro:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Runoff
-      unit: m
-    ssr:
-      dimensions:
-      - valid_time
-      - latitude
-      - longitude
-      type: data
-      description: Surface net short-wave (solar) radiation
-      unit: J m**-2
