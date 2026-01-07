@@ -5,5 +5,5 @@ plots:
   plot_kwargs: {
     "vmax": 330,
     "vmin": 230,
-    "cmap": "BrBG_r"
+    "cmap": "bwr"
   }
