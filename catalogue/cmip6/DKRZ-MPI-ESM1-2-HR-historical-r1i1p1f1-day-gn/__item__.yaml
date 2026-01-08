@@ -169,13 +169,6 @@ properties:
       type: data
       description: Surface Downwelling Shortwave Radiation
       unit: W m-2
-    areacella:
-      dimensions:
-      - lat
-      - lon
-      type: data
-      description: Grid-Cell Area for Atmospheric Grid Variables
-      unit: m2
     clt:
       dimensions:
       - time
@@ -256,13 +249,6 @@ properties:
       type: data
       description: Daily Maximum Near-Surface Wind Speed
       unit: m s-1
-    sftlf:
-      dimensions:
-      - lat
-      - lon
-      type: data
-      description: Percentage of the grid  cell occupied by land (including lakes)
-      unit: '%'
     tasmax:
       dimensions:
       - time

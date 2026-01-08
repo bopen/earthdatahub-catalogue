@@ -292,9 +292,4 @@ properties:
       type: data
       description: Daily Minimum Near-Surface Air Temperature
       unit: K
-    time_bnds:
-      dimensions:
-      - time
-      - bnds
-      type: data
   dc:extent: 852 GB

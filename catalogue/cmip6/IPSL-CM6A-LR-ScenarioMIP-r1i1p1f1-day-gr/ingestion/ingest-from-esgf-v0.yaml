@@ -17,7 +17,7 @@ steps:
         "ssp585"
       ]
       "source_id": IPSL-CM6A-LR
-      "frequency": ["day", "fx"]
+      "frequency": ["day"] #, "fx"
       "variable_id": [
         "hursmin",
         "hurs",

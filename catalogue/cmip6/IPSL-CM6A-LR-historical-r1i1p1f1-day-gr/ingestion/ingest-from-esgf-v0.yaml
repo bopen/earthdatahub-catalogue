@@ -6,28 +6,47 @@ steps:
     check_files: false
     retries: 3
     filename_or_obj:
+      data_node: vesg.ipsl.upmc.fr
       "project": CMIP6
       "experiment_id": historical
       "source_id": IPSL-CM6A-LR
-      "frequency": ["day", "fx"]
+      "frequency": ["day"] #, "fx"
       "variable_id": [
-        "areacella",
-        "pr",
-        "tas",
-        "hurs",
-        "psl",
-        "uas",
-        "vas",
-        "rsds",
-        "rlut",
-        "rlus",
-        "rlds"
+        #"areacella",
+        #"pr",
+        #"tas",
+        #"hurs",
+        #"psl",
+        #"uas",
+        #"vas",
+        #"rsds",
+        #"rlut",
+        #"rlus",
+        #"rlds"
+
+        "hursmin",
+        "hfss",
+        "prsn",
+        "sfcWind",
+        "rsus",
+        "sfcWindmax",
+        "tasmin",
+        "tasmax",
+        "prc",
+        "hursmax",
+        "clt",
+        "hfls",
+
+        #"orog",
+        #"sftlf",
+        #"rsd",
+        #"rsu"
       ]
       "variant_label": r1i1p1f1
       "grid_label": gr
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
-    index_node: esgf.nci.org.au
+    index_node: esgf.ceda.ac.uk
   chunks: {experiment_id: 1, time: 180, lat: 128, lon: 128}
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/IPSL-CM6A-LR-historical-r1i1p1f1-day-gr-v0.zarr,
@@ -37,7 +56,7 @@ steps:
   }
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 30,
+    chunks_per_processing_batch: 8,
     retries: 3,
   }
   to_zarr_encoding:

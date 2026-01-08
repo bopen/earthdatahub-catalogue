@@ -15,6 +15,7 @@ steps:
       "frequency": ["day", "fx"]
       "variable_id": [
         "sftlf",
+        "areacella",
         "snc",
         "sfcWindmax",
         "sfcWind",
@@ -27,8 +28,6 @@ steps:
         "hfss",
         "hfls",
         "clt",
-
-        "areacella",
         "pr",
         "tas",
         "hurs",
