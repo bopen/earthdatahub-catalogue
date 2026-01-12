@@ -25,9 +25,9 @@ properties:
   dc:abstract: Subset of ERA5 reanalysis atmospheric quantities on pressure-levels.
     The dataset is provided in a ARCO Zarr format ideal for spatial analysis
   dc:title: ERA5 hourly data on pressure levels
-  datetime: '2025-11-30T23:00:00Z'
+  datetime: '2025-12-31T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
-  end_datetime: '2025-11-30T23:00:00Z'
+  end_datetime: '2025-12-31T23:00:00Z'
   dc:access_rights: unrestricted
   dc:subject:
   - ERA5
@@ -40,7 +40,7 @@ properties:
       type: temporal
       extent:
       - '1940-01-01T00:00:00Z'
-      - '2025-11-30T23:00:00Z'
+      - '2025-12-31T23:00:00Z'
       step: PT1H
       axis: t
     latitude:
@@ -59,7 +59,7 @@ properties:
       - 359.8
       reference_system: 4326
       step: 0.25
-  dc:extent: 950.8 TB
+  dc:extent: 951.8 TB
   cube:variables:
     cc:
       dimensions:
