@@ -25,9 +25,9 @@ properties:
   dc:abstract: Subset of ERA5 reanalysis single-levels for ocean-wave quantities.
     The dataset is provided in a ARCO Zarr format ideal for time series analysis
   dc:title: ERA5 hourly data on single levels, ocean-wave variables
-  datetime: '2025-11-30T23:00:00Z'
+  datetime: '2025-12-31T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
-  end_datetime: '2025-11-30T23:00:00Z'
+  end_datetime: '2025-12-31T23:00:00Z'
   dc:access_rights: unrestricted
   dc:subject:
   - ERA5
@@ -59,7 +59,7 @@ properties:
       axis: t
       extent:
       - '1940-01-01T00:00:00Z'
-      - '2025-11-30T23:00:00Z'
+      - '2025-12-31T23:00:00Z'
   dc:extent: 33.7 TB
   cube:variables:
     cdww:
