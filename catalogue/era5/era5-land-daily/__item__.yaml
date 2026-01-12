@@ -19,7 +19,7 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 80
+search_weight: 89
 properties:
   edh:maturity: published
   dc:abstract: ERA5-Land provides land variables evolution over several decades at
