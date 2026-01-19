@@ -6,41 +6,44 @@ steps:
     check_files: false
     retries: 3
     filename_or_obj:
-      "project": CMIP6
-      "activity_id": CMIP
+      #"project": CMIP6
+      #"activity_id": CMIP
       "institution_id": NCAR
-      "source_id": CESM2
+      "source_id": "CESM2"
       "experiment_id": historical
       "variant_label": r1i1p1f1
       "frequency": ["day", "fx"]
       "grid_label": gn
+      #"data_node": esgf.ceda.ac.uk
       #"data_node": esgf-node.ornl.gov
-      #"data_node": eagle.alcf.anl.gov
       "variable_id": [
         "tas",
-        #"pr",
-        #"prc",
-        #"psl",
-        #"clt",
-        #"sfcWind",
-        #"rlus",
-        #"rsus",
-        #"rlut",
-        #"rlds",
-        #"rsds",
-        #"hurs",
-        #"huss",
-        #"hfls",
-        #"hfss",
-        #"areacella",
-        #"orog",
-        #"sftlf",
-        #"sftgif",
+        "pr",
+        "prc",
+        #"psl", # ha un file aggregato in più che spacca tutto
+        "clt",
+        "sfcWind",
+        "rlus",
+        "rsus",
+        "rlut",
+        "rlds",
+        "rsds",
+        "hurs",
+        "huss",
+        "hfls",
+        "hfss",
+
+        "areacella",
+        "orog",
+        "sftlf",
+        #"sftgif", # non si setuppa ha qualcosa di non incompatibile
       ]
-    esgpull_path: /data/esgpull2
-    index_node: esgf-node.ornl.gov/esgf-1-5-bridge
-    #index_node: esgf.ceda.ac.uk
-  chunks: {time: 720, lat: 72, lon: 72}
+    esgpull_path: /data/esgpull
+    index_node: esgf.ceda.ac.uk
+    #index_node: esgf-data.dkrz.de
+    #index_node: esgf.nci.org.au
+    #index_node: esgf-node.ornl.gov/esgf-1-5-bridge
+  chunks: {time: 720, lat: 32, lon: 72}
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/NCAR-CESM2-historical-r1i1p1f1-day-gn-v0.zarr,
     storage_options: {

@@ -11,24 +11,32 @@ steps:
       "source_id": NorESM2-MM
       "frequency": ["day", "fx"]
       "variable_id": [
-        "tas",
-        "tasmin",
-        "tasmax",
-        "sfcWind",
-        "rsds",
-        "psl",
-        "prc",
-        "pr",
-        "hurs",
-        "huss",
-        "areacella"
+        "sftlf",
+        "clt",
+        "hfls",
+        "hfss",
+        "rlds",
+        "rlus",
+        "rsus",
+
+        #"tas",
+        #"tasmin",
+        #"tasmax",
+        #"sfcWind",
+        #"rsds",
+        #"psl",
+        #"prc",
+        #"pr",
+        #"hurs",
+        #"huss",
+        #"areacella"
       ]
       "variant_label": r1i1p1f1
       "grid_label": gn
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
-  chunks: {time: 720, lat: 72, lon: 72}
+  chunks: {experiment_id: 1, time: 720, lat: 32, lon: 72}
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/NCC-NorESM2-MM-ScenarioMIP-r1i1p1f1-day-gn-v0.zarr,
     storage_options: {

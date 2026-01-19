@@ -10,9 +10,8 @@ steps:
       "project": CMIP6
       "experiment_id": historical
       "source_id": IPSL-CM6A-LR
-      "frequency": ["day"] #, "fx"
+      "frequency": ["day", "fx"]
       "variable_id": [
-        #"areacella",
         #"pr",
         #"tas",
         #"hurs",
@@ -37,8 +36,10 @@ steps:
         "clt",
         "hfls",
 
-        #"orog",
-        #"sftlf",
+        "orog",
+        "sftlf",
+        "areacella",
+
         #"rsd",
         #"rsu"
       ]
@@ -56,7 +57,7 @@ steps:
   }
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 8,
+    chunks_per_processing_batch: 32,
     retries: 3,
   }
   to_zarr_encoding:

@@ -1,0 +1,19 @@
+steps:
+- xarray_open_kwargs:
+    chunks: {}
+    engine: zarr
+    filename_or_obj: s3://edh-root/cmip6/DKRZ-MPI-ESM1-2-HR-ScenarioMIP-r1i1p1f1-day-gn-v0.zarr
+  chunks: {time: 720, lat: 64, lon: 64}
+  to_zarr_kwargs: {
+    store: s3://edh-root/cmip6/DKRZ-MPI-ESM1-2-HR-ScenarioMIP-r1i1p1f1-day-gn-v1.zarr,
+    storage_options: {
+      client_kwargs: { endpoint_url: https://s3.gra.io.cloud.ovh.net }
+    }
+  }
+  robust_to_zarr_kwargs: {
+    processing_dim: time,
+    chunks_per_processing_batch: 32,
+    retries: 3,
+  }
+
+

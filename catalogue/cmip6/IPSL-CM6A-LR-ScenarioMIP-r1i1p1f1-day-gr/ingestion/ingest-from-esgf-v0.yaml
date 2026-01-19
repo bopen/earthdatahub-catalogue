@@ -5,7 +5,12 @@ steps:
     download: true
     check_files: false
     retries: 3
+    drop_variables: type
+    sel:
+      time:
+        slice: [ "2000", "2100" ]
     filename_or_obj:
+      "data_node": vesg.ipsl.upmc.fr
       "project": CMIP6
       "experiment_id": [
         "ssp119",
@@ -14,10 +19,11 @@ steps:
         "ssp370",
         "ssp434",
         "ssp460",
+        #"ssp534-over",
         "ssp585"
       ]
       "source_id": IPSL-CM6A-LR
-      "frequency": ["day"] #, "fx"
+      "frequency": ["day", "fx"]
       "variable_id": [
         "hursmin",
         "hurs",
@@ -41,17 +47,20 @@ steps:
         "hursmax",
         "clt",
         "hfls",
-        #"orog",
-        #"zfull",
-        #"sftlf",
-        #"areacella",
+
+        "orog",
+        "sftlf",
+        "areacella",
       ]
       "variant_label": r1i1p1f1
       "grid_label": gr
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
-  chunks: {experiment_id: 1, time: 720, lat: 72, lon: 72}
+    #index_node: esgf-data.dkrz.de
+    #index_node: esgf.nci.org.au
+    #index_node: esgf-node.ornl.gov/esgf-1-5-bridge
+  chunks: {time: 720, lat: 143, lon: 36}
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/IPSL-CM6A-LR-ScenarioMIP-r1i1p1f1-day-gr-v0.zarr,
     storage_options: {
@@ -60,6 +69,6 @@ steps:
   }
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 1,
+    chunks_per_processing_batch: 32,
     retries: 3,
   }

@@ -11,18 +11,28 @@ steps:
       "source_id": EC-Earth3-CC
       "frequency": ["day", "fx"]
       "variable_id": [
-        "tas",
-        "pr" ,
-        "hurs",
-        "huss",
-        "psl",
-        "uas",
-        "vas",
-        "rsds",
-        "rlut",
-        "rlus",
-        "rlds",
-        "areacella",
+        "sfcWindmax",
+        "sfcWind",
+        "rsus",
+        "prsn",
+        "hfss",
+        "hfls",
+        "clt",
+        "tasmax",
+        "tasmin",
+
+        #"tas",
+        #"pr" ,
+        #"hurs",
+        #"huss",
+        #"psl",
+        #"uas",
+        #"vas",
+        #"rsds",
+        #"rlut",
+        #"rlus",
+        #"rlds",
+        #"areacella",
       ]
       "variant_label": r1i1p1f1
       "grid_label": gr

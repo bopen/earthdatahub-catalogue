@@ -10,38 +10,44 @@ steps:
       "activity_id": ScenarioMIP
       "institution_id": NCAR
       "source_id": CESM2
-      "experiment_id": [ "ssp126", "ssp245", "ssp370", "ssp585"]
+      "experiment_id": ["ssp126", "ssp245", "ssp585", "ssp370"]
       "variant_label": r10i1p1f1
-      "frequency": [ "day", "fx"]
+      "frequency": ["day", "fx"]
+      "table_id": ["day"]
+      "realm": atmos
       "grid_label": gn
       #"data_node": esgf-node.ornl.gov
-      #"data_node": eagle.alcf.anl.gov
+      #"data_node": esgf-data.ucar.edu
       "variable_id": [
         "tas",
-        #"pr",
-        #"prc",
-        #"psl",
-        #"clt",
-        #"sfcWind",
-        #"rlus",
-        #"rsus",
-        #"rlut",
-        #"rlds",
-        #"rsds",
-        #"hurs",
-        #"huss",
-        #"hfls",
-        #"hfss",
-        #"areacella",
-        #"orog",
-        #"sftlf",
-        #"sftgif",
+        "pr",
+        "prc",
+        "psl",
+        "clt",
+        "sfcWind",
+        "rlus",
+        "rsus",
+        "rlut",
+        "rlds",
+        "rsds",
+        "hurs",
+        "huss",
+        "hfls",
+        "hfss",
+
+        "areacella",
+        "orog",
+        "sftlf",
+
+        #"sftgif", # non si setuppa ha qualcosa di non incompatibile
       ]
     concat_dims: experiment_id
-    esgpull_path: /data/esgpull2
-    index_node: esgf-node.ornl.gov/esgf-1-5-bridge
+    esgpull_path: /data/esgpull
     #index_node: esgf.ceda.ac.uk
-  chunks: {experiment_id: 1, time: 720, lat: 72, lon: 72 }
+    #index_node: esgf-data.dkrz.de
+    index_node: esgf.nci.org.au
+    #index_node: esgf-node.ornl.gov/esgf-1-5-bridge
+  chunks: {experiment_id: 1, time: 720, lat: 32, lon: 72 }
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/NCAR-CESM2-ScenarioMIP-r10i1p1f1-day-gn-v0.zarr,
     storage_options: {

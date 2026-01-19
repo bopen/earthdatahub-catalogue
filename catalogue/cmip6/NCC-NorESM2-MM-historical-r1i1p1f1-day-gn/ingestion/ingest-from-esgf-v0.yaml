@@ -6,28 +6,37 @@ steps:
     check_files: false
     retries: 3
     filename_or_obj:
-      #"project": CMIP6
+      "project": CMIP6
       "experiment_id": historical
       "source_id": NorESM2-MM
       "frequency": ["day", "fx"]
+      "table_id": ["day"]
       "variable_id": [
-        "tas",
-        "tasmin",
-        "tasmax",
-        "sfcWind",
-        "rsds",
-        "psl",
-        "prc",
-        "pr",
-        "hurs",
-        "huss",
-        "areacella"
+        "hfls",
+        "hfss",
+        "clt",
+        "rlds",
+        "rlus",
+        "rsus",
+        "sftlf",
+
+        #"areacella"
+        #"tas",
+        #"tasmin",
+        #"tasmax",
+        #"sfcWind",
+        #"rsds",
+        #"psl",
+        #"prc",
+        #"pr",
+        #"hurs",
+        #"huss",
       ]
       "variant_label": r1i1p1f1
       "grid_label": gn
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
-  chunks: {time: 720, lat: 72, lon: 72}
+  chunks: {time: 720, lat: 32, lon: 72}
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/NCC-NorESM2-MM-historical-r1i1p1f1-day-gn-v0.zarr,
     storage_options: {
