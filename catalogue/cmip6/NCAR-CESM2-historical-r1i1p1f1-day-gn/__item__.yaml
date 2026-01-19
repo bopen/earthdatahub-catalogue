@@ -5,12 +5,12 @@ links:
   type: text/html
 bbox:
 - 0.0
-- -89.5
-- 359.3
-- 89.5
+- -90.0
+- 358.8
+- 90.0
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/cmip6/NCAR-CESM2-historical-r1i1p1f1-day-gr-v0.zarr
+    href: https://data.earthdatahub.destine.eu/cmip6/NCAR-CESM2-historical-r1i1p1f1-day-gn-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
@@ -28,10 +28,11 @@ properties:
     \ simulation period 1850\u20132014."
   dc:title: CMIP6 Historical Simulations model CESM2 (NCAR)
   dc:access_rights: unrestricted
-  dc:description: CMIP6 project, activity CMIP, institution NCAR, model CESM2, experiment historical, variant label r1i1p1f1
-  datetime: '2014-12-31T12:00:00Z'
-  start_datetime: '1850-01-01T12:00:00Z'
-  end_datetime: '2014-12-31T12:00:00Z'
+  dc:description: CMIP6 project, activity CMIP, institution NCAR, model CESM2, experiment
+    historical, variant label r1i1p1f1
+  datetime: '2015-01-01 00:00:00Z'
+  start_datetime: '1850-01-01 00:00:00Z'
+  end_datetime: '2015-01-01 00:00:00Z'
   dc:subject:
   - CMIP6
   - CMIP
@@ -46,8 +47,8 @@ properties:
       type: temporal
       axis: t
       extent:
-      - '1850-01-01T12:00:00Z'
-      - '2014-12-31T12:00:00Z'
+      - '1850-01-01 00:00:00Z'
+      - '2015-01-01 00:00:00Z'
       step: PT1H
     latitude:
       type: spatial
@@ -68,17 +69,17 @@ properties:
     lat:
       type: spatial
       axis: y
-      step: 0.7
+      step: 0.94
       extent:
-      - -89.5
-      - 89.5
+      - -90.0
+      - 90.0
     lon:
       type: spatial
       axis: x
-      step: 0.7
+      step: 1.25
       extent:
       - 0.0
-      - 359.3
+      - 358.8
   cube:variables:
     pr:
       dimensions:
@@ -96,22 +97,6 @@ properties:
       type: data
       description: Near-Surface Air Temperature
       unit: K
-    uas:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-      description: Eastward Near-Surface Wind
-      unit: m s-1
-    vas:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-      description: Northward Near-Surface Wind
-      unit: m s-1
     hurs:
       dimensions:
       - time
@@ -128,14 +113,6 @@ properties:
       type: data
       description: Near-Surface Specific Humidity
       unit: '1'
-    psl:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-      description: Sea Level Pressure
-      unit: Pa
     rlds:
       dimensions:
       - time
@@ -168,4 +145,66 @@ properties:
       type: data
       description: Surface Downwelling Shortwave Radiation
       unit: W m-2
-  dc:extent: 348 GB
+    clt:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: for the whole atmospheric column, as seen from the surface or the
+        top of the atmosphere. Includes both large-scale and convective cloud.
+      unit: '%'
+    hfls:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: The surface called "surface" means the lower boundary of the atmosphere.
+        "Upward" indicates a vector component which is positive when directed upward
+        (negative downward). The surface latent heat flux is the exchange of heat
+        between the surface and the air on account of evaporation (including sublimation).
+        In accordance with common usage in geophysical disciplines, "flux" implies
+        per unit area, called "flux density" in physics.
+      unit: W m-2
+    hfss:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: The surface sensible heat flux, also called turbulent heat flux,
+        is the exchange of heat between the surface and the air by motion of air.
+      unit: W m-2
+    prc:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: at surface; includes both liquid and solid phases.
+      unit: kg m-2 s-1
+    rsus:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: The surface called "surface" means the lower boundary of the atmosphere.
+        "shortwave" means shortwave radiation. Upwelling radiation is radiation from
+        below. It does not mean "net upward". When thought of as being incident on
+        a surface, a radiative flux is sometimes called "irradiance". In addition,
+        it is identical with the quantity measured by a cosine-collector light-meter
+        and sometimes called "vector irradiance". In accordance with common usage
+        in geophysical disciplines, "flux" implies per unit area, called "flux density"
+        in physics.
+      unit: W m-2
+    sfcWind:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: near-surface (usually, 10 meters) wind speed.
+      unit: m s-1
+  dc:extent: 186 GB

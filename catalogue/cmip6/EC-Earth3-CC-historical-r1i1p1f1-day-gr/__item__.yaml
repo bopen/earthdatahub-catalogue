@@ -169,4 +169,76 @@ properties:
       type: data
       description: Surface Downwelling Shortwave Radiation
       unit: W m-2
-  dc:extent: 348 GB
+    clt:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Total Cloud Cover Percentage
+      unit: '%'
+    hfls:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upward Latent Heat Flux
+      unit: W m-2
+    hfss:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upward Sensible Heat Flux
+      unit: W m-2
+    prsn:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Snowfall Flux
+      unit: kg m-2 s-1
+    rsus:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upwelling Shortwave Radiation
+      unit: W m-2
+    sfcWind:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Daily-Mean Near-Surface Wind Speed
+      unit: m s-1
+    sfcWindmax:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Daily Maximum Near-Surface Wind Speed
+      unit: m s-1
+    tasmax:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Daily Maximum Near-Surface Air Temperature
+      unit: K
+    tasmin:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Daily Minimum Near-Surface Air Temperature
+      unit: K
+  dc:extent: 632 GB

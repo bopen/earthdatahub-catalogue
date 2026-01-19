@@ -5,9 +5,9 @@ links:
   type: text/html
 bbox:
 - 0.0
-- -89.5
-- 359.3
-- 89.5
+- -90.0
+- 357.5
+- 90.0
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/cmip6/IPSL-CM6A-LR-historical-r1i1p1f1-day-gr-v0.zarr
@@ -28,7 +28,8 @@ properties:
     \ simulation period 1850\u20132014."
   dc:title: CMIP6 Historical Simulations model CM6A-LR (IPSL)
   dc:access_rights: unrestricted
-  dc:description: CMIP6 project, activity CMIP, institution IPSL, model IPSL-CM6A-LR, experiment historical, variant label r1i1p1f1
+  dc:description: CMIP6 project, activity CMIP, institution IPSL, model IPSL-CM6A-LR,
+    experiment historical, variant label r1i1p1f1
   datetime: '2014-12-31T12:00:00Z'
   start_datetime: '1850-01-01T12:00:00Z'
   end_datetime: '2014-12-31T12:00:00Z'
@@ -68,17 +69,17 @@ properties:
     lat:
       type: spatial
       axis: y
-      step: 0.7
+      step: 1.2599999904632568
       extent:
-      - -89.5
-      - 89.5
+      - -90.0
+      - 90.0
     lon:
       type: spatial
       axis: x
-      step: 0.7
+      step: 2.4800000190734863
       extent:
       - 0.0
-      - 359.3
+      - 357.5
   cube:variables:
     pr:
       dimensions:
@@ -120,14 +121,6 @@ properties:
       type: data
       description: Near-Surface Relative Humidity
       unit: '%'
-    huss:
-      dimensions:
-      - time
-      - lat
-      - lon
-      type: data
-      description: Near-Surface Specific Humidity
-      unit: '1'
     psl:
       dimensions:
       - time
@@ -168,4 +161,104 @@ properties:
       type: data
       description: Surface Downwelling Shortwave Radiation
       unit: W m-2
-  dc:extent: 348 GB
+    clt:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: for the whole atmospheric column, as seen from the surface or the
+        top of the atmosphere. Includes both large-scale and convective cloud.
+      unit: '%'
+    hfls:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upward Latent Heat Flux
+      unit: W m-2
+    hfss:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upward Sensible Heat Flux
+      unit: W m-2
+    hursmax:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: This is the relative humidity with respect to liquid water for
+        T> 0 C, and with respect to ice for T<0 C.
+      unit: '%'
+    hursmin:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: This is the relative humidity with respect to liquid water for
+        T> 0 C, and with respect to ice for T<0 C.
+      unit: '%'
+    prc:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: at surface; includes both liquid and solid phases.
+      unit: kg m-2 s-1
+    prsn:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: at surface; includes precipitation of all forms of water in the
+        solid phase
+      unit: kg m-2 s-1
+    rsus:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upwelling Shortwave Radiation
+      unit: W m-2
+    sfcWind:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Daily-Mean Near-Surface Wind Speed
+      unit: m s-1
+    sfcWindmax:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Daily Maximum Near-Surface Wind Speed
+      unit: m s-1
+    tasmax:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Daily Maximum Near-Surface Air Temperature
+      unit: K
+    tasmin:
+      dimensions:
+      - time
+      - lat
+      - lon
+      type: data
+      description: Daily Minimum Near-Surface Air Temperature
+      unit: K
+  dc:extent: 109 GB

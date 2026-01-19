@@ -184,4 +184,112 @@ properties:
       type: data
       description: Surface Downwelling Shortwave Radiation
       unit: W m-2
-  dc:extent: 305 GB
+    clt:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Total Cloud Cover Percentage
+      unit: '%'
+    hfls:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upward Latent Heat Flux
+      unit: W m-2
+    hfss:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upward Sensible Heat Flux
+      unit: W m-2
+    mrro:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Total Runoff
+      unit: kg m-2 s-1
+    mrso:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Total Soil Moisture Content
+      unit: kg m-2
+    mrsos:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Moisture in Upper Portion of Soil Column
+      unit: kg m-2
+    prc:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Convective Precipitation
+      unit: kg m-2 s-1
+    prsn:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Snowfall Flux
+      unit: kg m-2 s-1
+    rsus:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upwelling Shortwave Radiation
+      unit: W m-2
+    sfcWind:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Daily-Mean Near-Surface Wind Speed
+      unit: m s-1
+    sfcWindmax:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Daily Maximum Near-Surface Wind Speed
+      unit: m s-1
+    snc:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Snow Area Percentage
+      unit: '%'
+  dc:extent: 639 GB

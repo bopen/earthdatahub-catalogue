@@ -174,4 +174,58 @@ properties:
       type: data
       description: Daily Minimum Near-Surface Air Temperature
       unit: K
-  dc:extent: 208 GB
+    clt:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Total Cloud Cover Percentage
+      unit: '%'
+    hfls:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upward Latent Heat Flux
+      unit: W m-2
+    hfss:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upward Sensible Heat Flux
+      unit: W m-2
+    rlds:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Downwelling Longwave Radiation
+      unit: W m-2
+    rlus:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upwelling Longwave Radiation
+      unit: W m-2
+    rsus:
+      dimensions:
+      - experiment_id
+      - time
+      - lat
+      - lon
+      type: data
+      description: Surface Upwelling Shortwave Radiation
+      unit: W m-2
+  dc:extent: 333 GB
