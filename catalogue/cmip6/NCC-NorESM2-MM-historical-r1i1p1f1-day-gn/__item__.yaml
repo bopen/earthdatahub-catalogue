@@ -19,7 +19,7 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 72
+search_weight: 52
 properties:
   edh:maturity: draft
   dc:abstract: "This dataset features a selection of historical climate simulation\

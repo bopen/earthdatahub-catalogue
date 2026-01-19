@@ -19,7 +19,7 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 73
+search_weight: 51
 properties:
   edh:maturity: draft
   dc:abstract: "This dataset features a selection of future climate projections variables\
