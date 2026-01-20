@@ -13,8 +13,8 @@ steps:
       "experiment_id": ["ssp126", "ssp245", "ssp585", "ssp370"]
       "variant_label": r10i1p1f1
       "frequency": ["day", "fx"]
-      "table_id": ["day"]
-      "realm": atmos
+      "table_id": ["day", "fx"]
+      #"realm": atmos
       "grid_label": gn
       #"data_node": esgf-node.ornl.gov
       #"data_node": esgf-data.ucar.edu
@@ -25,28 +25,27 @@ steps:
         "psl",
         "clt",
         "sfcWind",
-        "rlus",
-        "rsus",
-        "rlut",
-        "rlds",
-        "rsds",
-        "hurs",
-        "huss",
-        "hfls",
-        "hfss",
+
+        #"hfls",
+        #"hfss",
+        #"hurs",
+        #"huss",
+        #"rlus",
+        #"rsus",
+        #"rlut",
+        #"rlds",
+        #"rsds",
 
         "areacella",
         "orog",
         "sftlf",
-
-        #"sftgif", # non si setuppa ha qualcosa di non incompatibile
       ]
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
     #index_node: esgf.ceda.ac.uk
     #index_node: esgf-data.dkrz.de
-    index_node: esgf.nci.org.au
-    #index_node: esgf-node.ornl.gov/esgf-1-5-bridge
+    #index_node: esgf.nci.org.au
+    index_node: esgf-node.ornl.gov/esgf-1-5-bridge
   chunks: {experiment_id: 1, time: 720, lat: 32, lon: 72 }
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/NCAR-CESM2-ScenarioMIP-r10i1p1f1-day-gn-v0.zarr,
@@ -56,7 +55,7 @@ steps:
   }
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 32,
+    chunks_per_processing_batch: 8,
     retries: 3,
   }
 

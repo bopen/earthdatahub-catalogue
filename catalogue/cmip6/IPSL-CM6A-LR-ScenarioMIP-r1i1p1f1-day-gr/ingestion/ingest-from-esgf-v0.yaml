@@ -10,7 +10,8 @@ steps:
       time:
         slice: [ "2000", "2100" ]
     filename_or_obj:
-      "data_node": vesg.ipsl.upmc.fr
+      #"data_node": vesg.ipsl.upmc.fr
+      data_node: esgf3.dkrz.de
       "project": CMIP6
       "experiment_id": [
         "ssp119",
@@ -23,10 +24,23 @@ steps:
         "ssp585"
       ]
       "source_id": IPSL-CM6A-LR
-      "frequency": ["day", "fx"]
+      "frequency": [ "day", "fx" ]
+      "table_id": [ "fx", "day" ]
+      #"realm": "atmos"
+      "variant_label": r1i1p1f1
+      "grid_label": gr
       "variable_id": [
-        "hursmin",
+        "orog",
+        "sftlf",
+        "areacella",
+
+        "tas",
+        "tasmin",
+        "tasmax",
         "hurs",
+        "hursmin",
+        "hursmax",
+        "uas",
         "vas",
         "hfss",
         "prsn",
@@ -38,28 +52,14 @@ steps:
         "rlds",
         "rsds",
         "sfcWindmax",
-        "tas",
-        "uas",
-        "tasmin",
-        "tasmax",
         "pr",
         "prc",
-        "hursmax",
         "clt",
         "hfls",
-
-        "orog",
-        "sftlf",
-        "areacella",
       ]
-      "variant_label": r1i1p1f1
-      "grid_label": gr
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
-    #index_node: esgf-data.dkrz.de
-    #index_node: esgf.nci.org.au
-    #index_node: esgf-node.ornl.gov/esgf-1-5-bridge
   chunks: {time: 720, lat: 143, lon: 36}
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/IPSL-CM6A-LR-ScenarioMIP-r1i1p1f1-day-gr-v0.zarr,

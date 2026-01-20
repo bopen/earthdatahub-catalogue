@@ -11,42 +11,42 @@ steps:
       "experiment_id": ["ssp126", "ssp245", "ssp370", "ssp585"]
       "source_id": CMCC-CM2-SR5
       "frequency": ["day", "fx"]
-      "table_id": ["day"]
+      "table_id": ["day", "fx"]
+      #"realm": "atmos"
       "variant_label": r1i1p1f1
       "grid_label": gn
       "variable_id": [
         "sftlf",
-        #"snc",
-        #"sfcWindmax",
-        #"sfcWind",
-        #"rsus",
-        #"prsn",
-        #"prc",
-        #"hfss",
-        #"hfls",
-        #"clt",
-        #"mrsos",
-        #"mrso",
-        #"mrro",
-        #"areacella",
-        #"pr",
-        #"tas",
-        #"hurs",
-        #"huss",
-        #"psl",
-        #"uas",
-        #"vas",
-        #"rsds",
-        #"rlut",
-        #"rlus",
-        #"rlds"
+        "areacella",
+
+        "snc", # this is "realm" : landIce
+        "mrsos", # this is "realm" : land
+        "mrso", # this is "realm" : land
+        "mrro", # this is "realm" : land
+
+        "sfcWindmax",
+        "sfcWind",
+        "rsus",
+        "prsn",
+        "prc",
+        "hfss",
+        "hfls",
+        "clt",
+        "pr",
+        "tas",
+        "hurs",
+        "huss",
+        "psl",
+        "uas",
+        "vas",
+        "rsds",
+        "rlut",
+        "rlus",
+        "rlds"
       ]
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
-    #index_node: esgf-data.dkrz.de
-    #index_node: esgf.nci.org.au
-    #index_node: esgf-node.ornl.gov/esgf-1-5-bridge
   chunks: {experiment_id: 1, time: 720, lat: 32, lon: 72 }
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/CMCC-CM2-SR5-ScenarioMIP-r1i1p1f1-day-gn-v0.zarr,

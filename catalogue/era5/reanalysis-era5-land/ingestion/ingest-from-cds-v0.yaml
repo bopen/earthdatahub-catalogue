@@ -10,7 +10,7 @@ steps:
       download_format: unarchived
       dataset: reanalysis-era5-land
       area: [ '90', '0', '-57.1', '360' ]
-      date: [1950-01-01/2025-11-30]
+      date: [1950-01-01/2025-12-31]
       time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
       variable: [
         '2m_dewpoint_temperature',
@@ -69,7 +69,7 @@ steps:
     client_kwargs: { key: put-your-cds-key-here, url: https://cds.climate.copernicus.eu/api}
 
   chunks: {latitude: 64, longitude: 64, valid_time: 2880}
-  robust_to_zarr_kwargs: { restart_block_size: valid_time, restart_block_size: 1, retries: 3 }
+  robust_to_zarr_kwargs: {restart_dim: valid_time, restart_block_size: 1, retries: 3}
   to_zarr_kwargs: {
     store: s3://edc-era5/reanalysis-era5-land-no-antartica-v0-dev.zarr,
     chunk_store: s3://edc-era5/reanalysis-era5-land-no-antartica-v0.zarr

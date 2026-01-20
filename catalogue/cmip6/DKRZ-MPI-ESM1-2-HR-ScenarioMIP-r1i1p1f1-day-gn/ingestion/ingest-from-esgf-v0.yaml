@@ -7,35 +7,39 @@ steps:
     retries: 3
     filename_or_obj:
       "project": CMIP6
+      "data_node": esgf3.dkrz.de
       "experiment_id": ["ssp126", "ssp245", "ssp370", "ssp585"]
       "source_id": MPI-ESM1-2-HR
       "frequency": ["day", "fx"]
+      "table_id": [ "fx", "day" ]
+      #"realm": "atmos"
       "variable_id": [
-        #"hursmin",
-        #"prc",
-        #"hfls",
-        #"rsus",
-        #"hursmax",
-        #"rlus",
-        #"rlds",
-        #"clt",
-        #"hfss",
-        #"vas",
-        #"uas",
-        #"tas",
-        #"tasmin",
-        #"tasmax",
-        #"sfcWindmax",
-        #"sfcWind",
-        #"rsds",
-        #"rlut",
-        #"psl",
-        #"prsn",
-        #"pr",
-        #"hurs",
-        #"huss",
         "areacella",
         "sftlf"
+
+        "hursmin",
+        "prc",
+        "hfls",
+        "rsus",
+        "hursmax",
+        "rlus",
+        "rlds",
+        "clt",
+        "hfss",
+        "vas",
+        "uas",
+        "tas",
+        "tasmin",
+        "tasmax",
+        "sfcWindmax",
+        "sfcWind",
+        "rsds",
+        "rlut",
+        "psl",
+        "prsn",
+        "pr",
+        "hurs",
+        "huss",
       ]
       "variant_label": r1i1p1f1
       "grid_label": gn
