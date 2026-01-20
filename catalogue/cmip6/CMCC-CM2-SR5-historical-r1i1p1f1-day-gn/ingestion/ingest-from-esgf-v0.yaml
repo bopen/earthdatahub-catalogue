@@ -12,41 +12,34 @@ steps:
       "variant_label": r1i1p1f1
       "grid_label": gn
       "frequency": ["day", "fx"]
-      "table_id": [ "day" ]
+      "table_id": [ "day", "fx"]
+      #"realm": "atmos"
       "variable_id": [
-        #"sftlf",
-        #"areacella",
+        "sftlf",
+        "areacella",
 
-        #"snc",
-        #"sfcWindmax",
-        #"sfcWind",
-        #"rsus",
-        #"prsn",
-        #"prc",
-        #"hfss",
-        #"hfls",
-        #"clt",
-        #"mrsos",
-        #"mrso",
-        #"mrro",
-
-        #"pr",
-        #"tas",
-        #"hurs",
-        #"huss",
-        #"psl",
-        #"uas",
-        #"vas",
-        #"rsds",
-        #"rlut",
-        #"rlus",
-        #"rlds"
+        "prsn",
+        "prc",
+        "clt",
+        "pr",
+        "tas",
+        "psl",
+        "uas",
+        "vas",
+        "sfcWindmax",
+        "sfcWind",
+        "rsus",
+        "rsds",
+        "rlut",
+        "rlus",
+        "rlds",
+        "hfss",
+        "hfls",
+        "hurs",
+        "huss",
       ]
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
-    #index_node: esgf-data.dkrz.de
-    #index_node: esgf.nci.org.au
-    #index_node: esgf-node.ornl.gov/esgf-1-5-bridge
   chunks: {time: 720, lat: 32, lon: 72 }
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/CMCC-CM2-SR5-historical-r1i1p1f1-day-gn-v0.zarr,

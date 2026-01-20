@@ -5,47 +5,46 @@ steps:
     download: true
     check_files: false
     retries: 3
+    drop_variables: type
     filename_or_obj:
-      data_node: vesg.ipsl.upmc.fr
+      #data_node: vesg.ipsl.upmc.fr
+      data_node: esgf3.dkrz.de
       "project": CMIP6
       "experiment_id": historical
       "source_id": IPSL-CM6A-LR
       "frequency": ["day", "fx"]
+      "table_id": ["day", "fx"]
+      #"realm": "atmos"
+      "variant_label": r1i1p1f1
+      "grid_label": gr
       "variable_id": [
-        #"pr",
-        #"tas",
-        #"hurs",
-        #"psl",
-        #"uas",
-        #"vas",
-        #"rsds",
-        #"rlut",
-        #"rlus",
-        #"rlds"
-
-        "hursmin",
-        "hfss",
-        "prsn",
-        "sfcWind",
-        "rsus",
-        "sfcWindmax",
-        "tasmin",
-        "tasmax",
-        "prc",
-        "hursmax",
-        "clt",
-        "hfls",
-
         "orog",
         "sftlf",
         "areacella",
 
-        #"rsd",
-        #"rsu"
+        "pr",
+        "prc",
+        "tas",
+        "tasmin",
+        "tasmax",
+        "psl",
+        "uas",
+        "vas",
+        "rsus",
+        "rlut",
+        "rlus",
+        "rlds",
+        "rsds",
+        "hurs",
+        "hursmin",
+        "hursmax",
+        "hfss",
+        "hfls",
+        "prsn",
+        "sfcWind",
+        "sfcWindmax",
+        "clt",
       ]
-      "variant_label": r1i1p1f1
-      "grid_label": gr
-    concat_dims: experiment_id
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
   chunks: {experiment_id: 1, time: 180, lat: 128, lon: 128}

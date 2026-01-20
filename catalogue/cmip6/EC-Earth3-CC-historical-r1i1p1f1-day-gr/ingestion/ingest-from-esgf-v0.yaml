@@ -9,8 +9,12 @@ steps:
       "project": CMIP6
       "experiment_id": historical
       "source_id": EC-Earth3-CC
-      "frequency": ["day", "fx"]
+      "frequency": [ "day", "fx" ]
+      "table_id": [ "fx", "day" ]
+      #"realm": "atmos"
       "variable_id": [
+        "areacella",
+
         "sfcWindmax",
         "sfcWind",
         "rsus",
@@ -20,19 +24,17 @@ steps:
         "clt",
         "tasmax",
         "tasmin",
-
-        #"tas",
-        #"pr" ,
-        #"hurs",
-        #"huss",
-        #"psl",
-        #"uas",
-        #"vas",
-        #"rsds",
-        #"rlut",
-        #"rlus",
-        #"rlds",
-        #"areacella",
+        "tas",
+        "pr" ,
+        "hurs",
+        "huss",
+        "psl",
+        "uas",
+        "vas",
+        "rsds",
+        "rlut",
+        "rlus",
+        "rlds",
       ]
       "variant_label": r1i1p1f1
       "grid_label": gr

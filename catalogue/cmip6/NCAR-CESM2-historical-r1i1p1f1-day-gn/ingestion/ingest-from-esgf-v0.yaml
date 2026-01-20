@@ -6,17 +6,22 @@ steps:
     check_files: false
     retries: 3
     filename_or_obj:
-      #"project": CMIP6
-      #"activity_id": CMIP
+      "project": CMIP6
       "institution_id": NCAR
-      "source_id": "CESM2"
+      "source_id": CESM2
       "experiment_id": historical
+      "frequency": [ "day", "fx" ]
+      "table_id": [ "day", "fx" ]
+      #"realm": "atmos"
       "variant_label": r1i1p1f1
-      "frequency": ["day", "fx"]
       "grid_label": gn
       #"data_node": esgf.ceda.ac.uk
       #"data_node": esgf-node.ornl.gov
       "variable_id": [
+        "areacella",
+        "orog",
+        "sftlf",
+
         "tas",
         "pr",
         "prc",
@@ -32,16 +37,9 @@ steps:
         "huss",
         "hfls",
         "hfss",
-
-        "areacella",
-        "orog",
-        "sftlf",
-        #"sftgif", # non si setuppa ha qualcosa di non incompatibile
       ]
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
-    #index_node: esgf-data.dkrz.de
-    #index_node: esgf.nci.org.au
     #index_node: esgf-node.ornl.gov/esgf-1-5-bridge
   chunks: {time: 720, lat: 32, lon: 72}
   to_zarr_kwargs: {
