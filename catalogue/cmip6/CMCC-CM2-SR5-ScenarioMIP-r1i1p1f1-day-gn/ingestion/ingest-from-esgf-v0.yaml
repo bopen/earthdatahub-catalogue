@@ -8,8 +8,10 @@ steps:
     filename_or_obj:
       "project": CMIP6
       "activity_id" : ScenarioMIP
-      "experiment_id": ["ssp126", "ssp245", "ssp370", "ssp585"]
+      #"data_node": esgf-node2.cmcc.it
+      "institution_id": CMCC
       "source_id": CMCC-CM2-SR5
+      "experiment_id": ["ssp126", "ssp245", "ssp370", "ssp585"]
       "frequency": ["day", "fx"]
       "table_id": ["day", "fx"]
       #"realm": "atmos"
@@ -18,11 +20,6 @@ steps:
       "variable_id": [
         "sftlf",
         "areacella",
-
-        "snc", # this is "realm" : landIce
-        "mrsos", # this is "realm" : land
-        "mrso", # this is "realm" : land
-        "mrro", # this is "realm" : land
 
         "sfcWindmax",
         "sfcWind",

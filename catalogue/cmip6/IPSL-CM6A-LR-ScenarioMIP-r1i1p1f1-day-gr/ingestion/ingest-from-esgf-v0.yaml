@@ -10,9 +10,12 @@ steps:
       time:
         slice: [ "2000", "2100" ]
     filename_or_obj:
-      #"data_node": vesg.ipsl.upmc.fr
-      data_node: esgf3.dkrz.de
       "project": CMIP6
+      "activity_id": ScenarioMIP
+      #"data_node": esgf3.dkrz.de
+      #"data_node": vesg.ipsl.upmc.fr
+      "institution_id": IPSL
+      "source_id": IPSL-CM6A-LR
       "experiment_id": [
         "ssp119",
         "ssp126",
@@ -23,7 +26,6 @@ steps:
         #"ssp534-over",
         "ssp585"
       ]
-      "source_id": IPSL-CM6A-LR
       "frequency": [ "day", "fx" ]
       "table_id": [ "fx", "day" ]
       #"realm": "atmos"

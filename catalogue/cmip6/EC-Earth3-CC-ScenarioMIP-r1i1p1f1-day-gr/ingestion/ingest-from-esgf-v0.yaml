@@ -7,11 +7,16 @@ steps:
     retries: 3
     filename_or_obj:
       "project": CMIP6
-      "experiment_id": ['ssp245', 'ssp585']
+      "activity_id": ScenarioMIP
+      #"data_node": esgf.ceda.ac.uk
+      "institution_id": EC-Earth-Consortium
       "source_id": EC-Earth3-CC
+      "experiment_id": ['ssp245', 'ssp585']
       "frequency": ["day", "fx"]
-      "table_id": [ "fx", "day" ]
+      "table_id": ["day", "fx"]
       #"realm": "atmos"
+      "variant_label": r1i1p1f1
+      "grid_label": gr
       "variable_id": [
         "areacella",
 
@@ -36,8 +41,6 @@ steps:
         "rlus",
         "rlds"
       ]
-      "variant_label": r1i1p1f1
-      "grid_label": gr
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
@@ -50,6 +53,6 @@ steps:
   }
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 12,
+    chunks_per_processing_batch: 32,
     retries: 3,
   }

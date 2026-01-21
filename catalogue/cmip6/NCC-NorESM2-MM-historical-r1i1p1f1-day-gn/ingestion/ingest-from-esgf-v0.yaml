@@ -7,9 +7,10 @@ steps:
     retries: 3
     filename_or_obj:
       "project": CMIP6
+      #"data_node": esgf3.dkrz.de
       "institution_id": NCC
-      "experiment_id": historical
       "source_id": NorESM2-MM
+      "experiment_id": historical
       "frequency": ["day", "fx"]
       "table_id": ["day", "fx"]
       #"realm": atmos
@@ -40,7 +41,7 @@ steps:
     index_node: esgf.ceda.ac.uk
   chunks: {time: 720, lat: 32, lon: 72}
   to_zarr_kwargs: {
-    store: s3://edh-root/cmip6/NCC-NorESM2-MM-historical-r1i1p1f1-day-gn-v0.zarr,
+    store: s3://edh-root/cmip6/NCC-NorESM2-MM-historical-r1i1p1f1-day-gn-v0-test.zarr,
     storage_options: {
       client_kwargs: { endpoint_url: https://s3.gra.io.cloud.ovh.net }
     }

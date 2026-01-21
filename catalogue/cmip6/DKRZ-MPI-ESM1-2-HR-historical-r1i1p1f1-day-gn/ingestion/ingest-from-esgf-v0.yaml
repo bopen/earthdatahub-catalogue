@@ -7,14 +7,14 @@ steps:
     retries: 3
     filename_or_obj:
       "project": CMIP6
-      "data_node": esgf3.dkrz.de
+      #"data_node": esgf3.dkrz.de
       "experiment_id": historical
       #"institution_id": DKRZ # for some reason institution_id is MPI-M instead of DKRZ
       "institution_id": MPI-M
       "source_id": MPI-ESM1-2-HR
       "frequency": ["fx", "day"]
       "table_id": ["fx", "day"]
-      "realm": "atmos"
+      #"realm": "atmos"
       "variable_id": [
         "areacella",
         "sftlf",

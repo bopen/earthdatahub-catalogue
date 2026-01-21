@@ -7,12 +7,16 @@ steps:
     retries: 3
     filename_or_obj:
       "project": CMIP6
-      "data_node": esgf3.dkrz.de
-      "experiment_id": ["ssp126", "ssp245", "ssp370", "ssp585"]
+      "activity_id": ScenarioMIP
+      #"data_node": esgf3.dkrz.de
+      "institution_id": DKRZ
       "source_id": MPI-ESM1-2-HR
+      "experiment_id": [ "ssp126", "ssp245", "ssp370", "ssp585" ]
       "frequency": ["day", "fx"]
-      "table_id": [ "fx", "day" ]
+      "table_id": ["day", "fx"]
       #"realm": "atmos"
+      "variant_label": r1i1p1f1
+      "grid_label": gn
       "variable_id": [
         "areacella",
         "sftlf"
@@ -41,8 +45,6 @@ steps:
         "hurs",
         "huss",
       ]
-      "variant_label": r1i1p1f1
-      "grid_label": gn
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk

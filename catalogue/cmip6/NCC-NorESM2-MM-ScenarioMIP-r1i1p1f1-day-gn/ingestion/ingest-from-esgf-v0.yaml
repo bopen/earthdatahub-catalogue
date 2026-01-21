@@ -7,32 +7,37 @@ steps:
     retries: 3
     filename_or_obj:
       "project": CMIP6
-      "experiment_id": ["ssp126", "ssp245", "ssp370"]
+      "activity_id": ScenarioMIP
+      #"data_node": esgf3.dkrz.de
+      "institution_id": NCC
       "source_id": NorESM2-MM
-      "frequency": ["day", "fx"]
+      "experiment_id": [ "ssp126", "ssp245", "ssp370" ]
+      "frequency": [ "day", "fx" ]
+      "table_id": [ "day", "fx" ]
+      #"realm": atmos
+      "variant_label": r1i1p1f1
+      "grid_label": gn
       "variable_id": [
+        "areacella"
         "sftlf",
+
         "clt",
         "hfls",
         "hfss",
         "rlds",
         "rlus",
         "rsus",
-
-        #"tas",
-        #"tasmin",
-        #"tasmax",
-        #"sfcWind",
-        #"rsds",
-        #"psl",
-        #"prc",
-        #"pr",
-        #"hurs",
-        #"huss",
-        #"areacella"
+        "tas",
+        "tasmin",
+        "tasmax",
+        "sfcWind",
+        "rsds",
+        "psl",
+        "prc",
+        "pr",
+        "hurs",
+        "huss",
       ]
-      "variant_label": r1i1p1f1
-      "grid_label": gn
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
