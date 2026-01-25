@@ -1,0 +1,35 @@
+steps:
+- xarray_open_kwargs:
+    chunks: {}
+    engine: zarr
+    filename_or_obj: s3://edc-era5/reanalysis-era5-land-no-antartica-v0.zarr
+  robust_to_zarr_kwargs:
+    processing_dim: valid_time
+    chunks_per_processing_batch: 1 
+  # chunks: {latitude: 150, longitude: 300}
+  to_zarr_kwargs:
+    store: s3://edc-era5/era5-land-daily-utc-v1.zarr
+    write_empty_chunks: false
+  transform_kwargs:
+    data_vars:
+      - d2m
+      - sp
+      - ssr
+      - ssrd
+      - str
+      - swvl1
+      - swvl2
+      - t2m
+      - tp
+      - u10
+      - v10
+      - e
+      - pev
+      - ro
+    drop_vars:
+      - depthBelowLandLayer
+      - number
+      - surface
+    resample_kwargs:
+      indexer:
+        valid_time: D
