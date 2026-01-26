@@ -6,24 +6,17 @@ steps:
   robust_to_zarr_kwargs:
     processing_dim: valid_time
     chunks_per_processing_batch: 8
-  chunks: {valid_time: 75, latitude: 150, longitude: 300}
+  # chunks: {valid_time: 75, latitude: 150, longitude: 300}
   to_zarr_kwargs:
-    store: s3://edc-era5/era5-land-daily-utc-v1.zarr
+    store: s3://edc-era5/era5-land-daily-utc-v1-update.zarr
     write_empty_chunks: false
   transform_kwargs:
     data_vars:
     - d2m
-    - e
-    - pev
-    - ro
     - sp
-    - ssr
-    - ssrd
-    - str
     - swvl1
     - swvl2
     - t2m
-    - tp
     - u10
     - v10
     drop_vars:
