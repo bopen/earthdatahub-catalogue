@@ -6,6 +6,7 @@ steps:
     check_files: false
     retries: 3
     drop_variables: type
+    drop_attributes: [ "contact", "further_info_url" ]
     filename_or_obj:
       #data_node: vesg.ipsl.upmc.fr
       data_node: esgf3.dkrz.de
@@ -47,7 +48,7 @@ steps:
       ]
     esgpull_path: /data/esgpull
     index_node: esgf.ceda.ac.uk
-  chunks: {experiment_id: 1, time: 180, lat: 128, lon: 128}
+  chunks: {experiment_id: 1, time: 720, lat: 143, lon: 36}
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/IPSL-CM6A-LR-historical-r1i1p1f1-day-gr-v0.zarr,
     storage_options: {

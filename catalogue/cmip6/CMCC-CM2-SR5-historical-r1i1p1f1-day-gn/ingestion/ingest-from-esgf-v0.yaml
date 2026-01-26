@@ -5,6 +5,7 @@ steps:
     download: true
     check_files: false
     retries: 3
+    drop_attributes: ["contact", "further_info_url"]
     filename_or_obj:
       "project": CMIP6
       "source_id": CMCC-CM2-SR5

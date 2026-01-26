@@ -34,11 +34,11 @@ steps:
         #"hfss",
         #"hurs",
         #"huss",
-        #"rlus",
-        #"rsus",
-        #"rlut",
-        #"rlds",
-        #"rsds",
+        "rlus",
+        "rsus",
+        "rlut",
+        "rlds",
+        "rsds",
       ]
     concat_dims: experiment_id
     esgpull_path: /data/esgpull

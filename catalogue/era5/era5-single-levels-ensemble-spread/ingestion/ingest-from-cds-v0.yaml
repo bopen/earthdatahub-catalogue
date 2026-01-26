@@ -7,7 +7,7 @@ steps:
     engine: ecmwf
     filename_or_obj:
       dataset: reanalysis-era5-single-levels
-      date: [1940-01-01/2025-12-31]
+      date: [1940-01-01/2026-01-31]
       time: ["00:00", "03:00", "06:00", "09:00", "12:00", "15:00", "18:00", "21:00"]
       product_type: ensemble_spread
       variable: [
@@ -26,7 +26,7 @@ steps:
       ]
     request_chunker_kwargs: { time_dim: valid_time }
     request_chunks: { day: 20 }
-    client_kwargs: { key: dacee5cc-8187-4954-b21d-b2a762636532, url: https://cds.climate.copernicus.eu/api }
+    client_kwargs: { key: put-your-cds-key-here, url: https://cds.climate.copernicus.eu/api }
 
   open_dataset_name: open_dataset_fix_era5_single_levels_names
   chunks: {latitude: 40, longitude: 40, valid_time: 1440}

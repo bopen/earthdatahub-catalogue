@@ -21,7 +21,7 @@ steps:
       ]
     request_chunker_kwargs: {time_dim: valid_time}
     request_chunks: {day: 20, pressure_level: 1}
-    client_kwargs: {key: c3fc6d28-1fc3-4004-aa93-efb0b22f0cf2, url: https://cds.climate.copernicus.eu/api }
+    client_kwargs: {key: put-your-cds-key-here, url: https://cds.climate.copernicus.eu/api }
 
   chunks: {latitude: 20, longitude: 20, valid_time: 4320}
   robust_to_zarr_kwargs: {processing_dim: valid_time, chunks_per_processing_batch: 1, retries: 3}

@@ -5,6 +5,8 @@ steps:
     download: true
     check_files: false
     retries: 3
+    ignore_spatial_coords: ["areacella", "sftlf"]
+    drop_attributes: [ "contact", "further_info_url" ]
     filename_or_obj:
       "project": CMIP6
       #"data_node": esgf3.dkrz.de
@@ -49,7 +51,7 @@ steps:
     index_node: esgf.ceda.ac.uk
   chunks: {time: 720, lat: 64, lon: 64}
   to_zarr_kwargs: {
-    store: s3://edh-root/cmip6/DKRZ-MPI-ESM1-2-HR-historical-r1i1p1f1-day-gn-v0-test.zarr,
+    store: s3://edh-root/cmip6/DKRZ-MPI-ESM1-2-HR-historical-r1i1p1f1-day-gn-v0.zarr,
     storage_options: {
       client_kwargs: { endpoint_url: https://s3.gra.io.cloud.ovh.net }
     }
