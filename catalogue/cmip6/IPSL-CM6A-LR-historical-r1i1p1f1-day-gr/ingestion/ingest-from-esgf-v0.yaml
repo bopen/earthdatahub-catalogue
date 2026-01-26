@@ -9,7 +9,7 @@ steps:
     drop_attributes: [ "contact", "further_info_url" ]
     filename_or_obj:
       #data_node: vesg.ipsl.upmc.fr
-      data_node: esgf3.dkrz.de
+      #data_node: esgf3.dkrz.de
       "project": CMIP6
       "experiment_id": historical
       "source_id": IPSL-CM6A-LR
@@ -31,23 +31,24 @@ steps:
         "psl",
         "uas",
         "vas",
-        "rsus",
+        #"rsus",
         "rlut",
         "rlus",
         "rlds",
         "rsds",
-        "hurs",
-        "hursmin",
+        #"hurs",
+        #"hursmin",
         "hursmax",
         "hfss",
         "hfls",
         "prsn",
         "sfcWind",
         "sfcWindmax",
-        "clt",
+        #"clt",
       ]
     esgpull_path: /data/esgpull
-    index_node: esgf.ceda.ac.uk
+    #index_node: esgf.ceda.ac.uk
+    index_node: esgf-node.ipsl.upmc.fr
   chunks: {experiment_id: 1, time: 720, lat: 143, lon: 36}
   to_zarr_kwargs: {
     store: s3://edh-root/cmip6/IPSL-CM6A-LR-historical-r1i1p1f1-day-gr-v0.zarr,
