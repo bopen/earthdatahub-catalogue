@@ -12,7 +12,7 @@ steps:
       #"data_node": esgf-data.ucar.edu
       "institution_id": NCAR
       "source_id": CESM2
-      "experiment_id": ["ssp126", "ssp245", "ssp585", "ssp370"]
+      "experiment_id": ["ssp126", "ssp245", "ssp370", "ssp585"]
       "frequency": ["day", "fx"]
       "table_id": ["day", "fx"]
       #"realm": atmos
@@ -34,10 +34,10 @@ steps:
         #"hfss",
         #"hurs",
         #"huss",
-        "rlus",
-        "rsus",
-        "rlut",
-        "rlds",
+        #"rlus",
+        #"rsus",
+        #"rlut",
+        #"rlds",
         "rsds",
       ]
     concat_dims: experiment_id
