@@ -6,7 +6,7 @@ steps:
     check_files: false
     retries: 3
     drop_variables: type
-    drop_attributes: [ "contact", "further_info_url" ]
+    drop_attributes: [ "contact"]
     sel:
       time:
         slice: [ "2000", "2100" ]

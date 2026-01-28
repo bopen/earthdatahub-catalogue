@@ -5,10 +5,11 @@ steps:
     download: true
     check_files: false
     retries: 3
+    drop_attributes: [ "contact" ]
     filename_or_obj:
       "project": CMIP6
       "activity_id": ScenarioMIP
-      #"data_node": esgf3.dkrz.de
+      "data_node": esgf3.dkrz.de
       "institution_id": DKRZ
       "source_id": MPI-ESM1-2-HR
       "experiment_id": [ "ssp126", "ssp245", "ssp370", "ssp585" ]
@@ -19,7 +20,7 @@ steps:
       "grid_label": gn
       "variable_id": [
         "areacella",
-        "sftlf"
+        "sftlf",
 
         "hursmin",
         "prc",
