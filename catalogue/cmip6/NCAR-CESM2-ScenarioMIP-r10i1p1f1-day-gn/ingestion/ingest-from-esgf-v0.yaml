@@ -5,6 +5,7 @@ steps:
     download: true
     check_files: false
     retries: 3
+    drop_attributes: ["contact"]
     filename_or_obj:
       "project": CMIP6
       "activity_id": ScenarioMIP
@@ -22,7 +23,6 @@ steps:
         "areacella",
         "orog",
         "sftlf",
-
         "tas",
         "pr",
         "prc",
@@ -38,7 +38,7 @@ steps:
         #"rsus",
         #"rlut",
         #"rlds",
-        "rsds",
+        #"rsds",
       ]
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
@@ -54,7 +54,7 @@ steps:
   }
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 8,
+    chunks_per_processing_batch: 1,
     retries: 3,
   }
 
