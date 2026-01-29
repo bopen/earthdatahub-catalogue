@@ -20,10 +20,7 @@ steps:
       "grid_label": gr
       "variable_id": [
         "areacella",
-
         "sfcWindmax",
-        "sfcWind",
-        "rsus",
         "prsn",
         "hfss",
         "hfls",
@@ -40,7 +37,10 @@ steps:
         "rsds",
         "rlut",
         "rlus",
-        "rlds"
+        "rlds",
+
+        #"sfcWind",
+        #"rsus",
       ]
     concat_dims: experiment_id
     esgpull_path: /data/esgpull
