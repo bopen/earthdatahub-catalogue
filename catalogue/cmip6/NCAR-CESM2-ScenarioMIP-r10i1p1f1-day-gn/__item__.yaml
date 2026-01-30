@@ -110,15 +110,6 @@ properties:
       type: data
       description: Sea Level Pressure
       unit: Pa
-    rsds:
-      dimensions:
-      - experiment_id
-      - time
-      - lat
-      - lon
-      type: data
-      description: Surface Downwelling Shortwave Radiation
-      unit: W m-2
     prc:
       dimensions:
       - experiment_id
@@ -146,40 +137,4 @@ properties:
       type: data
       description: Total Cloud Cover Percentage
       unit: '%'
-    rlds:
-      dimensions:
-      - experiment_id
-      - time
-      - lat
-      - lon
-      type: data
-      description: Surface Downwelling Longwave Radiation
-      unit: W m-2
-    rlus:
-      dimensions:
-      - experiment_id
-      - time
-      - lat
-      - lon
-      type: data
-      description: Surface Upwelling Longwave Radiation
-      unit: W m-2
-    rsus:
-      dimensions:
-      - experiment_id
-      - time
-      - lat
-      - lon
-      type: data
-      description: Surface Upwelling Shortwave Radiation
-      unit: W m-2
-    rlut:
-      dimensions:
-      - experiment_id
-      - time
-      - lat
-      - lon
-      type: data
-      description: at the top of the atmosphere.
-      unit: W m-2
-  dc:extent: 306 GB
+  dc:extent: 167 GB
