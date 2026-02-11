@@ -5,29 +5,24 @@ steps:
     filename_or_obj: s3://edc-era5/reanalysis-era5-land-no-antartica-v0.zarr
   robust_to_zarr_kwargs:
     processing_dim: valid_time
-    chunks_per_processing_batch: 8
+    chunks_per_processing_batch: 32
   chunks: {valid_time: 75, latitude: 150, longitude: 300}
   to_zarr_kwargs:
     store: s3://edc-era5/era5-land-daily-utc-v1-update.zarr
     write_empty_chunks: false
   transform_kwargs:
     data_vars:
-    - e
-    - pev
-    - ro
-    - ssr
-    - ssrd
-    - str
-    - tp
+    - d2m
+    - sp
+    - swvl1
+    - swvl2
+    - t2m
+    - u10
+    - v10
     drop_vars:
     - depthBelowLandLayer
     - number
     - surface
-    isel:
-      valid_time:
-        slice: [null, null, 24]
-    # shift:
-    #  valid_time: -1
-    # resample_kwargs:
-    #   indexer:
-    #     valid_time: D
+    resample_kwargs:
+      indexer:
+        valid_time: D
