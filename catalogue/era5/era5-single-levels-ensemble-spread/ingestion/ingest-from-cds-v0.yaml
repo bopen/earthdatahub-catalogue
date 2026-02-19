@@ -33,5 +33,5 @@ steps:
 
   robust_to_zarr_kwargs: {processing_dim: valid_time, chunks_per_processing_batch: 1, retries: 3}
   to_zarr_kwargs: {
-    store: s3://edc-era5/era5-single-levels-ensemble-spread-v0.zarr,
+    store: s3://edc-era5/era5-single-levels-ensemble-spread-v0-update.zarr,
   }
