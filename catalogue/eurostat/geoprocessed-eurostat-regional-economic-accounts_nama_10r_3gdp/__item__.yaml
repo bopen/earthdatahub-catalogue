@@ -8,6 +8,13 @@ bbox:
 - 26.0
 - 44.9
 - 73.9
+keywords:
+- eurostat
+- economy
+- gross domestic product
+- europe
+- geoprocessed
+- geospatial
 properties:
   start_datetime: '2000-01-01T00:00:00Z'
   end_datetime: '2021-01-01T00:00:00Z'
@@ -15,14 +22,7 @@ properties:
   dc:abstract: Europe EUROSTAT Gross domestic product (GDP) at current market prices
     by NUTS 3 regions from 2000 to 2022
   dc:access_rights: charges apply
-  dc:title: Europe Gross domestic product (GDP)
-  dc:subject:
-  - eurostat
-  - economy
-  - gross domestic product
-  - europe
-  - geoprocessed
-  - geospatial
+  title: Europe Gross domestic product (GDP)
   dc:accrual_periodicity: freq:yearly
   cube:dimensions:
     time:

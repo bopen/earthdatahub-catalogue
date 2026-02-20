@@ -8,16 +8,16 @@ bbox:
 - -90.0
 - 360.0
 - 90.0
+keywords:
+- DestinE
+- ECMWF
+- forecast
+- weather
 properties:
   edh:maturity: draft
   dc:abstract: Digital twin on extreme events - 2024-03-08
   dc:access_rights: unrestricted
-  dc:title: Digital twin on extreme events - 2024-03-08
-  dc:subject:
-  - DestinE
-  - ECMWF
-  - forecast
-  - weather
+  title: Digital twin on extreme events - 2024-03-08
   cube:dimensions:
     valid_time:
       type: temporal
@@ -75,4 +75,4 @@ properties:
       description: 10 metre V wind component
       unit: m s**-1
   dc:extent: 52 GB
-search_weight: 0
+  search_weight: 0

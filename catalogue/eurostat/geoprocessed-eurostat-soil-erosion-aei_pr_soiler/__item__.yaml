@@ -9,6 +9,15 @@ bbox:
 - 26.0
 - 44.9
 - 73.9
+keywords:
+- eurostat
+- soil erosion
+- land cover
+- water
+- JRC
+- europe
+- geoprocessed
+- geospatial
 properties:
   start_datetime: '2000-01-01T00:00:00Z'
   end_datetime: '2016-01-01T00:00:00Z'
@@ -16,16 +25,7 @@ properties:
   dc:abstract: Europe EUROSTAT Estimated soil erosion by water, by erosion level,
     land cover and NUTS 3 regions
   dc:access_rights: charges apply
-  dc:title: Europe EUROSTAT soil erosion
-  dc:subject:
-  - eurostat
-  - soil erosion
-  - land cover
-  - water
-  - JRC
-  - europe
-  - geoprocessed
-  - geospatial
+  title: Europe EUROSTAT soil erosion
   dc:accrual_periodicity: freq:yearly
   cube:dimensions:
     time:
