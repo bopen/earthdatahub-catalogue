@@ -1,0 +1,47 @@
+steps:
+- xarray_open_kwargs:
+    cache_kwargs: { cache_file: false }
+    chunks: {}
+    engine: ecmwf
+    client: polytope
+    filename_or_obj:
+      class: d1
+      dataset: climate-dt
+      activity: baseline
+      experiment: hist
+      generation: 2
+      model: icon
+      realization: 1
+      expver: 0001
+      stream: clte
+      date: [1990-01-01/to/2014-12-31]
+      resolution: high
+      type: fc
+      levtype: sfc
+      time: [ '00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00' ]
+      param: [
+        165,
+        166,
+        167,
+        168,
+        235055
+      ]
+    request_chunks: { day: 1 }
+    request_chunker_kwargs:
+      time_sep: /to/
+    client_kwargs:
+      address: polytope.lumi.apps.dte.destination-earth.eu
+      user_key:
+      #quiet: true
+  transform_kwargs: {drop_vars: [heightAboveGround, step, surface]}
+  chunks: {latitude: 512, longitude: 512, time: 24}
+  open_dataset_name: open_healpix_dataset
+  robust_to_zarr_kwargs: {
+    processing_dim: time,
+    chunks_per_processing_batch: 32,
+    retries: 3,
+    #scheduler: synchronous
+  }
+  to_zarr_kwargs:
+    store: s3://edc-climate-dt-2/ICON-hist-sfc-hourly-high-v0.zarr
+    write_empty_chunks: false
