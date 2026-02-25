@@ -19,23 +19,22 @@ bbox:
 #     xarray:storage_options:
 #       client_kwargs:
 #         trust_env: true
-search_weight: 60
+keywords:
+- DestinE
+- ECMWF
+- forecast
+- weather
 properties:
   edh:maturity: published
   dc:abstract: This dataset contains a selection of the variables available from the  DestinE
     Climate DT future projection simulation (activity `ScenarioMIP`, experiment `SSP3-7.0`)
     from the IFS-NEMO model at high resolution on pressure levels
   dc:access_rights: restricted
-  dc:title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, hourly data on pressure-levels
-  dc:description: High resolution Climate DT on pressure levels - SSP3-7.0 - IFS-NEMO
+  title: Climate DT, ScenarioMIP, SSP3-7.0, IFS-NEMO, hourly data on pressure-levels
+  description: High resolution Climate DT on pressure levels - SSP3-7.0 - IFS-NEMO
   datetime: '2029-12-31T23:00:00Z'
   start_datetime: '2020-01-01T00:00:00Z'
   end_datetime: '2029-12-31T23:00:00Z'
-  dc:subject:
-  - DestinE
-  - ECMWF
-  - forecast
-  - weather
   cube:dimensions:
     time:
       type: temporal
@@ -80,3 +79,4 @@ properties:
       description: Temperature
       unit: K
   dc:extent: 117.7 TB
+  search_weight: 60

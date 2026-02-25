@@ -20,7 +20,12 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 90
+keywords:
+- ERA5
+- ECV
+- ECMWF
+- reanalysis
+- climate
 properties:
   datetime: '2026-01-01T00:00:00Z'
   start_datetime: '1979-01-01T00:00:00Z'
@@ -30,13 +35,7 @@ properties:
     monthly anomalies and monthly mean fields. The dataset is provided in a ARCO Zarr
     format ideal for time series analysis
   dc:access_rights: unrestricted
-  dc:title: ERA5 Essential Climate Variables monthly anomalies
-  dc:subject:
-  - ERA5
-  - ECV
-  - ECMWF
-  - reanalysis
-  - climate
+  title: ERA5 Essential Climate Variables monthly anomalies
   dc:accrual_periodicity: freq:monthly
   cube:dimensions:
     valid_time:
@@ -96,3 +95,4 @@ properties:
       description: Total precipitation
       unit: m
   dc:extent: 9 GB
+  search_weight: 90

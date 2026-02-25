@@ -8,18 +8,18 @@ bbox:
 - -89.8
 - 359.8
 - 90.0
+keywords:
+- Zenodo
+- population
 properties:
   edh:maturity: published
   dc:abstract: This is a hybrid gridded dataset of demographic data for the world,
     given as 5-year population bands at a 0.25 degree grid resolution.
-  dc:title: Hybrid gridded demographic data for the world, 1950-2020 0.25 degree resolution
+  title: Hybrid gridded demographic data for the world, 1950-2020 0.25 degree resolution
   datetime: '2020-01-01T00:00:00Z'
   start_datetime: '1950-01-01T00:00:00Z'
   end_datetime: '2020-01-01T00:00:00Z'
   dc:access_rights: unrestricted
-  dc:subject:
-  - Zenodo
-  - population
   cube:dimensions:
     year:
       type: temporal
@@ -53,6 +53,7 @@ properties:
       - age_band_lower_bound
       - year
       type: data
+  search_weight: 55
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/derived-GPWv4-Histsoc/demographics-hybrid-1950-2020-15-min-v0
@@ -64,4 +65,3 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 55

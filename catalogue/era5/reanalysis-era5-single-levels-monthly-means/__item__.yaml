@@ -19,24 +19,23 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 80
+keywords:
+- ERA5
+- ECMWF
+- single levels
+- surface
+- reanalysis
+- weather
 properties:
   edh:maturity: published
   dc:abstract: Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric,
     ocean-wave and land surface quantities. The dataset is provided in a ARCO Zarr
     format ideal for time series analysis
-  dc:title: ERA5 monthly averaged data on single levels
+  title: ERA5 monthly averaged data on single levels
   datetime: '2026-01-01T00:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
   end_datetime: '2026-01-01T00:00:00Z'
   dc:access_rights: unrestricted
-  dc:subject:
-  - ERA5
-  - ECMWF
-  - single levels
-  - surface
-  - reanalysis
-  - weather
   dc:accrual_periodicity: freq:monthly
   cube:dimensions:
     valid_time:
@@ -128,3 +127,4 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
+  search_weight: 80
