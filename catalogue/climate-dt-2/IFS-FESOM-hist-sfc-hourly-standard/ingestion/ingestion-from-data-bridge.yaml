@@ -8,7 +8,7 @@ steps:
       class: d1
       dataset: climate-dt
       activity: baseline
-      experiment: cont
+      experiment: hist
       generation: 2
       model: ifs-fesom
       realization: 1

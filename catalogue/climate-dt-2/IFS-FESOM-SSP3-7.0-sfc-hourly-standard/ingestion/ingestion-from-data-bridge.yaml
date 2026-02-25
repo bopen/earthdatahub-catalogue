@@ -26,7 +26,7 @@ steps:
         168,
         235055
       ]
-    request_chunks: { day: 1 }
+    request_chunks: { day: 60 }
     request_chunker_kwargs:
       time_sep: /to/
     client_kwargs:
