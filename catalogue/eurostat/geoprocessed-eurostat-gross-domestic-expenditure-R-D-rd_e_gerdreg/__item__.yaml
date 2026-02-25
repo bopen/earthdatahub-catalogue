@@ -8,6 +8,13 @@ bbox:
 - 26.0
 - 44.9
 - 73.9
+keywords:
+- eurostat
+- GERD
+- R&D
+- europe
+- geoprocessed
+- geospatial
 properties:
   start_datetime: '1980-01-01T00:00:00Z'
   end_datetime: '2022-01-01T00:00:00Z'
@@ -15,14 +22,7 @@ properties:
   dc:abstract: Europe EUROSTAT Gross Domestic Expenditure on Research and Development
     (GERD) by sector of performance and NUTS 2 regions
   dc:access_rights: charges apply
-  dc:title: Europe EUROSTAT GERD
-  dc:subject:
-  - eurostat
-  - GERD
-  - R&D
-  - europe
-  - geoprocessed
-  - geospatial
+  title: Europe EUROSTAT GERD
   dc:accrual_periodicity: freq:yearly
   cube:dimensions:
     time:

@@ -15,10 +15,10 @@ properties:
   end_datetime: '2024-12-24T00:00:00Z'
   dc:abstract: Sentinel-1 Radiometrically Terrain Corrected data derived from IW GRD products for relative orbit {{ cookiecutter.relative_orbit }} on UTM {{ cookiecutter.utm_zone }}
   dc:access_rights: unrestricted
-  dc:title: Sentinel-1 ARD for relative orbit {{ cookiecutter.relative_orbit }} on UTM {{ cookiecutter.utm_zone }}
-  dc:description: Sentinel-1 ARD for relative orbit {{ cookiecutter.relative_orbit }} on UTM {{ cookiecutter.utm_zone }}.
+  title: Sentinel-1 ARD for relative orbit {{ cookiecutter.relative_orbit }} on UTM {{ cookiecutter.utm_zone }}
+  description: Sentinel-1 ARD for relative orbit {{ cookiecutter.relative_orbit }} on UTM {{ cookiecutter.utm_zone }}.
     The dataset is formatted as a Zarr archive optimised for time analysis.
-  dc:subject:
+  keywords:
   - Copernicus
   - Sentinel-1
   cube:dimensions:

@@ -8,17 +8,17 @@ bbox:
 - -80.0
 - 18.0
 - 0.0
+keywords:
+- Copernicus
+- DEM
 properties:
   edh:maturity: published
   datetime: '2022-01-01T12:00:00Z'
   dc:abstract: Copernicus DEM Global 30m resampled on a 20m grid on UTM 33S
   dc:access_rights: unrestricted
-  dc:title: Copernicus DEM Global 30m resampled on a 20m grid on UTM 33S
-  dc:description: Copernicus Digital Elevation Global 30m resampled on a 20m grid
+  title: Copernicus DEM Global 30m resampled on a 20m grid on UTM 33S
+  description: Copernicus Digital Elevation Global 30m resampled on a 20m grid
     on UTM 33S
-  dc:subject:
-  - Copernicus
-  - DEM
   cube:dimensions:
     y:
       type: spatial
@@ -45,6 +45,7 @@ properties:
       description: height above geoid
       unit: m
   dc:extent: 100 GB
+  search_weight: 0
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/copernicus-dem-utm/GLO-30-UTM-v0/33S
@@ -57,4 +58,3 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 0

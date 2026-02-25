@@ -8,22 +8,22 @@ bbox:
 - -90.0
 - 180.0
 - 90.0
+keywords:
+- DestinE
+- ECMWF
+- forecast
+- weather
 properties:
   edh:maturity: draft
   dc:abstract: This dataset contains a selection of the variables available from the
     DestinE Climate DT future projection simulation (activity `story-nudging`, experiment
     `Tplus2.0K`) from the IFS-FESOM model at high resolution on surface levels
-  dc:title: Climate DT, story-nudging, Tplus2.0K, IFS-FESOM, hourly data on single-levels
+  title: Climate DT, story-nudging, Tplus2.0K, IFS-FESOM, hourly data on single-levels
   dc:access_rights: restricted
-  dc:description: High resolution Climate DT hourly on single levels - Tplus2.0K -
+  description: High resolution Climate DT hourly on single levels - Tplus2.0K -
     IFS-FESOM
   start_datetime: '2017-01-01T00:00:00Z'
   end_datetime: '2018-12-31T23:00:00Z'
-  dc:subject:
-  - DestinE
-  - ECMWF
-  - forecast
-  - weather
   cube:dimensions:
     time:
       type: temporal
@@ -57,4 +57,4 @@ properties:
       description: 2 metre temperature
       unit: K
   dc:extent: 588 GB
-search_weight: 20
+  search_weight: 20

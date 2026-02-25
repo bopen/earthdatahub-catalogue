@@ -8,6 +8,9 @@ bbox:
 - 36.0
 - 18.0
 - 48.0
+keywords:
+- Copernicus
+- Sentinel-1
 properties:
   edh:maturity: published
   datetime: '2024-12-25T00:00:00Z'
@@ -16,12 +19,9 @@ properties:
   dc:abstract: Sentinel-1 Radiometrically Terrain Corrected data derived from IW GRD
     products for relative orbit 22 on UTM 33N
   dc:access_rights: unrestricted
-  dc:title: Sentinel-1 ARD for relative orbit 22 on UTM 33N
-  dc:description: Sentinel-1 ARD for relative orbit 22 on UTM 33N.
+  title: Sentinel-1 ARD for relative orbit 22 on UTM 33N
+  description: Sentinel-1 ARD for relative orbit 22 on UTM 33N.
     The dataset is formatted as a Zarr archive optimised for time analysis.
-  dc:subject:
-  - Copernicus
-  - Sentinel-1
   cube:dimensions:
     date:
       type: temporal
@@ -68,6 +68,7 @@ properties:
       description: simulated beta nought
       unit: m2 m-2
   dc:extent: 1.3 TB
+  search_weight: 7
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/Z33N/O22
@@ -80,4 +81,3 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 7
