@@ -4,4 +4,4 @@ The data covers the historical simulation period 1850–2014. Unlike future proj
 
 The data is distributed in a compressed Zarr v3 format with near-zero precision loss. It features a daily temporal resolution and is structurally optimized for high-throughput regional assessments and time-series analysis.
 
-Accessing this dataset requires a v3-compatible Zarr implementation (e.g., zarr-python 3.x). If you are using Python, you can update your environment via `pip install -U zarr`.
+Accessing this dataset requires a Zarr v3-compatible library (e.g., zarr-python >= 3.x). Python users can upgrade via `pip install -U zarr`.
