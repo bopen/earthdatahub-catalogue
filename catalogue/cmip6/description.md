@@ -6,4 +6,4 @@ Here we present a curated collection of low-to-high resolution CMIP6 models, eac
 
 Please refer to the specific datasets for detailed information regarding extent, resolution, experiments, and size.
 
-Accessing this dataset requires a Zarr v3-compatible library (e.g., zarr-python >= 3.x). Python users can upgrade via `pip install -U zarr`.
+Accessing datasets in this collection requires a Zarr v3-compatible library (e.g., zarr-python >= 3.x). Python users can upgrade via `pip install -U zarr`.
