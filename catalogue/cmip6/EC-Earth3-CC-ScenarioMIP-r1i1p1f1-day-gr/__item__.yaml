@@ -16,6 +16,7 @@ assets:
     xarray:open_kwargs:
       engine: zarr
       chunks: {}
+      zarr_format: 3
     xarray:storage_options:
       client_kwargs:
         trust_env: true
