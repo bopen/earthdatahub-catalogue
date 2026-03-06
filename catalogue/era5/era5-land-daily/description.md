@@ -14,4 +14,4 @@ For instantaneous variables, e.g. the _2 meter temperature_ `t2m`, the operation
 the Xarray `.resample("D").mean()` method.
 For accumulated variables the values are the total accumulation for the day.
 
-Accessing this dataset requires a Zarr v3-compatible library (e.g., zarr-python >= 3.x). Python users can upgrade via `pip install -U "zarr>3"`.
+Accessing this dataset requires a Zarr v3-compatible library (e.g., zarr-python >= 3.x). Python users can upgrade via `pip install "zarr>3"`.
