@@ -8,4 +8,4 @@ SSP5-8.5: A high-emission "fossil-fueled development" scenario representing the 
 
 The data is distributed in a compressed Zarr format with near-zero precision loss. It features a daily temporal resolution and is structurally optimized for high-throughput regional assessments and time-series analysis.
 
-Accessing this dataset requires a Zarr v3-compatible library (e.g., zarr-python >= 3.x). Python users can upgrade via `pip install -U "zarr>3"`.
+Accessing this dataset requires a Zarr v3-compatible library (e.g., zarr-python >= 3.x). Python users can upgrade via `pip install "zarr>3"`.
