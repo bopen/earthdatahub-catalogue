@@ -8,9 +8,6 @@ bbox:
 - 36.0
 - 12.0
 - 48.0
-keywords:
-- Copernicus
-- Sentinel-1
 properties:
   edh:maturity: published
   datetime: '2024-12-30T00:00:00Z'
@@ -69,6 +66,9 @@ properties:
       unit: m2 m-2
   dc:extent: 1.1 TB
   search_weight: 8
+  keywords:
+  - Copernicus
+  - Sentinel-1
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/Z32N/O95

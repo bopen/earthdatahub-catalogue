@@ -19,10 +19,6 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-keywords:
-- Ocean
-- CMEMS
-- reanalysis
 properties:
   datetime: '2020-12-31T12:00:00Z'
   start_datetime: '1993-01-01T12:00:00Z'
@@ -117,3 +113,7 @@ properties:
       unit: m
   dc:extent: 5.0 TB
   search_weight: 10
+  keywords:
+  - Ocean
+  - CMEMS
+  - reanalysis

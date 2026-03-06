@@ -8,11 +8,6 @@ bbox:
 - -90.0
 - 360.0
 - 90.0
-keywords:
-- DestinE
-- ECMWF
-- forecast
-- weather
 properties:
   edh:maturity: draft
   dc:abstract: Digital twin on extreme events - 2024-03-08
@@ -76,3 +71,8 @@ properties:
       unit: m s**-1
   dc:extent: 52 GB
   search_weight: 0
+  keywords:
+  - DestinE
+  - ECMWF
+  - forecast
+  - weather

@@ -8,13 +8,6 @@ bbox:
 - 26.0
 - 44.9
 - 73.9
-keywords:
-- eurostat
-- energy
-- SDG
-- europe
-- geoprocessed
-- geospatial
 properties:
   start_datetime: '2000-01-01T00:00:00Z'
   end_datetime: '2021-01-01T00:00:00Z'
@@ -72,6 +65,13 @@ properties:
       description: 'NUTS_Level: L0'
       unit: Tonnes of oil equivalent (TOE) per capita
   dc:extent: 0 GB
+  keywords:
+  - eurostat
+  - energy
+  - SDG
+  - europe
+  - geoprocessed
+  - geospatial
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/sdg_07_11-20000101-20210101.png

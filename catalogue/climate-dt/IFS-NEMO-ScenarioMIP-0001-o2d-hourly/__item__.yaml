@@ -19,11 +19,6 @@ bbox:
 #     xarray:storage_options:
 #       client_kwargs:
 #         trust_env: true
-keywords:
-- DestinE
-- ECMWF
-- forecast
-- weather
 properties:
   edh:maturity: published
   dc:abstract: This dataset contains a selection of the variables available from the  DestinE
@@ -127,3 +122,8 @@ properties:
       unit: m
   dc:extent: 3.9 TB
   search_weight: 64
+  keywords:
+  - DestinE
+  - ECMWF
+  - forecast
+  - weather

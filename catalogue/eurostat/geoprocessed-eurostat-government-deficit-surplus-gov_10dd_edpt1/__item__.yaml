@@ -8,13 +8,6 @@ bbox:
 - 26.0
 - 44.9
 - 73.9
-keywords:
-- eurostat
-- government
-- finance
-- europe
-- geoprocessed
-- geospatial
 properties:
   start_datetime: '1995-01-01T00:00:00Z'
   end_datetime: '2022-01-01T00:00:00Z'
@@ -741,6 +734,13 @@ properties:
         (ESA 2010): Gross national income at market prices'
       unit: Percentage of gross domestic product (GDP)
   dc:extent: 6 GB
+  keywords:
+  - eurostat
+  - government
+  - finance
+  - europe
+  - geoprocessed
+  - geospatial
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/gov_10dd_edpt1-19950101-20220101.png

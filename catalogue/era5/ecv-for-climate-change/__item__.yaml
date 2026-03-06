@@ -20,12 +20,6 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-keywords:
-- ERA5
-- ECV
-- ECMWF
-- reanalysis
-- climate
 properties:
   datetime: '2026-01-01T00:00:00Z'
   start_datetime: '1979-01-01T00:00:00Z'
@@ -96,3 +90,9 @@ properties:
       unit: m
   dc:extent: 9 GB
   search_weight: 90
+  keywords:
+  - ERA5
+  - ECV
+  - ECMWF
+  - reanalysis
+  - climate

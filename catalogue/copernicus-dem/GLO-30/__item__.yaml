@@ -8,9 +8,6 @@ bbox:
 - -90.0
 - 180.0
 - 90.0
-keywords:
-- Copernicus
-- DEM
 properties:
   datetime: '2022-01-01T12:00:00Z'
   dc:abstract: GLO-30 is a Digital Elevation Model that offers global coverage at
@@ -45,6 +42,9 @@ properties:
       unit: m
   dc:extent: 3.4 TB
   search_weight: 50
+  keywords:
+  - Copernicus
+  - DEM
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/copernicus-dem/GLO-30-v0.zarr

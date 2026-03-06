@@ -20,11 +20,6 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-keywords:
-- ERA5
-- ECMWF
-- pressure levels
-- reanalysis
 properties:
   edh:maturity: published
   dc:abstract: Subset of ERA5 reanalysis on pressure levels for atmospheric quantities
@@ -117,3 +112,8 @@ properties:
       description: Geopotential
       unit: m**2 s**-2
   search_weight: 65
+  keywords:
+  - ERA5
+  - ECMWF
+  - pressure levels
+  - reanalysis

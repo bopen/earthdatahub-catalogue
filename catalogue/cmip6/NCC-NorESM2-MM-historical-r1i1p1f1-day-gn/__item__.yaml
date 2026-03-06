@@ -20,15 +20,6 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-keywords:
-- CMIP6
-- CMIP
-- NCC
-- NorESM2-MM
-- historical
-- r1i1p1f1
-- climate
-- simulations
 properties:
   edh:maturity: published
   dc:abstract: This dataset features a selection of historical climate simulation
@@ -210,3 +201,12 @@ properties:
       unit: W m-2
   dc:extent: 213 GB
   search_weight: 52
+  keywords:
+  - CMIP6
+  - CMIP
+  - NCC
+  - NorESM2-MM
+  - historical
+  - r1i1p1f1
+  - climate
+  - simulations

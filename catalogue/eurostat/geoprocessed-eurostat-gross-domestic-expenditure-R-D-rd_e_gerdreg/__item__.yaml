@@ -8,13 +8,6 @@ bbox:
 - 26.0
 - 44.9
 - 73.9
-keywords:
-- eurostat
-- GERD
-- R&D
-- europe
-- geoprocessed
-- geospatial
 properties:
   start_datetime: '1980-01-01T00:00:00Z'
   end_datetime: '2022-01-01T00:00:00Z'
@@ -931,6 +924,13 @@ properties:
       description: 'Sector of performance: All sectors; NUTS_Level: L2'
       unit: Purchasing power standard (PPS) per inhabitant at constant 2005 prices
   dc:extent: 12 GB
+  keywords:
+  - eurostat
+  - GERD
+  - R&D
+  - europe
+  - geoprocessed
+  - geospatial
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/rd_e_gerdreg-19800101-20220101.png

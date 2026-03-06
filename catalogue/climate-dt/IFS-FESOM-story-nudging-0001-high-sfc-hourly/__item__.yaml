@@ -8,11 +8,6 @@ bbox:
 - -90.0
 - 180.0
 - 90.0
-keywords:
-- DestinE
-- ECMWF
-- forecast
-- weather
 properties:
   edh:maturity: draft
   dc:abstract: This dataset contains a selection of the variables available from the
@@ -58,3 +53,8 @@ properties:
       unit: K
   dc:extent: 588 GB
   search_weight: 20
+  keywords:
+  - DestinE
+  - ECMWF
+  - forecast
+  - weather

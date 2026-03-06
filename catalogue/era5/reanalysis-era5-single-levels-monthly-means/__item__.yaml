@@ -19,13 +19,6 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-keywords:
-- ERA5
-- ECMWF
-- single levels
-- surface
-- reanalysis
-- weather
 properties:
   edh:maturity: published
   dc:abstract: Subset of ERA5 reanalysis on the surface (single-levels) for atmospheric,
@@ -128,3 +121,10 @@ properties:
       description: 10 metre V wind component
       unit: m s**-1
   search_weight: 80
+  keywords:
+  - ERA5
+  - ECMWF
+  - single levels
+  - surface
+  - reanalysis
+  - weather

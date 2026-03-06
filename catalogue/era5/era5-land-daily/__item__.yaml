@@ -20,12 +20,6 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-keywords:
-- ERA5
-- Land
-- ECMWF
-- reanalysis
-- weather
 properties:
   edh:maturity: published
   dc:abstract: ERA5-Land provides land variables evolution over several decades at
@@ -176,3 +170,9 @@ properties:
       description: 10 metre V wind component
       unit: m s**-1
   search_weight: 89
+  keywords:
+  - ERA5
+  - Land
+  - ECMWF
+  - reanalysis
+  - weather

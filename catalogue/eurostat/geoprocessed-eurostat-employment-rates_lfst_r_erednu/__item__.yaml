@@ -8,13 +8,6 @@ bbox:
 - 26.0
 - 44.9
 - 73.9
-keywords:
-- eurostat
-- labour market
-- employment
-- europe
-- geoprocessed
-- geospatial
 properties:
   start_datetime: '1995-01-01T00:00:00Z'
   end_datetime: '2022-01-01T00:00:00Z'
@@ -1125,6 +1118,13 @@ properties:
         2011 levels; Age class: From 55 to 64 years; Sex: Total; NUTS_Level: L0'
       unit: Percentage
   dc:extent: 8 GB
+  keywords:
+  - eurostat
+  - labour market
+  - employment
+  - europe
+  - geoprocessed
+  - geospatial
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/lfst_r_erednu-19950101-20220101.png

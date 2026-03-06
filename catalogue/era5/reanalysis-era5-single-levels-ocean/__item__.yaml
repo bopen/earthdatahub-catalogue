@@ -19,13 +19,6 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-keywords:
-- ERA5
-- ECMWF
-- single levels
-- surface
-- reanalysis
-- weather
 properties:
   edh:maturity: published
   dc:abstract: Subset of ERA5 reanalysis single-levels for ocean-wave quantities.
@@ -406,3 +399,10 @@ properties:
       description: Wave Spectral Skewness
       unit: Numeric
   search_weight: 85
+  keywords:
+  - ERA5
+  - ECMWF
+  - single levels
+  - surface
+  - reanalysis
+  - weather

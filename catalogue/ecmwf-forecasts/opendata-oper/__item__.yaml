@@ -8,12 +8,6 @@ bbox:
 - -90.0
 - 179.6
 - 90.0
-keywords:
-- Open data
-- HRES
-- ECMWF
-- forecast
-- weather
 properties:
   edh:maturity: draft
   dc:abstract: The high-resolution forecast is a single forecast included in the ECMWF
@@ -184,3 +178,9 @@ properties:
       unit: s**-1
   dc:extent: 8 GB
   search_weight: 0
+  keywords:
+  - Open data
+  - HRES
+  - ECMWF
+  - forecast
+  - weather

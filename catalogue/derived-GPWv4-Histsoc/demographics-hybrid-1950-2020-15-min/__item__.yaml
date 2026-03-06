@@ -8,9 +8,6 @@ bbox:
 - -89.8
 - 359.8
 - 90.0
-keywords:
-- Zenodo
-- population
 properties:
   edh:maturity: published
   dc:abstract: This is a hybrid gridded dataset of demographic data for the world,
@@ -54,6 +51,9 @@ properties:
       - year
       type: data
   search_weight: 55
+  keywords:
+  - Zenodo
+  - population
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/derived-GPWv4-Histsoc/demographics-hybrid-1950-2020-15-min-v0

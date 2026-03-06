@@ -8,13 +8,6 @@ bbox:
 - 26.0
 - 44.9
 - 73.9
-keywords:
-- eurostat
-- population density
-- europe
-- unidemo
-- geoprocessed
-- geospatial
 properties:
   start_datetime: '1990-01-01T00:00:00Z'
   end_datetime: '2022-01-01T00:00:00Z'
@@ -80,6 +73,13 @@ properties:
       description: 'NUTS_Level: L3'
       unit: Persons per square kilometre
   dc:extent: 0 GB
+  keywords:
+  - eurostat
+  - population density
+  - europe
+  - unidemo
+  - geoprocessed
+  - geospatial
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/demo_r_d3dens-19900101-20220101.png

@@ -8,9 +8,6 @@ bbox:
 - 0.0
 - 24.0
 - 84.0
-keywords:
-- Copernicus
-- DEM
 properties:
   edh:maturity: published
   datetime: '2022-01-01T12:00:00Z'
@@ -46,6 +43,9 @@ properties:
       unit: m
   dc:extent: 100 GB
   search_weight: 0
+  keywords:
+  - Copernicus
+  - DEM
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/copernicus-dem-utm/GLO-30-UTM-v0/34N

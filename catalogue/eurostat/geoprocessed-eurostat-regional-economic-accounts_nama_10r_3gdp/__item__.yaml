@@ -8,13 +8,6 @@ bbox:
 - 26.0
 - 44.9
 - 73.9
-keywords:
-- eurostat
-- economy
-- gross domestic product
-- europe
-- geoprocessed
-- geospatial
 properties:
   start_datetime: '2000-01-01T00:00:00Z'
   end_datetime: '2021-01-01T00:00:00Z'
@@ -277,6 +270,13 @@ properties:
       unit: Purchasing power standard (PPS, EU27 from 2020), per inhabitant in percentage
         of the EU27 (from 2020) average
   dc:extent: 2 GB
+  keywords:
+  - eurostat
+  - economy
+  - gross domestic product
+  - europe
+  - geoprocessed
+  - geospatial
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/nama_10r_3gdp-20000101-20210101.png

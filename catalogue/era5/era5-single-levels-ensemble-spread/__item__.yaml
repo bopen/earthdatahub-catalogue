@@ -20,14 +20,6 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-keywords:
-- ERA5
-- ECMWF
-- single levels
-- surface
-- reanalysis
-- weather
-- ensemble spread
 properties:
   edh:maturity: published
   dc:abstract: Subset of ERA5 single-levels ensemble spreads. The dataset is provided
@@ -160,3 +152,11 @@ properties:
       description: Geopotential
       unit: m**2 s**-2
   search_weight: 60
+  keywords:
+  - ERA5
+  - ECMWF
+  - single levels
+  - surface
+  - reanalysis
+  - weather
+  - ensemble spread

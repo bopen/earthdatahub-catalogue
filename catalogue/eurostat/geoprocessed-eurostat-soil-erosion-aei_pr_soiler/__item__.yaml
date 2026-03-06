@@ -9,15 +9,6 @@ bbox:
 - 26.0
 - 44.9
 - 73.9
-keywords:
-- eurostat
-- soil erosion
-- land cover
-- water
-- JRC
-- europe
-- geoprocessed
-- geospatial
 properties:
   start_datetime: '2000-01-01T00:00:00Z'
   end_datetime: '2016-01-01T00:00:00Z'
@@ -2377,6 +2368,15 @@ properties:
         L3'
       unit: Tonnes per hectare
   dc:extent: 2 GB
+  keywords:
+  - eurostat
+  - soil erosion
+  - land cover
+  - water
+  - JRC
+  - europe
+  - geoprocessed
+  - geospatial
 assets:
   thumbnail:
     href: https://apps.mundialis.de/bopen_hedp/thumbnails/aei_pr_soiler-20000101-20160101.png
