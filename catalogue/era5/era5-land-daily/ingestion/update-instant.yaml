@@ -8,7 +8,7 @@ steps:
     chunks_per_processing_batch: 32
   chunks: {valid_time: 75, latitude: 150, longitude: 300}
   to_zarr_kwargs:
-    store: s3://edc-era5/era5-land-daily-utc-v1-update.zarr
+    store: s3://edc-era5/era5-land-daily-utc-v1.zarr
     write_empty_chunks: false
   transform_kwargs:
     data_vars:

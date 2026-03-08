@@ -7,7 +7,7 @@ steps:
     engine: ecmwf
     filename_or_obj:
       dataset: reanalysis-era5-single-levels
-      date: [1940-01-01/2026-02-01]
+      date: [1940-01-01/2026-02-28]
       time: ["00:00", "03:00", "06:00", "09:00", "12:00", "15:00", "18:00", "21:00"]
       product_type: ensemble_spread
       variable: [
@@ -33,5 +33,5 @@ steps:
 
   robust_to_zarr_kwargs: {processing_dim: valid_time, chunks_per_processing_batch: 1, retries: 3}
   to_zarr_kwargs: {
-    store: s3://edc-era5/era5-single-levels-ensemble-spread-v0-update.zarr,
+    store: s3://edc-era5/era5-single-levels-ensemble-spread-v0.zarr,
   }
