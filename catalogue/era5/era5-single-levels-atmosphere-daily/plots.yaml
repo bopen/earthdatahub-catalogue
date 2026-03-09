@@ -5,5 +5,5 @@ plots:
   plot_kwargs: {
     "vmax": 320,
     "vmin": 230,
-    "cmap": "RdBu_r"
+    "cmap": "coolwarm"
   }
