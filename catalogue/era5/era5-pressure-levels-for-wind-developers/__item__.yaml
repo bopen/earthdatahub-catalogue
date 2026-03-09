@@ -117,3 +117,4 @@ properties:
   - ECMWF
   - pressure levels
   - reanalysis
+  - edh:Zarr 3

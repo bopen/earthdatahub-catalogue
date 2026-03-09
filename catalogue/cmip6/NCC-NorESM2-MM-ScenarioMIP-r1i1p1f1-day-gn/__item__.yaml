@@ -227,3 +227,4 @@ properties:
   - r1i1p1f1
   - climate
   - projections
+  - edh:Zarr 3

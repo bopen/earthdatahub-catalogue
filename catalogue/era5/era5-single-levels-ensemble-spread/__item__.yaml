@@ -160,3 +160,4 @@ properties:
   - reanalysis
   - weather
   - ensemble spread
+  - edh:Zarr 3
