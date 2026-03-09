@@ -233,3 +233,4 @@ properties:
   - r1i1p1f1
   - climate
   - simulations
+  - edh:Zarr 3

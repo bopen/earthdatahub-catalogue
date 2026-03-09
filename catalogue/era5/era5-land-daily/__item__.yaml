@@ -176,3 +176,4 @@ properties:
   - ECMWF
   - reanalysis
   - weather
+  - edh:Zarr 3
