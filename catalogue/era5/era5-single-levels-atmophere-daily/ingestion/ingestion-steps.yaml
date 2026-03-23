@@ -1,0 +1,109 @@
+steps:
+- xarray_open_kwargs:
+    chunks: {}
+    engine: zarr
+    filename_or_obj: s3://edc-era5/reanalysis-era5-single-levels-v0.zarr
+  robust_to_zarr_kwargs:
+    processing_dim: valid_time
+    chunks_per_processing_batch: 85
+  chunks: {valid_time: 75, latitude: 150, longitude: 300}
+  to_zarr_kwargs:
+    store: s3://edc-era5/era5-single-levels-atmosphere-daily-utc-v0.zarr
+    write_empty_chunks: false
+  transform_kwargs:
+    data_vars:
+    # - alnid
+    # - alnip
+    # - aluvd
+    # - aluvp
+    # - anor
+    # - asn
+    - blh
+    - cape
+    # - chnk
+    # - cin
+    # - cl
+    # - crr
+    # - csfr
+    # - cvh
+    # - cvl
+    - d2m
+    # - dctb
+    # - dl
+    # - dndza
+    # - dndzn
+    # - fal
+    # - flsr
+    # - fsr
+    # - hcc
+    - ie
+    - iews
+    # - ilspf
+    - inss
+    - ishf
+    # - isor
+    # - istl1
+    # - istl2
+    # - istl3
+    # - istl4
+    # - kx
+    # - lai_hv
+    # - lai_lv
+    # - lblt
+    # - lcc
+    # - licd
+    # - lict
+    # - lmld
+    # - lmlt
+    # - lshf
+    # - lsm
+    # - lsrr
+    # - lssfr
+    # - ltlt
+    # - mcc
+    - msl
+    # - ptype
+    # - rsn
+    - sd
+    - skt
+    # - slt
+    # - sp
+    - sst
+    # - stl1
+    # - stl2
+    # - stl3
+    # - stl4
+    # - swvl1
+    # - swvl2
+    # - swvl3
+    # - swvl4
+    - t2m
+    - tcc
+    # - tciw
+    # - tclw
+    # - tcrw
+    # - tcsw
+    # - tcwv
+    # - tsn
+    # - tvh
+    # - tvl
+    - u10
+    - u100
+    # - u10n
+    - v10
+    - v100
+    # - v10n
+    # - viiwd
+    # - viiwe
+    # - viiwn
+    # - vilwd
+    # - vilwe
+    # - vilwn
+    - z
+    # - zust
+    drop_vars:
+    - number
+    - surface
+    resample_kwargs:
+      indexer:
+        valid_time: D
