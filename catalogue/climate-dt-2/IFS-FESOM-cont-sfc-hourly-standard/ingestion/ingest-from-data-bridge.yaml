@@ -7,15 +7,15 @@ steps:
     filename_or_obj:
       class: d1
       dataset: climate-dt
-      activity: projections
-      experiment: ssp3-7.0
+      activity: baseline
+      experiment: cont
       generation: 2
       model: ifs-fesom
       realization: 1
       expver: 0001
       stream: clte
-      date: [2015-01-01/to/2049-12-31]
-      resolution: high
+      date: [1990-01-01/to/1999-12-31]
+      resolution: standard
       type: fc
       levtype: sfc
       time: [ '00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00' ]
@@ -24,9 +24,41 @@ steps:
         166,
         167,
         168,
-        235055
+        235055,
+
+        78,
+        79,
+        134,
+        136,
+        137,
+        228141,
+        151,
+        228164,
+        207,
+        235,
+
+        235020,
+        235021,
+        235031,
+        235033,
+        235034,
+        235035,
+        235036,
+        235037,
+        235038,
+        235039,
+
+        235040,
+        235041,
+        235042,
+        235043,
+        235049,
+        235050,
+        235051,
+        235052,
+        235053
       ]
-    request_chunks: { day: 60 }
+    request_chunks: { day: 20 }
     request_chunker_kwargs:
       time_sep: /to/
     client_kwargs:
@@ -34,14 +66,14 @@ steps:
       user_key:
       #quiet: true
   transform_kwargs: {drop_vars: [heightAboveGround, step, surface]}
-  chunks: {latitude: 512, longitude: 512, time: 24}
+  chunks: {latitude: 64, longitude: 64, time: 1440}
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 32,
+    chunks_per_processing_batch: 8,
     retries: 3,
     #scheduler: synchronous
   }
   to_zarr_kwargs:
-    store: s3://edc-climate-dt-2/IFS-FESOM-SSP3-7.0-sfc-hourly-high-v0.zarr
+    store: s3://edc-climate-dt-2/IFS-FESOM-cont-sfc-hourly-standard-v0.zarr
     write_empty_chunks: false

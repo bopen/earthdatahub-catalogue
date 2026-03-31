@@ -7,18 +7,18 @@ steps:
     filename_or_obj:
       class: d1
       dataset: climate-dt
-      activity: baseline
-      experiment: hist
+      activity: projections
+      experiment: ssp3-7.0
       generation: 2
       model: ifs-nemo
       realization: 1
       expver: 0001
       stream: clte
-      date: [1990-01-01/to/2014-12-31]
-      resolution: standard
+      date: [2015-01-01/to/2049-12-31]
+      resolution: high
       type: fc
       levtype: sfc
-      time: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00' ]
+      time: [ '00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00' ]
       param: [
         165,
         166,
@@ -26,22 +26,22 @@ steps:
         168,
         235055
       ]
-    request_chunks: { day: 60 }
+    request_chunks: { day: 1 }
     request_chunker_kwargs:
       time_sep: /to/
     client_kwargs:
-      address: polytope.mn5.apps.dte.destination-earth.eu
-      user_key:
-      #quiet: true
+        address: polytope.mn5.apps.dte.destination-earth.eu
+        user_key:
+        #quiet: true
   transform_kwargs: { drop_vars: [heightAboveGround, step, surface]}
-  chunks: {latitude: 64, longitude: 64, time: 1440}
+  chunks: {latitude: 512, longitude: 512, time: 24}
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 32,
+    chunks_per_processing_batch: 12,
     retries: 3,
     #scheduler: synchronous
   }
   to_zarr_kwargs:
-    store: s3://edc-climate-dt-2/IFS-NEMO-hist-sfc-hourly-standard-v0.zarr
+    store: s3://edc-climate-dt-2/IFS-NEMO-SSP3-7.0-sfc-hourly-high-v0.zarr
     write_empty_chunks: false

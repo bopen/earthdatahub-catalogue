@@ -10,7 +10,7 @@ steps:
       activity: baseline
       experiment: hist
       generation: 2
-      model: ifs-fesom
+      model: icon
       realization: 1
       expver: 0001
       stream: clte
@@ -24,7 +24,7 @@ steps:
         166,
         167,
         168,
-        235055
+        235055,
       ]
     request_chunks: { day: 1 }
     request_chunker_kwargs:
@@ -38,10 +38,10 @@ steps:
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 4,
+    chunks_per_processing_batch: 12,
     retries: 3,
     #scheduler: synchronous
   }
   to_zarr_kwargs:
-    store: s3://edc-climate-dt-2/IFS-FESOM-hist-sfc-hourly-high-v0.zarr
+    store: s3://edc-climate-dt-2/ICON-hist-sfc-hourly-high-maps-v0.zarr
     write_empty_chunks: false

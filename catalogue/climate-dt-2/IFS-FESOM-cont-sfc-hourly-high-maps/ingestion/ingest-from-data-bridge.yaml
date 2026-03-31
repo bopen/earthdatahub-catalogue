@@ -7,14 +7,14 @@ steps:
     filename_or_obj:
       class: d1
       dataset: climate-dt
-      activity: projections
-      experiment: ssp3-7.0
+      activity: baseline
+      experiment: cont
       generation: 2
-      model: icon
+      model: ifs-fesom
       realization: 1
       expver: 0001
       stream: clte
-      date: [2015-01-01/to/2049-12-31]
+      date: [1990-01-01/to/1999-12-31]
       resolution: high
       type: fc
       levtype: sfc
@@ -24,7 +24,7 @@ steps:
         166,
         167,
         168,
-        235055
+        235055,
       ]
     request_chunks: { day: 1 }
     request_chunker_kwargs:
@@ -38,10 +38,10 @@ steps:
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 32,
+    chunks_per_processing_batch: 24,
     retries: 3,
     #scheduler: synchronous
   }
   to_zarr_kwargs:
-    store: s3://edc-climate-dt-2/ICON-SSP3-7.0-sfc-hourly-high-v0.zarr
+    store: s3://edc-climate-dt-2/IFS-FESOM-cont-sfc-hourly-high-maps-v0.zarr
     write_empty_chunks: false
