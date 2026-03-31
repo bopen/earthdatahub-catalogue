@@ -1,0 +1,54 @@
+title: Climate DT
+dc:abstract:
+  The Second Generation Destination Earth Digital Twin for Climate Change Adaptation supports
+  climate adaptation activities through the provision of innovative climate information on multi-decadal
+  timescales, at km-scale resolutions of 5 to 10km.
+dc:access_rights: restricted
+edh:maturity: draft
+links:
+- title: Second Generation Destination Earth Digital Twin for Climate Change Adaptation
+  rel: derived_from
+  href: https://destine.ecmwf.int/climate-change-adaptation-digital-twin-climate-dt/
+  type: text/html
+- title: CC-BY licence
+  rel: license
+  href: https://creativecommons.org/licenses/by/4.0/legalcode
+  type: application/pdf
+extent:
+  spatial:
+    bbox:
+    - - -180
+      - -90
+      - 180
+      - 90
+  temporal:
+    interval:
+    - - '2015-01-01T00:00:00Z'
+      - '2050-01-01T00:00:00Z'
+license: other
+keywords:
+- Destination Earth
+- climate change
+- DestinE
+- Climate Digital Twin
+- Climate Projections
+- digital twin
+- ECMWF
+providers:
+- name: European Union
+  roles:
+  - licensor
+  url: https://european-union.europa.eu
+- name: ECMWF
+  roles:
+  - producer
+  url: https://www.ecmwf.int
+- name: B-Open
+  roles:
+  - processor
+  url: https://www.bopen.eu
+- name: DestinE Platform
+  roles:
+  - host
+  url: https://platform.destine.eu
+search_weight: 81
