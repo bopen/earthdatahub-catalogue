@@ -43,5 +43,5 @@ steps:
     #scheduler: synchronous
   }
   to_zarr_kwargs:
-    store: s3://edc-climate-dt-2/IFS-FESOM-SSP3-7.0-sfc-hourly-high-v0.zarr
+    store: s3://edc-climate-dt-2/IFS-FESOM-SSP3-7.0-sfc-hourly-high-maps-v0.zarr
     write_empty_chunks: false
