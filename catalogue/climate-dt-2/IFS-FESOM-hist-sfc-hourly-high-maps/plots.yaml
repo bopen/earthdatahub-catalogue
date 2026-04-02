@@ -6,5 +6,5 @@ plots:
   plot_kwargs: {
     'vmax':318,
     'vmin':228,
-    'cmap':"bwr"
+    'cmap':"RdGy_r"
   }

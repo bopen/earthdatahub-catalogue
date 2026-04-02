@@ -102,3 +102,4 @@ properties:
   - ECMWF
   - forecast
   - weather
+  - edh:Zarr 3
