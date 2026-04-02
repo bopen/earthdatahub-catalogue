@@ -26,8 +26,7 @@ properties:
   title: Climate DT high resolution, hourly data on single-level or surface, ICON
     model, Historical run
   dc:access_rights: restricted
-  description: Climate DT high resolution hourly data on single-level or surface,
-    ICON model, Historical
+  description: Climate DT high resolution hourly data on single-level or surface, ICON, Historical
   datetime: '2014-12-31T23:00:00Z'
   start_datetime: '1990-01-01T00:00:00Z'
   end_datetime: '2014-12-31T23:00:00Z'
