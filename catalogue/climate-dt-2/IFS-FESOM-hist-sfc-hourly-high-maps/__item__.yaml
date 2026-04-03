@@ -23,8 +23,7 @@ properties:
   dc:abstract: High resolution, single levels or surface variables derived from the
     IFS-FESOM Historical run. Covers the time period 1990-2014. Optimised for maps
     access.
-  title: Climate DT high resolution, hourly data on single-level or surface, IFS-FESOM
-    model, Historical run
+  title: Climate DT high resolution hourly data on single-level or surface, IFS-FESOM, Historical
   dc:access_rights: restricted
   description: Climate DT high resolution hourly data on single-level or surface, IFS-FESOM, Historical
   datetime: '2014-12-31T23:00:00Z'

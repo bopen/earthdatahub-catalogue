@@ -22,8 +22,7 @@ properties:
   edh:maturity: draft
   dc:abstract: High resolution, single levels or surface variables derived from the
     IFS-FESOM Control run. Covers the time period 1990-1999. Optimised for maps access.
-  title: Climate DT high resolution, hourly data on single-level or surface, IFS-FESOM
-    model, Control run
+  title: Climate DT high resolution hourly data on single-level or surface, IFS-FESOM, Control
   dc:access_rights: restricted
   description: Climate DT high resolution hourly data on single-level or surface, IFS-FESOM, Control
   datetime: '1999-12-31T23:00:00Z'

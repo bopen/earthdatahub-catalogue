@@ -22,8 +22,7 @@ properties:
   edh:maturity: draft
   dc:abstract: Standard resolution, single levels or surface variables derived from
     the IFS-NEMO Control run. Covers the time period 1990-1999.
-  title: Climate DT standard resolution, hourly data on single-level or surface, IFS-NEMO
-    model, Control run
+  title: Climate DT standard resolution hourly data on single-level or surface, IFS-NEMO, Control
   dc:access_rights: restricted
   description: Climate DT standard resolution hourly data on single-level or surface, IFS-NEMO, Control
   datetime: '1999-12-31T23:00:00Z'

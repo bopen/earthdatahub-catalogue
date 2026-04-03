@@ -22,8 +22,7 @@ properties:
   edh:maturity: draft
   dc:abstract: Standard resolution, single levels or surface variables derived from
     the IFS-FESOM SSP3-7.0 scenario. Covers the 2015-2049 time period.
-  title: Climate DT standard resolution, hourly data on single-level or surface, IFS-FESOM
-    model, SSP3-7.0 scenario
+  title: Climate DT standard resolution hourly data on single-level or surface, IFS-FESOM, SSP3-7.0
   dc:access_rights: restricted
   description: Climate DT standard resolution hourly data on single-level or surface, IFS-FESOM, SSP3-7.0
   datetime: '2049-12-31T23:00:00Z'

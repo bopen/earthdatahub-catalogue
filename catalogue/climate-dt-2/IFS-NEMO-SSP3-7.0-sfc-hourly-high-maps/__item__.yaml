@@ -22,8 +22,7 @@ properties:
   edh:maturity: draft
   dc:abstract: High resolution, single levels or surface variables derived from the
     IFS-NEMO SSP3-7.0 scenario. Covers the 2015-2049 time period.
-  title: Climate DT high resolution, hourly data on single-level or surface, IFS-NEMO
-    model, SSP3-7.0 scenario
+  title: Climate DT high resolution hourly data on single-level or surface, IFS-NEMO, SSP3-7.0
   dc:access_rights: restricted
   description: Climate DT high resolution hourly data on single-level or surface, IFS-NEMO, SSP3-7.0
   datetime: '2049-12-31T23:00:00Z'

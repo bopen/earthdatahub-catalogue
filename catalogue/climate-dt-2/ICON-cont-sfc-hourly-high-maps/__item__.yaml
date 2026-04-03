@@ -22,8 +22,7 @@ properties:
   edh:maturity: draft
   dc:abstract: High resolution, single levels or surface variables, derived from the
     ICON model Control run. Covers the time period 1990-1999. Optimised for map access.
-  title: Climate DT high resolution, hourly data on single-level or surface, ICON
-    Control run
+  title: Climate DT high resolution hourly data on single-level or surface, ICON, Control
   dc:access_rights: restricted
   description: Climate DT high resolution hourly data on single-level or surface, ICON, Control
   datetime: '1999-12-31T23:00:00Z'
