@@ -1,7 +1,7 @@
 plots:
-- var: "d2m"
+- var: "t2m"
   time_dim: "time"
-  sel: {"time": "1990-07-01T15"}
+  sel: {"time": "1990-04-01T16"}
   coarsen: {latitude: 8, longitude: 8}
   plot_kwargs: {
     'vmax':318,
