@@ -38,7 +38,7 @@ steps:
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 8,
+    chunks_per_processing_batch: 64,
     retries: 3,
     #scheduler: synchronous
   }
