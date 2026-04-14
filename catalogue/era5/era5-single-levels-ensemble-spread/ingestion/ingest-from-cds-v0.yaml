@@ -7,7 +7,7 @@ steps:
     engine: ecmwf
     filename_or_obj:
       dataset: reanalysis-era5-single-levels
-      date: [1940-01-01/2026-02-28]
+      date: [1940-01-01/2026-03-31]
       time: ["00:00", "03:00", "06:00", "09:00", "12:00", "15:00", "18:00", "21:00"]
       product_type: ensemble_spread
       variable: [
