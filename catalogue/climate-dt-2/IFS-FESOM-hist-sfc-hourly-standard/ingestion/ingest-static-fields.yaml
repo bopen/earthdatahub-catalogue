@@ -1,0 +1,40 @@
+steps:
+- xarray_open_kwargs:
+    cache_kwargs: { cache_file: false }
+    chunks: {}
+    engine: ecmwf
+    client: polytope
+    filename_or_obj:
+      class: d1
+      dataset: climate-dt
+      activity: baseline
+      experiment: hist
+      generation: 2
+      model: ifs-fesom
+      realization: 1
+      expver: 0001
+      stream: clte
+      date: "1990-01-01"
+      resolution: standard
+      type: fc
+      levtype: sfc
+      time: [ '00:00']
+      param: [
+        228002,
+        172,
+      ]
+    client_kwargs:
+      address: polytope.lumi.apps.dte.destination-earth.eu
+      user_key:
+      #quiet: true
+  transform_kwargs: {drop_vars: [heightAboveGround, step, surface, valid_time, nominalTop]}
+  chunks: {latitude: 64, longitude: 64}
+  open_dataset_name: open_healpix_dataset
+  robust_to_zarr_kwargs: {
+    processing_dim: latitude,
+    chunks_per_processing_batch: 8,
+    retries: 3,
+  }
+  to_zarr_kwargs:
+    store: s3://edc-climate-dt-2/IFS-FESOM-hist-sfc-hourly-standard-v0.zarr
+    write_empty_chunks: false
