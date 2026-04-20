@@ -21,10 +21,12 @@ assets:
 properties:
   edh:maturity: draft
   dc:abstract: High resolution, single levels or surface variables derived from the
-    IFS-NEMO Historical run. Covers the time period 1990-2014.
-  title: Climate DT high resolution hourly data on single-level or surface, IFS-NEMO, Historical
+    IFS-NEMO Historical run. Covers the time period 1990-2014. Optimised for maps access.
+  title: Climate DT high resolution hourly data on single-level or surface, IFS-NEMO,
+    Historical, maps
   dc:access_rights: restricted
-  description: Climate DT high resolution hourly data on single-level or surface, IFS-NEMO, Historical
+  description: Climate DT high resolution hourly data on single-level or surface,
+    IFS-NEMO, Historical, maps
   datetime: '2014-12-31T23:00:00Z'
   start_datetime: '1990-01-01T00:00:00Z'
   end_datetime: '2014-12-31T23:00:00Z'

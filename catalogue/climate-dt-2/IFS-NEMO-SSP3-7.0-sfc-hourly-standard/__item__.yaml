@@ -22,9 +22,11 @@ properties:
   edh:maturity: draft
   dc:abstract: Standard resolution, single levels or surface variables derived from
     the IFS-NEMO SSP3-7.0 scenario. Covers the 2015-2049 time period.
-  title: Climate DT standard resolution hourly data on single-level or surface, IFS-NEMO, SSP3-7.0
+  title: Climate DT standard resolution hourly data on single-level or surface, IFS-NEMO,
+    SSP3-7.0
   dc:access_rights: restricted
-  description: Climate DT standard resolution hourly data on single-level or surface, IFS-NEMO, SSP3-7.0
+  description: Climate DT standard resolution hourly data on single-level or surface,
+    IFS-NEMO, SSP3-7.0
   datetime: '2049-12-31T23:00:00Z'
   start_datetime: '2015-01-01T00:00:00Z'
   end_datetime: '2049-12-31T23:00:00Z'
@@ -325,6 +327,20 @@ properties:
       type: data
       description: Total column water
       unit: kg m**-2
+    lsm:
+      dimensions:
+      - latitude
+      - longitude
+      type: data
+      description: Land-sea mask
+      unit: (0 - 1)
+    orog:
+      dimensions:
+      - latitude
+      - longitude
+      type: data
+      description: Orography
+      unit: m
   dc:extent: 21.9 TB
   search_weight: 63
   keywords:

@@ -21,10 +21,12 @@ assets:
 properties:
   edh:maturity: draft
   dc:abstract: High resolution, single levels or surface variables derived from the
-    IFS-FESOM SSP3-7.0 scenario. Covers the 2015-2049 time period.
-  title: Climate DT high resolution hourly data on single-level or surface, IFS-FESOM, SSP3-7.0
+    IFS-FESOM SSP3-7.0 scenario. Covers the 2015-2049 time period. Optimised for maps access.
+  title: Climate DT high resolution hourly data on single-level or surface, IFS-FESOM,
+    SSP3-7.0, maps
   dc:access_rights: restricted
-  description: Climate DT high resolution hourly data on single-level or surface, IFS-FESOM, SSP3-7.0
+  description: Climate DT high resolution hourly data on single-level or surface,
+    IFS-FESOM, SSP3-7.0, maps
   datetime: '2049-12-31T23:00:00Z'
   start_datetime: '2015-01-01T00:00:00Z'
   end_datetime: '2049-12-31T23:00:00Z'

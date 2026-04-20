@@ -325,6 +325,20 @@ properties:
       type: data
       description: Total column water
       unit: kg m**-2
+    lsm:
+      dimensions:
+      - latitude
+      - longitude
+      type: data
+      description: Land-sea mask
+      unit: (0 - 1)
+    orog:
+      dimensions:
+      - latitude
+      - longitude
+      type: data
+      description: Orography
+      unit: m
   dc:extent: 15.6 TB
   search_weight: 63
   keywords:
