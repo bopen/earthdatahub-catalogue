@@ -1,0 +1,16 @@
+steps:
+- xarray_open_kwargs:
+    chunks: {}
+    engine: zarr
+    filename_or_obj: s3://edc-climate-dt-2/IFS-FESOM-cont-sfc-hourly-high-maps-v0.zarr
+  #transform_kwargs: { drop_vars: [heightAboveGround, step, surface]}
+  chunks: {latitude: 32, longitude: 32, time: 6480}
+  robust_to_zarr_kwargs: {
+    processing_dim: time,
+    chunks_per_processing_batch: 16,
+    retries: 3,
+    #scheduler: synchronous
+  }
+  to_zarr_kwargs:
+    store: s3://edc-climate-dt-2/IFS-FESOM-cont-sfc-hourly-high-timeseries-v0.zarr
+    write_empty_chunks: false

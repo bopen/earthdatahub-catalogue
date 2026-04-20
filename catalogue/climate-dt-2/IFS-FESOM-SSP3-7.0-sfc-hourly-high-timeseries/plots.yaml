@@ -1,0 +1,10 @@
+plots:
+- var: "t2m"
+  time_dim: "time"
+  sel: {"time": "2015-07-01T15"}
+  coarsen: {latitude: 8, longitude: 8}
+  plot_kwargs: {
+    'vmax':318,
+    'vmin':228,
+    'cmap':"RdGy_r"
+  }
