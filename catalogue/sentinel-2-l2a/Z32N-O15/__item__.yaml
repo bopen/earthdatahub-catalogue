@@ -1,0 +1,83 @@
+links:
+- title: Copernicus Sentinel-2 L2A
+  rel: derived_from
+  href: https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel2.html#sentinel-2-level-2a-surface-reflectance
+  type: text/html
+bbox:
+- 0.0
+- 36.0
+- 6.0
+- 48.0
+properties:
+  edh:maturity: draft
+  datetime: '2024-12-24T00:00:00Z'
+  start_datetime: '2024-01-11T00:00:00Z'
+  end_datetime: '2024-12-24T00:00:00Z'
+  dc:abstract: Sentinel-2 L2A aggregated
+    products for relative orbit 51 on UTM 31N
+  dc:access_rights: unrestricted
+  dc:title: Sentinel-2 L2A for relative orbit 51 on UTM 31N
+  dc:description: Sentinel-2 L2A for relative orbit 51 on UTM 31N.
+    The dataset is formatted as a Zarr archive optimised for time analysis.
+  dc:subject:
+  - Copernicus
+  - Sentinel-2
+  cube:dimensions:
+    date:
+      type: temporal
+      axis: t
+      extent:
+      - '2024-01-11T00:00:00Z'
+      - '2024-12-24T00:00:00Z'
+    polarization:
+      type: polarization
+      values:
+      - VV
+      - VH
+    y:
+      type: spatial
+      axis: y
+      reference_system: 32632
+      step: 10.0
+      extent:
+      - 4000005.0
+      - 5299995.0
+    x:
+      type: spatial
+      axis: x
+      reference_system: 32632
+      step: 10.0
+      extent:
+      - 350005.0
+      - 799995.0
+  cube:variables:
+    nrb:
+      dimensions:
+      - date
+      - polarization
+      - y
+      - x
+      type: data
+      description: normalised radar backscatter
+      unit: m2 m-2
+    simulation:
+      dimensions:
+      - y
+      - x
+      type: data
+      description: simulated beta nought
+      unit: m2 m-2
+  dc:extent: 1.4 TB
+assets:
+  data:
+    href: https://data.earthdatahub.destine.eu/sentinel-2-l2a/Z31N-O51-v0
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+      decode_coords: all
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
+search_weight: 4
