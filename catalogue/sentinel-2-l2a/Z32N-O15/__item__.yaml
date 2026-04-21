@@ -22,21 +22,10 @@ properties:
   - Copernicus
   - Sentinel-2
   cube:dimensions:
-    date:
-      type: temporal
-      axis: t
-      extent:
-      - '2024-01-11T00:00:00Z'
-      - '2024-12-24T00:00:00Z'
-    polarization:
-      type: polarization
-      values:
-      - VV
-      - VH
     y:
       type: spatial
       axis: y
-      reference_system: 32632
+      reference_system: 32631
       step: 20.0
       extent:
       - 4800010.0
@@ -44,7 +33,7 @@ properties:
     x:
       type: spatial
       axis: x
-      reference_system: 32632
+      reference_system: 32631
       step: 20.0
       extent:
       - 300010.0
