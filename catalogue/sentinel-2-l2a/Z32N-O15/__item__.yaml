@@ -10,15 +10,14 @@ bbox:
 - 48.0
 properties:
   edh:maturity: draft
-  datetime: '2024-12-24T00:00:00Z'
-  start_datetime: '2024-01-11T00:00:00Z'
-  end_datetime: '2024-12-24T00:00:00Z'
-  dc:abstract: Sentinel-2 L2A aggregated
-    products for relative orbit 51 on UTM 31N
+  datetime: '2025-10-31T00:00:00Z'
+  start_datetime: '2025-01-14T00:00:00Z'
+  end_datetime: '2025-10-31T00:00:00Z'
+  dc:abstract: Sentinel-2 L2A aggregated products for relative orbit 51 on UTM 31N
   dc:access_rights: unrestricted
   dc:title: Sentinel-2 L2A for relative orbit 51 on UTM 31N
-  dc:description: Sentinel-2 L2A for relative orbit 51 on UTM 31N.
-    The dataset is formatted as a Zarr archive optimised for time analysis.
+  dc:description: Sentinel-2 L2A for relative orbit 51 on UTM 31N. The dataset is
+    formatted as a Zarr archive optimised for time analysis.
   dc:subject:
   - Copernicus
   - Sentinel-2
@@ -38,36 +37,38 @@ properties:
       type: spatial
       axis: y
       reference_system: 32632
-      step: 10.0
+      step: 20.0
       extent:
-      - 4000005.0
-      - 5299995.0
+      - 4800010.0
+      - 4899990.0
     x:
       type: spatial
       axis: x
       reference_system: 32632
-      step: 10.0
+      step: 20.0
       extent:
-      - 350005.0
-      - 799995.0
+      - 300010.0
+      - 499990.0
+    time:
+      type: temporal
+      axis: t
+      extent:
+      - '2025-01-14T00:00:00Z'
+      - '2025-10-31T00:00:00Z'
   cube:variables:
-    nrb:
+    b04:
       dimensions:
-      - date
-      - polarization
-      - y
       - x
+      - y
+      - time
       type: data
-      description: normalised radar backscatter
-      unit: m2 m-2
-    simulation:
+    b8a:
       dimensions:
-      - y
       - x
+      - y
+      - time
       type: data
-      description: simulated beta nought
-      unit: m2 m-2
-  dc:extent: 1.4 TB
+  dc:extent: 8 GB
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/sentinel-2-l2a/Z31N-O51-v0.zarr
