@@ -20,7 +20,7 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 89
+search_weight: 90
 properties:
   edh:maturity: published
   dc:abstract: ERA5 single-levels provides atmospheric variables evolution over several
