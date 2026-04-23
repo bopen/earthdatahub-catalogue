@@ -3,10 +3,9 @@ steps:
     chunks: {}
     filename_or_obj: s3://edc-era5/reanalysis-era5-land-no-antartica-v0.zarr
 
-  chunks: {latitude: 64, longitude: 64, valid_time: 360}
+  chunks: {latitude: 50, longitude: 100, valid_time: 1440}
 
   robust_to_zarr_kwargs: {processing_dim: valid_time, chunks_per_processing_batch: 1, retries: 3}
   to_zarr_kwargs: {
-    store: s3://edc-era5/reanalysis-era5-land-no-antartica-v1.0.zarr,
-    consolidated: None, # it means attempt to read consolidated metadata on open, if not present fallback
+    store: s3://edc-era5/era5-land-v0.zarr,
   }
