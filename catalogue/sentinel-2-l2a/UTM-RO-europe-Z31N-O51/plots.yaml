@@ -1,13 +1,15 @@
 plots:
-- var: nrb
+- var: b8a
   time_dim: "date"
   isel:
-    date: 0
-    polarization: 0
-  coarsen: {x: 25, y: 25}
+    date: 10
+    # x: [5_000, 15_000]
+    # y: [50_000, 55_000]
+  coarsen: {x: 5, y: 5}
   plot_kwargs: {
-    "vmax": 1,
-    "vmin": 0,
-    "extent": [0., 24., 36., 48.],
+    "vmax": 0.6,
+    "vmin": 0.15,
+    "extent": [-6., 12., 38., 54.],
+    # "extent": [-6., 12., 34., 58.],
     "cmap": "Greys_r"
   }
