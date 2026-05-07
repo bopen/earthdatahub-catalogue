@@ -10,9 +10,9 @@ bbox:
 - 48.0
 properties:
   edh:maturity: draft
-  datetime: '2025-10-31T00:00:00Z'
-  start_datetime: '2025-01-14T00:00:00Z'
-  end_datetime: '2025-10-31T00:00:00Z'
+  datetime: '2026-01-01T00:00:00Z'
+  start_datetime: '2015-07-06T00:00:00Z'
+  end_datetime: '2026-01-01T00:00:00Z'
   dc:abstract: Sentinel-2 L2A aggregated products for relative orbit 51 on UTM 31N
   dc:access_rights: unrestricted
   dc:title: Sentinel-2 L2A for relative orbit 51 on UTM 31N
@@ -28,36 +28,47 @@ properties:
       reference_system: 32631
       step: 20.0
       extent:
-      - 4800010.0
-      - 4899990.0
+      - 3800010.0
+      - 6399990.0
     x:
       type: spatial
       axis: x
       reference_system: 32631
       step: 20.0
       extent:
-      - 300010.0
-      - 499990.0
-    time:
+      - 200010.0
+      - 799990.0
+    date:
       type: temporal
       axis: t
       extent:
-      - '2025-01-14T00:00:00Z'
-      - '2025-10-31T00:00:00Z'
+      - '2015-07-06T00:00:00Z'
+      - '2026-01-01T00:00:00Z'
   cube:variables:
     b04:
       dimensions:
       - x
       - y
-      - time
+      - date
       type: data
+      description: orthorectified surface reflectance bottom-of-atmosphere (BOA)
+      unit: 1
     b8a:
       dimensions:
       - x
       - y
-      - time
+      - date
       type: data
-  dc:extent: 8 GB
+      description: orthorectified surface reflectance bottom-of-atmosphere (BOA)
+      unit: 1
+    scl:
+      dimensions:
+      - x
+      - y
+      - date
+      type: data
+      description: scene classification map (SCL)
+  dc:extent: 25.3 TB
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/sentinel-2-l2a/UTM-RO-europe-v0/Z31N/O51
