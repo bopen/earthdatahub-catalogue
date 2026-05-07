@@ -52,7 +52,7 @@ properties:
       - date
       type: data
       description: orthorectified surface reflectance bottom-of-atmosphere (BOA)
-      unit: 1
+      unit: "1"
     b8a:
       dimensions:
       - x
@@ -60,7 +60,7 @@ properties:
       - date
       type: data
       description: orthorectified surface reflectance bottom-of-atmosphere (BOA)
-      unit: 1
+      unit: "1"
     scl:
       dimensions:
       - x
