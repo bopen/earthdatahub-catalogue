@@ -60,7 +60,7 @@ properties:
   dc:extent: 8 GB
 assets:
   data:
-    href: https://data.earthdatahub.destine.eu/sentinel-2-l2a/Z31N-O51-v0.zarr
+    href: https://data.earthdatahub.destine.eu/sentinel-2-l2a/UTM-RO-europe-v0/Z31N/O51
     roles:
     - data
     xarray:open_kwargs:
