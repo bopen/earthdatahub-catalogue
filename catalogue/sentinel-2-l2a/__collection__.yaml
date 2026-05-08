@@ -15,10 +15,7 @@ links:
 extent:
   spatial:
     bbox:
-    - - 0.
-      - 36.
-      - 6.
-      - 48.
+    - [-6., 12., 38., 54.]
   temporal:
     interval:
     - - "2024-01-01T00:00:00Z"
