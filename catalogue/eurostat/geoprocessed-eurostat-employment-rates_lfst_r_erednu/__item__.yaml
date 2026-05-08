@@ -15,8 +15,8 @@ properties:
   dc:abstract: Europe Eurostat Regional Labour Market Employment Rates by sex, age,
     educational attainment level, citizenship and degree of urbanisation
   dc:access_rights: charges apply
-  dc:title: Eurostat Regional Labour Market Employment Rates
-  dc:subject:
+  title: Eurostat Regional Labour Market Employment Rates
+  keywords:
   - eurostat
   - labour market
   - employment

@@ -14,8 +14,8 @@ properties:
   edh:maturity: draft
   dc:abstract: Europe Eurostat mortality data
   dc:access_rights: charges apply
-  dc:title: Eurostat mortality data over Europe
-  dc:subject:
+  title: Eurostat mortality data over Europe
+  keywords:
   - eurostat
   - mortality
   - europe

@@ -16,8 +16,8 @@ properties:
   dc:abstract: Europe EUROSTAT Estimated soil erosion by water, by erosion level,
     land cover and NUTS 3 regions
   dc:access_rights: charges apply
-  dc:title: Europe EUROSTAT soil erosion
-  dc:subject:
+  title: Europe EUROSTAT soil erosion
+  keywords:
   - eurostat
   - soil erosion
   - land cover

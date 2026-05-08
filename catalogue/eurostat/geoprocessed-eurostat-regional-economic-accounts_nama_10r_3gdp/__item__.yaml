@@ -15,8 +15,8 @@ properties:
   dc:abstract: Europe EUROSTAT Gross domestic product (GDP) at current market prices
     by NUTS 3 regions from 2000 to 2022
   dc:access_rights: charges apply
-  dc:title: Europe Gross domestic product (GDP)
-  dc:subject:
+  title: Europe Gross domestic product (GDP)
+  keywords:
   - eurostat
   - economy
   - gross domestic product

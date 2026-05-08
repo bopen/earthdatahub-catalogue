@@ -15,8 +15,8 @@ properties:
   dc:abstract: Europe EUROSTAT Gross Domestic Expenditure on Research and Development
     (GERD) by sector of performance and NUTS 2 regions
   dc:access_rights: charges apply
-  dc:title: Europe EUROSTAT GERD
-  dc:subject:
+  title: Europe EUROSTAT GERD
+  keywords:
   - eurostat
   - GERD
   - R&D

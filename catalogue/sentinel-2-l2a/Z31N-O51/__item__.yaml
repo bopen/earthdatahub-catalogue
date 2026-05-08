@@ -15,10 +15,10 @@ properties:
   end_datetime: '2025-10-31T00:00:00Z'
   dc:abstract: Sentinel-2 L2A aggregated products for relative orbit 51 on UTM 31N
   dc:access_rights: unrestricted
-  dc:title: Sentinel-2 L2A for relative orbit 51 on UTM 31N
-  dc:description: Sentinel-2 L2A for relative orbit 51 on UTM 31N. The dataset is
+  title: Sentinel-2 L2A for relative orbit 51 on UTM 31N
+  description: Sentinel-2 L2A for relative orbit 51 on UTM 31N. The dataset is
     formatted as a Zarr archive optimised for time analysis.
-  dc:subject:
+  keywords:
   - Copernicus
   - Sentinel-2
   cube:dimensions:
@@ -58,6 +58,7 @@ properties:
       - time
       type: data
   dc:extent: 8 GB
+  search_weight: 4
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/sentinel-2-l2a/Z31N-O51-v0.zarr
@@ -70,4 +71,3 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 4

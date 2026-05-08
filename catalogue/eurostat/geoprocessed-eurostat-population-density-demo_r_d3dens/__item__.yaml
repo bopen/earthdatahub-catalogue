@@ -14,8 +14,8 @@ properties:
   edh:maturity: draft
   dc:abstract: Europe Eurostat population density data from 1990 to 2022
   dc:access_rights: charges apply
-  dc:title: Eurostat population density data over Europe
-  dc:subject:
+  title: Eurostat population density data over Europe
+  keywords:
   - eurostat
   - population density
   - europe

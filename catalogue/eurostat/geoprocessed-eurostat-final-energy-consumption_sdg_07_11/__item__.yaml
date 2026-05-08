@@ -14,8 +14,8 @@ properties:
   edh:maturity: draft
   dc:abstract: Europe EUROSTAT Final Consumption of Energy data from 2000 to 2022
   dc:access_rights: charges apply
-  dc:title: EUROSTAT Final Consumption of Energy data over Europe
-  dc:subject:
+  title: EUROSTAT Final Consumption of Energy data over Europe
+  keywords:
   - eurostat
   - energy
   - SDG

@@ -15,8 +15,8 @@ properties:
     and provides a description of a possible evolution of the weather out to 10 days
     ahead
   dc:access_rights: unrestricted
-  dc:title: ECMWF high-resolution forecast
-  dc:subject:
+  title: ECMWF high-resolution forecast
+  keywords:
   - Open data
   - HRES
   - ECMWF
@@ -183,4 +183,4 @@ properties:
       description: Vorticity (relative)
       unit: s**-1
   dc:extent: 8 GB
-search_weight: 0
+  search_weight: 0

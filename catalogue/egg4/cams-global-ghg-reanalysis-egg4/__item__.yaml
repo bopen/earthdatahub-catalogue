@@ -15,8 +15,8 @@ properties:
   dc:abstract: 'This dataset is part of the ECMWF Atmospheric Composition Reanalysis
     focusing on long-lived greenhouse gases: carbon dioxide (CO2) and methane (CH4)'
   dc:access_rights: unrestricted
-  dc:title: CAMS global greenhouse gas reanalysis (EGG4)
-  dc:subject:
+  title: CAMS global greenhouse gas reanalysis (EGG4)
+  keywords:
   - CAMS
   - ECMWF
   - reanalysis
@@ -73,6 +73,7 @@ properties:
       description: CO2 column-mean molar fraction
       unit: ppm
   dc:extent: 73 GB
+  search_weight: 0
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/egg4/cams-global-ghg-reanalysis-egg4.zarr
@@ -84,4 +85,3 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 0

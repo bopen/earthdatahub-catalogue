@@ -14,8 +14,8 @@ properties:
   edh:maturity: draft
   dc:abstract: Europe EUROSTAT Government deficit and debt
   dc:access_rights: charges apply
-  dc:title: Europe EUROSTAT Government deficit and debt
-  dc:subject:
+  title: Europe EUROSTAT Government deficit and debt
+  keywords:
   - eurostat
   - government
   - finance

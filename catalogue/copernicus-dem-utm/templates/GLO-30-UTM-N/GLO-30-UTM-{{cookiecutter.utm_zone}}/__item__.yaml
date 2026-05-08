@@ -13,10 +13,10 @@ properties:
   datetime: '2022-01-01T12:00:00Z'
   dc:abstract: Copernicus DEM Global 30m resampled on a 20m grid on UTM {{ cookiecutter.utm_zone }}
   dc:access_rights: unrestricted
-  dc:title: Copernicus DEM Global 30m resampled on a 20m grid on UTM {{ cookiecutter.utm_zone }}
-  dc:description: Copernicus Digital Elevation Global 30m resampled on a 20m grid
+  title: Copernicus DEM Global 30m resampled on a 20m grid on UTM {{ cookiecutter.utm_zone }}
+  description: Copernicus Digital Elevation Global 30m resampled on a 20m grid
     on UTM {{ cookiecutter.utm_zone }}
-  dc:subject:
+  keywords:
   - Copernicus
   - DEM
   cube:dimensions:

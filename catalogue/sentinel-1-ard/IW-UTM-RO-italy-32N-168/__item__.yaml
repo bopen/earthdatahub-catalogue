@@ -16,10 +16,10 @@ properties:
   dc:abstract: Sentinel-1 Radiometrically Terrain Corrected data derived from IW GRD
     products for relative orbit 168 on UTM 32N
   dc:access_rights: unrestricted
-  dc:title: Sentinel-1 ARD for relative orbit 168 on UTM 32N
-  dc:description: Sentinel-1 ARD for relative orbit 168 on UTM 32N.
+  title: Sentinel-1 ARD for relative orbit 168 on UTM 32N
+  description: Sentinel-1 ARD for relative orbit 168 on UTM 32N.
     The dataset is formatted as a Zarr archive optimised for time analysis.
-  dc:subject:
+  keywords:
   - Copernicus
   - Sentinel-1
   cube:dimensions:
@@ -68,6 +68,7 @@ properties:
       description: simulated beta nought
       unit: m2 m-2
   dc:extent: 1.7 TB
+  search_weight: 9
 assets:
   data:
     href: https://data.earthdatahub.destine.eu/sentinel-1-ard/IW-UTM-RO-italy-v0/Z32N/O168
@@ -80,4 +81,3 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 9

@@ -14,8 +14,8 @@ properties:
   edh:maturity: draft
   dc:abstract: Europe Eurostat CDD & HDD data from 1979 to 2021
   dc:access_rights: charges apply
-  dc:title: Eurostat CDD & HDD data over Europe
-  dc:subject:
+  title: Eurostat CDD & HDD data over Europe
+  keywords:
   - eurostat
   - CDD
   - HDD

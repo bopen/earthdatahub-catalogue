@@ -20,18 +20,17 @@ assets:
     xarray:storage_options:
       client_kwargs:
         trust_env: true
-search_weight: 90
 properties:
   edh:maturity: published
   dc:abstract: ERA5 single-levels provides atmospheric variables evolution over several
     decades at an enhanced resolution compared to ERA5. The dataset is provided in
     a ARCO Zarr v3 format ideal for time series analysis
-  dc:title: ERA5 daily averaged data on single-levels
+  title: ERA5 daily averaged data on single-levels
   datetime: '2026-03-31T00:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
   end_datetime: '2026-03-31T00:00:00Z'
   dc:access_rights: unrestricted
-  dc:subject:
+  keywords:
   - ERA5
   - ECMWF
   - reanalysis
@@ -207,3 +206,4 @@ properties:
       description: Geopotential
       unit: m**2 s**-2
   dc:extent: 2.4 TB
+  search_weight: 90

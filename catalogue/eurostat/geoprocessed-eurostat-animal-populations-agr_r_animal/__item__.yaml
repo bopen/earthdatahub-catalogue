@@ -14,8 +14,8 @@ properties:
   edh:maturity: draft
   dc:abstract: Europe EUROSTAT Animal populations by NUTS 2 regions
   dc:access_rights: charges apply
-  dc:title: Europe EUROSTAT Animal populations by NUTS 2 regions
-  dc:subject:
+  title: Europe EUROSTAT Animal populations by NUTS 2 regions
+  keywords:
   - eurostat
   - agriculture
   - livestock
