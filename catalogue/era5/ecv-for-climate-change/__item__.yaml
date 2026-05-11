@@ -38,7 +38,7 @@ properties:
   - ECMWF
   - reanalysis
   - climate
-  - edh:Monthly
+  - edh:9 GB
   cube:dimensions:
     valid_time:
       type: temporal

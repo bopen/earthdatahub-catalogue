@@ -37,7 +37,7 @@ properties:
   - ECMWF
   - reanalysis
   - climate
-  - edh:700+TB
+  - edh:700 TB
   cube:dimensions:
     valid_time:
       type: temporal

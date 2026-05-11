@@ -38,7 +38,7 @@ properties:
   - surface
   - reanalysis
   - climate
-  - edh:400+TB
+  - edh:400 TB
   cube:dimensions:
     latitude:
       type: spatial
