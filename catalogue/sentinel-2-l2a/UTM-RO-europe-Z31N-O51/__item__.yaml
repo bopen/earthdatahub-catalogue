@@ -14,7 +14,7 @@ properties:
   title: Sentinel-2 L2A for relative orbit 51 on UTM 31N
   description: Sentinel-2 L2A for relative orbit 51 on UTM 31N. The dataset is
     formatted as a Zarr archive optimised for time analysis.
-  dc:subject:
+  keywords:
   - Copernicus
   - Sentinel-2
   cube:dimensions:
