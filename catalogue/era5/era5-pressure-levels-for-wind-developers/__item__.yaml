@@ -37,8 +37,8 @@ properties:
   - ECMWF
   - pressure levels
   - reanalysis
-  - edh:Zarr 3
   - edh:56 TB
+  - edh:Zarr 3
   cube:dimensions:
     valid_time:
       type: temporal

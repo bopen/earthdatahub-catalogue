@@ -38,8 +38,8 @@ properties:
   - ECMWF
   - forecast
   - climate
-  - edh:Zarr 3
   - edh:6.3 TB
+  - edh:Zarr 3
   dc:extent: 6.3 TB
   cube:dimensions:
     time:

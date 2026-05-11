@@ -38,8 +38,8 @@ properties:
   - ECMWF
   - reanalysis
   - climate
-  - edh:Zarr 3
   - edh:8.3 TB
+  - edh:Zarr 3
   cube:dimensions:
     valid_time:
       type: temporal

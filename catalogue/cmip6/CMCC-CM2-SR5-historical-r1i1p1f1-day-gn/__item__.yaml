@@ -41,8 +41,8 @@ properties:
   - r1i1p1f1
   - climate
   - simulations
-  - edh:Zarr 3
   - edh:250 GB
+  - edh:Zarr 3
   dc:extent: 253 GB
   cube:dimensions:
     time:

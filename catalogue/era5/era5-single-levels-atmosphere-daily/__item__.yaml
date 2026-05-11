@@ -36,8 +36,8 @@ properties:
   - ECMWF
   - reanalysis
   - climate
-  - edh:Zarr 3
   - edh:2.4 TB
+  - edh:Zarr 3
   search_weight: 89
   dc:accrual_periodicity: freq:monthly
   cube:dimensions:
