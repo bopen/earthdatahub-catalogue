@@ -30,7 +30,7 @@ keywords:
 - ECMWF
 - reanalysis
 - climate
-- edh:2+ PB
+- edh:2000 TB
 providers:
 - name: European Union
   roles:
