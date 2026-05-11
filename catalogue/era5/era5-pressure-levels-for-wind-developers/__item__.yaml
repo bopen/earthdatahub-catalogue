@@ -31,6 +31,14 @@ properties:
   end_datetime: '2026-03-31T23:00:00Z'
   dc:access_rights: unrestricted
   dc:accrual_periodicity: freq:monthly
+  search_weight: 65
+  keywords:
+  - ERA5
+  - ECMWF
+  - pressure levels
+  - reanalysis
+  - edh:Zarr 3
+  - edh:56 TB
   cube:dimensions:
     valid_time:
       type: temporal
@@ -111,10 +119,3 @@ properties:
       type: data
       description: Geopotential
       unit: m**2 s**-2
-  search_weight: 65
-  keywords:
-  - ERA5
-  - ECMWF
-  - pressure levels
-  - reanalysis
-  - edh:Zarr 3

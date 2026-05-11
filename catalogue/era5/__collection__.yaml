@@ -29,7 +29,8 @@ keywords:
 - ERA5
 - ECMWF
 - reanalysis
-- weather
+- climate
+- edh:2+ PB
 providers:
 - name: European Union
   roles:

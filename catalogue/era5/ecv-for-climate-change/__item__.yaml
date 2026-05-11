@@ -31,7 +31,7 @@ properties:
   dc:access_rights: unrestricted
   title: ERA5 Essential Climate Variables monthly anomalies
   dc:accrual_periodicity: freq:monthly
-  search_weight: 90
+  search_weight: 10
   keywords:
   - ERA5
   - ECV

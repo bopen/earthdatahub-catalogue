@@ -17,7 +17,6 @@ assets:
       engine: zarr
       chunks: {}
       zarr_format: 3
-      zarr_format: 3
     xarray:storage_options:
       client_kwargs:
         trust_env: true
@@ -31,6 +30,16 @@ properties:
   end_datetime: '2026-03-31T21:00:00Z'
   dc:access_rights: unrestricted
   dc:accrual_periodicity: freq:monthly
+  search_weight: 60
+  keywords:
+  - ERA5
+  - ECMWF
+  - single levels
+  - surface
+  - reanalysis
+  - weather
+  - ensemble spread
+  - edh:Zarr 3
   cube:dimensions:
     latitude:
       type: spatial
@@ -152,13 +161,3 @@ properties:
       type: data
       description: Geopotential
       unit: m**2 s**-2
-  search_weight: 60
-  keywords:
-  - ERA5
-  - ECMWF
-  - single levels
-  - surface
-  - reanalysis
-  - weather
-  - ensemble spread
-  - edh:Zarr 3
