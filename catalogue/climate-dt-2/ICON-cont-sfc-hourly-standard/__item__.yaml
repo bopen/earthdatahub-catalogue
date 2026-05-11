@@ -61,7 +61,7 @@ properties:
   - DestinE
   - ECMWF
   - forecast
-  - weather
+  - climate
   - edh:Zarr 3
   cube:variables:
     avg_ie:

@@ -30,6 +30,15 @@ properties:
   end_datetime: '2026-03-01T00:00:00Z'
   dc:access_rights: unrestricted
   dc:accrual_periodicity: freq:monthly
+  search_weight: 80
+  keywords:
+  - ERA5
+  - ECMWF
+  - single levels
+  - surface
+  - reanalysis
+  - climate
+  - edh:34 GB
   cube:dimensions:
     valid_time:
       type: temporal
@@ -120,11 +129,3 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-  search_weight: 80
-  keywords:
-  - ERA5
-  - ECMWF
-  - single levels
-  - surface
-  - reanalysis
-  - weather

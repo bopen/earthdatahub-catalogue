@@ -31,7 +31,7 @@ keywords:
 - digital twin
 - ECMWF
 - forecast
-- weather
+- climate
 providers:
 - name: European Union
   roles:

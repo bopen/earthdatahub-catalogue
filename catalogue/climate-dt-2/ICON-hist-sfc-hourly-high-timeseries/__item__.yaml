@@ -104,5 +104,5 @@ properties:
   - DestinE
   - ECMWF
   - forecast
-  - weather
+  - climate
   - edh:Zarr 3
