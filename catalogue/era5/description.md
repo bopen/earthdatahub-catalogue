@@ -1,3 +1,6 @@
+
+This is a free Zarr mirror of more than 2,000 TeraBytes of ERA5 data ready for download, no queue, just plain HTTPS.
+
 ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 8 decades.
 Data is available from 1940 onwards on ECWMF [Copernicus Data Store](https://cds.climate.copernicus.eu/).
 
