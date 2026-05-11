@@ -23,7 +23,8 @@ assets:
 properties:
   edh:maturity: published
   dc:abstract: High resolution, single levels or surface variables derived from the
-    IFS-NEMO SSP3-7.0 scenario. Covers the 2015-2049 time period. Optimised for time series analysis.
+    IFS-NEMO SSP3-7.0 scenario. Covers the 2015-2049 time period. Optimised for time
+    series analysis.
   title: Climate DT high resolution hourly data on single-level or surface, IFS-NEMO,
     SSP3-7.0, timeseries
   dc:access_rights: restricted
