@@ -17,7 +17,8 @@ assets:
       engine: zarr
       chunks: {}
     xarray:storage_options:
-      client_kwargs: null
+      client_kwargs:
+        trust_env: true
 properties:
   edh:maturity: draft
   dc:abstract: High resolution, single levels or surface variables derived from the
