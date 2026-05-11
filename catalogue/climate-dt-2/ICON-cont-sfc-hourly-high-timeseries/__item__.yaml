@@ -23,12 +23,13 @@ assets:
 properties:
   edh:maturity: published
   dc:abstract: High resolution, single levels or surface variables, derived from the
-    ICON model Control run. Covers the time period 1990-1999. Optimised for time-series access.
+    ICON model Control run. Covers the time period 1990-1999. Optimised for time-series
+    access.
   title: Climate DT high resolution hourly data on single-level or surface, ICON,
     Control, timeseries
   dc:access_rights: restricted
-  description: Climate DT high resolution hourly data on single-level or surface, timeseries
-    ICON, Control
+  description: Climate DT high resolution hourly data on single-level or surface,
+    timeseries ICON, Control
   datetime: '1999-12-31T23:00:00Z'
   start_datetime: '1990-01-01T00:00:00Z'
   end_datetime: '1999-12-31T23:00:00Z'

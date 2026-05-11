@@ -25,7 +25,8 @@ properties:
   dc:abstract: High resolution, single levels or surface variables, derived from the
     ICON model Historical run. Covers the time period 1990-2014. Optimised for maps
     access.
-  title: Climate DT high resolution hourly data on single-level or surface, ICON,Historical, maps
+  title: Climate DT high resolution hourly data on single-level or surface, ICON,Historical,
+    maps
   dc:access_rights: restricted
   description: Climate DT high resolution hourly data on single-level or surface,
     ICON, Historical, maps
