@@ -11,8 +11,8 @@ properties:
   end_datetime: '2026-01-01T00:00:00Z'
   dc:abstract: Sentinel-2 L2A aggregated products for relative orbit 51 on UTM 31N
   dc:access_rights: unrestricted
-  dc:title: Sentinel-2 L2A for relative orbit 51 on UTM 31N
-  dc:description: Sentinel-2 L2A for relative orbit 51 on UTM 31N. The dataset is
+  title: Sentinel-2 L2A for relative orbit 51 on UTM 31N
+  description: Sentinel-2 L2A for relative orbit 51 on UTM 31N. The dataset is
     formatted as a Zarr archive optimised for time analysis.
   dc:subject:
   - Copernicus
