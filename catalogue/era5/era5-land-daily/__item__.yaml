@@ -39,6 +39,7 @@ properties:
   - reanalysis
   - climate
   - edh:Zarr 3
+  - edh:8+TB
   cube:dimensions:
     valid_time:
       type: temporal

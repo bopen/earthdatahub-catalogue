@@ -30,6 +30,15 @@ properties:
   end_datetime: '2026-03-31T23:00:00Z'
   dc:access_rights: unrestricted
   dc:accrual_periodicity: freq:monthly
+  search_weight: 87
+  keywords:
+  - ERA5
+  - ECMWF
+  - single levels
+  - surface
+  - reanalysis
+  - climate
+  - edh:400+TB
   cube:dimensions:
     latitude:
       type: spatial
@@ -1087,11 +1096,3 @@ properties:
       type: data
       description: Total column vertically-integrated water vapour
       unit: kg m**-2
-  search_weight: 88
-  keywords:
-  - ERA5
-  - ECMWF
-  - single levels
-  - surface
-  - reanalysis
-  - weather
