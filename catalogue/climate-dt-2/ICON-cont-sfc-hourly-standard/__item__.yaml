@@ -63,6 +63,7 @@ properties:
   - forecast
   - climate
   - edh:Zarr 3
+  - edh:6.3 TB
   cube:variables:
     avg_ie:
       dimensions:
