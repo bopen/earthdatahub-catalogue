@@ -8,6 +8,19 @@ bbox:
 - -90.0
 - 180.0
 - 90.0
+assets:
+  data:
+    href: https://data.earthdatahub.destine.eu/copernicus-dem/GLO-30-v0.zarr
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+      mask_and_scale: false
+      decode_coords: all
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
 properties:
   datetime: '2022-01-01T12:00:00Z'
   dc:abstract: GLO-30 is a Digital Elevation Model that offers global coverage at
@@ -15,6 +28,12 @@ properties:
   dc:access_rights: unrestricted
   title: Copernicus DEM Global 30m
   edh:maturity: published
+  search_weight: 50
+  keywords:
+  - Copernicus
+  - DEM
+  - edh:3.4 TB
+  dc:extent: 3.4 TB
   cube:dimensions:
     lat:
       type: spatial
@@ -40,21 +59,3 @@ properties:
       type: data
       description: altitude over the geoid
       unit: m
-  dc:extent: 3.4 TB
-  search_weight: 50
-  keywords:
-  - Copernicus
-  - DEM
-assets:
-  data:
-    href: https://data.earthdatahub.destine.eu/copernicus-dem/GLO-30-v0.zarr
-    roles:
-    - data
-    xarray:open_kwargs:
-      engine: zarr
-      chunks: {}
-      mask_and_scale: false
-      decode_coords: all
-    xarray:storage_options:
-      client_kwargs:
-        trust_env: true

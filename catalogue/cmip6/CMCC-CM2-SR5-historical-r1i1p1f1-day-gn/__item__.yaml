@@ -31,6 +31,19 @@ properties:
   datetime: '2014-12-31 12:00:00Z'
   start_datetime: '1850-01-01 12:00:00Z'
   end_datetime: '2014-12-31 12:00:00Z'
+  search_weight: 62
+  keywords:
+  - CMIP6
+  - CMIP
+  - CMCC
+  - CMCC-CM2-SR5
+  - historical
+  - r1i1p1f1
+  - climate
+  - simulations
+  - edh:Zarr 3
+  - edh:250 GB
+  dc:extent: 253 GB
   cube:dimensions:
     time:
       type: temporal
@@ -222,15 +235,3 @@ properties:
       type: data
       description: Daily Maximum Near-Surface Wind Speed
       unit: m s-1
-  dc:extent: 253 GB
-  search_weight: 62
-  keywords:
-  - CMIP6
-  - CMIP
-  - CMCC
-  - CMCC-CM2-SR5
-  - historical
-  - r1i1p1f1
-  - climate
-  - simulations
-  - edh:Zarr 3

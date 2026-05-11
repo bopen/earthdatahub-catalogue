@@ -29,6 +29,7 @@ license: other
 keywords:
 - Copernicus
 - DEM
+- edh:3.8 TB
 providers:
 - name: European Union
   roles:
