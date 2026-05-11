@@ -10,7 +10,7 @@ bbox:
 - 90.0
 assets:
   data:
-    href: s3://edc-climate-dt-2/IFS-NEMO-cont-sfc-hourly-standard-v0.zarr
+    href: https://api.earthdatahub.destine.eu/climate-dt-2/IFS-NEMO-cont-sfc-hourly-standard-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
