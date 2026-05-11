@@ -24,19 +24,21 @@ properties:
   edh:maturity: published
   dc:abstract: Standard resolution, single levels or surface variables derived from
     the ICON model SSP3-7.0 scenario. Covers the 2015-2049 time period.
-  title: Climate DT standard resolution hourly data on single-level or surface, ICON, SSP3-7.0
+  title: Climate DT standard resolution hourly data on single-level or surface, ICON,
+    SSP3-7.0
   dc:access_rights: restricted
-  description: Climate DT standard resolution hourly data on single-level or surface, ICON, SSP3-7.0
-  datetime: '2049-12-31T23:00:00Z'
+  description: Climate DT standard resolution hourly data on single-level or surface,
+    ICON, SSP3-7.0
+  datetime: '2040-12-31T23:00:00Z'
   start_datetime: '2015-01-01T00:00:00Z'
-  end_datetime: '2049-12-31T23:00:00Z'
+  end_datetime: '2040-12-31T23:00:00Z'
   cube:dimensions:
     time:
       type: temporal
       axis: t
       extent:
       - '2015-01-01T00:00:00Z'
-      - '2049-12-31T23:00:00Z'
+      - '2040-12-31T23:00:00Z'
       step: PT1H
     latitude:
       type: spatial
@@ -54,79 +56,14 @@ properties:
       extent:
       - -180.0
       - 180.0
+  search_weight: 63
+  keywords:
+  - DestinE
+  - ECMWF
+  - forecast
+  - weather
+  - edh:Zarr 3
   cube:variables:
-    msl:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Mean sea level pressure
-      unit: Pa
-    skt:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Skin temperature
-      unit: K
-    t2m:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: 2 metre temperature
-      unit: K
-    tcc:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Total Cloud Cover
-      unit: '%'
-    tciw:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Total column cloud ice water
-      unit: kg m**-2
-    tclw:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Total column cloud liquid water
-      unit: kg m**-2
-    tcwv:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Total column vertically-integrated water vapour
-      unit: kg m**-2
-    u10:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: 10 metre U wind component
-      unit: m s**-1
-    v10:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: 10 metre V wind component
-      unit: m s**-1
     avg_ie:
       dimensions:
       - time
@@ -295,6 +232,28 @@ properties:
       type: data
       description: 2 metre dewpoint temperature
       unit: K
+    lsm:
+      dimensions:
+      - latitude
+      - longitude
+      type: data
+      description: Land-sea mask
+      unit: (0 - 1)
+    msl:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Mean sea level pressure
+      unit: Pa
+    orog:
+      dimensions:
+      - latitude
+      - longitude
+      type: data
+      description: Orography
+      unit: m
     sd:
       dimensions:
       - time
@@ -311,6 +270,14 @@ properties:
       type: data
       description: 10 metre wind speed
       unit: m s**-1
+    skt:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Skin temperature
+      unit: K
     sp:
       dimensions:
       - time
@@ -319,6 +286,38 @@ properties:
       type: data
       description: Surface pressure
       unit: Pa
+    t2m:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre temperature
+      unit: K
+    tcc:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total Cloud Cover
+      unit: '%'
+    tciw:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total column cloud ice water
+      unit: kg m**-2
+    tclw:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total column cloud liquid water
+      unit: kg m**-2
     tcw:
       dimensions:
       - time
@@ -327,11 +326,28 @@ properties:
       type: data
       description: Total column water
       unit: kg m**-2
-  dc:extent: 21.9 TB
-  search_weight: 63
-  keywords:
-  - DestinE
-  - ECMWF
-  - forecast
-  - weather
-  - edh:Zarr 3
+    tcwv:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Total column vertically-integrated water vapour
+      unit: kg m**-2
+    u10:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre U wind component
+      unit: m s**-1
+    v10:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: 10 metre V wind component
+      unit: m s**-1
+  dc:extent: 16.3 TB
