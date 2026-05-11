@@ -31,6 +31,13 @@ properties:
   dc:access_rights: unrestricted
   title: ERA5 Essential Climate Variables monthly anomalies
   dc:accrual_periodicity: freq:monthly
+  search_weight: 90
+  keywords:
+  - ERA5
+  - ECV
+  - ECMWF
+  - reanalysis
+  - climate
   cube:dimensions:
     valid_time:
       type: temporal
@@ -89,10 +96,3 @@ properties:
       description: Total precipitation
       unit: m
   dc:extent: 9 GB
-  search_weight: 90
-  keywords:
-  - ERA5
-  - ECV
-  - ECMWF
-  - reanalysis
-  - climate

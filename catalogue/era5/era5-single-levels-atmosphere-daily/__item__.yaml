@@ -35,7 +35,9 @@ properties:
   - ERA5
   - ECMWF
   - reanalysis
-  - weather
+  - climate
+  - edh:Zarr 3
+  search_weight: 88
   dc:accrual_periodicity: freq:monthly
   cube:dimensions:
     valid_time:
