@@ -21,7 +21,7 @@ assets:
       client_kwargs:
         trust_env: true
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   dc:abstract: Standard resolution, single levels or surface variables derived from
     the IFS-NEMO Historical run. Covers the time period 1990-2014.
   title: Climate DT standard resolution hourly data on single-level or surface, IFS-NEMO, Historical

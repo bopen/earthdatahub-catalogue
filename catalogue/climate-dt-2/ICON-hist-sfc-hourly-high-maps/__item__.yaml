@@ -21,7 +21,7 @@ assets:
       client_kwargs:
         trust_env: true
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   dc:abstract: High resolution, single levels or surface variables, derived from the
     ICON model Historical run. Covers the time period 1990-2014. Optimised for maps
     access.

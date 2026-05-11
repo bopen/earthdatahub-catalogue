@@ -21,7 +21,7 @@ assets:
       client_kwargs:
         trust_env: true
 properties:
-  edh:maturity: draft
+  edh:maturity: published
   dc:abstract: High resolution, single levels or surface variables derived from the
     IFS-NEMO Control run. Covers the time period 1990-1999. Optimised for timeseries access.
   title: Climate DT high resolution hourly data on single-level or surface, IFS-NEMO,
