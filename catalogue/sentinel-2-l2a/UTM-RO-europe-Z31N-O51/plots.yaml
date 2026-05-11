@@ -1,0 +1,15 @@
+plots:
+- var: b8a
+  time_dim: "date"
+  isel:
+    date: 10
+    # x: [5_000, 15_000]
+    # y: [50_000, 55_000]
+  coarsen: {x: 5, y: 5}
+  plot_kwargs: {
+    "vmax": 0.6,
+    "vmin": 0.15,
+    "extent": [-6., 12., 38., 54.],
+    # "extent": [-6., 12., 34., 58.],
+    "cmap": "Greys_r"
+  }

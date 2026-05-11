@@ -1,0 +1,80 @@
+links:
+- title: Copernicus Sentinel-2 L2A
+  rel: derived_from
+  href: https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel2.html#sentinel-2-level-2a-surface-reflectance
+  type: text/html
+bbox: [-6., 12., 38., 54.]
+properties:
+  edh:maturity: draft
+  datetime: '2026-01-01T00:00:00Z'
+  start_datetime: '2015-07-06T00:00:00Z'
+  end_datetime: '2026-01-01T00:00:00Z'
+  dc:abstract: Sentinel-2 L2A aggregated products for relative orbit 51 on UTM 31N
+  dc:access_rights: unrestricted
+  dc:title: Sentinel-2 L2A for relative orbit 51 on UTM 31N
+  dc:description: Sentinel-2 L2A for relative orbit 51 on UTM 31N. The dataset is
+    formatted as a Zarr archive optimised for time analysis.
+  dc:subject:
+  - Copernicus
+  - Sentinel-2
+  cube:dimensions:
+    y:
+      type: spatial
+      axis: y
+      reference_system: 32631
+      step: 20.0
+      extent:
+      - 3800010.0
+      - 6399990.0
+    x:
+      type: spatial
+      axis: x
+      reference_system: 32631
+      step: 20.0
+      extent:
+      - 200010.0
+      - 799990.0
+    date:
+      type: temporal
+      axis: t
+      extent:
+      - '2015-07-06T00:00:00Z'
+      - '2026-01-01T00:00:00Z'
+  cube:variables:
+    b04:
+      dimensions:
+      - x
+      - y
+      - date
+      type: data
+      description: orthorectified surface reflectance bottom-of-atmosphere (BOA)
+      unit: "1"
+    b8a:
+      dimensions:
+      - x
+      - y
+      - date
+      type: data
+      description: orthorectified surface reflectance bottom-of-atmosphere (BOA)
+      unit: "1"
+    scl:
+      dimensions:
+      - x
+      - y
+      - date
+      type: data
+      description: scene classification map (SCL)
+  dc:extent: 25.3 TB
+assets:
+  data:
+    href: https://data.earthdatahub.destine.eu/sentinel-2-l2a/UTM-RO-europe-v0/Z31N/O51
+    roles:
+    - data
+    xarray:open_kwargs:
+      engine: zarr
+      chunks: {}
+      decode_coords: all
+    xarray:storage_options:
+      client_kwargs:
+        trust_env: true
+search_weight: 4
