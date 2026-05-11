@@ -41,6 +41,27 @@ properties:
   - edh:Zarr 3
   - edh:16 TB
   dc:extent: 15.6 TB
+  cube:dimensions:
+    latitude:
+      type: spatial
+      axis: y
+      step: 0.35
+      extent:
+      - -90.0
+      - 90.0
+    longitude:
+      type: spatial
+      axis: x
+      step: 0.35
+      extent:
+      - -180.0
+      - 180.0
+    time:
+      type: temporal
+      axis: t
+      extent:
+      - '1990-01-01T00:00:00Z'
+      - '2014-12-31T23:00:00Z'
   cube:variables:
     avg_ie:
       dimensions:
@@ -328,24 +349,3 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-  cube:dimensions:
-    latitude:
-      type: spatial
-      axis: y
-      step: 0.35
-      extent:
-      - -90.0
-      - 90.0
-    longitude:
-      type: spatial
-      axis: x
-      step: 0.35
-      extent:
-      - -180.0
-      - 180.0
-    time:
-      type: temporal
-      axis: t
-      extent:
-      - '1990-01-01T00:00:00Z'
-      - '2014-12-31T23:00:00Z'
