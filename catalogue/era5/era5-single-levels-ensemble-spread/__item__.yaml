@@ -39,7 +39,9 @@ properties:
   - reanalysis
   - weather
   - ensemble spread
+  - edh:3.1 TB
   - edh:Zarr 3
+  dc:extent: 3.1 TB
   cube:dimensions:
     latitude:
       type: spatial
@@ -63,7 +65,6 @@ properties:
       extent:
       - '1940-01-01T00:00:00Z'
       - '2026-03-31T21:00:00Z'
-  dc:extent: 3.1 TB
   cube:variables:
     d2m:
       dimensions:
