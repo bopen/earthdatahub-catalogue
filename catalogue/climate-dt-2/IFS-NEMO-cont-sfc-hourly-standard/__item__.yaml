@@ -32,6 +32,15 @@ properties:
   datetime: '1999-12-31T23:00:00Z'
   start_datetime: '1990-01-01T00:00:00Z'
   end_datetime: '1999-12-31T23:00:00Z'
+  search_weight: 63
+  keywords:
+  - DestinE
+  - ECMWF
+  - forecast
+  - climate
+  - edh:Zarr 3
+  - edh:6.3 TB
+  dc:extent: 6.3 TB
   cube:dimensions:
     time:
       type: temporal
@@ -343,11 +352,3 @@ properties:
       type: data
       description: Orography
       unit: m
-  dc:extent: 6.3 TB
-  search_weight: 63
-  keywords:
-  - DestinE
-  - ECMWF
-  - forecast
-  - climate
-  - edh:Zarr 3
