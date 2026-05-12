@@ -38,7 +38,7 @@ properties:
   - climate
   - edh:2.4 TB
   - edh:Zarr 3
-  search_weight: 89
+  search_weight: 90
   dc:accrual_periodicity: freq:monthly
   cube:dimensions:
     valid_time:

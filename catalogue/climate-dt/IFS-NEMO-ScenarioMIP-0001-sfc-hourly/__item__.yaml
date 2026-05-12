@@ -329,7 +329,7 @@ properties:
       description: 10 metre V wind component
       unit: m s**-1
   dc:extent: 800.2 TB
-  search_weight: 65
+  search_weight: 0
   keywords:
   - DestinE
   - ECMWF

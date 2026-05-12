@@ -31,7 +31,7 @@ properties:
   end_datetime: '2026-03-31T00:00:00Z'
   dc:access_rights: unrestricted
   dc:accrual_periodicity: freq:monthly
-  search_weight: 90
+  search_weight: 89
   keywords:
   - ERA5
   - Land
