@@ -50,7 +50,7 @@ properties:
       - age_band_lower_bound
       - year
       type: data
-  search_weight: 55
+  search_weight: 0
   keywords:
   - Zenodo
   - population
