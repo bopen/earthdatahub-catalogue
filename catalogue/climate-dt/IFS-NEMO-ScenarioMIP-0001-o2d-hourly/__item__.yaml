@@ -121,7 +121,7 @@ properties:
       description: Time-mean sea surface height
       unit: m
   dc:extent: 3.9 TB
-  search_weight: 64
+  search_weight: 0
   keywords:
   - DestinE
   - ECMWF

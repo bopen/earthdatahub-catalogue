@@ -74,7 +74,7 @@ properties:
       description: Temperature
       unit: K
   dc:extent: 117.7 TB
-  search_weight: 60
+  search_weight: 0
   keywords:
   - DestinE
   - ECMWF
