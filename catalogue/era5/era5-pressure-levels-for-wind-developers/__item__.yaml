@@ -63,7 +63,7 @@ properties:
       - 359.8
       reference_system: 4326
       step: 0.25
-  dc:extent: 56.6 TB
+  dc:extent: 56.5 TB
   cube:variables:
     r:
       dimensions:
