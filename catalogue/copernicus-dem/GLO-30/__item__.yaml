@@ -22,18 +22,26 @@ links:
   href: https://doi.org/10.5270/ESA-c5d3d65
   type: text/html
 properties:
-  datetime: '2022-01-01T12:00:00Z'
-  dc:abstract: GLO-30 is a Digital Elevation Model that offers global coverage at
-    a resolution of 30 metres. Surface coverage is ~ 149 M km 2
-  dc:access_rights: unrestricted
   title: Copernicus DEM Global 30m
-  edh:maturity: published
   search_weight: 50
   keywords:
   - Copernicus
   - DEM
   - edh:3.4 TB
+  edh:maturity: published
   dc:extent: 3.4 TB
+  dc:access_rights: unrestricted
+  dc:abstract: GLO-30 is a Digital Elevation Model that offers global coverage at
+    a resolution of 30 metres. Surface coverage is ~ 149 M km 2
+  datetime: '2022-01-01T12:00:00Z'
+  cube:variables:
+    dsm:
+      dimensions:
+      - lat
+      - lon
+      type: data
+      description: altitude over the geoid
+      unit: m
   cube:dimensions:
     lat:
       type: spatial
@@ -51,11 +59,3 @@ properties:
       extent:
       - -180.0
       - 180.0
-  cube:variables:
-    dsm:
-      dimensions:
-      - lat
-      - lon
-      type: data
-      description: altitude over the geoid
-      unit: m

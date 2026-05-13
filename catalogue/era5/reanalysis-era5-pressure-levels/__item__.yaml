@@ -20,15 +20,8 @@ links:
   href: https://doi.org/10.24381/cds.adbb2d47
   type: text/html
 properties:
-  edh:maturity: published
-  dc:abstract: Subset of ERA5 reanalysis atmospheric quantities on pressure-levels.
-    The dataset is provided in a ARCO Zarr format ideal for spatial analysis
   title: ERA5 hourly data on pressure levels
-  datetime: '2026-04-30T23:00:00Z'
   start_datetime: '1940-01-01T00:00:00Z'
-  end_datetime: '2026-04-30T23:00:00Z'
-  dc:access_rights: unrestricted
-  dc:accrual_periodicity: freq:monthly
   search_weight: 86
   keywords:
   - ERA5
@@ -37,31 +30,14 @@ properties:
   - reanalysis
   - climate
   - edh:950 TB
-  cube:dimensions:
-    valid_time:
-      type: temporal
-      extent:
-      - '1940-01-01T00:00:00Z'
-      - '2026-04-30T23:00:00Z'
-      step: PT1H
-      axis: t
-    latitude:
-      type: spatial
-      axis: y
-      extent:
-      - 90.0
-      - -90.0
-      reference_system: 4326
-      step: 0.25
-    longitude:
-      type: spatial
-      axis: x
-      extent:
-      - 0.0
-      - 359.8
-      reference_system: 4326
-      step: 0.25
+  end_datetime: '2026-04-30T23:00:00Z'
+  edh:maturity: published
   dc:extent: 955.4 TB
+  dc:accrual_periodicity: freq:monthly
+  dc:access_rights: unrestricted
+  dc:abstract: Subset of ERA5 reanalysis atmospheric quantities on pressure-levels.
+    The dataset is provided in a ARCO Zarr format ideal for spatial analysis
+  datetime: '2026-04-30T23:00:00Z'
   cube:variables:
     cc:
       dimensions:
@@ -207,3 +183,27 @@ properties:
       type: data
       description: Geopotential
       unit: m**2 s**-2
+  cube:dimensions:
+    valid_time:
+      type: temporal
+      extent:
+      - '1940-01-01T00:00:00Z'
+      - '2026-04-30T23:00:00Z'
+      step: PT1H
+      axis: t
+    latitude:
+      type: spatial
+      axis: y
+      extent:
+      - 90.0
+      - -90.0
+      reference_system: 4326
+      step: 0.25
+    longitude:
+      type: spatial
+      axis: x
+      extent:
+      - 0.0
+      - 359.8
+      reference_system: 4326
+      step: 0.25
