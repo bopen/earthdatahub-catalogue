@@ -14,7 +14,7 @@ steps:
       realization: 1
       expver: 0001
       stream: clte
-      date: [2015-01-01/to/2049-12-31]
+      date: [2015-01-01/to/2040-12-31]
       resolution: standard
       type: fc
       levtype: sfc
@@ -70,7 +70,7 @@ steps:
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs: {
     processing_dim: time,
-    chunks_per_processing_batch: 1,
+    chunks_per_processing_batch: 2,
     retries: 3,
   }
   to_zarr_kwargs:
