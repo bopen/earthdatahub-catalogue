@@ -33,6 +33,22 @@ properties:
   datetime: '2100-12-31T12:00:00Z'
   start_datetime: '2015-01-01T12:00:00Z'
   end_datetime: '2100-12-31T12:00:00Z'
+  search_weight: 59
+  keywords:
+  - CMIP6
+  - ScenarioMIP
+  - DKRZ
+  - MPI-ESM1-2-HR
+  - SSP1-2.6
+  - SSP2-4.5
+  - SSP3-7.0
+  - SSP5-8.5
+  - r1i1p1f1
+  - climate
+  - projections
+  - edh:850 GB
+  - edh:Zarr 3
+  dc:extent: 852 GB
   cube:dimensions:
     time:
       type: temporal
@@ -279,18 +295,3 @@ properties:
       type: data
       description: Daily Minimum Near-Surface Air Temperature
       unit: K
-  dc:extent: 852 GB
-  search_weight: 59
-  keywords:
-  - CMIP6
-  - ScenarioMIP
-  - DKRZ
-  - MPI-ESM1-2-HR
-  - SSP1-2.6
-  - SSP2-4.5
-  - SSP3-7.0
-  - SSP5-8.5
-  - r1i1p1f1
-  - climate
-  - projections
-  - edh:Zarr 3

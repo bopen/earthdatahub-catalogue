@@ -32,6 +32,19 @@ properties:
   datetime: '2014-12-31T12:00:00Z'
   start_datetime: '1850-01-01T12:00:00Z'
   end_datetime: '2014-12-31T12:00:00Z'
+  search_weight: 60
+  keywords:
+  - CMIP6
+  - CMIP
+  - DKRZ
+  - MPI-ESM1-2-HR
+  - historical
+  - r1i1p1f1
+  - climate
+  - simulations
+  - edh:410 GB
+  - edh:Zarr 3
+  dc:extent: 409 GB
   cube:dimensions:
     time:
       type: temporal
@@ -255,15 +268,3 @@ properties:
       type: data
       description: Daily Minimum Near-Surface Air Temperature
       unit: K
-  dc:extent: 409 GB
-  search_weight: 60
-  keywords:
-  - CMIP6
-  - CMIP
-  - DKRZ
-  - MPI-ESM1-2-HR
-  - historical
-  - r1i1p1f1
-  - climate
-  - simulations
-  - edh:Zarr 3
