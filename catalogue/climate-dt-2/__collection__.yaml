@@ -8,7 +8,7 @@ edh:maturity: published
 links:
 - title: Second Generation Digital Twin for Climate Change Adaptation
   rel: derived_from
-  href: https://destine.ecmwf.int/climate-change-adaptation-digital-twin-climate-dt/
+  href: https://platform.destine.eu/climate-dt
   type: text/html
 - title: CC-BY licence
   rel: license
