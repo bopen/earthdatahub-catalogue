@@ -27,7 +27,7 @@ keywords:
 - CMIP6
 - forecast
 - weather
-- edh:6 TB
+- edh:5 TB
 providers:
 - name: WCRP
   roles:

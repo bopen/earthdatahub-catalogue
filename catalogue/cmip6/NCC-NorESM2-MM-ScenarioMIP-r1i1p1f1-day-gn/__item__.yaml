@@ -34,6 +34,7 @@ properties:
   - r1i1p1f1
   - climate
   - projections
+  - edh:330 GB
   - edh:Zarr 3
   end_datetime: '2100-12-31 12:00:00Z'
   edh:maturity: published

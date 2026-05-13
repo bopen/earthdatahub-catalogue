@@ -33,6 +33,7 @@ properties:
   - r1i1p1f1
   - climate
   - simulations
+  - edh:190 GB
   - edh:Zarr 3
   end_datetime: '2015-01-01 00:00:00Z'
   edh:maturity: published
