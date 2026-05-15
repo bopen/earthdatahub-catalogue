@@ -30,6 +30,7 @@ properties:
   - ECMWF
   - forecast
   - climate
+  - edh:150 TB
   - edh:Zarr 3
   end_datetime: '2014-12-31T23:00:00Z'
   edh:maturity: draft
