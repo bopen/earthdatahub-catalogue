@@ -41,6 +41,22 @@ properties:
     ICON SSP3-7.0 scenario. Covers the 2015-2049 time period. Optimised for maps access.
   datetime: '2049-12-31T23:00:00Z'
   cube:variables:
+    avg_tprate:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: Time-mean total precipitation rate
+      unit: kg m**-2 s**-1
+    d2m:
+      dimensions:
+      - time
+      - latitude
+      - longitude
+      type: data
+      description: 2 metre dewpoint temperature
+      unit: K
     t2m:
       dimensions:
       - time
@@ -65,22 +81,6 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
-    avg_tprate:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: Time-mean total precipitation rate
-      unit: kg m**-2 s**-1
-    d2m:
-      dimensions:
-      - time
-      - latitude
-      - longitude
-      type: data
-      description: 2 metre dewpoint temperature
-      unit: K
   cube:dimensions:
     time:
       type: temporal
