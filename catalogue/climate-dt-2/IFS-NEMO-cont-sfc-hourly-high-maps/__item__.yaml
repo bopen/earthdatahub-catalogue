@@ -82,6 +82,20 @@ properties:
       type: data
       description: 10 metre V wind component
       unit: m s**-1
+    lsm:
+      dimensions:
+      - latitude
+      - longitude
+      type: data
+      description: Land-sea mask
+      unit: (0 - 1)
+    orog:
+      dimensions:
+      - latitude
+      - longitude
+      type: data
+      description: Orography
+      unit: m
   cube:dimensions:
     time:
       type: temporal
