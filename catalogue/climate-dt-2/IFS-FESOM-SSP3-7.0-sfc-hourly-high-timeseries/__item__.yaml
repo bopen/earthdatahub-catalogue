@@ -33,7 +33,7 @@ properties:
   - edh:210 TB
   - edh:Zarr 3
   end_datetime: '2049-12-31T23:00:00Z'
-  edh:maturity: draft
+  edh:maturity: published
   description: Climate DT high resolution hourly data on single-level or surface,
     IFS-FESOM, SSP3-7.0, timeseries
   dc:extent: 205.9 TB

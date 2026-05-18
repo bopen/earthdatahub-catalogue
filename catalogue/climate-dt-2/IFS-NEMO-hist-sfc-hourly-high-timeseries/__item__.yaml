@@ -33,7 +33,7 @@ properties:
   - edh:150 TB
   - edh:Zarr 3
   end_datetime: '2014-12-31T23:00:00Z'
-  edh:maturity: draft
+  edh:maturity: published
   description: Climate DT high resolution hourly data on single-level or surface,
     IFS-NEMO, Historical, timeseries
   dc:extent: 147.1 TB
