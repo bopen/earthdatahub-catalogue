@@ -1,4 +1,4 @@
-This dataset contains surface variables from the second generation Climate Adaptation Digital Twin of the Destination Earth initiative. It includes data from the Historical Run (1990–2014) of the ICON model. This data was regridded from the original HEALPix H128 grid to a regular latitude-longitude grid at approximately 0.44°. The temporal resolution is 1-hour.
+This dataset contains surface variables from the second generation Climate Adaptation Digital Twin of the Destination Earth initiative. It includes data from the SSP3-7.0 Scenario (2015–2049) of the ICON model. This data was regridded from the original HEALPix H1024 grid to a regular latitude-longitude grid at approximately 0.044°. The temporal resolution is 1 hour.
 
 The dataset's chunking is optimized for map visualization.
 
