@@ -31,15 +31,15 @@ properties:
   - reanalysis
   - edh:56 TB
   - edh:Zarr 3
-  end_datetime: '2026-03-31T23:00:00Z'
+  end_datetime: '2026-04-30T23:00:00Z'
   edh:maturity: published
-  dc:extent: 56.5 TB
+  dc:extent: 56.6 TB
   dc:accrual_periodicity: freq:monthly
   dc:access_rights: unrestricted
   dc:abstract: Subset of ERA5 reanalysis on pressure levels for atmospheric quantities
     (low altitude pressure levels only). The dataset is provided in a ARCO Zarr v3
     format ideal for time series analysis
-  datetime: '2026-03-31T23:00:00Z'
+  datetime: '2026-04-30T23:00:00Z'
   cube:variables:
     r:
       dimensions:
@@ -100,7 +100,7 @@ properties:
       type: temporal
       extent:
       - '1940-01-01T00:00:00Z'
-      - '2026-03-31T23:00:00Z'
+      - '2026-04-30T23:00:00Z'
       step: PT1H
       axis: t
     latitude:
