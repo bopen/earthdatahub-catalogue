@@ -1,6 +1,6 @@
 assets:
   data:
-    href: https://api.earthdatahub.destine.eu/climate-dt-2/IFS-NEMO-hist-sfc-hourly-high-maps-v0.zarr
+    href: https://api.earthdatahub.destine.eu/climate-dt-2/IFS-NEMO-hist-sfc-hourly-high-timeseries-v0.zarr
     roles:
     - data
     xarray:open_kwargs:

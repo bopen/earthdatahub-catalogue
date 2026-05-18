@@ -225,13 +225,6 @@ properties:
       type: data
       description: Mean sea level pressure
       unit: Pa
-    orog:
-      dimensions:
-      - latitude
-      - longitude
-      type: data
-      description: Orography
-      unit: m
     sd:
       dimensions:
       - time

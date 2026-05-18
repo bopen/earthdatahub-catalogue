@@ -1,6 +1,6 @@
 assets:
   data:
-    href: https://api.earthdatahub.destine.eu/climate-dt-2/ICON-SSP3-7.0-sfc-hourly-high-maps-v0.zarr
+    href: https://api.earthdatahub.destine.eu/climate-dt-2/ICON-SSP3-7.0-sfc-hourly-high-timeseries-v0.zarr
     roles:
     - data
     xarray:open_kwargs:
