@@ -27,7 +27,7 @@ steps:
       address: polytope.lumi.apps.dte.destination-earth.eu
       user_key:
       #quiet: true
-  transform_kwargs: {drop_vars: [heightAboveGround, step, surface, valid_time, nominalTop]}
+  transform_kwargs: {drop_vars: [heightAboveGround, step, surface, valid_time, time, nominalTop]}
   chunks: {latitude: 64, longitude: 64}
   open_dataset_name: open_healpix_dataset
   robust_to_zarr_kwargs: {
