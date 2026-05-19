@@ -21,7 +21,7 @@ links:
   href: https://wcrp-cmip.org/cmip-model-and-experiment-documentation/
   type: text/html
 properties:
-  title: CMIP6 Historical Simulations, model CM6A-LR (IPSL)
+  title: CMIP6 Historical Simulations, model IPSL-CM6A-LR (IPSL)
   start_datetime: '1850-01-01T12:00:00Z'
   search_weight: 56
   keywords:
