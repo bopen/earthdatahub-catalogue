@@ -22,7 +22,7 @@ links:
   type: text/html
 properties:
   title: Climate DT high resolution hourly data on single-level or surface, IFS-FESOM,
-    Historical, maps, timeseries
+    Historical, maps
   start_datetime: '1990-01-01T00:00:00Z'
   search_weight: 63
   keywords:
